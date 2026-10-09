@@ -1,0 +1,11 @@
+{
+  "name": "jewish-prayer-trainer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pdf": "node scripts/md-to-pdf.mjs"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}
