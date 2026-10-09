@@ -1,0 +1,21 @@
+.claude/skills/breakdown/SKILL.md
+  s_50ab58d9b35210::t_21ddf3ae9867cb 41-46
+.claude/skills/breakdown/drafts/literal-vs-natural-translation.md
+  s_50ab58d9b35210::t_763780b6ebe699 1-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "32530f6c3d8d2ed59cee6833e2e036d8cb325227",
+  "prompts": {},
+  "sessions": {
+    "s_50ab58d9b35210": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2d92f81d-85bf-4b22-b72a-a31a7b0bea91",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
