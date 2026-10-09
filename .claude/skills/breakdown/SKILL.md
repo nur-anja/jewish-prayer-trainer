@@ -38,7 +38,12 @@ Create a Markdown table with the following exact 6 columns: `Hebrew` | `Meaning`
         *   **Infinitives:** no person, gender or number: `*(Pi'el, infinitive)*`. Do *not* break away the prefix letter ל (lamed) from infinitive verbs. Keep the infinitive whole (e.g., **לְאַמֵּץ** - to strengthen *(Pi'el, infinitive)*).
     *   **Nouns:** always give gender and number, plus `construct` when in construct state: `*(noun, fem. sg.)*`, `*(noun, masc. pl. construct)*`. Use `dual` for dual forms.
     *   **Adjectives:** always give gender and number: `*(adjective, fem. sg.)*`.
-    *   **Pronoun suffixes and standalone pronouns:** only add person/gender/number if the English translation is ambiguous (e.g., specify `*(masc. sg.)*` for "you", but do not add it for "his" or "I"). Pronouns referring to God follow the same rules, even when capitalized (e.g., **־ָךְ** - You *(masc. sg.)*).
+    *   **Pronoun suffixes and standalone pronouns:** add gender and number only when the English pronoun hides what the Hebrew marks. Do not add person; the English already shows it.
+        *   **Never label:** "I/me/my" and "we/us/our" (1st person has no gender in Hebrew); "he/him/his" and "she/her/hers" (English already shows gender and number). E.g., **־וֹ** - His, **־נוּ** - us.
+        *   **Always label:** "you/your" (e.g., **־ָךְ** - you *(masc. sg.)*, **־כֶם** - your *(masc. pl.)*); "it/its", because Hebrew has no neuter (e.g., **־ָיו** - it *(masc. sg.)*, **־ָהּ** - it *(fem. sg.)*); "they/them/their" (e.g., **הֵמָּה** - they *(masc. pl.)*).
+        *   Possessive and object forms follow their base pronoun ("your" like "you", "him" like "he").
+        *   Pronouns referring to God follow the same rules, even when capitalized (e.g., **־ָךְ** - You *(masc. sg.)*, but **־וֹ** - His).
+    *   **Demonstratives:** label gender and number when Hebrew marks gender: "this" (**זֶה** - this *(masc. sg.)*, **זֹאת** - this *(fem. sg.)*), "that" (**הַהוּא** - that *(masc. sg.)*, **הַהִיא** - that *(fem. sg.)*), "those" (**הָהֵם** - those *(masc. pl.)*, **הָהֵן** - those *(fem. pl.)*). Do not label **אֵלֶּה** - these, which is the same for both genders.
 *   **Root:** The 3- or 4-letter Hebrew root, separated by hyphens in **bold** (e.g., **ש-מ-ר**). Leave blank if the word has no root (like conjunctions or prepositions).
 *   **Root Meaning:** The core definition of the root.
 *   **Other Root Words:** Provide 1 or 2 common related words sharing the root. Format strictly as `[Hebrew] - [English]`. Separate multiple words with a `<br>`.
