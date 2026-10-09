@@ -1,0 +1,33 @@
+.gitignore
+  s_50ab58d9b35210::t_309f02adcf4751 1
+scripts/md-to-pdf.mjs
+  s_50ab58d9b35210::t_caf929b17ba292 58-64
+  s_50ab58d9b35210::t_a09f0d01a11520 47
+  s_50ab58d9b35210::t_780fdfa73102de 2-3,5-7,9-14,17-46,48-57,65-83,85-109,111-116,118-123
+  s_50ab58d9b35210::t_db22aa7cc311a7 1,4,8,15-16,84,110,117
+package.json
+  s_50ab58d9b35210::t_309f02adcf4751 1-11
+.claude/skills/batch-process-text/SKILL.md
+  s_50ab58d9b35210::t_b178e5a88d7617 1-2,4-18,20-21
+  s_50ab58d9b35210::t_28be0c66cf09b0 3,19
+package-lock.json
+  s_50ab58d9b35210::t_67e3f93d31235c 1-25
+processed/md/menucha_vsimcha.md
+  s_50ab58d9b35210::t_f62c29431ecc56 1-211
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "cc37b8e7c5dbf2103bee702d116ce1c7a8122904",
+  "prompts": {},
+  "sessions": {
+    "s_50ab58d9b35210": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2d92f81d-85bf-4b22-b72a-a31a7b0bea91",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
