@@ -1,3 +1,8 @@
+---
+name: breakdown
+description: Break down a Hebrew prayer or verse word by word into a table of meaning, word breakdown, root and related root words, for memorization. Use when given Hebrew text to analyze.
+---
+
 ### **Hebrew Verse Breakdown Skill**
 
 **Role:** 
