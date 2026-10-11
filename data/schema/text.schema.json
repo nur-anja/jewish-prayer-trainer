@@ -124,7 +124,7 @@
             "participle",
             "passive-participle",
             "imperative",
-            "infinitive",
+            "infinitive-construct",
             "infinitive-absolute"
           ]
         },
@@ -135,8 +135,12 @@
           "description": "True if the word is in construct (smichut) form.",
           "const": true
         },
+        "language": {
+          "description": "Language of the part when it isn't Hebrew; left out for Hebrew. Mark a part only when its form belongs to the other language: prefixes shared by Hebrew and Aramaic (וְ־, בְּ־, לְ־) follow the language of the surrounding text.",
+          "enum": ["aramaic", "greek", "latin", "persian"]
+        },
         "notes": {
-          "description": "An unusual form the other fields can't express, e.g. \"Aramaic\", \"used as imperative\", \"construct form\" for an infinitive. Such details go here rather than being dropped; regular grammar and allusions don't belong here. Always shown, after the grammar label.",
+          "description": "A form that breaks the usual patterns in a way the other fields can't express. Such details go here rather than being dropped; regular grammar, standard uses of a form and allusions don't belong here. Always shown, after the grammar label.",
           "type": "string",
           "minLength": 1
         }
@@ -200,7 +204,7 @@
           "description": "Infinitives have no person, gender or number.",
           "if": {
             "required": ["form"],
-            "properties": { "form": { "enum": ["infinitive", "infinitive-absolute"] } }
+            "properties": { "form": { "enum": ["infinitive-construct", "infinitive-absolute"] } }
           },
           "then": {
             "properties": { "person": false, "gender": false, "number": false }

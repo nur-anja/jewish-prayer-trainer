@@ -731,8 +731,7 @@
                   "meaning": "keep",
                   "pos": "verb",
                   "binyan": "paal",
-                  "form": "infinitive-absolute",
-                  "notes": "used as imperative"
+                  "form": "infinitive-absolute"
                 }
               ],
               "root": "ש-מ-ר"
@@ -746,8 +745,7 @@
                   "meaning": "to sanctify",
                   "pos": "verb",
                   "binyan": "piel",
-                  "form": "infinitive",
-                  "notes": "construct form"
+                  "form": "infinitive-construct"
                 },
                 {
                   "hebrew": "־וֹ",
@@ -774,8 +772,7 @@
                   "meaning": "coming",
                   "pos": "verb",
                   "binyan": "paal",
-                  "form": "infinitive",
-                  "notes": "construct form"
+                  "form": "infinitive-construct"
                 },
                 {
                   "hebrew": "־וֹ",
@@ -813,8 +810,7 @@
                   "meaning": "going out",
                   "pos": "verb",
                   "binyan": "paal",
-                  "form": "infinitive",
-                  "notes": "construct form"
+                  "form": "infinitive-construct"
                 },
                 {
                   "hebrew": "־וֹ",
@@ -1176,8 +1172,7 @@
                   "meaning": "to strengthen",
                   "pos": "verb",
                   "binyan": "piel",
-                  "form": "infinitive",
-                  "notes": "construct form"
+                  "form": "infinitive-construct"
                 },
                 {
                   "hebrew": "־ָךְ",
@@ -1442,7 +1437,7 @@
                   "pos": "adjective",
                   "gender": "masc",
                   "number": "sg",
-                  "notes": "Aramaic"
+                  "language": "aramaic"
                 }
               ],
               "root": "ר-ב-ב"

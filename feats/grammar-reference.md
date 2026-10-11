@@ -8,7 +8,7 @@ A grammar reference with general explanations of recurring Hebrew grammar (e.g. 
 
 ## Background
 
-Word parts can carry free-text `notes`, but those are kept for unusual forms only (Aramaic, infinitive used as imperative, infinitive construct). A pass that added inline notes for regular grammar too was too many notes and was reverted:
+Word parts can carry free-text `notes`, but those are kept for forms that break the usual patterns, and Menucha V'simcha has none. A pass that added inline notes for regular grammar too was too many notes and was reverted:
 
 - d067d8f: Menucha V'simcha: add grammar and allusion notes (49 notes; the list of concepts it found is a useful starting point)
 - 6642bc6: the revert

@@ -45,7 +45,8 @@ const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Conte
 //                 imperative         person + gender + number      (Pa'al, imperative, 2nd masc. sg.)
 //                 present,           gender + number [+ construct] (Hif'il, present, masc. pl.)
 //                 participles                                      (Pa'al, participle, masc. pl. construct)
-//                 infinitives        nothing                       (Pi'el, infinitive)
+//                 infinitives        nothing                       (Pi'el, infinitive construct)
+//                                                                  (Pa'al, infinitive absolute)
 //   noun        (noun, gender number [construct])                  (noun, fem. sg. construct)
 //   adjective   (adjective, gender number [construct])             (adjective, fem. sg.)
 //   pronoun,    (gender number), only when the English meaning hides what Hebrew marks:
@@ -53,9 +54,10 @@ const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Conte
 //   suffix        Never for I/me/we/us, he/him/his, she/her or "these" (see LABELED_PRONOUNS).
 //   all others  no label: prepositions, conjunctions, articles, particles, adverbs, numerals, names.
 //
-// NOTES ARE NEVER HIDDEN. The rules above only filter the structured fields. A part's notes are
-// always appended to its label, whatever its part of speech:
-//   (Pa'al, infinitive absolute, used as imperative)   (adjective, masc. sg., Aramaic)   (pausal form)
+// LANGUAGE AND NOTES ARE NEVER HIDDEN. The rules above only filter the grammar fields. A part's
+// language (when not Hebrew) and then its notes are always appended to its label, whatever its
+// part of speech:
+//   (adjective, masc. sg., Aramaic)   (noun, fem. sg., <notes>)
 // ---------------------------------------------------------------------------------------------
 
 const BINYANIM = {
@@ -75,9 +77,11 @@ const FORMS = {
   participle: "participle",
   "passive-participle": "passive participle",
   imperative: "imperative",
-  infinitive: "infinitive",
+  "infinitive-construct": "infinitive construct",
   "infinitive-absolute": "infinitive absolute",
 };
+
+const LANGUAGES = { aramaic: "Aramaic", greek: "Greek", latin: "Latin", persian: "Persian" };
 
 const PERSONS = { 1: "1st", 2: "2nd", 3: "3rd" };
 const GENDERS = { masc: "masc.", fem: "fem.", common: "common" };
@@ -103,9 +107,9 @@ function inflection(part, { person = false } = {}) {
     .join(" ");
 }
 
-// The text inside the parentheses after a part, or "" for no label: the structured label, then the notes.
+// The text inside the parentheses after a part, or "" for no label: the structured label, language, notes.
 function grammarLabel(part) {
-  return [structuredLabel(part), part.notes].filter(Boolean).join(", ");
+  return [structuredLabel(part), LANGUAGES[part.language], part.notes].filter(Boolean).join(", ");
 }
 
 function structuredLabel(part) {
