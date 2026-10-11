@@ -208,6 +208,7 @@
                   "hebrew": "הֵמָּה",
                   "meaning": "they",
                   "pos": "pronoun",
+                  "type": "personal",
                   "gender": "masc",
                   "number": "pl",
                   "person": 3
@@ -639,6 +640,7 @@
                   "hebrew": "הוּא",
                   "meaning": "He",
                   "pos": "pronoun",
+                  "type": "personal",
                   "person": 3,
                   "gender": "masc",
                   "number": "sg"

@@ -113,6 +113,10 @@
             "name"
           ]
         },
+        "type": {
+          "description": "Kind of pronoun; only on pos pronoun. Pronoun suffixes are always personal.",
+          "enum": ["personal", "demonstrative", "interrogative"]
+        },
         "binyan": {
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
@@ -151,6 +155,51 @@
           "if": { "properties": { "pos": { "const": "verb" } } },
           "then": { "required": ["binyan", "form"] },
           "else": { "properties": { "binyan": false, "form": false } }
+        },
+        {
+          "description": "Only pronouns have a type; pronouns must have one.",
+          "if": { "properties": { "pos": { "const": "pronoun" } } },
+          "then": { "required": ["type"] },
+          "else": { "properties": { "type": false } }
+        },
+        {
+          "description": "Personal pronouns and pronoun suffixes have person and number (gender is required except in 1st person, see below).",
+          "if": {
+            "anyOf": [
+              { "properties": { "pos": { "const": "pronoun-suffix" } } },
+              { "required": ["type"], "properties": { "type": { "const": "personal" } } }
+            ]
+          },
+          "then": { "required": ["person", "number"] }
+        },
+        {
+          "description": "2nd and 3rd person personal pronouns and pronoun suffixes have gender.",
+          "if": {
+            "required": ["person"],
+            "properties": { "pos": { "enum": ["pronoun", "pronoun-suffix"] }, "person": { "enum": [2, 3] } }
+          },
+          "then": { "required": ["gender"] }
+        },
+        {
+          "description": "Demonstratives have gender and number but no person (\"common\" gender for אֵלֶּה).",
+          "if": {
+            "required": ["type"],
+            "properties": { "type": { "const": "demonstrative" } }
+          },
+          "then": {
+            "required": ["gender", "number"],
+            "properties": { "person": false }
+          }
+        },
+        {
+          "description": "Interrogatives have no person, gender or number.",
+          "if": {
+            "required": ["type"],
+            "properties": { "type": { "const": "interrogative" } }
+          },
+          "then": {
+            "properties": { "person": false, "gender": false, "number": false }
+          }
         },
         {
           "description": "Nouns and adjectives always have gender and number.",
