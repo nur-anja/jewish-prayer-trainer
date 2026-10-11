@@ -1,0 +1,25 @@
+scripts/json-to-pdf.mjs
+  s_39a033fe814812::t_0dd291d4818f55 14
+.claude/skills/breakdown/SKILL.md
+  s_39a033fe814812::t_4f491c45a42493 3
+  s_39a033fe814812::t_32d4e7c10b5506 8-9,14-16,18,20-21,23-32
+.claude/skills/batch-process-text/SKILL.md
+  s_39a033fe814812::t_4738d07ab8feb3 3,10,16
+  s_39a033fe814812::t_0dd291d4818f55 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "895ad516e963d05190825ee75ff577d463000e40",
+  "prompts": {},
+  "sessions": {
+    "s_39a033fe814812": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6268c604-91ed-413e-bd13-7e33c44a9bf2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
