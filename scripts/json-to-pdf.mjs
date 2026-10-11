@@ -11,7 +11,7 @@
 //        - header: the Hebrew line (bold) next to its translation (italic)
 //        - table:  Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words
 //
-// Table cells (the same format the breakdown skill describes, .claude/skills/breakdown/SKILL.md):
+// Table cells:
 //   Hebrew            **word**
 //   Meaning           meaning in context; the word's notes, if any, below it in small italics
 //   Word Breakdown    one "**part** - meaning *(label)*" per part, separated by line breaks;

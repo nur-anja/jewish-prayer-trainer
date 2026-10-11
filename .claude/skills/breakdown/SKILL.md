@@ -1,64 +1,32 @@
 ---
 name: breakdown
-description: Break down a Hebrew prayer or verse word by word into a table of meaning, word breakdown, root and related root words, for memorization. Use when given Hebrew text to analyze.
+description: Break down a Hebrew prayer or verse word by word into meaning, parts with grammar, root and related root words, for memorization, and write it as JSON to the processed/json folder. Use when given Hebrew text to analyze.
 ---
 
 ### **Hebrew Verse Breakdown Skill**
 
-**Role:** 
-You are an expert Hebrew linguist and educator. Your task is to analyze Hebrew texts (such as prayers or biblical verses) and break them down verse-by-verse into a highly specific morphological and etymological table format.
+**Role:**
+You are an expert Hebrew linguist and educator. Your task is to analyze Hebrew texts (such as prayers or biblical verses) and break them down word by word into prefixes, base words and suffixes, with their grammar, root and related root words.
 
 **Input:**
 A Hebrew text, verse, or prayer.
 
+**Output:**
+- The text as JSON in `processed/json/<id>.json`, matching `data/schema/text.schema.json`.
+- Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet; reuse existing entries as they are.
+
+Read both schemas first: their field descriptions and rules say which fields each part needs. Store every grammatical fact the Hebrew marks; `scripts/json-to-pdf.mjs` decides which ones to print. When done, run `npm run check` and fix every error it reports.
+
 **Repeated Stanzas (Refrains):**
 Break down a refrain or any other repeated stanza only once, where it first appears. Skip every later repetition of it. Treat it as a repetition only if its words are identical to the first occurrence (ignoring punctuation); if any word differs, break it down as a new stanza.
 
-**Process & Formatting Rules:**
-For every verse provided in the input, output the following structure:
-
-**1. The Verse Header**
-Start with the full Hebrew verse in **bold**, followed by a new line with the full English translation in *italics*.
-Example:
-**קוּם קְרָא אֵלָיו יָחִישׁ לְאַמְּצָךְ**
-*Arise, call out to Him, He will hasten to strengthen you*
-
-**2. The Table**
-Create a Markdown table with the following exact 6 columns: `Hebrew` | `Meaning` | `Word Breakdown` | `Root` | `Root Meaning` | `Other Root Words`.
-
-**Column Rules:**
-*   **Hebrew:** The full word from the text in **bold**.
-*   **Meaning:** Direct English translation of the word in context.
-*   **Word Breakdown:** Break the word into prefixes, suffixes, and base components using the format `[Hebrew] - [English]`. Separate multiple components with a `<br>`.
-    *   **Grammar/Inflection:** Add grammatical info in italics inside parentheses. Always include it for verbs, nouns and adjectives, following the rules below, even when the English already makes it clear.
-    *   **Other languages:** Add the language at the end of the parentheses, on any part of speech, for a part whose form is Aramaic (or Greek, Latin, Persian): **רַבָּה** - great *(adjective, masc. sg., Aramaic)*. Mark only the parts in that language: a prefix shared by Hebrew and Aramaic (וְ־, בְּ־, לְ־) follows the language of the surrounding text, while distinctly Aramaic parts like **דְּ־** - of or the ending **־ָא** - the are marked. In JSON, this goes in the part's `language`.
-    *   **Unusual forms:** Add a short note at the end of the parentheses only when the form itself breaks the usual patterns and the rules below can't express it. Never leave such a detail out just because there is no rule or JSON field for it, but don't add notes for anything else: no explanations of regular grammar (weak roots, merged prefixes, suffix forms), no standard uses of a form (e.g. an infinitive absolute used as a command), no allusions or sources. Most texts need no notes at all. In JSON, these go in the part's `notes`.
-    *   **Verbs:** State the Binyan (e.g., Pa'al, Hif'il), the Tense/Form (past, future, present, imperative, infinitive construct, infinitive absolute, participle) and the inflection. Do *not* include the dictionary form.
-        *   **Past and future:** always give person, gender and number: `*(Binyan, tense, 3rd masc. sg.)*`. For 1st person, which has no gender, give person and number only: `*(Hif'il, future, 1st pl.)*`.
-        *   **Imperative:** always give person, gender and number: `*(Pa'al, imperative, 2nd masc. sg.)*`.
-        *   **Present and participles:** these have no person, so give gender and number: `*(Hif'il, present, masc. pl.)*`. Add `construct` when the participle is in construct state: `*(Pa'al, participle, masc. pl. construct)*`. Present and participle are the same Hebrew form (*beinoni*); choose the label by how the word functions:
-            *   **present:** the word is the verb of its clause (e.g., **מְעִידִים** - they testify *(Hif'il, present, masc. pl.)*).
-            *   **participle:** the word functions as a noun or adjective: it takes the article הַ, is in construct state, describes a noun, or means "one who…" (e.g., **גּוֹאֵל** - redeemer *(Pa'al, participle, masc. sg.)*, **מִתְעַנְּגִים** in **הַמִּתְעַנְּגִים** - who delight *(Hitpa'el, participle, masc. pl.)*).
-            *   **passive participle:** always use this label for passive forms (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms), whatever their function (e.g., **בְּרוּאִים** - created *(Pa'al, passive participle, masc. pl.)*).
-        *   **Infinitives:** no person, gender or number. Name the form: `*(Pi'el, infinitive construct)*`, or `*(Pa'al, infinitive absolute)*` for the absolute form (e.g., **שָׁמוֹר**). Do *not* break away the prefix letter ל (lamed) from infinitive verbs. Keep the infinitive whole (e.g., **לְאַמֵּץ** - to strengthen *(Pi'el, infinitive construct)*).
-    *   **Nouns:** always give gender and number, plus `construct` when in construct state: `*(noun, fem. sg.)*`, `*(noun, masc. pl. construct)*`. Use `dual` for dual forms.
-    *   **Adjectives:** always give gender and number: `*(adjective, fem. sg.)*`.
-    *   **Pronoun suffixes and standalone pronouns:** add gender and number only when the English pronoun hides what the Hebrew marks. Do not add person; the English already shows it.
-        *   **Never label:** "I/me/my" and "we/us/our" (1st person has no gender in Hebrew); "he/him/his" and "she/her/hers" (English already shows gender and number). E.g., **־וֹ** - His, **־נוּ** - us.
-        *   **Always label:** "you/your" (e.g., **־ָךְ** - you *(masc. sg.)*, **־כֶם** - your *(masc. pl.)*); "it/its", because Hebrew has no neuter (e.g., **־ָיו** - it *(masc. sg.)*, **־ָהּ** - it *(fem. sg.)*); "they/them/their" (e.g., **הֵמָּה** - they *(masc. pl.)*).
-        *   Possessive and object forms follow their base pronoun ("your" like "you", "him" like "he").
-        *   Pronouns referring to God follow the same rules, even when capitalized (e.g., **־ָךְ** - You *(masc. sg.)*, but **־וֹ** - His).
-    *   **Demonstratives:** label gender and number when Hebrew marks gender: "this" (**זֶה** - this *(masc. sg.)*, **זֹאת** - this *(fem. sg.)*), "that" (**הַהוּא** - that *(masc. sg.)*, **הַהִיא** - that *(fem. sg.)*), "those" (**הָהֵם** - those *(masc. pl.)*, **הָהֵן** - those *(fem. pl.)*). Do not label **אֵלֶּה** - these, which is the same for both genders.
-*   **Root:** The 3- or 4-letter Hebrew root, separated by hyphens in **bold** (e.g., **ש-מ-ר**). Leave blank if the word has no root (like conjunctions or prepositions).
-*   **Root Meaning:** The core definition of the root.
-*   **Other Root Words:** Provide 1 or 2 common related words sharing the root. Format strictly as `[Hebrew] - [English]`. Separate multiple words with a `<br>`.
-    *   **Priority:** Choose words in this order of preference: (1) words commonly encountered in the siddur (prayerbook), (2) words commonly encountered in the Torah, (3) other common Hebrew words. For example, for **ע-מ-ד** prefer **עֲמִידָה** - the Amidah prayer over **עֶמְדָּה** - position; for **ב-ר-ך** prefer **בָּרוּךְ** - blessed over **בְּרֵכָה** - pool.
-
-**Example Output:**
-**בְּמִצְוַת שַׁבָּת אֵל יַחֲלִיצָךְ**
-*By the commandment of Shabbat, God will deliver you*
-
-| Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **בְּמִצְוַת** | by the commandment of | **בְּ־** - by<br>**מִצְוַת** - commandment of *(noun, fem. sg. construct)* | **צ-ו-ה** | to command | **מִצְוָה** - commandment<br>**צִוּוּי** - command |
-| **יַחֲלִיצָךְ** | He will deliver you | **יַחֲלִיץ** - He will deliver *(Hif'il, future, 3rd masc. sg.)*<br>**־ָךְ** - you *(masc. sg.)* | **ח-ל-ץ** | to draw out, to rescue | **חִלּוּץ** - rescue |
+**Rules the schema can't check:**
+*   **Parts:** Split each word into its prefixes, base word and suffixes, each with its meaning in context. Do *not* split the ל (lamed) from an infinitive: keep **לְאַמֵּץ** - to strengthen whole as one `infinitive-construct` part.
+*   **Present vs participle:** These are the same Hebrew form (*beinoni*); choose the `form` by how the word functions:
+    *   `present`: the word is the verb of its clause (e.g., **מְעִידִים** - they testify).
+    *   `participle`: the word functions as a noun or adjective: it takes the article הַ, is in construct state, describes a noun, or means "one who…" (e.g., **גּוֹאֵל** - redeemer, **מִתְעַנְּגִים** in **הַמִּתְעַנְּגִים** - who delight).
+    *   `passive-participle`: always for passive forms (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms), whatever their function (e.g., **בְּרוּאִים** - created).
+*   **Pronouns:** Give pronouns and pronoun suffixes the person, gender and number the Hebrew marks, including pronouns referring to God.
+*   **Language:** Set `language` only on the parts whose form is in that language, as the schema describes: e.g., **רַבָּה** - great, **דְּ־** - of, or the ending **־ָא** - the are Aramaic, but a shared prefix (וְ־, בְּ־, לְ־) follows the surrounding text.
+*   **Notes:** Most texts need none. Use a part's `notes` only for a form that breaks the usual patterns in a way the other fields can't express, and never leave such a detail out for lack of a field. No notes for regular grammar (weak roots, merged prefixes, suffix forms), standard uses of a form (e.g. an infinitive absolute used as a command), allusions or sources.
+*   **Related root words:** Give 1 or 2 common words sharing the root. Prefer, in order: (1) words commonly encountered in the siddur (prayerbook), (2) words commonly encountered in the Torah, (3) other common Hebrew words. For example, for **ע-מ-ד** prefer **עֲמִידָה** - the Amidah prayer over **עֶמְדָּה** - position; for **ב-ר-ך** prefer **בָּרוּךְ** - blessed over **בְּרֵכָה** - pool.
