@@ -52,6 +52,10 @@ const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Conte
 //   pronoun-      you/your, it/its, they/them/their, and the demonstratives this/that/those.
 //   suffix        Never for I/me/we/us, he/him/his, she/her or "these" (see LABELED_PRONOUNS).
 //   all others  no label: prepositions, conjunctions, articles, particles, adverbs, numerals, names.
+//
+// NOTES ARE NEVER HIDDEN. The rules above only filter the structured fields. A part's notes are
+// always appended to its label, whatever its part of speech:
+//   (Pa'al, infinitive absolute, used as imperative)   (adjective, masc. sg., Aramaic)   (pausal form)
 // ---------------------------------------------------------------------------------------------
 
 const BINYANIM = {
@@ -99,8 +103,12 @@ function inflection(part, { person = false } = {}) {
     .join(" ");
 }
 
-// The text inside the parentheses after a part, or "" for no label.
+// The text inside the parentheses after a part, or "" for no label: the structured label, then the notes.
 function grammarLabel(part) {
+  return [structuredLabel(part), part.notes].filter(Boolean).join(", ");
+}
+
+function structuredLabel(part) {
   switch (part.pos) {
     case "verb": {
       const withPerson = ["past", "future", "imperative"].includes(part.form);

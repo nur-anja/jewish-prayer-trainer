@@ -83,7 +83,7 @@
           "$ref": "#/$defs/root"
         },
         "notes": {
-          "description": "Anything about the word that the other fields can't express, e.g. that it is Aramaic or used as an imperative.",
+          "description": "Anything about the whole word that the other fields can't express, e.g. an idiom or a textual variant. Details about one part go in that part's notes.",
           "type": "string",
           "minLength": 1
         }
@@ -134,6 +134,11 @@
         "construct": {
           "description": "True if the word is in construct (smichut) form.",
           "const": true
+        },
+        "notes": {
+          "description": "Grammar of this part that the other fields can't express, e.g. \"Aramaic\", \"used as imperative\", \"construct form\" for an infinitive, \"pausal form\". The fields above are the minimum, not the limit: a detail with no field goes here rather than being dropped. Always shown, after the grammar label.",
+          "type": "string",
+          "minLength": 1
         }
       },
       "allOf": [
