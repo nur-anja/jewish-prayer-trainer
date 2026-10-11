@@ -80,12 +80,21 @@ const LABELED_PRONOUNS = new Set([
   "this", "that", "those",
 ]);
 
+// The readable name of a field's value, or undefined if the part doesn't have the field.
+// Fails on a value with no name (e.g. one newly added to the schema) rather than silently dropping it.
+function readable(names, part, field) {
+  const value = part[field];
+  if (value === undefined) return undefined;
+  if (!Object.hasOwn(names, value)) throw new Error(`No readable name for ${field} "${value}" of ${part.hebrew}`);
+  return names[value];
+}
+
 // "3rd masc. pl. construct": whichever of person, gender, number and construct the part has.
 function inflection(part, { person = false } = {}) {
   return [
-    person && PERSONS[part.person],
-    GENDERS[part.gender],
-    NUMBERS[part.number],
+    person && readable(PERSONS, part, "person"),
+    readable(GENDERS, part, "gender"),
+    readable(NUMBERS, part, "number"),
     part.construct && "construct",
   ]
     .filter(Boolean)
@@ -94,13 +103,13 @@ function inflection(part, { person = false } = {}) {
 
 // The text inside the parentheses after a part, or "" for no label: the structured label, language, notes.
 function grammarLabel(part) {
-  return [structuredLabel(part), LANGUAGES[part.language], part.notes].filter(Boolean).join(", ");
+  return [structuredLabel(part), readable(LANGUAGES, part, "language"), part.notes].filter(Boolean).join(", ");
 }
 
 function structuredLabel(part) {
   switch (part.pos) {
     case "verb":
-      return [BINYANIM[part.binyan], part.form.replace("-", " "), inflection(part, { person: true })]
+      return [readable(BINYANIM, part, "binyan"), part.form.replace("-", " "), inflection(part, { person: true })]
         .filter(Boolean)
         .join(", ");
     case "noun":

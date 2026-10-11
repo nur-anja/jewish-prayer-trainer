@@ -16,6 +16,3 @@ A Hebrew text, verse, or prayer.
 - Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet; reuse existing entries as they are.
 
 Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports.
-
-**Repeated Stanzas (Refrains):**
-Break down a refrain or any other repeated stanza only once, where it first appears. Skip every later repetition of it. Treat it as a repetition only if its words are identical to the first occurrence (ignoring punctuation); if any word differs, break it down as a new stanza.

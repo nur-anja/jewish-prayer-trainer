@@ -14,7 +14,7 @@
     },
     "title": { "type": "string", "minLength": 1 },
     "kind": {
-      "description": "poem: each line is a verse shown on its own row. prose: lines are sentences or psukim that run together.",
+      "description": "poem: each line is a verse. prose: each line is a sentence or pasuk of continuous text.",
       "enum": ["poem", "prose"]
     },
     "sections": {
@@ -26,6 +26,7 @@
   },
   "$defs": {
     "section": {
+      "description": "A refrain or other repeated stanza appears only once, where it first occurs; later repetitions are left out. It counts as a repetition only if its words are identical to the first occurrence (ignoring punctuation); if any word differs, it is a new section.",
       "type": "object",
       "additionalProperties": false,
       "required": ["lines"],
