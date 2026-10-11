@@ -1,0 +1,19 @@
+data/schema/roots.schema.json
+  s_513b811b977d83::t_ac9c4f7a4b65ed 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "df9cebec5b17a7e8a5196ab3f3fac8ad40c3de64",
+  "prompts": {},
+  "sessions": {
+    "s_513b811b977d83": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9ad481cd-7b6f-44ac-a4cb-58007a92741d",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
