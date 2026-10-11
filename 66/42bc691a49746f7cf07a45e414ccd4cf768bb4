@@ -1,0 +1,19 @@
+processed/json/menucha_vsimcha.json
+  s_70fc9338b35789::t_93c97d7b9a99c6 738,816,1446
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "6642bc691a49746f7cf07a45e414ccd4cf768bb4",
+  "prompts": {},
+  "sessions": {
+    "s_70fc9338b35789": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6cc9d511-aa3a-4d1c-9b56-c9ee0c17acf7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
