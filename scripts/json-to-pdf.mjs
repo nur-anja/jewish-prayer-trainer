@@ -7,7 +7,7 @@
 // Page layout:
 //   1. Title.
 //   2. Full text: every line, Hebrew on the left and translation on the right, one block per section.
-//   3. Breakdown, starting on a new page. For every line:
+//   3. Breakdown, starting on a new page. For every section, its title (if it has one), then for every line:
 //        - header: the Hebrew line (bold) next to its translation (italic)
 //        - table:  Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words
 //
@@ -21,6 +21,9 @@
 //   Other Root Words  "**word** - meaning" per related word from roots.json, separated by line breaks
 //
 // Not rendered: id, kind.
+//
+// Fails, without writing that text's PDF, on a word whose root is missing from roots.json or on a grammar
+// value with no readable name below (e.g. one newly added to the schema).
 
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
