@@ -1,0 +1,21 @@
+data/schema/text.schema.json
+  s_39a033fe814812::t_747d21f298a330 116-119,159-203
+processed/json/menucha_vsimcha.json
+  s_39a033fe814812::t_747d21f298a330 211,643
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "6126dc6b93440a16e5047727834bab216eff0983",
+  "prompts": {},
+  "sessions": {
+    "s_39a033fe814812": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6268c604-91ed-413e-bd13-7e33c44a9bf2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
