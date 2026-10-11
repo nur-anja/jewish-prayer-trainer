@@ -3,11 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "pdf": "node scripts/md-to-pdf.mjs",
+    "pdf": "node scripts/json-to-pdf.mjs",
     "check": "node scripts/check-data.mjs"
-  },
-  "dependencies": {
-    "marked": "^15.0.12"
   },
   "devDependencies": {
     "ajv": "^8.17.1"
