@@ -1,0 +1,691 @@
+{
+  "א-ד-ם": {
+    "meaning": "red, earth",
+    "related": [
+      {
+        "hebrew": "אֲדָמָה",
+        "meaning": "ground"
+      },
+      {
+        "hebrew": "אָדֹם",
+        "meaning": "red"
+      }
+    ]
+  },
+  "א-ו-ר": {
+    "meaning": "to shine, light",
+    "related": [
+      {
+        "hebrew": "מְאוֹרוֹת",
+        "meaning": "luminaries"
+      },
+      {
+        "hebrew": "וְהָאֵר",
+        "meaning": "and enlighten"
+      }
+    ]
+  },
+  "א-כ-ל": {
+    "meaning": "to eat",
+    "related": [
+      {
+        "hebrew": "וְאָכַלְתָּ",
+        "meaning": "and you shall eat"
+      },
+      {
+        "hebrew": "אֹכֶל",
+        "meaning": "food"
+      }
+    ]
+  },
+  "א-מ-ץ": {
+    "meaning": "to be strong, brave",
+    "related": [
+      {
+        "hebrew": "חֲזַק וֶאֱמָץ",
+        "meaning": "be strong and courageous"
+      },
+      {
+        "hebrew": "אֹמֶץ",
+        "meaning": "courage"
+      }
+    ]
+  },
+  "א-ר-ץ": {
+    "meaning": "land, earth",
+    "related": [
+      {
+        "hebrew": "הָאָרֶץ",
+        "meaning": "the earth"
+      },
+      {
+        "hebrew": "אַרְצֵנוּ",
+        "meaning": "our land"
+      }
+    ]
+  },
+  "ב-ו-א": {
+    "meaning": "to come",
+    "related": [
+      {
+        "hebrew": "בּוֹאִי",
+        "meaning": "come"
+      },
+      {
+        "hebrew": "וּבָא",
+        "meaning": "and will come"
+      }
+    ]
+  },
+  "ב-ר-א": {
+    "meaning": "to create",
+    "related": [
+      {
+        "hebrew": "בָּרָא",
+        "meaning": "He created"
+      },
+      {
+        "hebrew": "בּוֹרֵא",
+        "meaning": "Creator"
+      }
+    ]
+  },
+  "ג-א-ל": {
+    "meaning": "to redeem",
+    "related": [
+      {
+        "hebrew": "גָּאַל יִשְׂרָאֵל",
+        "meaning": "Who redeemed Israel"
+      },
+      {
+        "hebrew": "גְּאֻלָּה",
+        "meaning": "redemption"
+      }
+    ]
+  },
+  "ג-ב-ה": {
+    "meaning": "to be high",
+    "related": [
+      {
+        "hebrew": "גָּבוֹהַּ",
+        "meaning": "high"
+      },
+      {
+        "hebrew": "גֹּבַהּ",
+        "meaning": "height"
+      }
+    ]
+  },
+  "ד-ב-ר": {
+    "meaning": "to speak",
+    "related": [
+      {
+        "hebrew": "בִּדְבָרוֹ",
+        "meaning": "by His word"
+      },
+      {
+        "hebrew": "הַדִּבְּרוֹת",
+        "meaning": "the Commandments"
+      }
+    ]
+  },
+  "ה-י-ה": {
+    "meaning": "to be",
+    "related": [
+      {
+        "hebrew": "הָיָה",
+        "meaning": "was"
+      },
+      {
+        "hebrew": "יִהְיֶה",
+        "meaning": "will be"
+      }
+    ]
+  },
+  "ז-כ-ה": {
+    "meaning": "to merit, to be pure",
+    "related": [
+      {
+        "hebrew": "זָכוּ",
+        "meaning": "they merited"
+      },
+      {
+        "hebrew": "זְכוּת אָבוֹת",
+        "meaning": "merit of the forefathers"
+      }
+    ]
+  },
+  "ז-כ-ר": {
+    "meaning": "to remember",
+    "related": [
+      {
+        "hebrew": "זָכוֹר",
+        "meaning": "remember"
+      },
+      {
+        "hebrew": "זִכָּרוֹן",
+        "meaning": "remembrance"
+      }
+    ]
+  },
+  "ח-ו-ש": {
+    "meaning": "to hurry",
+    "related": [
+      {
+        "hebrew": "וְחָשׁ",
+        "meaning": "and hastens"
+      },
+      {
+        "hebrew": "חִישׁ",
+        "meaning": "quickly"
+      }
+    ]
+  },
+  "ח-י-ה": {
+    "meaning": "to live",
+    "related": [
+      {
+        "hebrew": "חַיִּים",
+        "meaning": "life"
+      },
+      {
+        "hebrew": "מְחַיֵּה",
+        "meaning": "revives"
+      }
+    ]
+  },
+  "ח-ל-ץ": {
+    "meaning": "to draw out, to rescue; to strengthen",
+    "related": [
+      {
+        "hebrew": "וְהַחֲלִיצֵנוּ",
+        "meaning": "and strengthen us"
+      },
+      {
+        "hebrew": "חֲלוּצִים",
+        "meaning": "vanguard"
+      }
+    ]
+  },
+  "ח-מ-ד": {
+    "meaning": "to desire, to delight in",
+    "related": [
+      {
+        "hebrew": "חֶמְדַּת יָמִים",
+        "meaning": "most desirable of days"
+      },
+      {
+        "hebrew": "נֶחְמָד",
+        "meaning": "pleasant"
+      }
+    ]
+  },
+  "ט-ו-ב": {
+    "meaning": "good",
+    "related": [
+      {
+        "hebrew": "הַטּוֹב",
+        "meaning": "the Good One"
+      },
+      {
+        "hebrew": "הַמֵּטִיב",
+        "meaning": "Who does good"
+      }
+    ]
+  },
+  "ט-ע-ם": {
+    "meaning": "to taste",
+    "related": [
+      {
+        "hebrew": "טוֹעֲמֶיהָ",
+        "meaning": "those who taste it"
+      },
+      {
+        "hebrew": "טַעַם",
+        "meaning": "taste"
+      }
+    ]
+  },
+  "י-ד-ה": {
+    "meaning": "to thank, to acknowledge",
+    "related": [
+      {
+        "hebrew": "מוֹדִים",
+        "meaning": "we give thanks"
+      },
+      {
+        "hebrew": "הוֹדוּ",
+        "meaning": "give thanks"
+      }
+    ]
+  },
+  "י-ו-ם": {
+    "meaning": "day",
+    "related": [
+      {
+        "hebrew": "הַיּוֹם",
+        "meaning": "today"
+      },
+      {
+        "hebrew": "יוֹמָם",
+        "meaning": "by day"
+      }
+    ]
+  },
+  "י-מ-ם": {
+    "meaning": "sea",
+    "related": [
+      {
+        "hebrew": "הַיָּם",
+        "meaning": "the sea"
+      }
+    ]
+  },
+  "י-צ-א": {
+    "meaning": "to go out",
+    "related": [
+      {
+        "hebrew": "יְצִיאַת מִצְרַיִם",
+        "meaning": "the Exodus from Egypt"
+      },
+      {
+        "hebrew": "הַמּוֹצִיא",
+        "meaning": "Who brings forth"
+      }
+    ]
+  },
+  "כ-ל-ל": {
+    "meaning": "whole, all, to include",
+    "related": [
+      {
+        "hebrew": "הַכֹּל",
+        "meaning": "everything"
+      },
+      {
+        "hebrew": "כָּלִיל",
+        "meaning": "complete"
+      }
+    ]
+  },
+  "ל-א-ך": {
+    "meaning": "to send, to do work",
+    "related": [
+      {
+        "hebrew": "מַלְאֲכֵי הַשָּׁרֵת",
+        "meaning": "ministering angels"
+      },
+      {
+        "hebrew": "מְלָאכָה",
+        "meaning": "work"
+      }
+    ]
+  },
+  "ל-ח-ם": {
+    "meaning": "bread; to fight",
+    "related": [
+      {
+        "hebrew": "מִלְחָמָה",
+        "meaning": "war"
+      }
+    ]
+  },
+  "נ-ד-ב": {
+    "meaning": "to give freely, to volunteer",
+    "related": [
+      {
+        "hebrew": "נְדִיבִים",
+        "meaning": "nobles"
+      },
+      {
+        "hebrew": "נְדָבָה",
+        "meaning": "freewill offering"
+      }
+    ]
+  },
+  "נ-ו-ח": {
+    "meaning": "to rest",
+    "related": [
+      {
+        "hebrew": "וַיָּנַח",
+        "meaning": "and He rested"
+      },
+      {
+        "hebrew": "מָנוֹחַ",
+        "meaning": "resting place"
+      }
+    ]
+  },
+  "נ-ש-ם": {
+    "meaning": "to breathe",
+    "related": [
+      {
+        "hebrew": "נְשָׁמָה",
+        "meaning": "soul"
+      },
+      {
+        "hebrew": "נְשִׁימָה",
+        "meaning": "breathing"
+      }
+    ]
+  },
+  "ס-ג-ל": {
+    "meaning": "treasure, special quality",
+    "related": [
+      {
+        "hebrew": "עַם סְגֻלָּה",
+        "meaning": "treasured people"
+      }
+    ]
+  },
+  "ע-ו-ד": {
+    "meaning": "to witness, to testify",
+    "related": [
+      {
+        "hebrew": "עֵדֹתֶיךָ",
+        "meaning": "Your testimonies"
+      },
+      {
+        "hebrew": "עֵד",
+        "meaning": "witness"
+      }
+    ]
+  },
+  "ע-ל-ם": {
+    "meaning": "eternity; to be hidden",
+    "related": [
+      {
+        "hebrew": "מֶלֶךְ הָעוֹלָם",
+        "meaning": "King of the universe"
+      },
+      {
+        "hebrew": "לְעוֹלָם",
+        "meaning": "forever"
+      }
+    ]
+  },
+  "ע-מ-ד": {
+    "meaning": "to stand",
+    "related": [
+      {
+        "hebrew": "עֲמִידָה",
+        "meaning": "the Amidah prayer"
+      },
+      {
+        "hebrew": "עוֹמֵד",
+        "meaning": "standing"
+      }
+    ]
+  },
+  "ע-מ-ם": {
+    "meaning": "people, nation",
+    "related": [
+      {
+        "hebrew": "עַמְּךָ יִשְׂרָאֵל",
+        "meaning": "Your people Israel"
+      },
+      {
+        "hebrew": "עַמִּים",
+        "meaning": "nations"
+      }
+    ]
+  },
+  "ע-נ-ג": {
+    "meaning": "pleasure, delight",
+    "related": [
+      {
+        "hebrew": "מְעַנְּגֶיהָ",
+        "meaning": "those who delight in it"
+      },
+      {
+        "hebrew": "עֹנֶג",
+        "meaning": "delight"
+      }
+    ]
+  },
+  "ע-ר-ץ": {
+    "meaning": "to be in awe, to be mighty",
+    "related": [
+      {
+        "hebrew": "נַעֲרָץ",
+        "meaning": "revered"
+      },
+      {
+        "hebrew": "עָרִיץ",
+        "meaning": "tyrant"
+      }
+    ]
+  },
+  "צ-ב-א": {
+    "meaning": "army, host",
+    "related": [
+      {
+        "hebrew": "צְבָאוֹת",
+        "meaning": "hosts"
+      },
+      {
+        "hebrew": "צָבָא",
+        "meaning": "army"
+      }
+    ]
+  },
+  "צ-ו-ה": {
+    "meaning": "to command",
+    "related": [
+      {
+        "hebrew": "בְּמִצְוֹתָיו",
+        "meaning": "with His commandments"
+      },
+      {
+        "hebrew": "וְצִוָּנוּ",
+        "meaning": "and commanded us"
+      }
+    ]
+  },
+  "צ-ו-ר": {
+    "meaning": "rock; to shape",
+    "related": [
+      {
+        "hebrew": "צוּר יִשְׂרָאֵל",
+        "meaning": "Rock of Israel"
+      },
+      {
+        "hebrew": "צוּרָה",
+        "meaning": "shape, form"
+      }
+    ]
+  },
+  "ק-ד-ש": {
+    "meaning": "holy, to sanctify",
+    "related": [
+      {
+        "hebrew": "מְקַדֵּשׁ הַשַּׁבָּת",
+        "meaning": "Who sanctifies the Sabbath"
+      },
+      {
+        "hebrew": "קָדוֹשׁ",
+        "meaning": "holy"
+      },
+      {
+        "hebrew": "קִדּוּשׁ",
+        "meaning": "Kiddush"
+      }
+    ]
+  },
+  "ק-ו-ם": {
+    "meaning": "to rise, to stand up",
+    "related": [
+      {
+        "hebrew": "קוּמִי",
+        "meaning": "arise"
+      },
+      {
+        "hebrew": "מָקוֹם",
+        "meaning": "place"
+      }
+    ]
+  },
+  "ק-ר-א": {
+    "meaning": "to call, to read",
+    "related": [
+      {
+        "hebrew": "קְרִיאַת שְׁמַע",
+        "meaning": "recitation of the Shema"
+      },
+      {
+        "hebrew": "מִקְרָא קֹדֶשׁ",
+        "meaning": "holy convocation"
+      }
+    ]
+  },
+  "ר-א-ם": {
+    "meaning": "wild ox",
+    "related": [
+      {
+        "hebrew": "בֶן רְאֵמִים",
+        "meaning": "young wild ox"
+      }
+    ]
+  },
+  "ר-ב-ב": {
+    "meaning": "many, great",
+    "related": [
+      {
+        "hebrew": "רַב חֶסֶד",
+        "meaning": "abundant in kindness"
+      },
+      {
+        "hebrew": "רַבִּים",
+        "meaning": "many"
+      },
+      {
+        "hebrew": "רִבּוֹן",
+        "meaning": "Master"
+      }
+    ]
+  },
+  "ר-ו-ח": {
+    "meaning": "wind, spirit, breath",
+    "related": [
+      {
+        "hebrew": "מַשִּׁיב הָרוּחַ",
+        "meaning": "Who causes the wind to blow"
+      },
+      {
+        "hebrew": "רֶוַח",
+        "meaning": "relief"
+      }
+    ]
+  },
+  "ר-ו-ם": {
+    "meaning": "to be high, exalted",
+    "related": [
+      {
+        "hebrew": "רוֹמְמוּ",
+        "meaning": "exalt"
+      },
+      {
+        "hebrew": "תְּרוּמָה",
+        "meaning": "offering"
+      },
+      {
+        "hebrew": "מָרוֹם",
+        "meaning": "on high"
+      }
+    ]
+  },
+  "ר-צ-ה": {
+    "meaning": "to want, to be pleased with",
+    "related": [
+      {
+        "hebrew": "רְצֵה",
+        "meaning": "be pleased"
+      },
+      {
+        "hebrew": "רָצוֹן",
+        "meaning": "will, desire"
+      }
+    ]
+  },
+  "ש-ב-ת": {
+    "meaning": "to cease, to rest",
+    "related": [
+      {
+        "hebrew": "שַׁבָּת",
+        "meaning": "Sabbath"
+      },
+      {
+        "hebrew": "וַיִּשְׁבֹּת",
+        "meaning": "and He rested"
+      },
+      {
+        "hebrew": "שַׁבָּתוֹן",
+        "meaning": "complete rest"
+      }
+    ]
+  },
+  "ש-מ-ח": {
+    "meaning": "to rejoice",
+    "related": [
+      {
+        "hebrew": "יִשְׂמְחוּ",
+        "meaning": "they will rejoice"
+      },
+      {
+        "hebrew": "שָׂמֵחַ",
+        "meaning": "happy"
+      }
+    ]
+  },
+  "ש-מ-ר": {
+    "meaning": "to guard, to keep",
+    "related": [
+      {
+        "hebrew": "שָׁמוֹר",
+        "meaning": "keep"
+      },
+      {
+        "hebrew": "שׁוֹמֵר",
+        "meaning": "guardian"
+      },
+      {
+        "hebrew": "וְשָׁמְרוּ",
+        "meaning": "and they shall keep"
+      }
+    ]
+  },
+  "ש-נ-ה": {
+    "meaning": "to repeat; two",
+    "related": [
+      {
+        "hebrew": "שְׁנֵי",
+        "meaning": "two of"
+      },
+      {
+        "hebrew": "מִשְׁנָה",
+        "meaning": "Mishnah"
+      }
+    ]
+  },
+  "ש-ש-ש": {
+    "meaning": "six",
+    "related": [
+      {
+        "hebrew": "שֵׁשֶׁת יָמִים",
+        "meaning": "six days"
+      },
+      {
+        "hebrew": "הַשִּׁשִּׁי",
+        "meaning": "the sixth"
+      }
+    ]
+  },
+  "ת-נ-ן": {
+    "meaning": "sea creature",
+    "related": [
+      {
+        "hebrew": "הַתַּנִּינִם",
+        "meaning": "the sea monsters"
+      }
+    ]
+  }
+}

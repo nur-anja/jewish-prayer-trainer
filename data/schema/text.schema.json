@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "text.schema.json",
+  "title": "Text",
+  "description": "One prayer, blessing or poem with its word-by-word breakdown. Stored in data/texts/<id>.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "kind", "sections"],
+  "properties": {
+    "id": {
+      "description": "Matches the file name.",
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "kind": {
+      "description": "poem: each line is a verse shown on its own row. prose: lines are sentences or psukim that run together.",
+      "enum": ["poem", "prose"]
+    },
+    "sections": {
+      "description": "Natural divisions of the text: stanzas of a poem, paragraphs or blessings of prose. A text with no divisions has one section.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/section" }
+    }
+  },
+  "$defs": {
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lines"],
+      "properties": {
+        "title": {
+          "description": "Name of the section, e.g. \"Avot\" or \"V'ahavta\".",
+          "type": "string",
+          "minLength": 1
+        },
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/line" }
+        }
+      }
+    },
+    "line": {
+      "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hebrew", "translation", "words"],
+      "properties": {
+        "hebrew": {
+          "description": "The full line, with nikud.",
+          "type": "string",
+          "minLength": 1
+        },
+        "translation": { "type": "string", "minLength": 1 },
+        "words": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/word" }
+        }
+      }
+    },
+    "word": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hebrew", "meaning", "parts"],
+      "properties": {
+        "hebrew": { "type": "string", "minLength": 1 },
+        "meaning": {
+          "description": "Meaning of the word in this context.",
+          "type": "string",
+          "minLength": 1
+        },
+        "parts": {
+          "description": "Prefixes, base word and suffixes, in order. A single entry if the word is not split.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/part" }
+        },
+        "root": {
+          "description": "Key into data/roots.json. Left out for words without a root.",
+          "$ref": "#/$defs/root"
+        },
+        "notes": {
+          "description": "Anything about the word that the other fields can't express, e.g. that it is Aramaic or used as an imperative.",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "part": {
+      "description": "One component of a word. Grammar is stored as facts; outputs decide how to label it.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hebrew", "meaning", "pos"],
+      "properties": {
+        "hebrew": { "type": "string", "minLength": 1 },
+        "meaning": { "type": "string", "minLength": 1 },
+        "pos": {
+          "enum": [
+            "noun",
+            "verb",
+            "adjective",
+            "adverb",
+            "preposition",
+            "conjunction",
+            "article",
+            "pronoun",
+            "pronoun-suffix",
+            "particle",
+            "numeral",
+            "name"
+          ]
+        },
+        "binyan": {
+          "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
+        },
+        "form": {
+          "enum": [
+            "past",
+            "future",
+            "present",
+            "participle",
+            "passive-participle",
+            "imperative",
+            "infinitive",
+            "infinitive-absolute"
+          ]
+        },
+        "person": { "enum": [1, 2, 3] },
+        "gender": { "enum": ["masc", "fem", "common"] },
+        "number": { "enum": ["sg", "pl", "dual"] },
+        "construct": {
+          "description": "True if the word is in construct (smichut) form.",
+          "const": true
+        }
+      },
+      "allOf": [
+        {
+          "description": "Only verbs have binyan and form; verbs must have both.",
+          "if": { "properties": { "pos": { "const": "verb" } } },
+          "then": { "required": ["binyan", "form"] },
+          "else": { "properties": { "binyan": false, "form": false } }
+        },
+        {
+          "description": "Nouns and adjectives always have gender and number.",
+          "if": { "properties": { "pos": { "enum": ["noun", "adjective"] } } },
+          "then": { "required": ["gender", "number"] }
+        },
+        {
+          "description": "Past and future verbs have person and number (gender is required except in 1st person, see below).",
+          "if": {
+            "required": ["form"],
+            "properties": { "form": { "enum": ["past", "future"] } }
+          },
+          "then": { "required": ["person", "number"] }
+        },
+        {
+          "description": "2nd and 3rd person past and future verbs have gender.",
+          "if": {
+            "required": ["form", "person"],
+            "properties": {
+              "form": { "enum": ["past", "future"] },
+              "person": { "enum": [2, 3] }
+            }
+          },
+          "then": { "required": ["gender"] }
+        },
+        {
+          "description": "Imperatives are 2nd person with gender and number.",
+          "if": {
+            "required": ["form"],
+            "properties": { "form": { "const": "imperative" } }
+          },
+          "then": {
+            "required": ["person", "gender", "number"],
+            "properties": { "person": { "const": 2 } }
+          }
+        },
+        {
+          "description": "Present tense and participles have gender and number but no person.",
+          "if": {
+            "required": ["form"],
+            "properties": {
+              "form": { "enum": ["present", "participle", "passive-participle"] }
+            }
+          },
+          "then": {
+            "required": ["gender", "number"],
+            "properties": { "person": false }
+          }
+        },
+        {
+          "description": "Infinitives have no person, gender or number.",
+          "if": {
+            "required": ["form"],
+            "properties": { "form": { "enum": ["infinitive", "infinitive-absolute"] } }
+          },
+          "then": {
+            "properties": { "person": false, "gender": false, "number": false }
+          }
+        },
+        {
+          "description": "1st person has no gender in Hebrew.",
+          "if": {
+            "required": ["person"],
+            "properties": { "person": { "const": 1 } }
+          },
+          "then": { "properties": { "gender": false } }
+        }
+      ]
+    },
+    "root": {
+      "description": "3 or 4 Hebrew letters separated by hyphens, e.g. \"ש-מ-ר\". Only the last letter may be a final form, and it must be one where it exists (\"ל-א-ך\", not \"ל-א-כ\"), so each root has exactly one spelling.",
+      "type": "string",
+      "pattern": "^[אבגדהוזחטיכלמנסעפצקרשת](-[אבגדהוזחטיכלמנסעפצקרשת]){1,2}-[אבגדהוזחטילסעקרשתךםןףץ]$"
+    }
+  }
+}

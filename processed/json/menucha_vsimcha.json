@@ -1,0 +1,1722 @@
+{
+  "id": "menucha_vsimcha",
+  "title": "Menucha V'simcha",
+  "kind": "poem",
+  "sections": [
+    {
+      "lines": [
+        {
+          "hebrew": "מְנוּחָה וְשִׂמְחָה אוֹר לַיְּהוּדִים",
+          "translation": "Rest and joy, light for the Jews",
+          "words": [
+            {
+              "hebrew": "מְנוּחָה",
+              "meaning": "rest",
+              "parts": [
+                {
+                  "hebrew": "מְנוּחָה",
+                  "meaning": "rest",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg"
+                }
+              ],
+              "root": "נ-ו-ח"
+            },
+            {
+              "hebrew": "וְשִׂמְחָה",
+              "meaning": "and joy",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "שִׂמְחָה",
+                  "meaning": "joy",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg"
+                }
+              ],
+              "root": "ש-מ-ח"
+            },
+            {
+              "hebrew": "אוֹר",
+              "meaning": "light",
+              "parts": [
+                {
+                  "hebrew": "אוֹר",
+                  "meaning": "light",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "א-ו-ר"
+            },
+            {
+              "hebrew": "לַיְּהוּדִים",
+              "meaning": "for the Jews",
+              "parts": [
+                {
+                  "hebrew": "לַ־",
+                  "meaning": "for the",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "יְהוּדִים",
+                  "meaning": "Jews",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "י-ד-ה"
+            }
+          ]
+        },
+        {
+          "hebrew": "יוֹם שַׁבָּתוֹן יוֹם מַחֲמַדִּים",
+          "translation": "A day of complete rest, a day of delights",
+          "words": [
+            {
+              "hebrew": "יוֹם",
+              "meaning": "a day of",
+              "parts": [
+                {
+                  "hebrew": "יוֹם",
+                  "meaning": "day of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "י-ו-ם"
+            },
+            {
+              "hebrew": "שַׁבָּתוֹן",
+              "meaning": "complete rest",
+              "parts": [
+                {
+                  "hebrew": "שַׁבָּתוֹן",
+                  "meaning": "complete rest",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ש-ב-ת"
+            },
+            {
+              "hebrew": "יוֹם",
+              "meaning": "a day of",
+              "parts": [
+                {
+                  "hebrew": "יוֹם",
+                  "meaning": "day of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "י-ו-ם"
+            },
+            {
+              "hebrew": "מַחֲמַדִּים",
+              "meaning": "delights",
+              "parts": [
+                {
+                  "hebrew": "מַחֲמַדִּים",
+                  "meaning": "delights",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ח-מ-ד"
+            }
+          ]
+        },
+        {
+          "hebrew": "שׁוֹמְרָיו וְזוֹכְרָיו הֵמָּה מְעִידִים",
+          "translation": "Those who keep it and those who remember it, they testify",
+          "words": [
+            {
+              "hebrew": "שׁוֹמְרָיו",
+              "meaning": "those who keep it",
+              "parts": [
+                {
+                  "hebrew": "שׁוֹמְרֵי",
+                  "meaning": "keepers of",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "participle",
+                  "gender": "masc",
+                  "number": "pl",
+                  "construct": true
+                },
+                {
+                  "hebrew": "־ָיו",
+                  "meaning": "it",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 3
+                }
+              ],
+              "root": "ש-מ-ר"
+            },
+            {
+              "hebrew": "וְזוֹכְרָיו",
+              "meaning": "and those who remember it",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "זוֹכְרֵי",
+                  "meaning": "rememberers of",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "participle",
+                  "gender": "masc",
+                  "number": "pl",
+                  "construct": true
+                },
+                {
+                  "hebrew": "־ָיו",
+                  "meaning": "it",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 3
+                }
+              ],
+              "root": "ז-כ-ר"
+            },
+            {
+              "hebrew": "הֵמָּה",
+              "meaning": "they",
+              "parts": [
+                {
+                  "hebrew": "הֵמָּה",
+                  "meaning": "they",
+                  "pos": "pronoun",
+                  "gender": "masc",
+                  "number": "pl",
+                  "person": 3
+                }
+              ]
+            },
+            {
+              "hebrew": "מְעִידִים",
+              "meaning": "testify",
+              "parts": [
+                {
+                  "hebrew": "מְעִידִים",
+                  "meaning": "testify",
+                  "pos": "verb",
+                  "binyan": "hifil",
+                  "form": "present",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ע-ו-ד"
+            }
+          ]
+        },
+        {
+          "hebrew": "כִּי לְשִׁשָּׁה כֹּל בְּרוּאִים וְעוֹמְדִים",
+          "translation": "That in six [days] all were created and endure",
+          "words": [
+            {
+              "hebrew": "כִּי",
+              "meaning": "that",
+              "parts": [
+                {
+                  "hebrew": "כִּי",
+                  "meaning": "that",
+                  "pos": "conjunction"
+                }
+              ]
+            },
+            {
+              "hebrew": "לְשִׁשָּׁה",
+              "meaning": "in six",
+              "parts": [
+                {
+                  "hebrew": "לְ־",
+                  "meaning": "in",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "שִׁשָּׁה",
+                  "meaning": "six",
+                  "pos": "numeral"
+                }
+              ],
+              "root": "ש-ש-ש"
+            },
+            {
+              "hebrew": "כֹּל",
+              "meaning": "all",
+              "parts": [
+                {
+                  "hebrew": "כֹּל",
+                  "meaning": "all",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "כ-ל-ל"
+            },
+            {
+              "hebrew": "בְּרוּאִים",
+              "meaning": "were created",
+              "parts": [
+                {
+                  "hebrew": "בְּרוּאִים",
+                  "meaning": "created",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "passive-participle",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ב-ר-א"
+            },
+            {
+              "hebrew": "וְעוֹמְדִים",
+              "meaning": "and endure",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "עוֹמְדִים",
+                  "meaning": "stand, endure",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "present",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ע-מ-ד"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "hebrew": "שְׁמֵי שָׁמַיִם אֶרֶץ וְיַמִּים",
+          "translation": "The highest heavens, earth and seas",
+          "words": [
+            {
+              "hebrew": "שְׁמֵי",
+              "meaning": "the heavens of",
+              "parts": [
+                {
+                  "hebrew": "שְׁמֵי",
+                  "meaning": "heavens of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl",
+                  "construct": true
+                }
+              ]
+            },
+            {
+              "hebrew": "שָׁמַיִם",
+              "meaning": "heaven",
+              "parts": [
+                {
+                  "hebrew": "שָׁמַיִם",
+                  "meaning": "heaven",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ]
+            },
+            {
+              "hebrew": "אֶרֶץ",
+              "meaning": "earth",
+              "parts": [
+                {
+                  "hebrew": "אֶרֶץ",
+                  "meaning": "earth, land",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg"
+                }
+              ],
+              "root": "א-ר-ץ"
+            },
+            {
+              "hebrew": "וְיַמִּים",
+              "meaning": "and seas",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "יַמִּים",
+                  "meaning": "seas",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "י-מ-ם"
+            }
+          ]
+        },
+        {
+          "hebrew": "כָּל צְבָא מָרוֹם גְּבוֹהִים וְרָמִים",
+          "translation": "All the host on high, lofty and exalted",
+          "words": [
+            {
+              "hebrew": "כָּל",
+              "meaning": "all",
+              "parts": [
+                {
+                  "hebrew": "כָּל",
+                  "meaning": "all of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "כ-ל-ל"
+            },
+            {
+              "hebrew": "צְבָא",
+              "meaning": "the host of",
+              "parts": [
+                {
+                  "hebrew": "צְבָא",
+                  "meaning": "host, army of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "צ-ב-א"
+            },
+            {
+              "hebrew": "מָרוֹם",
+              "meaning": "on high",
+              "parts": [
+                {
+                  "hebrew": "מָרוֹם",
+                  "meaning": "height, heaven",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ר-ו-ם"
+            },
+            {
+              "hebrew": "גְּבוֹהִים",
+              "meaning": "lofty",
+              "parts": [
+                {
+                  "hebrew": "גְּבוֹהִים",
+                  "meaning": "high",
+                  "pos": "adjective",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ג-ב-ה"
+            },
+            {
+              "hebrew": "וְרָמִים",
+              "meaning": "and exalted",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "רָמִים",
+                  "meaning": "exalted",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "participle",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ר-ו-ם"
+            }
+          ]
+        },
+        {
+          "hebrew": "תַּנִּין וְאָדָם וְחַיַּת רְאֵמִים",
+          "translation": "The sea monster and man, and the wild beasts",
+          "words": [
+            {
+              "hebrew": "תַּנִּין",
+              "meaning": "the sea monster",
+              "parts": [
+                {
+                  "hebrew": "תַּנִּין",
+                  "meaning": "sea monster",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ת-נ-ן"
+            },
+            {
+              "hebrew": "וְאָדָם",
+              "meaning": "and man",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "אָדָם",
+                  "meaning": "man",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "א-ד-ם"
+            },
+            {
+              "hebrew": "וְחַיַּת",
+              "meaning": "and the beasts of",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "חַיַּת",
+                  "meaning": "beast of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "ח-י-ה"
+            },
+            {
+              "hebrew": "רְאֵמִים",
+              "meaning": "wild oxen",
+              "parts": [
+                {
+                  "hebrew": "רְאֵמִים",
+                  "meaning": "wild oxen",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ר-א-ם"
+            }
+          ]
+        },
+        {
+          "hebrew": "כִּי בְּיָהּ יְיָ צוּר עוֹלָמִים",
+          "translation": "For in Yah, the LORD, is the Rock of the worlds",
+          "words": [
+            {
+              "hebrew": "כִּי",
+              "meaning": "for",
+              "parts": [
+                {
+                  "hebrew": "כִּי",
+                  "meaning": "for",
+                  "pos": "conjunction"
+                }
+              ]
+            },
+            {
+              "hebrew": "בְּיָהּ",
+              "meaning": "in Yah",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "in",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "יָהּ",
+                  "meaning": "Yah",
+                  "pos": "name",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ]
+            },
+            {
+              "hebrew": "יְיָ",
+              "meaning": "the LORD",
+              "parts": [
+                {
+                  "hebrew": "יְיָ",
+                  "meaning": "the LORD",
+                  "pos": "name",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ה-י-ה"
+            },
+            {
+              "hebrew": "צוּר",
+              "meaning": "the Rock of",
+              "parts": [
+                {
+                  "hebrew": "צוּר",
+                  "meaning": "rock",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "צ-ו-ר"
+            },
+            {
+              "hebrew": "עוֹלָמִים",
+              "meaning": "the worlds, eternity",
+              "parts": [
+                {
+                  "hebrew": "עוֹלָמִים",
+                  "meaning": "worlds",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ע-ל-ם"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "hebrew": "הוּא אֲשֶׁר דִּבֶּר לְעַם סְגֻלָּתוֹ",
+          "translation": "It is He who spoke to His treasured people",
+          "words": [
+            {
+              "hebrew": "הוּא",
+              "meaning": "He",
+              "parts": [
+                {
+                  "hebrew": "הוּא",
+                  "meaning": "He",
+                  "pos": "pronoun",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ]
+            },
+            {
+              "hebrew": "אֲשֶׁר",
+              "meaning": "who",
+              "parts": [
+                {
+                  "hebrew": "אֲשֶׁר",
+                  "meaning": "who, that",
+                  "pos": "particle"
+                }
+              ]
+            },
+            {
+              "hebrew": "דִּבֶּר",
+              "meaning": "spoke",
+              "parts": [
+                {
+                  "hebrew": "דִּבֶּר",
+                  "meaning": "He spoke",
+                  "pos": "verb",
+                  "binyan": "piel",
+                  "form": "past",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ד-ב-ר"
+            },
+            {
+              "hebrew": "לְעַם",
+              "meaning": "to the people of",
+              "parts": [
+                {
+                  "hebrew": "לְ־",
+                  "meaning": "to",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "עַם",
+                  "meaning": "people of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "ע-מ-ם"
+            },
+            {
+              "hebrew": "סְגֻלָּתוֹ",
+              "meaning": "His treasure",
+              "parts": [
+                {
+                  "hebrew": "סְגֻלַּת",
+                  "meaning": "treasure of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                },
+                {
+                  "hebrew": "־וֹ",
+                  "meaning": "His",
+                  "pos": "pronoun-suffix",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ס-ג-ל"
+            }
+          ]
+        },
+        {
+          "hebrew": "שָׁמוֹר לְקַדְּשׁוֹ מִבּוֹאוֹ וְעַד צֵאתוֹ",
+          "translation": "Keep it, to sanctify it, from its coming until its departure",
+          "words": [
+            {
+              "hebrew": "שָׁמוֹר",
+              "meaning": "keep",
+              "parts": [
+                {
+                  "hebrew": "שָׁמוֹר",
+                  "meaning": "keep",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "infinitive-absolute"
+                }
+              ],
+              "root": "ש-מ-ר",
+              "notes": "Infinitive absolute used as an imperative"
+            },
+            {
+              "hebrew": "לְקַדְּשׁוֹ",
+              "meaning": "to sanctify it",
+              "parts": [
+                {
+                  "hebrew": "לְקַדֵּשׁ",
+                  "meaning": "to sanctify",
+                  "pos": "verb",
+                  "binyan": "piel",
+                  "form": "infinitive"
+                },
+                {
+                  "hebrew": "־וֹ",
+                  "meaning": "it",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 3
+                }
+              ],
+              "root": "ק-ד-ש"
+            },
+            {
+              "hebrew": "מִבּוֹאוֹ",
+              "meaning": "from its coming",
+              "parts": [
+                {
+                  "hebrew": "מִ־",
+                  "meaning": "from",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "בּוֹא",
+                  "meaning": "coming",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "infinitive"
+                },
+                {
+                  "hebrew": "־וֹ",
+                  "meaning": "its",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 3
+                }
+              ],
+              "root": "ב-ו-א"
+            },
+            {
+              "hebrew": "וְעַד",
+              "meaning": "and until",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "עַד",
+                  "meaning": "until",
+                  "pos": "preposition"
+                }
+              ]
+            },
+            {
+              "hebrew": "צֵאתוֹ",
+              "meaning": "its departure",
+              "parts": [
+                {
+                  "hebrew": "צֵאת",
+                  "meaning": "going out",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "infinitive"
+                },
+                {
+                  "hebrew": "־וֹ",
+                  "meaning": "its",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 3
+                }
+              ],
+              "root": "י-צ-א"
+            }
+          ]
+        },
+        {
+          "hebrew": "שַׁבַּת קֹדֶשׁ יוֹם חֶמְדָּתוֹ",
+          "translation": "The holy Sabbath, the day of His delight",
+          "words": [
+            {
+              "hebrew": "שַׁבַּת",
+              "meaning": "the Sabbath of",
+              "parts": [
+                {
+                  "hebrew": "שַׁבַּת",
+                  "meaning": "Sabbath of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "ש-ב-ת"
+            },
+            {
+              "hebrew": "קֹדֶשׁ",
+              "meaning": "holiness",
+              "parts": [
+                {
+                  "hebrew": "קֹדֶשׁ",
+                  "meaning": "holiness",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ק-ד-ש"
+            },
+            {
+              "hebrew": "יוֹם",
+              "meaning": "the day of",
+              "parts": [
+                {
+                  "hebrew": "יוֹם",
+                  "meaning": "day of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "י-ו-ם"
+            },
+            {
+              "hebrew": "חֶמְדָּתוֹ",
+              "meaning": "His delight",
+              "parts": [
+                {
+                  "hebrew": "חֶמְדַּת",
+                  "meaning": "delight of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                },
+                {
+                  "hebrew": "־וֹ",
+                  "meaning": "His",
+                  "pos": "pronoun-suffix",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ח-מ-ד"
+            }
+          ]
+        },
+        {
+          "hebrew": "כִּי בוֹ שָׁבַת אֵל מִכָּל מְלַאכְתּוֹ",
+          "translation": "For on it God rested from all His work",
+          "words": [
+            {
+              "hebrew": "כִּי",
+              "meaning": "for",
+              "parts": [
+                {
+                  "hebrew": "כִּי",
+                  "meaning": "for",
+                  "pos": "conjunction"
+                }
+              ]
+            },
+            {
+              "hebrew": "בוֹ",
+              "meaning": "on it",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "on",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "־וֹ",
+                  "meaning": "it",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 3
+                }
+              ]
+            },
+            {
+              "hebrew": "שָׁבַת",
+              "meaning": "rested",
+              "parts": [
+                {
+                  "hebrew": "שָׁבַת",
+                  "meaning": "He rested",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "past",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ש-ב-ת"
+            },
+            {
+              "hebrew": "אֵל",
+              "meaning": "God",
+              "parts": [
+                {
+                  "hebrew": "אֵל",
+                  "meaning": "God",
+                  "pos": "name",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ]
+            },
+            {
+              "hebrew": "מִכָּל",
+              "meaning": "from all",
+              "parts": [
+                {
+                  "hebrew": "מִ־",
+                  "meaning": "from",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "כָּל",
+                  "meaning": "all of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "כ-ל-ל"
+            },
+            {
+              "hebrew": "מְלַאכְתּוֹ",
+              "meaning": "His work",
+              "parts": [
+                {
+                  "hebrew": "מְלֶאכֶת",
+                  "meaning": "work of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                },
+                {
+                  "hebrew": "־וֹ",
+                  "meaning": "His",
+                  "pos": "pronoun-suffix",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ל-א-ך"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "hebrew": "בְּמִצְוַת שַׁבָּת אֵל יַחֲלִיצָךְ",
+          "translation": "By the commandment of Shabbat, God will deliver you",
+          "words": [
+            {
+              "hebrew": "בְּמִצְוַת",
+              "meaning": "by the commandment of",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "by",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "מִצְוַת",
+                  "meaning": "commandment of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "צ-ו-ה"
+            },
+            {
+              "hebrew": "שַׁבָּת",
+              "meaning": "Shabbat",
+              "parts": [
+                {
+                  "hebrew": "שַׁבָּת",
+                  "meaning": "Sabbath",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg"
+                }
+              ],
+              "root": "ש-ב-ת"
+            },
+            {
+              "hebrew": "אֵל",
+              "meaning": "God",
+              "parts": [
+                {
+                  "hebrew": "אֵל",
+                  "meaning": "God",
+                  "pos": "name",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ]
+            },
+            {
+              "hebrew": "יַחֲלִיצָךְ",
+              "meaning": "He will deliver you",
+              "parts": [
+                {
+                  "hebrew": "יַחֲלִיץ",
+                  "meaning": "He will deliver",
+                  "pos": "verb",
+                  "binyan": "hifil",
+                  "form": "future",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                },
+                {
+                  "hebrew": "־ָךְ",
+                  "meaning": "you",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 2
+                }
+              ],
+              "root": "ח-ל-ץ"
+            }
+          ]
+        },
+        {
+          "hebrew": "קוּם קְרָא אֵלָיו יָחִישׁ לְאַמְּצָךְ",
+          "translation": "Arise, call out to Him, He will hasten to strengthen you",
+          "words": [
+            {
+              "hebrew": "קוּם",
+              "meaning": "arise",
+              "parts": [
+                {
+                  "hebrew": "קוּם",
+                  "meaning": "arise",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "imperative",
+                  "person": 2,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ק-ו-ם"
+            },
+            {
+              "hebrew": "קְרָא",
+              "meaning": "call out",
+              "parts": [
+                {
+                  "hebrew": "קְרָא",
+                  "meaning": "call out",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "imperative",
+                  "person": 2,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ק-ר-א"
+            },
+            {
+              "hebrew": "אֵלָיו",
+              "meaning": "to Him",
+              "parts": [
+                {
+                  "hebrew": "אֶל־",
+                  "meaning": "to",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "־ָיו",
+                  "meaning": "Him",
+                  "pos": "pronoun-suffix",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ]
+            },
+            {
+              "hebrew": "יָחִישׁ",
+              "meaning": "He will hasten",
+              "parts": [
+                {
+                  "hebrew": "יָחִישׁ",
+                  "meaning": "He will hasten",
+                  "pos": "verb",
+                  "binyan": "hifil",
+                  "form": "future",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ח-ו-ש"
+            },
+            {
+              "hebrew": "לְאַמְּצָךְ",
+              "meaning": "to strengthen you",
+              "parts": [
+                {
+                  "hebrew": "לְאַמֵּץ",
+                  "meaning": "to strengthen",
+                  "pos": "verb",
+                  "binyan": "piel",
+                  "form": "infinitive"
+                },
+                {
+                  "hebrew": "־ָךְ",
+                  "meaning": "you",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 2
+                }
+              ],
+              "root": "א-מ-ץ"
+            }
+          ]
+        },
+        {
+          "hebrew": "נִשְׁמַת כָּל חַי וְגַם נַעֲרִיצָךְ",
+          "translation": "[Say] \"the soul of every living thing,\" and also \"we will revere You\"",
+          "words": [
+            {
+              "hebrew": "נִשְׁמַת",
+              "meaning": "the soul of",
+              "parts": [
+                {
+                  "hebrew": "נִשְׁמַת",
+                  "meaning": "soul of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "נ-ש-ם"
+            },
+            {
+              "hebrew": "כָּל",
+              "meaning": "every",
+              "parts": [
+                {
+                  "hebrew": "כָּל",
+                  "meaning": "all of, every",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "כ-ל-ל"
+            },
+            {
+              "hebrew": "חַי",
+              "meaning": "living thing",
+              "parts": [
+                {
+                  "hebrew": "חַי",
+                  "meaning": "living",
+                  "pos": "adjective",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ח-י-ה"
+            },
+            {
+              "hebrew": "וְגַם",
+              "meaning": "and also",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "גַּם",
+                  "meaning": "also",
+                  "pos": "adverb"
+                }
+              ]
+            },
+            {
+              "hebrew": "נַעֲרִיצָךְ",
+              "meaning": "we will revere You",
+              "parts": [
+                {
+                  "hebrew": "נַעֲרִיץ",
+                  "meaning": "we will revere",
+                  "pos": "verb",
+                  "binyan": "hifil",
+                  "form": "future",
+                  "person": 1,
+                  "number": "pl"
+                },
+                {
+                  "hebrew": "־ָךְ",
+                  "meaning": "You",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 2
+                }
+              ],
+              "root": "ע-ר-ץ"
+            }
+          ]
+        },
+        {
+          "hebrew": "אֱכוֹל בְּשִׂמְחָה כִּי כְבָר רָצָךְ",
+          "translation": "Eat with joy, for He has already favored you",
+          "words": [
+            {
+              "hebrew": "אֱכוֹל",
+              "meaning": "eat",
+              "parts": [
+                {
+                  "hebrew": "אֱכוֹל",
+                  "meaning": "eat",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "imperative",
+                  "person": 2,
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "א-כ-ל"
+            },
+            {
+              "hebrew": "בְּשִׂמְחָה",
+              "meaning": "with joy",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "with",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "שִׂמְחָה",
+                  "meaning": "joy",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg"
+                }
+              ],
+              "root": "ש-מ-ח"
+            },
+            {
+              "hebrew": "כִּי",
+              "meaning": "for",
+              "parts": [
+                {
+                  "hebrew": "כִּי",
+                  "meaning": "for",
+                  "pos": "conjunction"
+                }
+              ]
+            },
+            {
+              "hebrew": "כְבָר",
+              "meaning": "already",
+              "parts": [
+                {
+                  "hebrew": "כְּבָר",
+                  "meaning": "already",
+                  "pos": "adverb"
+                }
+              ]
+            },
+            {
+              "hebrew": "רָצָךְ",
+              "meaning": "He has favored you",
+              "parts": [
+                {
+                  "hebrew": "רָצָה",
+                  "meaning": "He favored",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "past",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "sg"
+                },
+                {
+                  "hebrew": "־ָךְ",
+                  "meaning": "you",
+                  "pos": "pronoun-suffix",
+                  "gender": "masc",
+                  "number": "sg",
+                  "person": 2
+                }
+              ],
+              "root": "ר-צ-ה"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "hebrew": "בְּמִשְׁנֶה לֶחֶם וְקִדּוּשׁ רַבָּה",
+          "translation": "With double bread and the great Kiddush",
+          "words": [
+            {
+              "hebrew": "בְּמִשְׁנֶה",
+              "meaning": "with a double portion of",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "with",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "מִשְׁנֶה",
+                  "meaning": "double of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "ש-נ-ה"
+            },
+            {
+              "hebrew": "לֶחֶם",
+              "meaning": "bread",
+              "parts": [
+                {
+                  "hebrew": "לֶחֶם",
+                  "meaning": "bread",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ל-ח-ם"
+            },
+            {
+              "hebrew": "וְקִדּוּשׁ",
+              "meaning": "and the Kiddush",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "קִדּוּשׁ",
+                  "meaning": "Kiddush, sanctification",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ק-ד-ש"
+            },
+            {
+              "hebrew": "רַבָּה",
+              "meaning": "great",
+              "parts": [
+                {
+                  "hebrew": "רַבָּה",
+                  "meaning": "great",
+                  "pos": "adjective",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ר-ב-ב",
+              "notes": "Aramaic"
+            }
+          ]
+        },
+        {
+          "hebrew": "בְּרֹב מַטְעַמִּים וְרוּחַ נְדִיבָה",
+          "translation": "With many delicacies and a generous spirit",
+          "words": [
+            {
+              "hebrew": "בְּרֹב",
+              "meaning": "with an abundance of",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "with",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "רֹב",
+                  "meaning": "abundance of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "ר-ב-ב"
+            },
+            {
+              "hebrew": "מַטְעַמִּים",
+              "meaning": "delicacies",
+              "parts": [
+                {
+                  "hebrew": "מַטְעַמִּים",
+                  "meaning": "delicacies",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ט-ע-ם"
+            },
+            {
+              "hebrew": "וְרוּחַ",
+              "meaning": "and a spirit",
+              "parts": [
+                {
+                  "hebrew": "וְ־",
+                  "meaning": "and",
+                  "pos": "conjunction"
+                },
+                {
+                  "hebrew": "רוּחַ",
+                  "meaning": "spirit",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg"
+                }
+              ],
+              "root": "ר-ו-ח"
+            },
+            {
+              "hebrew": "נְדִיבָה",
+              "meaning": "generous",
+              "parts": [
+                {
+                  "hebrew": "נְדִיבָה",
+                  "meaning": "generous",
+                  "pos": "adjective",
+                  "gender": "fem",
+                  "number": "sg"
+                }
+              ],
+              "root": "נ-ד-ב"
+            }
+          ]
+        },
+        {
+          "hebrew": "יִזְכּוּ לְרַב טוּב הַמִּתְעַנְּגִים בָּהּ",
+          "translation": "Those who delight in it will merit great good",
+          "words": [
+            {
+              "hebrew": "יִזְכּוּ",
+              "meaning": "will merit",
+              "parts": [
+                {
+                  "hebrew": "יִזְכּוּ",
+                  "meaning": "they will merit",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "future",
+                  "person": 3,
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ז-כ-ה"
+            },
+            {
+              "hebrew": "לְרַב",
+              "meaning": "to much",
+              "parts": [
+                {
+                  "hebrew": "לְ־",
+                  "meaning": "to",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "רַב",
+                  "meaning": "much, great",
+                  "pos": "adjective",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ר-ב-ב"
+            },
+            {
+              "hebrew": "טוּב",
+              "meaning": "good",
+              "parts": [
+                {
+                  "hebrew": "טוּב",
+                  "meaning": "goodness",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ט-ו-ב"
+            },
+            {
+              "hebrew": "הַמִּתְעַנְּגִים",
+              "meaning": "those who delight",
+              "parts": [
+                {
+                  "hebrew": "הַ־",
+                  "meaning": "those who",
+                  "pos": "article"
+                },
+                {
+                  "hebrew": "מִתְעַנְּגִים",
+                  "meaning": "delight",
+                  "pos": "verb",
+                  "binyan": "hitpael",
+                  "form": "participle",
+                  "gender": "masc",
+                  "number": "pl"
+                }
+              ],
+              "root": "ע-נ-ג"
+            },
+            {
+              "hebrew": "בָּהּ",
+              "meaning": "in it",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "in",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "־ָהּ",
+                  "meaning": "it",
+                  "pos": "pronoun-suffix",
+                  "gender": "fem",
+                  "number": "sg",
+                  "person": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "בְּבִיאַת גּוֹאֵל לְחַיֵּי הָעוֹלָם הַבָּא",
+          "translation": "With the coming of the Redeemer, for the life of the World to Come",
+          "words": [
+            {
+              "hebrew": "בְּבִיאַת",
+              "meaning": "with the coming of",
+              "parts": [
+                {
+                  "hebrew": "בְּ־",
+                  "meaning": "with",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "בִּיאַת",
+                  "meaning": "coming of",
+                  "pos": "noun",
+                  "gender": "fem",
+                  "number": "sg",
+                  "construct": true
+                }
+              ],
+              "root": "ב-ו-א"
+            },
+            {
+              "hebrew": "גּוֹאֵל",
+              "meaning": "the Redeemer",
+              "parts": [
+                {
+                  "hebrew": "גּוֹאֵל",
+                  "meaning": "redeemer",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "participle",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ג-א-ל"
+            },
+            {
+              "hebrew": "לְחַיֵּי",
+              "meaning": "for the life of",
+              "parts": [
+                {
+                  "hebrew": "לְ־",
+                  "meaning": "for",
+                  "pos": "preposition"
+                },
+                {
+                  "hebrew": "חַיֵּי",
+                  "meaning": "life of",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "pl",
+                  "construct": true
+                }
+              ],
+              "root": "ח-י-ה"
+            },
+            {
+              "hebrew": "הָעוֹלָם",
+              "meaning": "the world",
+              "parts": [
+                {
+                  "hebrew": "הָ־",
+                  "meaning": "the",
+                  "pos": "article"
+                },
+                {
+                  "hebrew": "עוֹלָם",
+                  "meaning": "world",
+                  "pos": "noun",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ע-ל-ם"
+            },
+            {
+              "hebrew": "הַבָּא",
+              "meaning": "to come",
+              "parts": [
+                {
+                  "hebrew": "הַ־",
+                  "meaning": "the",
+                  "pos": "article"
+                },
+                {
+                  "hebrew": "בָּא",
+                  "meaning": "coming",
+                  "pos": "verb",
+                  "binyan": "paal",
+                  "form": "participle",
+                  "gender": "masc",
+                  "number": "sg"
+                }
+              ],
+              "root": "ב-ו-א"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
