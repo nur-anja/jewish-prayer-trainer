@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "text.schema.json",
   "title": "Text",
-  "description": "One prayer, blessing or poem with its word-by-word breakdown. Stored in data/texts/<id>.json.",
+  "description": "One prayer, blessing or poem with its word-by-word breakdown. Stored in processed/json/<id>.json.",
   "type": "object",
   "additionalProperties": false,
   "required": ["id", "title", "kind", "sections"],
@@ -73,13 +73,13 @@
           "minLength": 1
         },
         "parts": {
-          "description": "Prefixes, base word and suffixes, in order. A single entry if the word is not split.",
+          "description": "Prefixes, base word and suffixes, in order, each with its meaning in context. A single entry if the word is not split. Keep the ל of an infinitive with its verb: לְאַמֵּץ (to strengthen) is one infinitive-construct part.",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into data/roots.json. Left out for words without a root.",
+          "description": "Key into processed/json/roots.json. Left out for words without a root.",
           "$ref": "#/$defs/root"
         },
         "notes": {
@@ -90,7 +90,7 @@
       }
     },
     "part": {
-      "description": "One component of a word. Grammar is stored as facts; outputs decide how to label it.",
+      "description": "One component of a word. Store every grammatical fact the Hebrew marks; outputs decide which ones to print and how to label them.",
       "type": "object",
       "additionalProperties": false,
       "required": ["hebrew", "meaning", "pos"],
@@ -121,6 +121,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
+          "description": "Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
           "enum": [
             "past",
             "future",
@@ -140,11 +141,11 @@
           "const": true
         },
         "language": {
-          "description": "Language of the part when it isn't Hebrew; left out for Hebrew. Mark a part only when its form belongs to the other language: prefixes shared by Hebrew and Aramaic (וְ־, בְּ־, לְ־) follow the language of the surrounding text.",
+          "description": "Language of the part when it isn't Hebrew; left out for Hebrew. Mark a part only when its form belongs to the other language: prefixes shared by Hebrew and Aramaic (וְ־, בְּ־, לְ־) follow the language of the surrounding text. E.g. רַבָּה (great), דְּ־ (of) and the ending ־ָא (the) are Aramaic.",
           "enum": ["aramaic", "greek", "latin", "persian"]
         },
         "notes": {
-          "description": "A form that breaks the usual patterns in a way the other fields can't express. Such details go here rather than being dropped; regular grammar, standard uses of a form and allusions don't belong here. Always shown, after the grammar label.",
+          "description": "A form that breaks the usual patterns in a way the other fields can't express. Such details go here rather than being dropped. Most texts need none. Not unusual, so no notes: regular grammar (weak roots, merged prefixes, suffix forms), standard uses of a form (e.g. an infinitive absolute used as a command), allusions and sources.",
           "type": "string",
           "minLength": 1
         }

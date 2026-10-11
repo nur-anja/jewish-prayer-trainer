@@ -39,14 +39,10 @@ const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Conte
 //
 // The JSON stores every grammatical fact; only these get printed after a part's meaning:
 //
-//   verb        (Binyan, form, inflection)
-//                 past, future       person + gender + number      (Pa'al, past, 3rd masc. sg.)
-//                                    1st person has no gender      (Hif'il, future, 1st pl.)
-//                 imperative         person + gender + number      (Pa'al, imperative, 2nd masc. sg.)
-//                 present,           gender + number [+ construct] (Hif'il, present, masc. pl.)
-//                 participles                                      (Pa'al, participle, masc. pl. construct)
-//                 infinitives        nothing                       (Pi'el, infinitive construct)
-//                                                                  (Pa'al, infinitive absolute)
+//   verb        (Binyan, form, whichever of person, gender, number, construct it has)
+//                                                                  (Pa'al, past, 3rd masc. sg.)
+//                                                                  (Pa'al, participle, masc. pl. construct)
+//                                                                  (Pi'el, infinitive construct)
 //   noun        (noun, gender number [construct])                  (noun, fem. sg. construct)
 //   adjective   (adjective, gender number [construct])             (adjective, fem. sg.)
 //   pronoun,    (gender number), only when the English meaning hides what Hebrew marks:
@@ -68,17 +64,6 @@ const BINYANIM = {
   hifil: "Hif'il",
   hofal: "Hof'al",
   hitpael: "Hitpa'el",
-};
-
-const FORMS = {
-  past: "past",
-  future: "future",
-  present: "present",
-  participle: "participle",
-  "passive-participle": "passive participle",
-  imperative: "imperative",
-  "infinitive-construct": "infinitive construct",
-  "infinitive-absolute": "infinitive absolute",
 };
 
 const LANGUAGES = { aramaic: "Aramaic", greek: "Greek", latin: "Latin", persian: "Persian" };
@@ -114,12 +99,10 @@ function grammarLabel(part) {
 
 function structuredLabel(part) {
   switch (part.pos) {
-    case "verb": {
-      const withPerson = ["past", "future", "imperative"].includes(part.form);
-      return [BINYANIM[part.binyan], FORMS[part.form], inflection(part, { person: withPerson })]
+    case "verb":
+      return [BINYANIM[part.binyan], part.form.replace("-", " "), inflection(part, { person: true })]
         .filter(Boolean)
         .join(", ");
-    }
     case "noun":
     case "adjective":
       return `${part.pos}, ${inflection(part)}`;

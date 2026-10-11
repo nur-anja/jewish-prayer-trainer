@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "roots.schema.json",
   "title": "Roots",
-  "description": "Shared list of roots, referenced by words in all texts. Stored in data/roots.json, keyed by root (e.g. \"ש-מ-ר\").",
+  "description": "Shared list of roots, referenced by words in all texts. Stored in processed/json/roots.json, keyed by root (e.g. \"ש-מ-ר\").",
   "type": "object",
   "propertyNames": { "$ref": "text.schema.json#/$defs/root" },
   "additionalProperties": { "$ref": "#/$defs/root" },
@@ -18,8 +18,10 @@
           "minLength": 1
         },
         "related": {
-          "description": "Common words sharing the root.",
+          "description": "1 to 3 common words sharing the root. Prefer, in order: words common in the siddur, then in the Torah, then other common Hebrew words. E.g. for ע-מ-ד prefer עֲמִידָה (the Amidah prayer) over עֶמְדָּה (position); for ב-ר-ך prefer בָּרוּךְ (blessed) over בְּרֵכָה (pool).",
           "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
           "items": { "$ref": "#/$defs/relatedWord" }
         }
       }
