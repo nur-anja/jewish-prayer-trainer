@@ -1,0 +1,23 @@
+processed/md/menucha_vsimcha.md
+  s_50ab58d9b35210::t_b6f0e195437d9e 26-27,101-102,104,122,200
+scripts/md-to-pdf.mjs
+  s_50ab58d9b35210::t_18487e929d10c9 17,51-57,59,61,64,80-107,111-119,126,141
+  s_50ab58d9b35210::t_393a75fe57263f 58,60,63
+  s_50ab58d9b35210::t_de55a01ed60fff 31-36,39-47,50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "17fadb0d7bbe76629e96cc70f5c1b4a762805ae9",
+  "prompts": {},
+  "sessions": {
+    "s_50ab58d9b35210": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2d92f81d-85bf-4b22-b72a-a31a7b0bea91",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
