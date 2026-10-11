@@ -10,7 +10,7 @@
     "root": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["meaning"],
+      "required": ["meaning", "related"],
       "properties": {
         "meaning": {
           "description": "Core meaning of the root.",

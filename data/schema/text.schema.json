@@ -146,7 +146,7 @@
           "enum": ["aramaic", "greek", "latin", "persian"]
         },
         "notes": {
-          "description": "A form that breaks the usual patterns in a way the other fields can't express. Such details go here rather than being dropped. Most texts need none. Not unusual, so no notes: regular grammar (weak roots, merged prefixes, suffix forms), standard uses of a form (e.g. an infinitive absolute used as a command), allusions and sources.",
+          "description": "A short note on a form that breaks the usual patterns in a way the other fields can't express. Such details go here rather than being dropped. Most texts need none. Not unusual, so no notes: regular grammar (weak roots, merged prefixes, suffix forms), standard uses of a form (e.g. an infinitive absolute used as a command), allusions and sources.",
           "type": "string",
           "minLength": 1
         }

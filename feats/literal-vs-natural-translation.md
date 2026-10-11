@@ -77,3 +77,9 @@ The other 15 lines are already literal enough, or their additions are already br
 ### Open decision
 
 Add the rule as proposed, or with the "only when the meaning differs" tweak?
+
+---
+
+## Lost in the move to the schema
+
+The breakdown skill used to describe the Meaning column as a "**Direct** English translation of the word in context". When the rules moved into the schema, `word.meaning` in `data/schema/text.schema.json` became just "Meaning of the word in this context.", dropping the one word that asked for a literal translation. Restore it, or replace it with the wording of this rule, when the rule is adopted.
