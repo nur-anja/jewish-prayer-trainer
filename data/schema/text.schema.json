@@ -136,7 +136,7 @@
           "const": true
         },
         "notes": {
-          "description": "Grammar of this part that the other fields can't express, e.g. \"Aramaic\", \"used as imperative\", \"construct form\" for an infinitive, \"pausal form\". The fields above are the minimum, not the limit: a detail with no field goes here rather than being dropped. Always shown, after the grammar label.",
+          "description": "An unusual form the other fields can't express, e.g. \"Aramaic\", \"used as imperative\", \"construct form\" for an infinitive. Such details go here rather than being dropped; regular grammar and allusions don't belong here. Always shown, after the grammar label.",
           "type": "string",
           "minLength": 1
         }
