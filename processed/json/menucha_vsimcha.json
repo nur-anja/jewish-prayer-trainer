@@ -63,7 +63,8 @@
                 {
                   "hebrew": "לַ־",
                   "meaning": "for the",
-                  "pos": "preposition"
+                  "pos": "preposition",
+                  "notes": "לְ־ + הַ־ merged; the ה drops"
                 },
                 {
                   "hebrew": "יְהוּדִים",
@@ -105,7 +106,8 @@
                   "meaning": "complete rest",
                   "pos": "noun",
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "intensive form of שַׁבָּת"
                 }
               ],
               "root": "ש-ב-ת"
@@ -165,7 +167,8 @@
                   "pos": "pronoun-suffix",
                   "gender": "masc",
                   "number": "sg",
-                  "person": 3
+                  "person": 3,
+                  "notes": "suffix form used on plural nouns; refers to Shabbat"
                 }
               ],
               "root": "ש-מ-ר"
@@ -195,7 +198,8 @@
                   "pos": "pronoun-suffix",
                   "gender": "masc",
                   "number": "sg",
-                  "person": 3
+                  "person": 3,
+                  "notes": "suffix form used on plural nouns; refers to Shabbat"
                 }
               ],
               "root": "ז-כ-ר"
@@ -210,7 +214,8 @@
                   "pos": "pronoun",
                   "gender": "masc",
                   "number": "pl",
-                  "person": 3
+                  "person": 3,
+                  "notes": "long, poetic form of הֵם"
                 }
               ]
             },
@@ -225,7 +230,8 @@
                   "binyan": "hifil",
                   "form": "present",
                   "gender": "masc",
-                  "number": "pl"
+                  "number": "pl",
+                  "notes": "hollow root: the middle ו drops"
                 }
               ],
               "root": "ע-ו-ד"
@@ -259,7 +265,8 @@
                 {
                   "hebrew": "שִׁשָּׁה",
                   "meaning": "six",
-                  "pos": "numeral"
+                  "pos": "numeral",
+                  "notes": "form used with masculine nouns despite its ־ָה ending; the implied noun is יָמִים, days"
                 }
               ],
               "root": "ש-ש-ש"
@@ -335,7 +342,8 @@
                   "pos": "noun",
                   "gender": "masc",
                   "number": "pl",
-                  "construct": true
+                  "construct": true,
+                  "notes": "noun in construct with itself = superlative: \"the highest heavens\""
                 }
               ]
             },
@@ -348,7 +356,8 @@
                   "meaning": "heaven",
                   "pos": "noun",
                   "gender": "masc",
-                  "number": "pl"
+                  "number": "pl",
+                  "notes": "always plural in form"
                 }
               ]
             },
@@ -361,7 +370,8 @@
                   "meaning": "earth, land",
                   "pos": "noun",
                   "gender": "fem",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "feminine without a feminine ending"
                 }
               ],
               "root": "א-ר-ץ"
@@ -401,7 +411,8 @@
                   "pos": "noun",
                   "gender": "masc",
                   "number": "sg",
-                  "construct": true
+                  "construct": true,
+                  "notes": "short form of כֹּל, used in construct"
                 }
               ],
               "root": "כ-ל-ל"
@@ -465,7 +476,8 @@
                   "binyan": "paal",
                   "form": "participle",
                   "gender": "masc",
-                  "number": "pl"
+                  "number": "pl",
+                  "notes": "hollow root: the middle ו drops"
                 }
               ],
               "root": "ר-ו-ם"
@@ -574,7 +586,8 @@
                   "meaning": "Yah",
                   "pos": "name",
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "short form of God's name"
                 }
               ]
             },
@@ -587,7 +600,8 @@
                   "meaning": "the LORD",
                   "pos": "name",
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "written in place of God's four-letter name; read Adonai"
                 }
               ],
               "root": "ה-י-ה"
@@ -602,7 +616,8 @@
                   "pos": "noun",
                   "gender": "masc",
                   "number": "sg",
-                  "construct": true
+                  "construct": true,
+                  "notes": "poetic title for God"
                 }
               ],
               "root": "צ-ו-ר"
@@ -616,7 +631,8 @@
                   "meaning": "worlds",
                   "pos": "noun",
                   "gender": "masc",
-                  "number": "pl"
+                  "number": "pl",
+                  "notes": "the plural also means \"eternity\""
                 }
               ],
               "root": "ע-ל-ם"
@@ -735,7 +751,8 @@
                   "notes": "used as imperative"
                 }
               ],
-              "root": "ש-מ-ר"
+              "root": "ש-מ-ר",
+              "notes": "Quotes Deuteronomy 5:12: שָׁמוֹר אֶת יוֹם הַשַּׁבָּת"
             },
             {
               "hebrew": "לְקַדְּשׁוֹ",
@@ -746,7 +763,8 @@
                   "meaning": "to sanctify",
                   "pos": "verb",
                   "binyan": "piel",
-                  "form": "infinitive"
+                  "form": "infinitive",
+                  "notes": "construct form"
                 },
                 {
                   "hebrew": "־וֹ",
@@ -754,7 +772,8 @@
                   "pos": "pronoun-suffix",
                   "gender": "masc",
                   "number": "sg",
-                  "person": 3
+                  "person": 3,
+                  "notes": "object of the infinitive; refers to Shabbat"
                 }
               ],
               "root": "ק-ד-ש"
@@ -782,7 +801,8 @@
                   "pos": "pronoun-suffix",
                   "gender": "masc",
                   "number": "sg",
-                  "person": 3
+                  "person": 3,
+                  "notes": "subject of the infinitive: \"its coming\""
                 }
               ],
               "root": "ב-ו-א"
@@ -813,7 +833,7 @@
                   "pos": "verb",
                   "binyan": "paal",
                   "form": "infinitive",
-                  "notes": "construct form"
+                  "notes": "construct form; the root's first letter י drops"
                 },
                 {
                   "hebrew": "־וֹ",
@@ -821,7 +841,8 @@
                   "pos": "pronoun-suffix",
                   "gender": "masc",
                   "number": "sg",
-                  "person": 3
+                  "person": 3,
+                  "notes": "subject of the infinitive: \"its going out\""
                 }
               ],
               "root": "י-צ-א"
@@ -856,7 +877,8 @@
                   "meaning": "holiness",
                   "pos": "noun",
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "noun used as an adjective: \"Sabbath of holiness\" = \"holy Sabbath\""
                 }
               ],
               "root": "ק-ד-ש"
@@ -961,7 +983,8 @@
                   "meaning": "God",
                   "pos": "name",
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "short, poetic name of God"
                 }
               ]
             },
@@ -980,7 +1003,8 @@
                   "pos": "noun",
                   "gender": "masc",
                   "number": "sg",
-                  "construct": true
+                  "construct": true,
+                  "notes": "short form of כֹּל, used in construct"
                 }
               ],
               "root": "כ-ל-ל"
@@ -1006,7 +1030,8 @@
                   "number": "sg"
                 }
               ],
-              "root": "ל-א-ך"
+              "root": "ל-א-ך",
+              "notes": "Echoes Genesis 2:2; מְלָאכָה is also the term for the work forbidden on Shabbat"
             }
           ]
         }
@@ -1061,7 +1086,8 @@
                   "meaning": "God",
                   "pos": "name",
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "short, poetic name of God"
                 }
               ]
             },
@@ -1137,7 +1163,8 @@
                 {
                   "hebrew": "אֶל־",
                   "meaning": "to",
-                  "pos": "preposition"
+                  "pos": "preposition",
+                  "notes": "becomes אֵלָי־ before suffixes"
                 },
                 {
                   "hebrew": "־ָיו",
@@ -1145,7 +1172,8 @@
                   "pos": "pronoun-suffix",
                   "person": 3,
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "suffix form used on plural nouns, taken by אֶל"
                 }
               ]
             },
@@ -1161,7 +1189,8 @@
                   "form": "future",
                   "person": 3,
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "hollow root: the middle ו drops"
                 }
               ],
               "root": "ח-ו-ש"
@@ -1175,7 +1204,8 @@
                   "meaning": "to strengthen",
                   "pos": "verb",
                   "binyan": "piel",
-                  "form": "infinitive"
+                  "form": "infinitive",
+                  "notes": "construct form"
                 },
                 {
                   "hebrew": "־ָךְ",
@@ -1183,7 +1213,8 @@
                   "pos": "pronoun-suffix",
                   "gender": "masc",
                   "number": "sg",
-                  "person": 2
+                  "person": 2,
+                  "notes": "object of the infinitive"
                 }
               ],
               "root": "א-מ-ץ"
@@ -1207,7 +1238,8 @@
                   "construct": true
                 }
               ],
-              "root": "נ-ש-ם"
+              "root": "נ-ש-ם",
+              "notes": "Opening words of the Shabbat-morning prayer Nishmat"
             },
             {
               "hebrew": "כָּל",
@@ -1219,7 +1251,8 @@
                   "pos": "noun",
                   "gender": "masc",
                   "number": "sg",
-                  "construct": true
+                  "construct": true,
+                  "notes": "short form of כֹּל, used in construct"
                 }
               ],
               "root": "כ-ל-ל"
@@ -1276,7 +1309,8 @@
                   "person": 2
                 }
               ],
-              "root": "ע-ר-ץ"
+              "root": "ע-ר-ץ",
+              "notes": "Opening word of the Kedushah (נַעֲרִיצְךָ)"
             }
           ]
         },
@@ -1296,10 +1330,12 @@
                   "form": "imperative",
                   "person": 2,
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "full spelling with ו of the usual אֱכֹל"
                 }
               ],
-              "root": "א-כ-ל"
+              "root": "א-כ-ל",
+              "notes": "Quotes Ecclesiastes 9:7: אֱכֹל בְּשִׂמְחָה … כִּי כְבָר רָצָה"
             },
             {
               "hebrew": "בְּשִׂמְחָה",
@@ -1338,7 +1374,8 @@
                 {
                   "hebrew": "כְּבָר",
                   "meaning": "already",
-                  "pos": "adverb"
+                  "pos": "adverb",
+                  "notes": "written כְ without a dagesh because the previous word ends in a vowel"
                 }
               ]
             },
@@ -1354,7 +1391,8 @@
                   "form": "past",
                   "person": 3,
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "the root's last letter ה drops before the suffix"
                 },
                 {
                   "hebrew": "־ָךְ",
@@ -1395,7 +1433,8 @@
                   "construct": true
                 }
               ],
-              "root": "ש-נ-ה"
+              "root": "ש-נ-ה",
+              "notes": "לֶחֶם מִשְׁנֶה, the two Shabbat loaves (Exodus 16:22)"
             },
             {
               "hebrew": "לֶחֶם",
@@ -1443,7 +1482,8 @@
                   "notes": "Aramaic"
                 }
               ],
-              "root": "ר-ב-ב"
+              "root": "ר-ב-ב",
+              "notes": "קִדּוּשָׁא רַבָּה, the name of the Shabbat-day Kiddush"
             }
           ]
         },
@@ -1499,7 +1539,8 @@
                   "meaning": "spirit",
                   "pos": "noun",
                   "gender": "fem",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "feminine without a feminine ending (hence נְדִיבָה)"
                 }
               ],
               "root": "ר-ו-ח"
@@ -1536,7 +1577,8 @@
                   "form": "future",
                   "person": 3,
                   "gender": "masc",
-                  "number": "pl"
+                  "number": "pl",
+                  "notes": "the root's last letter ה drops"
                 }
               ],
               "root": "ז-כ-ה"
@@ -1581,7 +1623,8 @@
                 {
                   "hebrew": "הַ־",
                   "meaning": "those who",
-                  "pos": "article"
+                  "pos": "article",
+                  "notes": "article on a participle = \"those who\""
                 },
                 {
                   "hebrew": "מִתְעַנְּגִים",
@@ -1610,7 +1653,8 @@
                   "pos": "pronoun-suffix",
                   "gender": "fem",
                   "number": "sg",
-                  "person": 3
+                  "person": 3,
+                  "notes": "refers to Shabbat, treated as feminine here but as masculine earlier in the poem"
                 }
               ]
             }
@@ -1635,7 +1679,8 @@
                   "pos": "noun",
                   "gender": "fem",
                   "number": "sg",
-                  "construct": true
+                  "construct": true,
+                  "notes": "noun form of the verb בּוֹא"
                 }
               ],
               "root": "ב-ו-א"
@@ -1671,7 +1716,8 @@
                   "pos": "noun",
                   "gender": "masc",
                   "number": "pl",
-                  "construct": true
+                  "construct": true,
+                  "notes": "always plural in form (חַיִּים)"
                 }
               ],
               "root": "ח-י-ה"
@@ -1702,7 +1748,8 @@
                 {
                   "hebrew": "הַ־",
                   "meaning": "the",
-                  "pos": "article"
+                  "pos": "article",
+                  "notes": "article on a participle: \"the one coming\" = \"to come\""
                 },
                 {
                   "hebrew": "בָּא",
@@ -1711,7 +1758,8 @@
                   "binyan": "paal",
                   "form": "participle",
                   "gender": "masc",
-                  "number": "sg"
+                  "number": "sg",
+                  "notes": "hollow root: the middle ו drops"
                 }
               ],
               "root": "ב-ו-א"
