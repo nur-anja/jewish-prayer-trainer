@@ -23,8 +23,8 @@
 
 | Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **שׁוֹמְרָיו** | those who keep it | **שׁוֹמְרֵי** - keepers of *(Pa'al, participle, masc. pl. construct)*<br>**־ָיו** - it | **ש-מ-ר** | to guard, to keep | **שָׁמוֹר** - keep<br>**שׁוֹמֵר** - guardian |
-| **וְזוֹכְרָיו** | and those who remember it | **וְ־** - and<br>**זוֹכְרֵי** - rememberers of *(Pa'al, participle, masc. pl. construct)*<br>**־ָיו** - it | **ז-כ-ר** | to remember | **זָכוֹר** - remember<br>**זִכָּרוֹן** - remembrance |
+| **שׁוֹמְרָיו** | those who keep it | **שׁוֹמְרֵי** - keepers of *(Pa'al, participle, masc. pl. construct)*<br>**־ָיו** - it *(masc. sg.)* | **ש-מ-ר** | to guard, to keep | **שָׁמוֹר** - keep<br>**שׁוֹמֵר** - guardian |
+| **וְזוֹכְרָיו** | and those who remember it | **וְ־** - and<br>**זוֹכְרֵי** - rememberers of *(Pa'al, participle, masc. pl. construct)*<br>**־ָיו** - it *(masc. sg.)* | **ז-כ-ר** | to remember | **זָכוֹר** - remember<br>**זִכָּרוֹן** - remembrance |
 | **הֵֽמָּה** | they | **הֵמָּה** - they *(masc. pl.)* | | | |
 | **מְעִידִים** | testify | **מְעִידִים** - testify *(Hif'il, present, masc. pl.)* | **ע-ו-ד** | to witness, to testify | **עֵדֹתֶיךָ** - Your testimonies<br>**עֵד** - witness |
 
@@ -98,10 +98,10 @@
 | Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **שָׁמוֹר** | keep | **שָׁמוֹר** - keep *(Pa'al, infinitive absolute, used as imperative)* | **ש-מ-ר** | to guard, to keep | **וְשָׁמְרוּ** - and they shall keep<br>**שׁוֹמֵר** - guardian |
-| **לְקַדְּשׁוֹ** | to sanctify it | **לְקַדֵּשׁ** - to sanctify *(Pi'el, infinitive)*<br>**־וֹ** - it | **ק-ד-ש** | holy, to sanctify | **מְקַדֵּשׁ הַשַּׁבָּת** - Who sanctifies the Sabbath<br>**קָדוֹשׁ** - holy |
-| **מִבּוֹאוֹ** | from its coming | **מִ־** - from<br>**בּוֹא** - coming *(Pa'al, infinitive construct)*<br>**־וֹ** - its | **ב-ו-א** | to come | **בּוֹאִי** - come<br>**וּבָא** - and will come |
+| **לְקַדְּשׁוֹ** | to sanctify it | **לְקַדֵּשׁ** - to sanctify *(Pi'el, infinitive)*<br>**־וֹ** - it *(masc. sg.)* | **ק-ד-ש** | holy, to sanctify | **מְקַדֵּשׁ הַשַּׁבָּת** - Who sanctifies the Sabbath<br>**קָדוֹשׁ** - holy |
+| **מִבּוֹאוֹ** | from its coming | **מִ־** - from<br>**בּוֹא** - coming *(Pa'al, infinitive construct)*<br>**־וֹ** - its *(masc. sg.)* | **ב-ו-א** | to come | **בּוֹאִי** - come<br>**וּבָא** - and will come |
 | **וְעַד** | and until | **וְ־** - and<br>**עַד** - until | | | |
-| **צֵאתוֹ** | its departure | **צֵאת** - going out *(Pa'al, infinitive construct)*<br>**־וֹ** - its | **י-צ-א** | to go out | **יְצִיאַת מִצְרַיִם** - the Exodus from Egypt<br>**הַמּוֹצִיא** - Who brings forth |
+| **צֵאתוֹ** | its departure | **צֵאת** - going out *(Pa'al, infinitive construct)*<br>**־וֹ** - its *(masc. sg.)* | **י-צ-א** | to go out | **יְצִיאַת מִצְרַיִם** - the Exodus from Egypt<br>**הַמּוֹצִיא** - Who brings forth |
 
 **שַׁבַּת קֹֽדֶשׁ יוֹם חֶמְדָּתוֹ**
 *The holy Sabbath, the day of His delight*
@@ -119,7 +119,7 @@
 | Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **כִּי** | for | **כִּי** - for | | | |
-| **בוֹ** | on it | **בְּ־** - on<br>**־וֹ** - it | | | |
+| **בוֹ** | on it | **בְּ־** - on<br>**־וֹ** - it *(masc. sg.)* | | | |
 | **שָֽׁבַת** | rested | **שָׁבַת** - He rested *(Pa'al, past, 3rd masc. sg.)* | **ש-ב-ת** | to cease, to rest | **שַׁבָּת** - Sabbath<br>**וַיִּשְׁבֹּת** - and He rested |
 | **אֵל** | God | **אֵל** - God *(proper noun, masc. sg.)* | | | |
 | **מִכָּל** | from all | **מִ־** - from<br>**כָּל** - all of *(noun, masc. sg. construct)* | **כ-ל-ל** | whole, all, to include | **הַכֹּל** - everything<br>**כָּלִיל** - complete |
@@ -197,7 +197,7 @@
 | **לְרַב** | to much | **לְ־** - to<br>**רַב** - much, great *(adjective, masc. sg.)* | **ר-ב-ב** | many, great | **רַב חֶסֶד** - abundant in kindness<br>**רִבּוֹן** - Master |
 | **טוּב** | good | **טוּב** - goodness *(noun, masc. sg.)* | **ט-ו-ב** | good | **הַטּוֹב** - the Good One<br>**הַמֵּטִיב** - Who does good |
 | **הַמִּתְעַנְּגִים** | those who delight | **הַ־** - those who<br>**מִתְעַנְּגִים** - delight *(Hitpa'el, participle, masc. pl.)* | **ע-נ-ג** | pleasure, delight | **מְעַנְּגֶיהָ** - those who delight in it<br>**עֹנֶג** - delight |
-| **בָּהּ** | in it | **בְּ־** - in<br>**־ָהּ** - it | | | |
+| **בָּהּ** | in it | **בְּ־** - in<br>**־ָהּ** - it *(fem. sg.)* | | | |
 
 **בְּבִיאַת גּוֹאֵל לְחַיֵּי הָעוֹלָם הַבָּא**
 *With the coming of the Redeemer, for the life of the World to Come*

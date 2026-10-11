@@ -14,6 +14,7 @@ import { marked } from "marked";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const MD_DIR = join(ROOT, "processed", "md");
 const PDF_DIR = join(ROOT, "processed", "pdf");
+const TEXTS_DIR = join(ROOT, "texts");
 const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
 const HEBREW = /[֐-׿]/;
@@ -27,17 +28,40 @@ body {
   background: #fff;
 }
 h1 { font-size: 20pt; text-align: center; margin: 0 0 8mm; }
-p.verse {
-  font-size: 18pt;
-  margin: 8mm 0 1mm;
+/* Verse header: Hebrew on the left, translation on the right, meeting in the middle. */
+div.verse-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8mm;
+  margin: 8mm 0 3mm;
   break-after: avoid;
 }
-p.translation {
+div.verse-row .verse {
+  flex: 1;
+  direction: rtl;
+  text-align: right;
+  font-size: 18pt;
+  margin: 0;
+}
+div.verse-row .translation {
+  flex: 1;
   font-size: 12pt;
   color: #444;
-  margin: 0 0 3mm;
-  break-after: avoid;
+  margin: 0;
 }
+/* Whole text up front: Hebrew left, translation right, then the breakdown starts on a new page. */
+section.full-text { break-after: page; }
+.full-text .stanza {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8mm;
+  row-gap: 0.5mm;
+  align-items: baseline;
+  margin-bottom: 4mm;
+  break-inside: avoid;
+}
+.full-text .he { direction: rtl; text-align: right; font-size: 15pt; }
+.full-text .en { font-size: 12pt; font-style: italic; color: #444; }
 table { width: 100%; border-collapse: collapse; margin-bottom: 4mm; }
 th, td { border: 1px solid #bbb; padding: 4px 6px; vertical-align: top; }
 th { background: #f0ece4; font-size: 10pt; text-align: left; }
@@ -53,22 +77,53 @@ td:nth-child(4) { width: 9%; }
 td:nth-child(5) { width: 14%; }
 `;
 
-function toHtml(markdown, title) {
+// Line counts of each stanza in texts/<name>.txt (stanzas are separated by blank lines), or null.
+function stanzaSizes(name) {
+  const file = join(TEXTS_DIR, `${name}.txt`);
+  if (!existsSync(file)) return null;
+  return readFileSync(file, "utf8")
+    .trim()
+    .split(/\n\s*\n/)
+    .map((stanza) => stanza.split("\n").filter((line) => line.trim()).length);
+}
+
+function fullText(verses, sizes) {
+  // Fall back to a single block if the source stanzas don't line up with the breakdown.
+  const total = sizes?.reduce((a, b) => a + b, 0);
+  if (total !== verses.length) sizes = [verses.length];
+
+  let i = 0;
+  const stanzas = sizes.map((size) => {
+    const rows = verses
+      .slice(i, (i += size))
+      .map(({ verse, translation }) => `<div class="he" dir="rtl">${verse}</div><div class="en">${translation}</div>`)
+      .join("");
+    return `<div class="stanza">${rows}</div>`;
+  });
+  return `<section class="full-text">${stanzas.join("")}</section>`;
+}
+
+function toHtml(markdown, name, title) {
+  const verses = [];
   let body = marked.parse(markdown);
   // A bold Hebrew line is a verse header; the italic line right after it is its translation.
   body = body.replace(
-    /<p>(<strong>[^<]*<\/strong>)\s*(<em>[^<]*<\/em>)?<\/p>/g,
-    (m, verse, translation) =>
-      HEBREW.test(verse)
-        ? `<p class="verse" dir="rtl">${verse}</p>` + (translation ? `<p class="translation">${translation}</p>` : "")
-        : m,
+    /<p><strong>([^<]*)<\/strong>\s*(?:<em>([^<]*)<\/em>)?<\/p>/g,
+    (m, verse, translation = "") => {
+      if (!HEBREW.test(verse)) return m;
+      verses.push({ verse, translation });
+      return (
+        `<div class="verse-row"><p class="verse" dir="rtl"><strong>${verse}</strong></p>` +
+        `<p class="translation"><em>${translation}</em></p></div>`
+      );
+    },
   );
 
   return `<!doctype html>
 <html><head><meta charset="utf-8"><title>${title}</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;700&display=block">
 <style>${CSS}</style></head>
-<body><h1>${title}</h1>${body}</body></html>`;
+<body><h1>${title}</h1>${fullText(verses, stanzaSizes(name))}${body}</body></html>`;
 }
 
 function titleFrom(file) {
@@ -83,7 +138,7 @@ function convert(mdFile, workDir) {
   const htmlFile = join(workDir, `${name}.html`);
   const pdfFile = join(PDF_DIR, `${name}.pdf`);
 
-  writeFileSync(htmlFile, toHtml(readFileSync(mdFile, "utf8"), titleFrom(mdFile)));
+  writeFileSync(htmlFile, toHtml(readFileSync(mdFile, "utf8"), name, titleFrom(mdFile)));
   execFileSync(
     CHROME,
     [
