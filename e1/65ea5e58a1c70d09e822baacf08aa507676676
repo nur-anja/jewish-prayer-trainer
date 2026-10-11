@@ -1,0 +1,25 @@
+processed/json/menucha_vsimcha.json
+  s_70fc9338b35789::t_b87afbd00c995f 749-750,1179-1180
+feats/grammar-reference.md
+  s_70fc9338b35789::t_d271c9bdf854cc 1-19
+data/schema/text.schema.json
+  s_70fc9338b35789::t_590e0372ea17bb 139
+.claude/skills/breakdown/SKILL.md
+  s_70fc9338b35789::t_867d60158800e2 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e165ea5e58a1c70d09e822baacf08aa507676676",
+  "prompts": {},
+  "sessions": {
+    "s_70fc9338b35789": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6cc9d511-aa3a-4d1c-9b56-c9ee0c17acf7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
