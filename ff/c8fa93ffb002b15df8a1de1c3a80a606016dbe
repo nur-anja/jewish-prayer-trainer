@@ -1,0 +1,27 @@
+scripts/json-to-pdf.mjs
+  s_7540c5328f8c47::t_f46090e3b10709 42-45,102-103
+data/schema/text.schema.json
+  s_7540c5328f8c47::t_d709b3c65aa4aa 5,82
+  s_7540c5328f8c47::t_e4d02c0cd36c01 76,93,124,144,148
+.claude/skills/breakdown/SKILL.md
+  s_7540c5328f8c47::t_e4d02c0cd36c01 18
+data/schema/roots.schema.json
+  s_7540c5328f8c47::t_33d3393ba5aae1 21,23-24
+  s_7540c5328f8c47::t_d709b3c65aa4aa 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ffc8fa93ffb002b15df8a1de1c3a80a606016dbe",
+  "prompts": {},
+  "sessions": {
+    "s_7540c5328f8c47": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d9d45eb1-69f4-437c-bdd5-c2baf316e3bf",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
