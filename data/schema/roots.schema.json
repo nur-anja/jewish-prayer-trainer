@@ -18,7 +18,7 @@
           "minLength": 1
         },
         "related": {
-          "description": "1 to 3 common words sharing the root. Prefer, in order: words common in the siddur, then in the Torah, then other common Hebrew words. E.g. for ע-מ-ד prefer עֲמִידָה (the Amidah prayer) over עֶמְדָּה (position); for ב-ר-ך prefer בָּרוּךְ (blessed) over בְּרֵכָה (pool).",
+          "description": "1 to 3 common words sharing the root. Prefer, in order: words common in the siddur, then in the Torah, then other common Hebrew words. E.g. for ע-מ-ד prefer עֲמִידָה (the Amidah prayer) over עֶמְדָּה (position); for ב-ר-ך prefer בָּרוּךְ (blessed) over בְּרֵכָה (pool). Each word appears only once.",
           "type": "array",
           "minItems": 1,
           "maxItems": 3,
