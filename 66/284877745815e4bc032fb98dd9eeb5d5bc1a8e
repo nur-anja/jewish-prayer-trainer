@@ -1,0 +1,35 @@
+data/schema/text.schema.json
+  s_70fc9338b35789::t_96e9ad563b7d95 143
+  s_70fc9338b35789::t_7e0e6a762b6366 127,207
+  s_70fc9338b35789::t_9e1814f9593e50 138-141
+feats/grammar-reference.md
+  s_70fc9338b35789::t_96e9ad563b7d95 11
+processed/json/menucha_vsimcha.json
+  s_70fc9338b35789::t_9b15b54d670cd6 1440
+  s_70fc9338b35789::t_96e9ad563b7d95 734
+  s_70fc9338b35789::t_7e0e6a762b6366 748,775,813,1175
+.claude/skills/breakdown/SKILL.md
+  s_70fc9338b35789::t_9b15b54d670cd6 34
+  s_70fc9338b35789::t_96e9ad563b7d95 35
+  s_70fc9338b35789::t_7e0e6a762b6366 36,43
+scripts/json-to-pdf.mjs
+  s_70fc9338b35789::t_7e0e6a762b6366 48-49,80
+  s_70fc9338b35789::t_9b15b54d670cd6 57-59,84-85,110,112
+  s_70fc9338b35789::t_96e9ad563b7d95 60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "66284877745815e4bc032fb98dd9eeb5d5bc1a8e",
+  "prompts": {},
+  "sessions": {
+    "s_70fc9338b35789": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6cc9d511-aa3a-4d1c-9b56-c9ee0c17acf7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
