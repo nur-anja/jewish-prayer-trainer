@@ -31,7 +31,11 @@
       "additionalProperties": false,
       "required": ["hebrew", "meaning"],
       "properties": {
-        "hebrew": { "type": "string", "minLength": 1 },
+        "hebrew": {
+          "description": "A word, or a short common phrase containing a word with the root, e.g. עַם סְגֻלָּה (treasured people).",
+          "type": "string",
+          "minLength": 1
+        },
         "meaning": { "type": "string", "minLength": 1 }
       }
     }

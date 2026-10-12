@@ -8,11 +8,15 @@
   "required": ["id", "title", "kind", "sections"],
   "properties": {
     "id": {
-      "description": "Matches the file name.",
+      "description": "Matches the file name, which is the input file's name: menucha_vsimcha for texts/menucha_vsimcha.txt.",
       "type": "string",
       "pattern": "^[a-z0-9_]+$"
     },
-    "title": { "type": "string", "minLength": 1 },
+    "title": {
+      "description": "The text's commonly used name, transliterated, e.g. \"Menucha V'simcha\".",
+      "type": "string",
+      "minLength": 1
+    },
     "kind": {
       "description": "poem: each line is a verse. prose: each line is a sentence or pasuk of continuous text.",
       "enum": ["poem", "prose"]
@@ -32,7 +36,7 @@
       "required": ["lines"],
       "properties": {
         "title": {
-          "description": "Name of the section, e.g. \"Avot\" or \"V'ahavta\".",
+          "description": "Name of the section, e.g. \"Avot\" or \"V'ahavta\". Given when the section has a commonly used name; left out otherwise, e.g. for the stanzas of a poem.",
           "type": "string",
           "minLength": 1
         },
@@ -50,7 +54,7 @@
       "required": ["hebrew", "translation", "words"],
       "properties": {
         "hebrew": {
-          "description": "The full line, with nikud.",
+          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃.",
           "type": "string",
           "minLength": 1
         },
@@ -68,14 +72,18 @@
       "additionalProperties": false,
       "required": ["hebrew", "meaning", "parts"],
       "properties": {
-        "hebrew": { "type": "string", "minLength": 1 },
+        "hebrew": {
+          "description": "The word as it appears in the line, without punctuation; a maqaf stays: מְאֹדֶךָ without the ׃ that ends its verse, בְּכָל־ with its maqaf.",
+          "type": "string",
+          "minLength": 1
+        },
         "meaning": {
           "description": "Meaning of the word in this context.",
           "type": "string",
           "minLength": 1
         },
         "parts": {
-          "description": "Prefixes, base word and suffixes, in order, each with its meaning in context. A single entry if the word is not split. Keep the ל of an infinitive with its verb: לְאַמֵּץ (to strengthen) is one infinitive-construct part.",
+          "description": "Prefixes, base word and suffixes, in order, each with its meaning in context. A single entry if the word is not split. Keep the ל of an infinitive with its verb: לְאַמֵּץ (to strengthen) is one infinitive-construct part. A preposition with a merged article is one preposition part with \"the\" in its meaning: לַ־ (for the). A plural noun with a pronoun suffix splits into its construct plural and the full plural suffix, so the shared letters appear in both: אֱלֹהֵינוּ (our God) is אֱלֹהֵי (God of) and ־ֵינוּ (our).",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/part" }
@@ -97,9 +105,18 @@
       "additionalProperties": false,
       "required": ["hebrew", "meaning", "pos"],
       "properties": {
-        "hebrew": { "type": "string", "minLength": 1 },
-        "meaning": { "type": "string", "minLength": 1 },
+        "hebrew": {
+          "description": "Prefixes end with a maqaf and suffixes start with one: וְ־ (and), ־ָיו (his). A base word is written as it stands on its own, undoing changes caused by its prefixes and suffixes (dagesh, vowels, endings); a noun or verb that takes a suffix keeps its construct form. E.g. יְהוּדִים in לַיְּהוּדִים, כָּל־ in וּבְכָל־, שֶׁבֶת in בְּשִׁבְתְּךָ.",
+          "type": "string",
+          "minLength": 1
+        },
+        "meaning": {
+          "description": "A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
+          "type": "string",
+          "minLength": 1
+        },
         "pos": {
+          "description": "The relative אֲשֶׁר (that) and the object marker אֵת are particles; the object marker's meaning is \"(marks the direct object)\".",
           "enum": [
             "noun",
             "verb",
@@ -139,7 +156,7 @@
         "gender": { "enum": ["masc", "fem", "common"] },
         "number": { "enum": ["sg", "pl", "dual"] },
         "construct": {
-          "description": "True if the word is in construct (smichut) form.",
+          "description": "True if the word is in construct (smichut) form. Also true for a noun or participle with a pronoun suffix, since the suffix attaches to the construct form.",
           "const": true
         },
         "language": {
@@ -208,6 +225,11 @@
           "description": "Nouns and adjectives always have gender and number.",
           "if": { "properties": { "pos": { "enum": ["noun", "adjective"] } } },
           "then": { "required": ["gender", "number"] }
+        },
+        {
+          "description": "Numerals have gender.",
+          "if": { "properties": { "pos": { "const": "numeral" } } },
+          "then": { "required": ["gender"] }
         },
         {
           "description": "Past and future verbs have person and number (gender is required except in 1st person, see below).",
