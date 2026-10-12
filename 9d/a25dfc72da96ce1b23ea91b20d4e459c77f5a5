@@ -1,0 +1,21 @@
+processed/json/menucha_vsimcha.json
+  s_9aa228314ffc08::t_deda9160b85c23 9,81,145,237,263-264,327,393,478,551,594,602,632,724,831,904,1017,1095,1193,1217,1283,1376,1450,1523,1619
+processed/json/shema.json
+  s_9aa228314ffc08::t_deda9160b85c23 55,90,99-100,276,359,407,682,899,1063
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "9da25dfc72da96ce1b23ea91b20d4e459c77f5a5",
+  "prompts": {},
+  "sessions": {
+    "s_9aa228314ffc08": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59dfbecb-1bf3-4f5f-ab0d-fab50afbbd29",
+        "model": "unknown"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
