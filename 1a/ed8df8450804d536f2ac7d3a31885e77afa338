@@ -1,0 +1,19 @@
+scripts/json-to-pdf.mjs
+  s_b33d5dd5c143f8::t_ee215843396914 144
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "1aed8df8450804d536f2ac7d3a31885e77afa338",
+  "prompts": {},
+  "sessions": {
+    "s_b33d5dd5c143f8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "06272201-e099-4999-9b20-1be413239558",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
