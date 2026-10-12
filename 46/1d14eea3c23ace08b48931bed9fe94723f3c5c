@@ -1,0 +1,32 @@
+.claude/skills/breakdown/SKILL.md
+  s_3c825a8ae8c6cf::t_99cbc420499120 20
+.claude/skills/batch-process-text/SKILL.md
+  s_3c825a8ae8c6cf::t_99cbc420499120 18
+scripts/render/kindle.mjs
+  s_3c825a8ae8c6cf::t_99cbc420499120 1-46,48-58,60-129
+  s_3c825a8ae8c6cf::t_826af4c4fcc512 47,59
+scripts/render/index.mjs
+  s_3c825a8ae8c6cf::t_99cbc420499120 1-13
+scripts/render/common.mjs
+  s_3c825a8ae8c6cf::t_99cbc420499120 1-3,11,111,114-115,117-118,123-124,127,130-131,133,135-136,140-158,160-175,178
+package.json
+  s_3c825a8ae8c6cf::t_99cbc420499120 6
+scripts/render/a4.mjs
+  s_3c825a8ae8c6cf::t_99cbc420499120 1-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "461d14eea3c23ace08b48931bed9fe94723f3c5c",
+  "prompts": {},
+  "sessions": {
+    "s_3c825a8ae8c6cf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d7b12e98-6ad1-436d-95a1-69939be04788",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
