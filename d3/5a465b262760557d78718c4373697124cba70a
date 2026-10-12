@@ -1,0 +1,24 @@
+.claude/skills/breakdown/SKILL.md
+  s_7d1529786d180a::t_104df1d521d469 18
+CLAUDE.md
+  s_7d1529786d180a::t_0f25e8a5488b1e 7-10
+  s_7d1529786d180a::t_2edeee68e18673 1-6
+data/schema/text.schema.json
+  s_7d1529786d180a::t_92f7fd1d1c8f60 83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "d35a465b262760557d78718c4373697124cba70a",
+  "prompts": {},
+  "sessions": {
+    "s_7d1529786d180a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "40e3242e-da18-4f5e-b781-660d4b45bfc5",
+        "model": "unknown"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
