@@ -20,3 +20,5 @@ The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not ap
 Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports. Then render the PDF with `npm run pdf -- processed/json/<id>.json`.
 
 Finally, list the borderline roots in your reply: words where you weren't sure whether a root is commonly taught, whether you kept the root or left it out. Give them as a table with the columns Word, Candidate root, Decision (kept or left out) and Why.
+
+Then list every decision the schemas and this skill don't cover: conventions you copied from existing texts in `processed/json/`, and judgement calls of your own. Also list anything you did that contradicts a rule. For each, say what you did and where, and whether it should become a rule. Leave out plain matters of correct grammar or translation.
