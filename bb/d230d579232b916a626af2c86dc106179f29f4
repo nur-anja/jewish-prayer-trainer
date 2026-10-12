@@ -1,0 +1,21 @@
+.claude/skills/breakdown/SKILL.md
+  s_9aa228314ffc08::t_1327ca7c9036f7 23-24
+feats/normalizing-words.md
+  s_9aa228314ffc08::t_dc1cb52d4c716a 1-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "bbd230d579232b916a626af2c86dc106179f29f4",
+  "prompts": {},
+  "sessions": {
+    "s_9aa228314ffc08": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59dfbecb-1bf3-4f5f-ab0d-fab50afbbd29",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
