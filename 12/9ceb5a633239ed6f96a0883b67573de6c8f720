@@ -1,0 +1,30 @@
+data/schema/text.schema.json
+  s_9aa228314ffc08::t_cf3e521064cfff 39
+  s_9aa228314ffc08::t_db778d465a5162 75-79
+  s_9aa228314ffc08::t_1292aa0856ecab 11
+  s_9aa228314ffc08::t_c78c3e0330526e 15-19
+  s_9aa228314ffc08::t_389530c436c783 57
+  s_9aa228314ffc08::t_54626c24091d6a 86
+  s_9aa228314ffc08::t_7aa54b8670fd9f 159
+  s_9aa228314ffc08::t_bb27b7aced4f2e 230-233
+  s_9aa228314ffc08::t_a573ff8b0e429e 108-117,119
+  s_9aa228314ffc08::t_6970ab5a3029a7 229
+data/schema/roots.schema.json
+  s_9aa228314ffc08::t_b1382609f7af8b 34-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "129ceb5a633239ed6f96a0883b67573de6c8f720",
+  "prompts": {},
+  "sessions": {
+    "s_9aa228314ffc08": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59dfbecb-1bf3-4f5f-ab0d-fab50afbbd29",
+        "model": "unknown"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
