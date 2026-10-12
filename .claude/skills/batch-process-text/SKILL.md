@@ -15,4 +15,4 @@ Name of the text file from the "texts" folder.
 
 Process each input file using the breakdown skill (.claude/skills/breakdown/SKILL.md), with the file name without extension as the `id`. If the output file already exists, overwrite it.
 
-Then render the PDFs with `npm run pdf -- processed/json/<id>.json ...`.
+Then render the PDFs in every layout with `npm run render -- processed/json/<id>.json ...`.

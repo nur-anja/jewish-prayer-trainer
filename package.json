@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "pdf": "node scripts/json-to-pdf.mjs",
+    "render": "node scripts/render/index.mjs",
     "check": "node scripts/check-data.mjs"
   },
   "devDependencies": {

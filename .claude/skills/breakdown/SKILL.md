@@ -17,7 +17,7 @@ A Hebrew text, verse, or prayer.
 
 The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else. Never write the four-letter name in your output, and don't add notes about it: treat יְיָ as the text's own spelling.
 
-Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports. Then render the PDF with `npm run pdf -- processed/json/<id>.json`.
+Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports. Then render the PDFs in every layout with `npm run render -- processed/json/<id>.json`.
 
 Finally, list the borderline roots in your reply: words where you weren't sure whether a root is commonly taught, whether you kept the root or left it out. Give them as a table with the columns Word, Candidate root, Decision (kept or left out) and Why.
 
