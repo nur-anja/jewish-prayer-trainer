@@ -141,7 +141,7 @@ body {
   background: #fff;
 }
 h1 { font-size: 20pt; text-align: center; margin: 0 0 8mm; }
-h2 { font-size: 15pt; margin: 8mm 0 2mm; }
+h2 { font-size: 15pt; text-align: center; margin: 8mm 0 2mm; }
 /* Line header: Hebrew on the left, translation on the right, meeting in the middle. */
 div.verse-row {
   display: flex;
