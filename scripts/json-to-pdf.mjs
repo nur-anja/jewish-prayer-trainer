@@ -141,7 +141,8 @@ body {
   background: #fff;
 }
 h1 { font-size: 20pt; text-align: center; margin: 0 0 8mm; }
-h2 { font-size: 15pt; text-align: center; margin: 8mm 0 2mm; }
+/* Keep a section title on the same page as the start of its section. */
+h2 { font-size: 15pt; text-align: center; margin: 8mm 0 2mm; break-after: avoid; }
 /* Line header: Hebrew on the left, translation on the right, meeting in the middle. */
 div.verse-row {
   display: flex;
