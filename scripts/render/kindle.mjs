@@ -44,7 +44,7 @@ section.full-text { break-after: page; }
 .full-text .stanza { margin-bottom: 4mm; }
 .full-text .pair { margin-bottom: 2mm; break-inside: avoid; }
 .full-text .he { font-size: 14pt; }
-.full-text .en { font-style: italic; margin-top: 1mm; }
+.full-text .en { font-style: italic; margin-top: 1.5mm; }
 /* Line header, kept with its first card. */
 .verse {
   border-top: 1.5pt solid #000;
@@ -56,7 +56,7 @@ section.full-text { break-after: page; }
 }
 h2 + .verse { margin-top: 0; }
 .verse .he { font-size: 15pt; font-weight: bold; }
-.verse .en { font-style: italic; margin-top: 1mm; }
+.verse .en { font-style: italic; margin-top: 1.5mm; }
 /* Word cards, separated by thin rules. */
 .word { padding: 1.5mm 0; border-bottom: 0.5pt solid #888; break-inside: avoid; }
 /* The next line's header has its own rule, so the card before it doesn't need one. */
