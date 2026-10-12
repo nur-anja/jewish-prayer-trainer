@@ -52,8 +52,7 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ],
-              "root": "ה-י-ה"
+              ]
             },
             {
               "hebrew": "אֱלֹהֵינוּ",
@@ -88,8 +87,7 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ],
-              "root": "ה-י-ה"
+              ]
             },
             {
               "hebrew": "אֶחָד",
@@ -98,7 +96,8 @@
                 {
                   "hebrew": "אֶחָד",
                   "meaning": "one",
-                  "pos": "numeral"
+                  "pos": "numeral",
+                  "gender": "masc"
                 }
               ],
               "root": "א-ח-ד"
@@ -274,8 +273,7 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ],
-              "root": "ה-י-ה"
+              ]
             },
             {
               "hebrew": "אֱלֹהֶיךָ",
@@ -358,7 +356,7 @@
                   "pos": "preposition"
                 },
                 {
-                  "hebrew": "כָל־",
+                  "hebrew": "כָּל־",
                   "meaning": "all of",
                   "pos": "noun",
                   "gender": "masc",
@@ -406,7 +404,7 @@
                   "pos": "preposition"
                 },
                 {
-                  "hebrew": "כָל־",
+                  "hebrew": "כָּל־",
                   "meaning": "all of",
                   "pos": "noun",
                   "gender": "masc",
@@ -681,7 +679,7 @@
                   "pos": "conjunction"
                 },
                 {
-                  "hebrew": "דִבַּרְתָּ",
+                  "hebrew": "דִּבַּרְתָּ",
                   "meaning": "you shall speak",
                   "pos": "verb",
                   "binyan": "piel",
@@ -898,7 +896,7 @@
                   "pos": "conjunction"
                 },
                 {
-                  "hebrew": "קְשַׁרְתָּ",
+                  "hebrew": "קָשַׁרְתָּ",
                   "meaning": "you shall bind",
                   "pos": "verb",
                   "binyan": "paal",
@@ -1062,7 +1060,7 @@
                   "pos": "conjunction"
                 },
                 {
-                  "hebrew": "כְתַבְתָּ",
+                  "hebrew": "כָּתַבְתָּ",
                   "meaning": "you shall write",
                   "pos": "verb",
                   "binyan": "paal",

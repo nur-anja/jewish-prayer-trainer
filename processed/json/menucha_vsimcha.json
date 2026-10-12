@@ -6,7 +6,7 @@
     {
       "lines": [
         {
-          "hebrew": "מְנוּחָה וְשִׂמְחָה אוֹר לַיְּהוּדִים",
+          "hebrew": "מְנוּחָה וְשִׂמְחָה אוֹר לַיְּהוּדִים,",
           "translation": "Rest and joy, light for the Jews",
           "words": [
             {
@@ -78,7 +78,7 @@
           ]
         },
         {
-          "hebrew": "יוֹם שַׁבָּתוֹן יוֹם מַחֲמַדִּים",
+          "hebrew": "יוֹם שַׁבָּתוֹן יוֹם מַחֲמַדִּים,",
           "translation": "A day of complete rest, a day of delights",
           "words": [
             {
@@ -142,7 +142,7 @@
           ]
         },
         {
-          "hebrew": "שׁוֹמְרָיו וְזוֹכְרָיו הֵמָּה מְעִידִים",
+          "hebrew": "שׁוֹמְרָיו וְזוֹכְרָיו הֵמָּה מְעִידִים,",
           "translation": "Those who keep it and those who remember it, they testify",
           "words": [
             {
@@ -234,7 +234,7 @@
           ]
         },
         {
-          "hebrew": "כִּי לְשִׁשָּׁה כֹּל בְּרוּאִים וְעוֹמְדִים",
+          "hebrew": "כִּי לְשִׁשָּׁה כֹּל בְּרוּאִים וְעוֹמְדִים.",
           "translation": "That in six [days] all were created and endure",
           "words": [
             {
@@ -260,7 +260,8 @@
                 {
                   "hebrew": "שִׁשָּׁה",
                   "meaning": "six",
-                  "pos": "numeral"
+                  "pos": "numeral",
+                  "gender": "masc"
                 }
               ],
               "root": "ש-ש-ש"
@@ -323,7 +324,7 @@
     {
       "lines": [
         {
-          "hebrew": "שְׁמֵי שָׁמַיִם אֶרֶץ וְיַמִּים",
+          "hebrew": "שְׁמֵי שָׁמַיִם אֶרֶץ וְיַמִּים,",
           "translation": "The highest heavens, earth and seas",
           "words": [
             {
@@ -389,7 +390,7 @@
           ]
         },
         {
-          "hebrew": "כָּל צְבָא מָרוֹם גְּבוֹהִים וְרָמִים",
+          "hebrew": "כָּל צְבָא מָרוֹם גְּבוֹהִים וְרָמִים,",
           "translation": "All the host on high, lofty and exalted",
           "words": [
             {
@@ -474,7 +475,7 @@
           ]
         },
         {
-          "hebrew": "תַּנִּין וְאָדָם וְחַיַּת רְאֵמִים",
+          "hebrew": "תַּנִּין וְאָדָם וְחַיַּת רְאֵמִים,",
           "translation": "The sea monster and man, and the wild beasts",
           "words": [
             {
@@ -547,7 +548,7 @@
           ]
         },
         {
-          "hebrew": "כִּי בְּיָהּ יְיָ צוּר עוֹלָמִים",
+          "hebrew": "כִּי בְּיָהּ יְיָ צוּר עוֹלָמִים.",
           "translation": "For in Yah, the LORD, is the Rock of the worlds",
           "words": [
             {
@@ -590,8 +591,7 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ],
-              "root": "ה-י-ה"
+              ]
             },
             {
               "hebrew": "צוּר",
@@ -599,7 +599,7 @@
               "parts": [
                 {
                   "hebrew": "צוּר",
-                  "meaning": "rock",
+                  "meaning": "rock of",
                   "pos": "noun",
                   "gender": "masc",
                   "number": "sg",
@@ -629,7 +629,7 @@
     {
       "lines": [
         {
-          "hebrew": "הוּא אֲשֶׁר דִּבֶּר לְעַם סְגֻלָּתוֹ",
+          "hebrew": "הוּא אֲשֶׁר דִּבֶּר לְעַם סְגֻלָּתוֹ,",
           "translation": "It is He who spoke to His treasured people",
           "words": [
             {
@@ -721,7 +721,7 @@
           ]
         },
         {
-          "hebrew": "שָׁמוֹר לְקַדְּשׁוֹ מִבּוֹאוֹ וְעַד צֵאתוֹ",
+          "hebrew": "שָׁמוֹר לְקַדְּשׁוֹ מִבּוֹאוֹ וְעַד צֵאתוֹ,",
           "translation": "Keep it, to sanctify it, from its coming until its departure",
           "words": [
             {
@@ -828,7 +828,7 @@
           ]
         },
         {
-          "hebrew": "שַׁבַּת קֹדֶשׁ יוֹם חֶמְדָּתוֹ",
+          "hebrew": "שַׁבַּת קֹדֶשׁ יוֹם חֶמְדָּתוֹ,",
           "translation": "The holy Sabbath, the day of His delight",
           "words": [
             {
@@ -901,7 +901,7 @@
           ]
         },
         {
-          "hebrew": "כִּי בוֹ שָׁבַת אֵל מִכָּל מְלַאכְתּוֹ",
+          "hebrew": "כִּי בוֹ שָׁבַת אֵל מִכָּל מְלַאכְתּוֹ.",
           "translation": "For on it God rested from all His work",
           "words": [
             {
@@ -1014,7 +1014,7 @@
     {
       "lines": [
         {
-          "hebrew": "בְּמִצְוַת שַׁבָּת אֵל יַחֲלִיצָךְ",
+          "hebrew": "בְּמִצְוַת שַׁבָּת אֵל יַחֲלִיצָךְ,",
           "translation": "By the commandment of Shabbat, God will deliver you",
           "words": [
             {
@@ -1092,7 +1092,7 @@
           ]
         },
         {
-          "hebrew": "קוּם קְרָא אֵלָיו יָחִישׁ לְאַמְּצָךְ",
+          "hebrew": "קוּם קְרָא אֵלָיו יָחִישׁ לְאַמְּצָךְ,",
           "translation": "Arise, call out to Him, He will hasten to strengthen you",
           "words": [
             {
@@ -1190,7 +1190,7 @@
           ]
         },
         {
-          "hebrew": "נִשְׁמַת כָּל חַי וְגַם נַעֲרִיצָךְ",
+          "hebrew": "נִשְׁמַת כָּל חַי וְגַם נַעֲרִיצָךְ,",
           "translation": "[Say] \"the soul of every living thing,\" and also \"we will revere You\"",
           "words": [
             {
@@ -1214,7 +1214,7 @@
               "parts": [
                 {
                   "hebrew": "כָּל",
-                  "meaning": "all of, every",
+                  "meaning": "all of",
                   "pos": "noun",
                   "gender": "masc",
                   "number": "sg",
@@ -1280,7 +1280,7 @@
           ]
         },
         {
-          "hebrew": "אֱכוֹל בְּשִׂמְחָה כִּי כְבָר רָצָךְ",
+          "hebrew": "אֱכוֹל בְּשִׂמְחָה כִּי כְבָר רָצָךְ.",
           "translation": "Eat with joy, for He has already favored you",
           "words": [
             {
@@ -1373,7 +1373,7 @@
     {
       "lines": [
         {
-          "hebrew": "בְּמִשְׁנֶה לֶחֶם וְקִדּוּשׁ רַבָּה",
+          "hebrew": "בְּמִשְׁנֶה לֶחֶם וְקִדּוּשׁ רַבָּה,",
           "translation": "With double bread and the great Kiddush",
           "words": [
             {
@@ -1447,7 +1447,7 @@
           ]
         },
         {
-          "hebrew": "בְּרֹב מַטְעַמִּים וְרוּחַ נְדִיבָה",
+          "hebrew": "בְּרֹב מַטְעַמִּים וְרוּחַ נְדִיבָה,",
           "translation": "With many delicacies and a generous spirit",
           "words": [
             {
@@ -1520,7 +1520,7 @@
           ]
         },
         {
-          "hebrew": "יִזְכּוּ לְרַב טוּב הַמִּתְעַנְּגִים בָּהּ",
+          "hebrew": "יִזְכּוּ לְרַב טוּב הַמִּתְעַנְּגִים בָּהּ,",
           "translation": "Those who delight in it will merit great good",
           "words": [
             {
@@ -1616,7 +1616,7 @@
           ]
         },
         {
-          "hebrew": "בְּבִיאַת גּוֹאֵל לְחַיֵּי הָעוֹלָם הַבָּא",
+          "hebrew": "בְּבִיאַת גּוֹאֵל לְחַיֵּי הָעוֹלָם הַבָּא.",
           "translation": "With the coming of the Redeemer, for the life of the World to Come",
           "words": [
             {
