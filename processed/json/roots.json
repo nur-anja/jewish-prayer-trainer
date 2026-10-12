@@ -12,6 +12,19 @@
       }
     ]
   },
+  "א-ה-ב": {
+    "meaning": "to love",
+    "related": [
+      {
+        "hebrew": "אַהֲבָה",
+        "meaning": "love"
+      },
+      {
+        "hebrew": "אוֹהֵב עַמּוֹ יִשְׂרָאֵל",
+        "meaning": "who loves His people Israel"
+      }
+    ]
+  },
   "א-ו-ר": {
     "meaning": "to shine, light",
     "related": [
@@ -25,6 +38,32 @@
       }
     ]
   },
+  "א-ו-ת": {
+    "meaning": "sign; letter",
+    "related": [
+      {
+        "hebrew": "אוֹת הִיא לְעוֹלָם",
+        "meaning": "it is a sign forever"
+      },
+      {
+        "hebrew": "אוֹתִיּוֹת",
+        "meaning": "letters"
+      }
+    ]
+  },
+  "א-ח-ד": {
+    "meaning": "one, to unite",
+    "related": [
+      {
+        "hebrew": "אַחַת",
+        "meaning": "one (fem.)"
+      },
+      {
+        "hebrew": "אַחְדוּת",
+        "meaning": "unity"
+      }
+    ]
+  },
   "א-כ-ל": {
     "meaning": "to eat",
     "related": [
@@ -35,6 +74,19 @@
       {
         "hebrew": "אֹכֶל",
         "meaning": "food"
+      }
+    ]
+  },
+  "א-ל-ה": {
+    "meaning": "God",
+    "related": [
+      {
+        "hebrew": "אֱלֹהִים",
+        "meaning": "God"
+      },
+      {
+        "hebrew": "אֱלֹהֵי אֲבוֹתֵינוּ",
+        "meaning": "God of our fathers"
       }
     ]
   },
@@ -77,6 +129,53 @@
       }
     ]
   },
+  "ב-י-ן": {
+    "meaning": "between; to understand",
+    "related": [
+      {
+        "hebrew": "בִּינָה",
+        "meaning": "understanding"
+      },
+      {
+        "hebrew": "הֲבִינֵנוּ",
+        "meaning": "give us understanding"
+      }
+    ]
+  },
+  "ב-י-ת": {
+    "meaning": "house",
+    "related": [
+      {
+        "hebrew": "בַּיִת",
+        "meaning": "house"
+      },
+      {
+        "hebrew": "בֵּית כְּנֶסֶת",
+        "meaning": "synagogue"
+      },
+      {
+        "hebrew": "בֵּית הַמִּקְדָּשׁ",
+        "meaning": "the Temple"
+      }
+    ]
+  },
+  "ב-נ-ה": {
+    "meaning": "to build; son",
+    "related": [
+      {
+        "hebrew": "בֵּן",
+        "meaning": "son"
+      },
+      {
+        "hebrew": "בְּנֵי יִשְׂרָאֵל",
+        "meaning": "children of Israel"
+      },
+      {
+        "hebrew": "בּוֹנֵה יְרוּשָׁלָיִם",
+        "meaning": "who builds Jerusalem"
+      }
+    ]
+  },
   "ב-ר-א": {
     "meaning": "to create",
     "related": [
@@ -87,6 +186,23 @@
       {
         "hebrew": "בּוֹרֵא",
         "meaning": "Creator"
+      }
+    ]
+  },
+  "ב-ר-ך": {
+    "meaning": "to bless; knee",
+    "related": [
+      {
+        "hebrew": "בְּרָכָה",
+        "meaning": "blessing"
+      },
+      {
+        "hebrew": "בָּרְכוּ",
+        "meaning": "bless!"
+      },
+      {
+        "hebrew": "בָּרוּךְ אַתָּה",
+        "meaning": "blessed are You"
       }
     ]
   },
@@ -129,6 +245,19 @@
       }
     ]
   },
+  "ד-ר-ך": {
+    "meaning": "way, path; to tread",
+    "related": [
+      {
+        "hebrew": "דֶּרֶךְ אֶרֶץ",
+        "meaning": "proper conduct"
+      },
+      {
+        "hebrew": "תְּפִלַּת הַדֶּרֶךְ",
+        "meaning": "the traveler's prayer"
+      }
+    ]
+  },
   "ה-י-ה": {
     "meaning": "to be",
     "related": [
@@ -139,6 +268,19 @@
       {
         "hebrew": "יִהְיֶה",
         "meaning": "will be"
+      }
+    ]
+  },
+  "ה-ל-ך": {
+    "meaning": "to walk, to go",
+    "related": [
+      {
+        "hebrew": "הֲלָכָה",
+        "meaning": "Jewish law"
+      },
+      {
+        "hebrew": "הוֹלֵךְ",
+        "meaning": "walks, goes"
       }
     ]
   },
@@ -294,6 +436,32 @@
       }
     ]
   },
+  "י-ש-ב": {
+    "meaning": "to sit, to dwell",
+    "related": [
+      {
+        "hebrew": "יוֹשְׁבֵי בֵיתֶךָ",
+        "meaning": "those who dwell in Your house"
+      },
+      {
+        "hebrew": "יְשִׁיבָה",
+        "meaning": "yeshiva"
+      }
+    ]
+  },
+  "כ-ב-ד": {
+    "meaning": "heavy; honor, glory",
+    "related": [
+      {
+        "hebrew": "כָּבוֹד",
+        "meaning": "honor, glory"
+      },
+      {
+        "hebrew": "כַּבֵּד אֶת אָבִיךָ",
+        "meaning": "honor your father"
+      }
+    ]
+  },
   "כ-ל-ל": {
     "meaning": "whole, all, to include",
     "related": [
@@ -304,6 +472,19 @@
       {
         "hebrew": "כָּלִיל",
         "meaning": "complete"
+      }
+    ]
+  },
+  "כ-ת-ב": {
+    "meaning": "to write",
+    "related": [
+      {
+        "hebrew": "כְּתוּבָּה",
+        "meaning": "marriage contract"
+      },
+      {
+        "hebrew": "וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים",
+        "meaning": "inscribe us in the book of life"
       }
     ]
   },
@@ -320,12 +501,51 @@
       }
     ]
   },
+  "ל-ב-ב": {
+    "meaning": "heart",
+    "related": [
+      {
+        "hebrew": "לֵב",
+        "meaning": "heart"
+      },
+      {
+        "hebrew": "לִבֵּנוּ",
+        "meaning": "our heart"
+      }
+    ]
+  },
   "ל-ח-ם": {
     "meaning": "bread; to fight",
     "related": [
       {
         "hebrew": "מִלְחָמָה",
         "meaning": "war"
+      }
+    ]
+  },
+  "מ-א-ד": {
+    "meaning": "very, might",
+    "related": [
+      {
+        "hebrew": "מְאֹד",
+        "meaning": "very"
+      }
+    ]
+  },
+  "מ-ל-ך": {
+    "meaning": "to reign, king",
+    "related": [
+      {
+        "hebrew": "מֶלֶךְ",
+        "meaning": "king"
+      },
+      {
+        "hebrew": "מַלְכוּת",
+        "meaning": "kingdom"
+      },
+      {
+        "hebrew": "אָבִינוּ מַלְכֵּנוּ",
+        "meaning": "our Father, our King"
       }
     ]
   },
@@ -352,6 +572,19 @@
       {
         "hebrew": "מָנוֹחַ",
         "meaning": "resting place"
+      }
+    ]
+  },
+  "נ-פ-ש": {
+    "meaning": "soul, life; to rest",
+    "related": [
+      {
+        "hebrew": "נֶפֶשׁ",
+        "meaning": "soul, life"
+      },
+      {
+        "hebrew": "וַיִּנָּפַשׁ",
+        "meaning": "and He was refreshed"
       }
     ]
   },
@@ -387,6 +620,23 @@
       {
         "hebrew": "עֵד",
         "meaning": "witness"
+      }
+    ]
+  },
+  "ע-י-ן": {
+    "meaning": "eye; spring",
+    "related": [
+      {
+        "hebrew": "עַיִן",
+        "meaning": "eye"
+      },
+      {
+        "hebrew": "וְתֶחֱזֶינָה עֵינֵינוּ",
+        "meaning": "may our eyes behold"
+      },
+      {
+        "hebrew": "מַעְיָן",
+        "meaning": "spring"
       }
     ]
   },
@@ -537,6 +787,15 @@
       }
     ]
   },
+  "ק-ש-ר": {
+    "meaning": "to tie, to bind",
+    "related": [
+      {
+        "hebrew": "קֶשֶׁר",
+        "meaning": "knot, connection"
+      }
+    ]
+  },
   "ר-א-ם": {
     "meaning": "wild ox",
     "related": [
@@ -623,6 +882,19 @@
       }
     ]
   },
+  "ש-כ-ב": {
+    "meaning": "to lie down",
+    "related": [
+      {
+        "hebrew": "הַשְׁכִּיבֵנוּ",
+        "meaning": "lay us down"
+      },
+      {
+        "hebrew": "מִשְׁכָּב",
+        "meaning": "bed"
+      }
+    ]
+  },
   "ש-מ-ח": {
     "meaning": "to rejoice",
     "related": [
@@ -633,6 +905,19 @@
       {
         "hebrew": "שָׂמֵחַ",
         "meaning": "happy"
+      }
+    ]
+  },
+  "ש-מ-ע": {
+    "meaning": "to hear",
+    "related": [
+      {
+        "hebrew": "שְׁמַע קוֹלֵנוּ",
+        "meaning": "hear our voice"
+      },
+      {
+        "hebrew": "שׁוֹמֵעַ תְּפִלָּה",
+        "meaning": "who hears prayer"
       }
     ]
   },
@@ -663,6 +948,41 @@
       {
         "hebrew": "מִשְׁנָה",
         "meaning": "Mishnah"
+      }
+    ]
+  },
+  "ש-נ-ן": {
+    "meaning": "to sharpen; to teach by repetition",
+    "related": [
+      {
+        "hebrew": "שֵׁן",
+        "meaning": "tooth"
+      },
+      {
+        "hebrew": "שָׁנוּן",
+        "meaning": "sharp"
+      }
+    ]
+  },
+  "ש-ע-ר": {
+    "meaning": "gate",
+    "related": [
+      {
+        "hebrew": "שַׁעַר",
+        "meaning": "gate"
+      },
+      {
+        "hebrew": "שַׁעֲרֵי שָׁמַיִם",
+        "meaning": "gates of heaven"
+      }
+    ]
+  },
+  "ש-ר-ה": {
+    "meaning": "to struggle, to strive",
+    "related": [
+      {
+        "hebrew": "כִּי שָׂרִיתָ",
+        "meaning": "for you have striven"
       }
     ]
   },
