@@ -15,4 +15,4 @@ A Hebrew text, verse, or prayer.
 - The text as JSON in `processed/json/<id>.json`, matching `data/schema/text.schema.json`.
 - Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet; reuse existing entries as they are.
 
-Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports.
+Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports. Then render the PDF with `npm run pdf -- processed/json/<id>.json`.

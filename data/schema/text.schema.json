@@ -80,7 +80,7 @@
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into processed/json/roots.json. Left out for words without a root.",
+          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root, e.g. particles, two-letter words and names or loanwords of disputed origin.",
           "$ref": "#/$defs/root"
         },
         "notes": {
