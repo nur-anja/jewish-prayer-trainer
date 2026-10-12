@@ -56,6 +56,7 @@
         },
         "translation": { "type": "string", "minLength": 1 },
         "words": {
+          "description": "Words joined by a maqaf are separate words, each with its own root; the maqaf stays on the first: בְּכָל־לְבָבְךָ is בְּכָל־ (with all of) and לְבָבְךָ (your heart).",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/word" }
@@ -80,7 +81,7 @@
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root, e.g. particles, two-letter words and names or loanwords of disputed origin.",
+          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root. When in doubt, leave it out.",
           "$ref": "#/$defs/root"
         },
         "notes": {
