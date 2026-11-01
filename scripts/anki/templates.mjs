@@ -45,7 +45,7 @@ const CSS = `
 .details strong { font-size: 24px; }
 .parts div, .related div, .words div { padding-left: 1em; text-indent: -1em; }
 .root, .related, .words { margin-top: 6px; }
-.related, .words { border-left: 2px solid var(--rule); padding-left: 8px; font-size: 18px; }
+.related, .words { font-size: 18px; }
 .heading { font-size: 14px; color: var(--dim); }
 .details .heading { margin-top: 10px; }
 em { color: var(--dim); }
