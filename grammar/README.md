@@ -2,6 +2,8 @@
 
 Most Hebrew words are built from a small set of prefixes, suffixes and templates. Learning them lets you look at a word and see how it's built from its root, without studying binyanim first.
 
+Roots are written without nikkud, since a root is just its letters.
+
 ## Topics
 
 - [Prefix letters (Moshe ve-Khalev)](prefix-letters.md)
@@ -22,14 +24,13 @@ Most Hebrew words are built from a small set of prefixes, suffixes and templates
 
 ## A full peel, step by step
 
-| Step | Hebrew | What happened |
+| Step | Hebrew | Meaning |
 |---|---|---|
-| Word | ובמצותיו | u-ve-mitzvotav, "and in his commandments" |
-| Strip "and" + "in" | מצותיו | |
-| Strip "his" | מצות | |
-| Strip plural | מצו | |
-| Strip noun mem | צו | two letters left, so a weak letter dropped out |
-| Root | צוה | command |
+| Word | וּבְמִצְוֹתָיו | and in his commandments |
+| Strip "and" + "in" | מִצְוֹתָיו | his commandments |
+| Strip "his" | מִצְוֹת | commandments |
+| Back to singular | מִצְוָה | commandment |
+| Strip noun mem | צוה | root: command |
 
 Once these feel familiar, binyanim come easily. They are just more templates, like the mem and tav patterns in [nouns](nouns.md).
 

@@ -1,37 +1,44 @@
 # Prefix letters (Moshe ve-Khalev)
 
-Some short words are written as a single letter attached to the front of the next word. The mnemonic is "Moshe ve-Khalev" (Moses and Caleb), which spells out most of them.
+Some short words are written as a single letter attached to the front of the next word. The mnemonic "Moses and Caleb" spells out most of them:
 
-| Prefix | Meaning | Example | Transliteration | Translation |
-|---|---|---|---|---|
-| ו | and | ואהבת | ve-ahavta | and you shall love |
-| ב | in, with | בכל | be-khol | with all |
-| ל | to, for | לעולם | le-olam | forever (to the world) |
-| כ | like, as | כמוך | kamokha | like you |
-| מ | from | מעולם | me-olam | from eternity |
-| ה | the | הגדול | ha-gadol | the great |
-| ש | that, who | שעשה | she-asah | who made |
+| Mnemonic | Meaning |
+|---|---|
+| מֹשֶׁה וְכָלֵב | Moses and Caleb |
+
+| Prefix | Meaning | Example | Translation |
+|---|---|---|---|
+| וְ | and | וְאָהַבְתָּ | and you shall love |
+| בְּ | in, with | בְּכָל | with all |
+| לְ | to, for | לְעוֹלָם | forever (to the world) |
+| כְּ | like, as | כָּמוֹךָ | like you |
+| מִ | from | מֵעוֹלָם | from eternity |
+| הַ | the | הַגָּדוֹל | the great |
+| שֶׁ | that, who | שֶׁעָשָׂה | who made |
+
+The vowel under the prefix shifts depending on the next letter, but the letter stays the same.
 
 ## Stacking
 
 Prefixes can stack. "And" always comes first.
 
-| Example | Transliteration | Breakdown |
-|---|---|---|
-| ובכל | u-ve-khol | and + in + all |
+| Example | Breakdown |
+|---|---|
+| וּבְכָל | and + in + all |
 
 ## "The" hiding inside in, to, like
 
-After the "in", "to" and "like" prefixes, the he of "the" drops out. Only the vowel shows it was there, so without vowels you can't always tell "in a" from "in the".
+After the "in", "to" and "like" prefixes, the he of "the" drops out. Only its vowel stays, usually a patach, so the vowel under the prefix tells you "the" is there:
 
-| Example | Transliteration | Translation |
-|---|---|---|
-| בשמים | ba-shamayim | in the heavens |
+| Example | Translation |
+|---|---|
+| בְּשָׁמַיִם | in heaven (no "the") |
+| בַּשָּׁמַיִם | in the heavens |
 
 ## Watch out
 
 A word starting with one of these letters doesn't always have a prefix. The letter may be part of the root, as in the word for king below. Strip a letter only if what's left is a real word.
 
-| Example | Transliteration | Translation |
-|---|---|---|
-| מלך | melekh | king (the mem is part of the root) |
+| Example | Translation |
+|---|---|
+| מֶלֶךְ | king (the mem is part of the root) |

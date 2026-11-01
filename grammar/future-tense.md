@@ -1,36 +1,40 @@
 # Future tense (eitan)
 
-In the future tense, a prefix letter shows who does the action. There are four of them. The mnemonic is the word "eitan" (aleph, yod, tav, nun).
+In the future tense, a prefix letter shows who does the action. There are four of them, and together they spell the name Eitan:
 
-| Prefix | Who | Example | Transliteration | Translation |
-|---|---|---|---|---|
-| א | I | אברך | avarekh | I will bless |
-| י | he, they | ימלך | yimlokh | he will reign |
-| ת | you, she | תשמע | tishma | you will hear |
-| נ | we | נברך | nevarekh | we will bless |
+| Mnemonic | Meaning |
+|---|---|
+| אֵיתָן | Eitan (also "strong, steadfast") |
+
+| Prefix | Who | Example | Translation |
+|---|---|---|---|
+| א | I | אֲבָרֵךְ | I will bless |
+| י | he, they | יִמְלֹךְ | he will reign |
+| ת | you, she | תִּשְׁמַע | you will hear |
+| נ | we | נְבָרֵךְ | we will bless |
 
 "You" plural and "they" also add a vav at the end, for example "they will say":
 
-| Example | Transliteration | Translation |
-|---|---|---|
-| יאמרו | yomru | they will say |
+| Example | Translation |
+|---|---|
+| יֹאמְרוּ | they will say |
 
 ## Future as a wish
 
 In prayers, the future often reads as a wish ("may it…", "let…"):
 
-| Example | Transliteration | Translation |
-|---|---|---|
-| יתגדל | yitgadal | may it be magnified (Kaddish) |
-| ויתקדש | ve-yitkadash | and may it be sanctified |
+| Example | Translation |
+|---|---|
+| יִתְגַּדַּל | may it be magnified (Kaddish) |
+| וְיִתְקַדַּשׁ | and may it be sanctified |
 
 ## "And" that flips to the past
 
-In biblical narrative, a vav before a future form often turns it into past tense. This is common in verses quoted in prayers:
+In biblical narrative, a vav before a future form often turns it into past tense. This is common in verses quoted in prayers. The vav usually has a patach, and the next letter a dagesh:
 
-| Example | Transliteration | Translation |
-|---|---|---|
-| ויאמר | va-yomer | and he said |
+| Example | Translation |
+|---|---|
+| וַיֹּאמֶר | and he said |
 
 ## Watch out
 
