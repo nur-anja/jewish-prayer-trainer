@@ -8,13 +8,13 @@ Some short words are written as a single letter attached to the front of the nex
 
 | Prefix | Meaning | Example | Translation |
 |---|---|---|---|
-| וְ | and | וְאָהַבְתָּ | and you shall love |
-| בְּ | in, with | בְּכָל | with all |
-| לְ | to, for | לְעוֹלָם | forever (to the world) |
-| כְּ | like, as | כָּמוֹךָ | like you |
-| מִ | from | מֵעוֹלָם | from eternity |
-| הַ | the | הַגָּדוֹל | the great |
-| שֶׁ | that, who | שֶׁעָשָׂה | who made |
+| וְ | and | <b style="color:red">וְ</b>אָהַבְתָּ | and you shall love |
+| בְּ | in, with | <b style="color:red">בְּ</b>כָל | with all |
+| לְ | to, for | <b style="color:red">לְ</b>עוֹלָם | forever (to the world) |
+| כְּ | like, as | <b style="color:red">כָּ</b>מוֹךָ | like you |
+| מִ | from | <b style="color:red">מֵ</b>עוֹלָם | from eternity |
+| הַ | the | <b style="color:red">הַ</b>גָּדוֹל | the great |
+| שֶׁ | that, who | <b style="color:red">שֶׁ</b>עָשָׂה | who made |
 
 The vowel under the prefix shifts depending on the next letter, but the letter stays the same.
 
@@ -24,7 +24,7 @@ Prefixes can stack. "And" always comes first.
 
 | Example | Breakdown |
 |---|---|
-| וּבְכָל | and + in + all |
+| <b style="color:red">וּבְ</b>כָל | and + in + all |
 
 ## "The" hiding inside in, to, like
 
@@ -32,8 +32,8 @@ After the "in", "to" and "like" prefixes, the ה of "the" drops out. Only its vo
 
 | Example | Translation |
 |---|---|
-| בְּשָׁמַיִם | in heaven (no "the") |
-| בַּשָּׁמַיִם | in the heavens |
+| <b style="color:red">בְּ</b>שָׁמַיִם | in heaven (no "the") |
+| <b style="color:red">בַּ</b>שָּׁמַיִם | in the heavens |
 
 ## Watch out
 

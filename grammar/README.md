@@ -24,8 +24,8 @@ Most Hebrew words are built from a small set of prefixes, suffixes and templates
 
 | Step | Hebrew | Meaning |
 |---|---|---|
-| Word | וּבְמִצְוֹתָיו | and in his commandments |
-| Strip "and" + "in" | מִצְוֹתָיו | his commandments |
-| Strip "his" | מִצְוֹת | commandments |
-| Back to singular | מִצְוָה | commandment |
+| Word | <b style="color:red">וּבְ</b>מִצְוֹתָיו | and in his commandments |
+| Strip "and" + "in" | מִצְוֹתָ<b style="color:red">יו</b> | his commandments |
+| Strip "his" | מִצְוֹ<b style="color:red">ת</b> | commandments |
+| Back to singular | <b style="color:red">מִ</b>צְוָה | commandment |
 | Strip noun מ | צוה | root: command |

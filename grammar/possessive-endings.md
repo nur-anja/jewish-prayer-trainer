@@ -4,12 +4,12 @@ Instead of a separate word for "my", "your" and so on, Hebrew adds an ending to 
 
 | Suffix | Meaning | Example | Translation |
 |---|---|---|---|
-| ־ִי | my | צוּרִי | my rock |
-| ־ְךָ | your (singular) | לְבָבְךָ | your heart |
-| ־וֹ | his | שְׁמוֹ | his name |
-| ־ֵנוּ | our | אֱלֹהֵינוּ | our God |
-| ־כֶם | your (plural) | אֱלֹהֵיכֶם | your God |
-| ־ָם | their | אֲבוֹתָם | their fathers |
+| ־ִי | my | צוּרִ<b style="color:red">י</b> | my rock |
+| ־ְךָ | your (singular) | לְבָבְ<b style="color:red">ךָ</b> | your heart |
+| ־וֹ | his | שְׁמ<b style="color:red">וֹ</b> | his name |
+| ־ֵנוּ | our | אֱלֹהֵי<b style="color:red">נוּ</b> | our God |
+| ־כֶם | your (plural) | אֱלֹהֵי<b style="color:red">כֶם</b> | your God |
+| ־ָם | their | אֲבוֹתָ<b style="color:red">ם</b> | their fathers |
 
 ## Same endings on prepositions
 
@@ -17,8 +17,8 @@ The same endings attach to small words like "to" and "in":
 
 | Example | Translation |
 |---|---|
-| לָנוּ | to us |
-| בּוֹ | in him, in it |
+| לָ<b style="color:red">נוּ</b> | to us |
+| בּ<b style="color:red">וֹ</b> | in him, in it |
 
 ## Watch out
 

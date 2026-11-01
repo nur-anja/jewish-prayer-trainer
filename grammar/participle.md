@@ -8,19 +8,19 @@ The "o" vowel after the first root letter is often written with a ו:
 
 | Example | Root | Translation |
 |---|---|---|
-| שׁוֹמֵר | שמר | guards, guardian |
-| גּוֹאֵל | גאל | redeems, redeemer |
-| זוֹכֵר | זכר | remembers |
-| זוֹקֵף | זקף | straightens |
+| שׁ<b style="color:red">וֹ</b>מֵר | שמר | guards, guardian |
+| גּ<b style="color:red">וֹ</b>אֵל | גאל | redeems, redeemer |
+| ז<b style="color:red">וֹ</b>כֵר | זכר | remembers |
+| ז<b style="color:red">וֹ</b>קֵף | זקף | straightens |
 
 ## Shape 2: מ prefix
 
 | Example | Root | Translation |
 |---|---|---|
-| מְחַיֵּה | חיה | revives |
-| מַלְבִּישׁ | לבש | clothes |
-| מְקַדֵּשׁ | קדש | sanctifies |
-| מַתִּיר | נתר | releases |
+| <b style="color:red">מְ</b>חַיֵּה | חיה | revives |
+| <b style="color:red">מַ</b>לְבִּישׁ | לבש | clothes |
+| <b style="color:red">מְ</b>קַדֵּשׁ | קדש | sanctifies |
+| <b style="color:red">מַ</b>תִּיר | נתר | releases |
 
 ## Gender and number endings
 
@@ -29,9 +29,9 @@ Participles take the same endings as nouns:
 | Ending | Who | Example | Translation |
 |---|---|---|---|
 | (none) | he | אוֹמֵר | says |
-| ־ֶת | she | אוֹמֶרֶת | says |
-| ־ִים | they (masculine) | אוֹמְרִים | say |
-| ־וֹת | they (feminine) | אוֹמְרוֹת | say |
+| ־ֶת | she | אוֹמֶרֶ<b style="color:red">ת</b> | says |
+| ־ִים | they (masculine) | אוֹמְרִ<b style="color:red">ים</b> | say |
+| ־וֹת | they (feminine) | אוֹמְר<b style="color:red">וֹת</b> | say |
 
 ## Watch out
 
@@ -39,7 +39,7 @@ The מ prefix also forms nouns. The letters can be identical, and only the nikku
 
 | Example | Translation |
 |---|---|
-| מְקַדֵּשׁ | sanctifies (participle) |
-| מִקְדָּשׁ | sanctuary (noun) |
+| <b style="color:red">מְ</b>קַדֵּשׁ | sanctifies (participle) |
+| <b style="color:red">מִ</b>קְדָּשׁ | sanctuary (noun) |
 
 See [nouns](nouns.md).

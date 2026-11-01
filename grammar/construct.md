@@ -4,8 +4,8 @@ Hebrew has no separate word for "of". Instead, the first noun changes its form a
 
 | Ending | Meaning | Example | Translation |
 |---|---|---|---|
-| ־ֵי | "of" (masculine plural) | אֱלֹהֵי | God of |
-| ־ַת | "of" (feminine singular) | תּוֹרַת | teaching of |
+| ־ֵי | "of" (masculine plural) | אֱלֹהֵ<b style="color:red">י</b> | God of |
+| ־ַת | "of" (feminine singular) | תּוֹרַ<b style="color:red">ת</b> | teaching of |
 
 ## How the ending changes
 
@@ -13,15 +13,15 @@ The masculine plural ending loses its final ם:
 
 | Normal | Construct | Translation |
 |---|---|---|
-| אֱלֹהִים | אֱלֹהֵי | God → God of |
-| בָּנִים | בְּנֵי | sons → sons of |
+| אֱלֹהִ<b style="color:red">ים</b> | אֱלֹהֵ<b style="color:red">י</b> | God → God of |
+| בָּנִ<b style="color:red">ים</b> | בְּנֵ<b style="color:red">י</b> | sons → sons of |
 
 A feminine ending ה turns into ת:
 
 | Normal | Construct | Translation |
 |---|---|---|
-| תּוֹרָה | תּוֹרַת | teaching → teaching of |
-| בְּרָכָה | בִּרְכַּת | blessing → blessing of |
+| תּוֹרָ<b style="color:red">ה</b> | תּוֹרַ<b style="color:red">ת</b> | teaching → teaching of |
+| בְּרָכָ<b style="color:red">ה</b> | בִּרְכַּ<b style="color:red">ת</b> | blessing → blessing of |
 
 Vowels earlier in the word often shorten too, as in the words for sons and blessing above.
 
@@ -38,7 +38,7 @@ The construct form is also the base that [possessive endings](possessive-endings
 
 | Example | Translation |
 |---|---|
-| אֱלֹהֵינוּ | our God |
+| אֱלֹהֵ<b style="color:red">י</b>נוּ | our God |
 
 ## Ending that looks similar
 
@@ -46,4 +46,4 @@ A ת at the end can also be an abstract-noun ending rather than "of":
 
 | Example | Translation |
 |---|---|
-| מַלְכוּת | kingship |
+| מַלְכ<b style="color:red">וּת</b> | kingship |

@@ -8,20 +8,20 @@ A מ prefix often means "the place, thing or result of" the root:
 
 | Noun | Root | Translation |
 |---|---|---|
-| מָקוֹם | קום | place (where one stands) |
-| מִצְוָה | צוה | commandment |
-| מִשְׁפָּט | שפט | judgment |
-| מִקְדָּשׁ | קדש | sanctuary |
-| מַעֲשֶׂה | עשה | deed |
+| <b style="color:red">מָ</b>קוֹם | קום | place (where one stands) |
+| <b style="color:red">מִ</b>צְוָה | צוה | commandment |
+| <b style="color:red">מִ</b>שְׁפָּט | שפט | judgment |
+| <b style="color:red">מִ</b>קְדָּשׁ | קדש | sanctuary |
+| <b style="color:red">מַ</b>עֲשֶׂה | עשה | deed |
 
 ## ת prefix
 
 | Noun | Root | Translation |
 |---|---|---|
-| תְּפִלָּה | פלל | prayer |
-| תְּהִלָּה | הלל | praise |
-| תּוֹרָה | ירה | teaching |
-| תְּשׁוּבָה | שוב | return, repentance |
+| <b style="color:red">תְּ</b>פִלָּה | פלל | prayer |
+| <b style="color:red">תְּ</b>הִלָּה | הלל | praise |
+| <b style="color:red">תּ</b>וֹרָה | ירה | teaching |
+| <b style="color:red">תְּ</b>שׁוּבָה | שוב | return, repentance |
 
 ## The "-ah" pattern for abstract nouns
 
@@ -29,16 +29,16 @@ The shape is root letters, then an "u" vowel (kubutz or shuruk) before the last 
 
 | Noun | Root | Translation |
 |---|---|---|
-| גְּאֻלָּה | גאל | redemption |
-| גְּבוּרָה | גבר | might |
-| יְשׁוּעָה | ישע | salvation |
-| קְדֻשָּׁה | קדש | holiness |
+| גְּאֻלָּ<b style="color:red">ה</b> | גאל | redemption |
+| גְּבוּרָ<b style="color:red">ה</b> | גבר | might |
+| יְשׁוּעָ<b style="color:red">ה</b> | ישע | salvation |
+| קְדֻשָּׁ<b style="color:red">ה</b> | קדש | holiness |
 
 ## The "-ut" ending for abstract nouns
 
 | Noun | Root | Translation |
 |---|---|---|
-| מַלְכוּת | מלך | kingship |
+| מַלְכ<b style="color:red">וּת</b> | מלך | kingship |
 
 ## Watch out
 
