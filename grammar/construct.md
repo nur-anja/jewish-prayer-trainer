@@ -25,14 +25,14 @@ A feminine ending ה turns into ת:
 
 Vowels earlier in the word often shorten too, as in the words for sons and blessing above.
 
-## Watch out
-
-Feminine plurals and many masculine singular nouns look the same in the construct. Only the position (right before another noun) shows it's "of".
+Feminine plurals and many masculine singular nouns don't change at all. Only the position (right before another noun) shows it's "of".
 
 | Example | Translation |
 |---|---|
 | מִצְוֹת הַתּוֹרָה | commandments of the Torah |
 | מֶלֶךְ הָעוֹלָם | king of the world |
+
+## Possessive endings
 
 The construct form is also the base that [possessive endings](possessive-endings.md) attach to. That's why "our God" keeps the י from the plural construct:
 
