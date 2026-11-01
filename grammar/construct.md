@@ -42,7 +42,7 @@ The construct form is also the base that [possessive endings](possessive-endings
 
 ## Ending that looks similar
 
-A ת at the end can also be an abstract-noun ending rather than "of":
+A ת at the end can also be an [abstract-noun ending](nouns.md#the--ut-ending-for-abstract-nouns) rather than "of":
 
 | Example | Translation |
 |---|---|
