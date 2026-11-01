@@ -25,12 +25,23 @@ A feminine ending ה turns into ת:
 
 Vowels earlier in the word often shorten too, as in the words for sons and blessing above.
 
-Feminine plurals and many masculine singular nouns don't change at all. Only the position (right before another noun) shows it's "of".
+Feminine plurals and masculine singular nouns have no construct ending. Only the position (right before another noun) reliably shows it's "of".
 
 | Example | Translation |
 |---|---|
 | מִצְוֹת הַתּוֹרָה | commandments of the Torah |
 | מֶלֶךְ הָעוֹלָם | king of the world |
+
+Masculine singular nouns usually keep their letters, but their vowels often change:
+
+| Normal | Construct | Translation | What changes |
+|---|---|---|---|
+| מֶלֶךְ | מֶלֶךְ | king → king of | nothing |
+| דָּבָר | דְּבַר | word → word of | vowels shorten |
+| בַּיִת | בֵּית | house → house of | vowels shorten |
+| מַעֲשֶׂה | מַעֲשֵׂה | deed → deed of | last vowel changes |
+| אָב | אֲבִ<b style="color:red">י</b> | father → father of | a letter is added (a few short family words) |
+| אָח | אֲחִ<b style="color:red">י</b> | brother → brother of | a letter is added |
 
 ## Possessive endings
 
