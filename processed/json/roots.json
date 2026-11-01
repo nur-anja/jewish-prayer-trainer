@@ -116,6 +116,19 @@
       }
     ]
   },
+  "א-ש-ר": {
+    "meaning": "happiness, fortune",
+    "related": [
+      {
+        "hebrew": "אַשְׁרֵי",
+        "meaning": "happy is (the Ashrei prayer)"
+      },
+      {
+        "hebrew": "אֹשֶׁר",
+        "meaning": "happiness"
+      }
+    ]
+  },
   "ב-ו-א": {
     "meaning": "to come",
     "related": [
@@ -126,6 +139,19 @@
       {
         "hebrew": "וּבָא",
         "meaning": "and will come"
+      }
+    ]
+  },
+  "ב-ט-ח": {
+    "meaning": "to trust",
+    "related": [
+      {
+        "hebrew": "בִּטָּחוֹן",
+        "meaning": "trust, security"
+      },
+      {
+        "hebrew": "בָּטוּחַ",
+        "meaning": "safe, sure"
       }
     ]
   },
@@ -310,6 +336,23 @@
       }
     ]
   },
+  "ז-מ-ר": {
+    "meaning": "to sing, make music",
+    "related": [
+      {
+        "hebrew": "מִזְמוֹר",
+        "meaning": "psalm"
+      },
+      {
+        "hebrew": "פְּסוּקֵי דְזִמְרָה",
+        "meaning": "Verses of Song"
+      },
+      {
+        "hebrew": "זֶמֶר",
+        "meaning": "song"
+      }
+    ]
+  },
   "ח-ו-ש": {
     "meaning": "to hurry",
     "related": [
@@ -436,6 +479,19 @@
       }
     ]
   },
+  "י-ק-ר": {
+    "meaning": "precious, honor",
+    "related": [
+      {
+        "hebrew": "יָקָר",
+        "meaning": "precious, dear"
+      },
+      {
+        "hebrew": "יְקָר",
+        "meaning": "honor"
+      }
+    ]
+  },
   "י-ש-ב": {
     "meaning": "to sit, to dwell",
     "related": [
@@ -446,6 +502,23 @@
       {
         "hebrew": "יְשִׁיבָה",
         "meaning": "yeshiva"
+      }
+    ]
+  },
+  "י-ש-ע": {
+    "meaning": "to save",
+    "related": [
+      {
+        "hebrew": "יְשׁוּעָה",
+        "meaning": "salvation"
+      },
+      {
+        "hebrew": "הוֹשִׁיעָה",
+        "meaning": "save!"
+      },
+      {
+        "hebrew": "מוֹשִׁיעַ",
+        "meaning": "savior"
       }
     ]
   },
@@ -588,6 +661,23 @@
       }
     ]
   },
+  "נ-ש-א": {
+    "meaning": "to lift, carry",
+    "related": [
+      {
+        "hebrew": "נָשִׂיא",
+        "meaning": "prince, leader"
+      },
+      {
+        "hebrew": "יִשָּׂא יְיָ פָּנָיו",
+        "meaning": "may the LORD lift His face"
+      },
+      {
+        "hebrew": "נוֹשֵׂא",
+        "meaning": "subject; carrying"
+      }
+    ]
+  },
   "נ-ש-ם": {
     "meaning": "to breathe",
     "related": [
@@ -620,6 +710,23 @@
       {
         "hebrew": "עֵד",
         "meaning": "witness"
+      }
+    ]
+  },
+  "ע-ז-ז": {
+    "meaning": "to be strong",
+    "related": [
+      {
+        "hebrew": "עֹז",
+        "meaning": "strength"
+      },
+      {
+        "hebrew": "יְיָ עֹז לְעַמּוֹ יִתֵּן",
+        "meaning": "the LORD will give strength to His people"
+      },
+      {
+        "hebrew": "עַז",
+        "meaning": "strong, fierce"
       }
     ]
   },
@@ -692,6 +799,19 @@
       }
     ]
   },
+  "ע-נ-ה": {
+    "meaning": "to answer",
+    "related": [
+      {
+        "hebrew": "עֲנֵנוּ",
+        "meaning": "answer us"
+      },
+      {
+        "hebrew": "תַּעֲנִית",
+        "meaning": "fast day"
+      }
+    ]
+  },
   "ע-ר-ץ": {
     "meaning": "to be in awe, to be mighty",
     "related": [
@@ -702,6 +822,32 @@
       {
         "hebrew": "עָרִיץ",
         "meaning": "tyrant"
+      }
+    ]
+  },
+  "פ-ח-ד": {
+    "meaning": "to fear",
+    "related": [
+      {
+        "hebrew": "פַּחַד",
+        "meaning": "fear"
+      },
+      {
+        "hebrew": "פַּחַד יִצְחָק",
+        "meaning": "the Fear of Isaac"
+      }
+    ]
+  },
+  "פ-ר-ה": {
+    "meaning": "to bear fruit",
+    "related": [
+      {
+        "hebrew": "פְּרִי",
+        "meaning": "fruit"
+      },
+      {
+        "hebrew": "פְּרוּ וּרְבוּ",
+        "meaning": "be fruitful and multiply"
       }
     ]
   },
@@ -862,6 +1008,19 @@
       {
         "hebrew": "רָצוֹן",
         "meaning": "will, desire"
+      }
+    ]
+  },
+  "ש-א-ב": {
+    "meaning": "to draw (water)",
+    "related": [
+      {
+        "hebrew": "שׁוֹאֵב",
+        "meaning": "one who draws water"
+      },
+      {
+        "hebrew": "שְׁאִיבָה",
+        "meaning": "drawing"
       }
     ]
   },
