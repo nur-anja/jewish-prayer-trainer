@@ -6,7 +6,6 @@ Hebrew has no separate word for "of". Instead, the first noun changes its form a
 |---|---|---|---|
 | ־ֵי | "of" (masculine plural) | אֱלֹהֵי | God of |
 | ־ַת | "of" (feminine singular) | תּוֹרַת | teaching of |
-| ־וֹת | "of" (feminine plural) | מִצְוֹת | commandments of |
 
 ## How the ending changes
 
@@ -24,16 +23,15 @@ A feminine ending he turns into tav:
 | תּוֹרָה | תּוֹרַת | teaching → teaching of |
 | בְּרָכָה | בִּרְכַּת | blessing → blessing of |
 
-The feminine plural ending looks the same either way.
-
 Vowels earlier in the word often shorten too, as in the words for sons and blessing above.
 
 ## Watch out
 
-Many masculine singular nouns look the same in the construct. Only the position (right before another noun) shows it's "of".
+Feminine plurals and many masculine singular nouns look the same in the construct. Only the position (right before another noun) shows it's "of".
 
 | Example | Translation |
 |---|---|
+| מִצְוֹת הַתּוֹרָה | commandments of the Torah |
 | מֶלֶךְ הָעוֹלָם | king of the world |
 
 The construct form is also the base that [possessive endings](possessive-endings.md) attach to. That's why "our God" keeps the yod from the plural construct:
