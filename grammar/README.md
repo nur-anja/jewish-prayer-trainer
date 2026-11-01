@@ -1,6 +1,6 @@
 # Grammar notes
 
-Most Hebrew words are built from a small set of prefixes, suffixes and templates. Learning them lets you look at a word and see how it's built from its root, without studying binyanim first.
+Most Hebrew words are built from a small set of prefixes, suffixes and templates. Learning them lets you look at a word and see how it's built from its root.
 
 Roots are written without nikkud, since a root is just its letters.
 
