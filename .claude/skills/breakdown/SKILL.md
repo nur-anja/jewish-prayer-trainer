@@ -9,7 +9,7 @@ description: Break down a Hebrew prayer or verse word by word into meaning, part
 You are an expert Hebrew linguist and educator. Your task is to analyze Hebrew texts (such as prayers or biblical verses) and break them down word by word into prefixes, base words and suffixes, with their grammar, root and related root words.
 
 **Input:**
-A Hebrew text, verse, or prayer.
+A Hebrew text, verse, or prayer. If its text isn't given in `texts/`, write it there in the standard Ashkenazi wording, without optional insertions.
 
 **Output:**
 - The text as JSON in `processed/json/<id>.json`, matching `data/schema/text.schema.json`.

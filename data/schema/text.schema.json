@@ -13,7 +13,7 @@
       "pattern": "^[a-z0-9_]+$"
     },
     "title": {
-      "description": "The text's commonly used name, transliterated, e.g. \"Menucha V'simcha\".",
+      "description": "The text's commonly used name, transliterated, e.g. \"Menucha V'simcha\". For part of a prayer: \"Prayer: Part\", e.g. \"Havdala: Hinei El\".",
       "type": "string",
       "minLength": 1
     },
@@ -48,7 +48,7 @@
       }
     },
     "line": {
-      "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence.",
+      "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence of text that isn't a pasuk. A response added after a pasuk, such as כֵּן תִּהְיֶה לָּנוּ, is its own line.",
       "type": "object",
       "additionalProperties": false,
       "required": ["hebrew", "translation", "words"],
@@ -101,7 +101,7 @@
       "required": ["hebrew", "meaning", "pos"],
       "properties": {
         "hebrew": {
-          "description": "Prefixes end with a maqaf and suffixes start with one: וְ־ (and), ־ָיו (his). A base word is written as it stands on its own, undoing changes caused by its prefixes and suffixes (dagesh, vowels, endings); a noun or verb that takes a suffix keeps its construct form. E.g. יְהוּדִים in לַיְּהוּדִים, כָּל־ in וּבְכָל־, שֶׁבֶת in בְּשִׁבְתְּךָ.",
+          "description": "Prefixes end with a maqaf and suffixes start with one: וְ־ (and), ־ָיו (his). A base word is written as it stands on its own, undoing changes caused by its prefixes and suffixes (dagesh, vowels, endings); a noun or verb that takes a suffix keeps its construct form. E.g. יְהוּדִים in לַיְּהוּדִים, כָּל־ in וּבְכָל־, שֶׁבֶת in בְּשִׁבְתְּךָ, אֶל־ in אֵלָיו.",
           "type": "string",
           "minLength": 1
         },
@@ -111,7 +111,7 @@
           "minLength": 1
         },
         "pos": {
-          "description": "The relative אֲשֶׁר (that) and the object marker אֵת are particles; the object marker's meaning is \"(marks the direct object)\".",
+          "description": "Particles are words that fit no other part of speech, such as the relative אֲשֶׁר (that), the object marker אֵת, הִנֵּה (behold) and סֶלָה (Selah); the object marker's meaning is \"(marks the direct object)\".",
           "enum": [
             "noun",
             "verb",
@@ -135,7 +135,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
-          "description": "Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
+          "description": "After a vav that flips the tense, the verb keeps its written form, past or future, and its meaning shows the flipped tense: וַיְהִי (and He became) is future, וּשְׁאַבְתֶּם (and you shall draw) is past. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
           "enum": [
             "past",
             "future",
