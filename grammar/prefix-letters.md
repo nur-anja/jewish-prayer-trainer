@@ -28,7 +28,7 @@ Prefixes can stack. "And" always comes first.
 
 ## "The" hiding inside in, to, like
 
-After the "in", "to" and "like" prefixes, the he of "the" drops out. Only its vowel stays, usually a patach, so the vowel under the prefix tells you "the" is there:
+After the "in", "to" and "like" prefixes, the ה of "the" drops out. Only its vowel stays, usually a patach, so the vowel under the prefix tells you "the" is there:
 
 | Example | Translation |
 |---|---|
@@ -41,4 +41,4 @@ A word starting with one of these letters doesn't always have a prefix. The lett
 
 | Example | Translation |
 |---|---|
-| מֶלֶךְ | king (the mem is part of the root) |
+| מֶלֶךְ | king (the מ is part of the root) |

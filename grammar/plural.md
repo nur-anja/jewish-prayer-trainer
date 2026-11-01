@@ -12,7 +12,7 @@ The singular forms for comparison:
 | מֵת | a dead person |
 | מִצְוָה | commandment |
 
-Feminine nouns ending in he usually drop it before the plural ending.
+Feminine nouns ending in ה usually drop it before the plural ending.
 
 ## Watch out
 

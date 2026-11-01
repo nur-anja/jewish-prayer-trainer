@@ -4,7 +4,7 @@ The participle is the "-er/-ing" form. It works as a present-tense verb ("guards
 
 ## Shape 1: holam after the first root letter
 
-The "o" vowel after the first root letter is often written with a vav:
+The "o" vowel after the first root letter is often written with a ו:
 
 | Example | Root | Translation |
 |---|---|---|
@@ -13,7 +13,7 @@ The "o" vowel after the first root letter is often written with a vav:
 | זוֹכֵר | זכר | remembers |
 | זוֹקֵף | זקף | straightens |
 
-## Shape 2: mem prefix
+## Shape 2: מ prefix
 
 | Example | Root | Translation |
 |---|---|---|
@@ -35,7 +35,7 @@ Participles take the same endings as nouns:
 
 ## Watch out
 
-The mem prefix also forms nouns. The letters can be identical, and only the nikkud tells them apart:
+The מ prefix also forms nouns. The letters can be identical, and only the nikkud tells them apart:
 
 | Example | Translation |
 |---|---|

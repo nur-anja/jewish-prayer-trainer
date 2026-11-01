@@ -30,7 +30,7 @@ The blessing formula has both object forms:
 
 ## "And" that flips to the future
 
-In biblical text, a vav before a past form can turn it into future or command:
+In biblical text, a ו before a past form can turn it into future or command:
 
 | Example | Translation |
 |---|---|

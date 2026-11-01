@@ -9,14 +9,14 @@ Hebrew has no separate word for "of". Instead, the first noun changes its form a
 
 ## How the ending changes
 
-The masculine plural ending loses its final mem:
+The masculine plural ending loses its final ם:
 
 | Normal | Construct | Translation |
 |---|---|---|
 | אֱלֹהִים | אֱלֹהֵי | God → God of |
 | בָּנִים | בְּנֵי | sons → sons of |
 
-A feminine ending he turns into tav:
+A feminine ending ה turns into ת:
 
 | Normal | Construct | Translation |
 |---|---|---|
@@ -34,7 +34,7 @@ Feminine plurals and many masculine singular nouns look the same in the construc
 | מִצְוֹת הַתּוֹרָה | commandments of the Torah |
 | מֶלֶךְ הָעוֹלָם | king of the world |
 
-The construct form is also the base that [possessive endings](possessive-endings.md) attach to. That's why "our God" keeps the yod from the plural construct:
+The construct form is also the base that [possessive endings](possessive-endings.md) attach to. That's why "our God" keeps the י from the plural construct:
 
 | Example | Translation |
 |---|---|
@@ -42,7 +42,7 @@ The construct form is also the base that [possessive endings](possessive-endings
 
 ## Ending that looks similar
 
-A tav at the end can also be an abstract-noun ending rather than "of":
+A ת at the end can also be an abstract-noun ending rather than "of":
 
 | Example | Translation |
 |---|---|

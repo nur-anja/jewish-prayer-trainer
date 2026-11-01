@@ -2,9 +2,9 @@
 
 Many nouns are a root poured into a template. Recognizing the template shows the root.
 
-## Mem prefix
+## מ prefix
 
-A mem prefix often means "the place, thing or result of" the root:
+A מ prefix often means "the place, thing or result of" the root:
 
 | Noun | Root | Translation |
 |---|---|---|
@@ -14,7 +14,7 @@ A mem prefix often means "the place, thing or result of" the root:
 | מִקְדָּשׁ | קדש | sanctuary |
 | מַעֲשֶׂה | עשה | deed |
 
-## Tav prefix
+## ת prefix
 
 | Noun | Root | Translation |
 |---|---|---|
@@ -25,7 +25,7 @@ A mem prefix often means "the place, thing or result of" the root:
 
 ## The "-ah" pattern for abstract nouns
 
-The shape is root letters, then an "u" vowel (kubutz or shuruk) before the last one, then a he at the end. It often names a quality or an act.
+The shape is root letters, then an "u" vowel (kubutz or shuruk) before the last one, then a ה at the end. It often names a quality or an act.
 
 | Noun | Root | Translation |
 |---|---|---|
@@ -42,4 +42,4 @@ The shape is root letters, then an "u" vowel (kubutz or shuruk) before the last 
 
 ## Watch out
 
-A mem at the start can also be a [participle](participle.md) or the [prefix letter](prefix-letters.md) "from". A tav at the start can also be a [future tense](future-tense.md) prefix.
+A מ at the start can also be a [participle](participle.md) or the [prefix letter](prefix-letters.md) "from". A ת at the start can also be a [future tense](future-tense.md) prefix.

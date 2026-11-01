@@ -13,7 +13,7 @@ In the future tense, a prefix letter shows who does the action. There are four o
 | ת | you, she | תִּשְׁמַע | you will hear |
 | נ | we | נְבָרֵךְ | we will bless |
 
-"You" plural and "they" also add a vav at the end, for example "they will say":
+"You" plural and "they" also add a ו at the end, for example "they will say":
 
 | Example | Translation |
 |---|---|
@@ -30,7 +30,7 @@ In prayers, the future often reads as a wish ("may it…", "let…"):
 
 ## "And" that flips to the past
 
-In biblical narrative, a vav before a future form often turns it into past tense. This is common in verses quoted in prayers. The vav usually has a patach, and the next letter a dagesh:
+In biblical narrative, a ו before a future form often turns it into past tense. This is common in verses quoted in prayers. The ו usually has a patach, and the next letter a dagesh:
 
 | Example | Translation |
 |---|---|

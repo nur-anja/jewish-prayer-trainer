@@ -17,8 +17,8 @@ Most Hebrew words are built from a small set of prefixes, suffixes and templates
 
 1. **Strip the one-letter prefixes** at the front (and, the, in, to, from…). See [prefix letters](prefix-letters.md).
 2. **Strip the suffixes** at the end (our, your, plural…). See [possessive endings](possessive-endings.md) and [plural forms](plural.md).
-3. **Check for a template letter** that is part of the word's form, like a tense prefix or a noun-forming mem or tav. See [future tense](future-tense.md), [participle](participle.md) and [nouns](nouns.md).
-4. **What remains is usually the 3-letter root.** If you only find two letters, the missing one is usually nun, yod, vav or he. These "weak" letters tend to drop out.
+3. **Check for a template letter** that is part of the word's form, like a tense prefix or a noun-forming מ or ת. See [future tense](future-tense.md), [participle](participle.md) and [nouns](nouns.md).
+4. **What remains is usually the 3-letter root.** If you only find two letters, the missing one is usually נ, י, ו or ה. These "weak" letters tend to drop out.
 
 ## A full peel, step by step
 
@@ -28,4 +28,4 @@ Most Hebrew words are built from a small set of prefixes, suffixes and templates
 | Strip "and" + "in" | מִצְוֹתָיו | his commandments |
 | Strip "his" | מִצְוֹת | commandments |
 | Back to singular | מִצְוָה | commandment |
-| Strip noun mem | צוה | root: command |
+| Strip noun מ | צוה | root: command |
