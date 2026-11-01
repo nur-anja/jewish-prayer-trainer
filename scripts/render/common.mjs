@@ -29,10 +29,9 @@ const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Conte
 //   suffix        Never for I/me/we/us, he/him/his, she/her or "these" (see LABELED_PRONOUNS).
 //   all others  no label: prepositions, conjunctions, articles, particles, adverbs, numerals, names.
 //
-// LANGUAGE AND NOTES ARE NEVER HIDDEN. The rules above only filter the grammar fields. A part's
-// language (when not Hebrew) and then its notes are always appended to its label, whatever its
-// part of speech:
-//   (adjective, masc. sg., Aramaic)   (noun, fem. sg., <notes>)
+// LANGUAGE IS NEVER HIDDEN. The rules above only filter the grammar fields. A part's language
+// (when not Hebrew) is always appended to its label, whatever its part of speech:
+//   (adjective, masc. sg., Aramaic)
 // ---------------------------------------------------------------------------------------------
 
 const BINYANIM = {
@@ -80,9 +79,9 @@ function inflection(part, { person = false } = {}) {
     .join(" ");
 }
 
-// The text inside the parentheses after a part, or "" for no label: the structured label, language, notes.
+// The text inside the parentheses after a part, or "" for no label: the structured label and language.
 function grammarLabel(part) {
-  return [structuredLabel(part), readable(LANGUAGES, part, "language"), part.notes].filter(Boolean).join(", ");
+  return [structuredLabel(part), readable(LANGUAGES, part, "language")].filter(Boolean).join(", ");
 }
 
 function structuredLabel(part) {

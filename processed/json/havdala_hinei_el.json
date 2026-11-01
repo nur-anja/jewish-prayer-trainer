@@ -151,8 +151,7 @@
                   "meaning": "song",
                   "pos": "noun",
                   "gender": "fem",
-                  "number": "sg",
-                  "notes": "Old poetic form of זִמְרָה, read as \"my song\": the ־ִי of עָזִּי carries over."
+                  "number": "sg"
                 }
               ],
               "root": "ז-מ-ר"
@@ -362,8 +361,7 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ],
-              "notes": "The ל takes a patach because the name is read Adonai, not because of an article."
+              ]
             },
             {
               "hebrew": "הַיְשׁוּעָה",
@@ -450,8 +448,7 @@
                   "meaning": "Selah",
                   "pos": "particle"
                 }
-              ],
-              "notes": "A word from Psalms of uncertain meaning; traditionally understood as \"forever\"."
+              ]
             }
           ]
         },
@@ -572,8 +569,7 @@
                   "meaning": "Selah",
                   "pos": "particle"
                 }
-              ],
-              "notes": "A word from Psalms of uncertain meaning; traditionally understood as \"forever\"."
+              ]
             }
           ]
         },
@@ -621,8 +617,7 @@
                   "construct": true
                 }
               ],
-              "root": "א-ש-ר",
-              "notes": "Literally \"the happiness of\"; the usual meaning is \"happy is\"."
+              "root": "א-ש-ר"
             },
             {
               "hebrew": "אָדָם",
