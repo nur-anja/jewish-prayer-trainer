@@ -17,3 +17,7 @@ Word parts can carry free-text `notes`, but those are kept for forms that break 
 
 1. Ask Claude to do a pass over the texts to find the grammar concepts that come up, and agree on the list.
 2. To be decided after step 1: where the reference lives, how words link to concepts in the JSON, and how the PDF shows them.
+
+## Related idea: pattern field
+
+Add a "pattern" field (for example "mem-noun" or "future, we") to the word breakdowns, so the word-formation patterns in [grammar/](../grammar/README.md) get pointed out while studying each prayer.
