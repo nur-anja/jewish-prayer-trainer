@@ -1,11 +1,11 @@
 # Construct forms ("X of Y")
 
-Hebrew has no separate word for "of". Instead, the first noun changes its form and is placed right before the second. This changed form is called the construct.
+Hebrew has no separate word for "of". Instead, the first noun changes its form and is placed right before the second. This changed form is called the construct, and some nouns get a construct ending:
 
 | Ending | Meaning | Example | Translation |
 |---|---|---|---|
-| ־ֵי | "of" (masculine plural) | אֱלֹהֵ<b style="color:red">י</b> | God of |
-| ־ַת | "of" (feminine singular) | תּוֹרַ<b style="color:red">ת</b> | teaching of |
+| ־י | "of" (masculine plural) | אֱלֹהֵ<b style="color:red">י</b> | God of |
+| ־ת | "of" (feminine singular) | תּוֹרַ<b style="color:red">ת</b> | teaching of |
 
 ## How the ending changes
 
@@ -23,7 +23,7 @@ A feminine ending ה turns into ת:
 | תּוֹרָ<b style="color:red">ה</b> | תּוֹרַ<b style="color:red">ת</b> | teaching → teaching of |
 | בְּרָכָ<b style="color:red">ה</b> | בִּרְכַּ<b style="color:red">ת</b> | blessing → blessing of |
 
-Feminine plurals and masculine singular nouns have no construct ending. Only the position (right before another noun) reliably shows it's "of".
+Feminine plurals and masculine singular nouns have no construct ending, so only the position (right before another noun) reliably shows it's "of":
 
 | Example | Translation |
 |---|---|
@@ -40,9 +40,9 @@ The construct form is also the base that [possessive endings](possessive-endings
 |---|---|
 | אֱלֹהֵ<b style="color:red">י</b>נוּ | our God |
 
-## Ending that looks similar
+## Watch out
 
-A ת at the end can also be an [abstract-noun ending](nouns.md#the--ut-ending-for-abstract-nouns) rather than "of":
+A ת at the end can also be an [abstract-noun ending](nouns.md#ות-ending-for-abstract-nouns) rather than "of":
 
 | Example | Translation |
 |---|---|

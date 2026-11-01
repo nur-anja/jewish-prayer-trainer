@@ -6,7 +6,7 @@ Many nouns are a root poured into a template. Recognizing the template shows the
 
 A מ prefix often means "the place, thing or result of" the root:
 
-| Noun | Root | Translation |
+| Example | Root | Translation |
 |---|---|---|
 | <b style="color:red">מָ</b>קוֹם | קום | place (where one stands) |
 | <b style="color:red">מִ</b>צְוָה | צוה | commandment |
@@ -16,27 +16,31 @@ A מ prefix often means "the place, thing or result of" the root:
 
 ## ת prefix
 
-| Noun | Root | Translation |
+A ת prefix also forms nouns, often naming an act or its result:
+
+| Example | Root | Translation |
 |---|---|---|
 | <b style="color:red">תְּ</b>פִלָּה | פלל | prayer |
 | <b style="color:red">תְּ</b>הִלָּה | הלל | praise |
 | <b style="color:red">תּ</b>וֹרָה | ירה | teaching |
 | <b style="color:red">תְּ</b>שׁוּבָה | שוב | return, repentance |
 
-## The "-ah" pattern for abstract nouns
+## ה ending for abstract nouns
 
-The shape is root letters, then an "u" vowel (kubutz or shuruk) before the last one, then a ה at the end. It often names a quality or an act.
+Nouns with a kubutz or shuruk before the last root letter and a ה at the end often name a quality or an act:
 
-| Noun | Root | Translation |
+| Example | Root | Translation |
 |---|---|---|
 | גְּאֻלָּ<b style="color:red">ה</b> | גאל | redemption |
 | גְּבוּרָ<b style="color:red">ה</b> | גבר | might |
 | יְשׁוּעָ<b style="color:red">ה</b> | ישע | salvation |
 | קְדֻשָּׁ<b style="color:red">ה</b> | קדש | holiness |
 
-## The "-ut" ending for abstract nouns
+## ות ending for abstract nouns
 
-| Noun | Root | Translation |
+A וּת ending also makes abstract nouns:
+
+| Example | Root | Translation |
 |---|---|---|
 | מַלְכ<b style="color:red">וּת</b> | מלך | kingship |
 

@@ -2,13 +2,15 @@
 
 Most Hebrew words are built from a small set of prefixes, suffixes and templates. Learning them lets you look at a word and see how it's built from its root.
 
+How these notes are written: [conventions](../meta/conventions.md).
+
 ## Topics
 
-- [Prefix letters (Moshe ve-Khalev)](prefix-letters.md)
+- [Prefix letters](prefix-letters.md)
 - [Possessive endings](possessive-endings.md)
 - [Plural forms](plural.md)
 - [Construct forms](construct.md)
-- [Future tense (eitan)](future-tense.md)
+- [Future tense](future-tense.md)
 - [Past tense](past-tense.md)
 - [Participle (present tense)](participle.md)
 - [Nouns built from roots](nouns.md)
@@ -22,10 +24,12 @@ Most Hebrew words are built from a small set of prefixes, suffixes and templates
 
 ## A full peel, step by step
 
-| Step | Hebrew | Meaning |
+Here is the method applied to one word, with each row highlighting the part the next step removes:
+
+| Step | Example | Translation |
 |---|---|---|
 | Word | <b style="color:red">וּבְ</b>מִצְוֹתָיו | and in his commandments |
 | Strip "and" + "in" | מִצְוֹתָ<b style="color:red">יו</b> | his commandments |
 | Strip "his" | מִצְוֹ<b style="color:red">ת</b> | commandments |
 | Back to singular | <b style="color:red">מִ</b>צְוָה | commandment |
-| Strip noun מ | צוה | root: command |
+| Strip noun מ | צוה | command (root) |

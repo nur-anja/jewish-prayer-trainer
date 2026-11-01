@@ -4,7 +4,7 @@ The participle is the "-er/-ing" form. It works as a present-tense verb ("guards
 
 ## Shape 1: holam after the first root letter
 
-The "o" vowel after the first root letter is often written with a ו:
+Many participles have a holam after the first root letter, often written with a ו:
 
 | Example | Root | Translation |
 |---|---|---|
@@ -14,6 +14,8 @@ The "o" vowel after the first root letter is often written with a ו:
 | ז<b style="color:red">וֹ</b>קֵף | זקף | straightens |
 
 ## Shape 2: מ prefix
+
+Other participles start with a מ prefix:
 
 | Example | Root | Translation |
 |---|---|---|
@@ -26,20 +28,18 @@ The "o" vowel after the first root letter is often written with a ו:
 
 Participles take the same endings as nouns:
 
-| Ending | Who | Example | Translation |
-|---|---|---|---|
-| (none) | he | אוֹמֵר | says |
-| ־ֶת | she | אוֹמֶרֶ<b style="color:red">ת</b> | says |
-| ־ִים | they (masculine) | אוֹמְרִ<b style="color:red">ים</b> | say |
-| ־וֹת | they (feminine) | אוֹמְר<b style="color:red">וֹת</b> | say |
+| Ending | Who | Example | Root | Translation |
+|---|---|---|---|---|
+| (none) | he | אוֹמֵר | אמר | says |
+| ־ת | she | אוֹמֶרֶ<b style="color:red">ת</b> | אמר | says |
+| ־ים | they (masculine) | אוֹמְרִ<b style="color:red">ים</b> | אמר | say |
+| ־וֹת | they (feminine) | אוֹמְר<b style="color:red">וֹת</b> | אמר | say |
 
 ## Watch out
 
-The מ prefix also forms nouns. The letters can be identical, and only the nikkud tells them apart:
+The מ prefix also forms [nouns](nouns.md), and the letters can be identical, so only the nikkud tells them apart:
 
-| Example | Translation |
-|---|---|
-| <b style="color:red">מְ</b>קַדֵּשׁ | sanctifies (participle) |
-| <b style="color:red">מִ</b>קְדָּשׁ | sanctuary (noun) |
-
-See [nouns](nouns.md).
+| Example | Root | Note | Translation |
+|---|---|---|---|
+| <b style="color:red">מְ</b>קַדֵּשׁ | קדש | participle | sanctifies |
+| <b style="color:red">מִ</b>קְדָּשׁ | קדש | noun | sanctuary |

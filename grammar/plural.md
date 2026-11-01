@@ -1,22 +1,26 @@
 # Plural forms
 
+Hebrew marks the plural with an ending, one for masculine nouns and one for feminine nouns:
+
 | Ending | Meaning | Example | Translation |
 |---|---|---|---|
-| ־ִים | masculine plural | מֵתִ<b style="color:red">ים</b> | the dead |
-| ־וֹת | feminine plural | מִצְוֹ<b style="color:red">ת</b> | commandments |
+| ־ים | masculine plural | מֵתִ<b style="color:red">ים</b> | dead (people) |
+| ־וֹת | feminine plural | תְּפִלּ<b style="color:red">וֹת</b> | prayers |
 
-The singular forms for comparison:
+## From singular to plural
 
-| Singular | Translation |
-|---|---|
-| מֵת | a dead person |
-| מִצְוָ<b style="color:red">ה</b> | commandment |
+Masculine nouns just add the ending, while feminine nouns ending in ה drop the ה first:
 
-Feminine nouns ending in ה usually drop it before the plural ending.
+| Singular | Plural | Translation |
+|---|---|---|
+| מֵת | מֵתִ<b style="color:red">ים</b> | dead person → dead people |
+| תְּפִלָּ<b style="color:red">ה</b> | תְּפִלּ<b style="color:red">וֹת</b> | prayer → prayers |
+
+When plurals take "of" or possessive endings, their ending changes. See [construct forms](construct.md).
 
 ## Watch out
 
-The ending doesn't always match the gender. Some masculine nouns take the feminine-looking ending:
+The ending doesn't always match the gender, so some masculine nouns take the feminine-looking ending:
 
 | Example | Translation |
 |---|---|
@@ -28,5 +32,3 @@ Some words look plural but refer to one thing:
 |---|---|
 | אֱלֹהִ<b style="color:red">ים</b> | God |
 | שָׁמַ<b style="color:red">יִם</b> | heaven |
-
-When plurals take "of" or possessive endings, their ending changes. See [construct forms](construct.md).
