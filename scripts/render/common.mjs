@@ -140,6 +140,7 @@ export function htmlPage(title, css, body) {
 // COMMAND LINE
 //
 // Renders every text in processed/json/, or the files given as arguments, in every layout.
+// (The Anki deck in scripts/anki/ isn't printed with Chrome, so it shares only loadTexts.)
 // A layout is { outDir, toHtml }: toHtml(text, roots, fileName) returns the whole HTML document of one text,
 // rendered to <outDir>/<name>.pdf.
 // ---------------------------------------------------------------------------------------------
@@ -150,7 +151,19 @@ export function main(layouts) {
     process.exit(1);
   }
 
-  const args = process.argv.slice(2);
+  const { files, roots } = loadTexts(process.argv.slice(2));
+  for (const { outDir } of layouts) mkdirSync(outDir, { recursive: true });
+  const workDir = mkdtempSync(join(tmpdir(), "render-"));
+  try {
+    for (const file of files) for (const layout of layouts) convert(file, roots, workDir, layout);
+  } finally {
+    rmSync(workDir, { recursive: true, force: true });
+  }
+}
+
+// The JSON files to convert and the parsed roots.json: the files given as arguments, or every text in
+// processed/json/. Exits when there is nothing to convert. Also used by the Anki deck (scripts/anki/).
+export function loadTexts(args) {
   const files = args.length
     ? args.map((f) => resolve(f))
     : readdirSync(JSON_DIR)
@@ -162,14 +175,7 @@ export function main(layouts) {
     process.exit(0);
   }
 
-  const roots = JSON.parse(readFileSync(ROOTS_FILE, "utf8"));
-  for (const { outDir } of layouts) mkdirSync(outDir, { recursive: true });
-  const workDir = mkdtempSync(join(tmpdir(), "render-"));
-  try {
-    for (const file of files) for (const layout of layouts) convert(file, roots, workDir, layout);
-  } finally {
-    rmSync(workDir, { recursive: true, force: true });
-  }
+  return { files, roots: JSON.parse(readFileSync(ROOTS_FILE, "utf8")) };
 }
 
 function convert(jsonFile, roots, workDir, { outDir, toHtml }) {
