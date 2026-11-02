@@ -5,8 +5,8 @@
 //
 // Notes are identified (their guid) by:
 //   Word  text id + spelling. A spelling that comes back with a different breakdown (meaning, parts or
-//         root) gets a second note, identified by text id + spelling + meaning; its first occurrence gives
-//         the context line.
+//         root) gets a second note, identified by text id + spelling + meaning. The first occurrence gives
+//         the context: the word's phrase (a few words around it), with the word highlighted.
 //   Line  text id + section number + line number
 // So fixing a breakdown and re-importing updates the note; renaming a text id or moving lines makes new ones.
 //
@@ -28,14 +28,22 @@ const deckId = (name) => parseInt(hash(name).slice(0, 12), 16);
 const tag = (s) => s.replace(/\s+/g, "_");
 const glosses = (items) => items.map((i) => `<div>${gloss(i)}</div>`).join("");
 
-// The line with the word at or after `from` wrapped in <span class="target">, and the index after it.
-function highlight(line, word, from) {
+// The word's position in its line: the first occurrence at or after `from`.
+function locate(line, word, from) {
   const at = line.indexOf(word, from);
   if (at < 0) throw new Error(`${word} is not in its line ${line}`);
-  const end = at + word.length;
-  const html =
-    escape(line.slice(0, at)) + `<span class="target">${escape(word)}</span>` + escape(line.slice(end));
-  return { html, end };
+  return { at, end: at + word.length };
+}
+
+// The word's phrase with the word wrapped in <span class="target">. The phrase is the occurrence in the
+// line that covers the word, so a word that comes twice in a phrase is highlighted where it stands.
+function highlightPhrase(line, phrase, { at, end }) {
+  for (let start = line.indexOf(phrase); start >= 0; start = line.indexOf(phrase, start + 1)) {
+    if (start > at || start + phrase.length < end) continue;
+    const [from, to] = [at - start, end - start];
+    return escape(phrase.slice(0, from)) + `<span class="target">${escape(phrase.slice(from, to))}</span>` + escape(phrase.slice(to));
+  }
+  throw new Error(`phrase ${phrase} doesn't include ${line.slice(at, end)} where it stands in ${line}`);
 }
 
 export function buildDeck(text, roots, file) {
@@ -50,8 +58,9 @@ export function buildDeck(text, roots, file) {
     section.lines.forEach((line, l) => {
       let cursor = 0;
       for (const word of line.words) {
-        const { html: context, end } = highlight(line.hebrew, word.hebrew, cursor);
-        cursor = end;
+        const position = locate(line.hebrew, word.hebrew, cursor);
+        cursor = position.end;
+        const context = highlightPhrase(line.hebrew, word.phrase, position);
 
         const root = wordRoot(word, roots, file);
         const signature = JSON.stringify([word.meaning, word.parts, word.root]);

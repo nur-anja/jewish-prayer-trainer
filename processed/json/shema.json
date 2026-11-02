@@ -13,6 +13,7 @@
             {
               "hebrew": "שְׁמַע",
               "meaning": "hear",
+              "phrase": "שְׁמַע יִשְׂרָאֵל",
               "parts": [
                 {
                   "hebrew": "שְׁמַע",
@@ -30,6 +31,7 @@
             {
               "hebrew": "יִשְׂרָאֵל",
               "meaning": "Israel",
+              "phrase": "שְׁמַע יִשְׂרָאֵל",
               "parts": [
                 {
                   "hebrew": "יִשְׂרָאֵל",
@@ -44,6 +46,7 @@
             {
               "hebrew": "יְיָ",
               "meaning": "the LORD",
+              "phrase": "יְיָ אֱלֹהֵינוּ",
               "parts": [
                 {
                   "hebrew": "יְיָ",
@@ -57,6 +60,7 @@
             {
               "hebrew": "אֱלֹהֵינוּ",
               "meaning": "our God",
+              "phrase": "יְיָ אֱלֹהֵינוּ",
               "parts": [
                 {
                   "hebrew": "אֱלֹהֵי",
@@ -79,6 +83,7 @@
             {
               "hebrew": "יְיָ",
               "meaning": "the LORD",
+              "phrase": "יְיָ אֶחָד",
               "parts": [
                 {
                   "hebrew": "יְיָ",
@@ -92,6 +97,7 @@
             {
               "hebrew": "אֶחָד",
               "meaning": "one",
+              "phrase": "יְיָ אֶחָד",
               "parts": [
                 {
                   "hebrew": "אֶחָד",
@@ -116,6 +122,7 @@
             {
               "hebrew": "בָּרוּךְ",
               "meaning": "blessed",
+              "phrase": "בָּרוּךְ שֵׁם",
               "parts": [
                 {
                   "hebrew": "בָּרוּךְ",
@@ -132,6 +139,7 @@
             {
               "hebrew": "שֵׁם",
               "meaning": "the name of",
+              "phrase": "שֵׁם כְּבוֹד מַלְכוּתוֹ",
               "parts": [
                 {
                   "hebrew": "שֵׁם",
@@ -146,6 +154,7 @@
             {
               "hebrew": "כְּבוֹד",
               "meaning": "the glory of",
+              "phrase": "שֵׁם כְּבוֹד מַלְכוּתוֹ",
               "parts": [
                 {
                   "hebrew": "כְּבוֹד",
@@ -161,6 +170,7 @@
             {
               "hebrew": "מַלְכוּתוֹ",
               "meaning": "His kingdom",
+              "phrase": "שֵׁם כְּבוֹד מַלְכוּתוֹ",
               "parts": [
                 {
                   "hebrew": "מַלְכוּת",
@@ -184,6 +194,7 @@
             {
               "hebrew": "לְעוֹלָם",
               "meaning": "forever",
+              "phrase": "לְעוֹלָם וָעֶד",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -203,6 +214,7 @@
             {
               "hebrew": "וָעֶד",
               "meaning": "and ever",
+              "phrase": "לְעוֹלָם וָעֶד",
               "parts": [
                 {
                   "hebrew": "וָ־",
@@ -233,6 +245,7 @@
             {
               "hebrew": "וְאָהַבְתָּ",
               "meaning": "and you shall love",
+              "phrase": "וְאָהַבְתָּ אֵת יְיָ",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -255,6 +268,7 @@
             {
               "hebrew": "אֵת",
               "meaning": "(marks the direct object)",
+              "phrase": "וְאָהַבְתָּ אֵת יְיָ",
               "parts": [
                 {
                   "hebrew": "אֵת",
@@ -266,6 +280,7 @@
             {
               "hebrew": "יְיָ",
               "meaning": "the LORD",
+              "phrase": "יְיָ אֱלֹהֶיךָ",
               "parts": [
                 {
                   "hebrew": "יְיָ",
@@ -279,6 +294,7 @@
             {
               "hebrew": "אֱלֹהֶיךָ",
               "meaning": "your God",
+              "phrase": "יְיָ אֱלֹהֶיךָ",
               "parts": [
                 {
                   "hebrew": "אֱלֹהֵי",
@@ -302,6 +318,7 @@
             {
               "hebrew": "בְּכָל־",
               "meaning": "with all of",
+              "phrase": "בְּכָל־לְבָבְךָ",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -322,6 +339,7 @@
             {
               "hebrew": "לְבָבְךָ",
               "meaning": "your heart",
+              "phrase": "בְּכָל־לְבָבְךָ",
               "parts": [
                 {
                   "hebrew": "לְבַב",
@@ -345,6 +363,7 @@
             {
               "hebrew": "וּבְכָל־",
               "meaning": "and with all of",
+              "phrase": "וּבְכָל־נַפְשְׁךָ",
               "parts": [
                 {
                   "hebrew": "וּ־",
@@ -370,6 +389,7 @@
             {
               "hebrew": "נַפְשְׁךָ",
               "meaning": "your soul",
+              "phrase": "וּבְכָל־נַפְשְׁךָ",
               "parts": [
                 {
                   "hebrew": "נֶפֶשׁ",
@@ -393,6 +413,7 @@
             {
               "hebrew": "וּבְכָל־",
               "meaning": "and with all of",
+              "phrase": "וּבְכָל־מְאֹדֶךָ",
               "parts": [
                 {
                   "hebrew": "וּ־",
@@ -418,6 +439,7 @@
             {
               "hebrew": "מְאֹדֶךָ",
               "meaning": "your might",
+              "phrase": "וּבְכָל־מְאֹדֶךָ",
               "parts": [
                 {
                   "hebrew": "מְאֹד",
@@ -447,6 +469,7 @@
             {
               "hebrew": "וְהָיוּ",
               "meaning": "and they shall be",
+              "phrase": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -469,6 +492,7 @@
             {
               "hebrew": "הַדְּבָרִים",
               "meaning": "the words",
+              "phrase": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה",
               "parts": [
                 {
                   "hebrew": "הַ־",
@@ -488,6 +512,7 @@
             {
               "hebrew": "הָאֵלֶּה",
               "meaning": "these",
+              "phrase": "הַדְּבָרִים הָאֵלֶּה",
               "parts": [
                 {
                   "hebrew": "הָ־",
@@ -507,6 +532,7 @@
             {
               "hebrew": "אֲשֶׁר",
               "meaning": "that",
+              "phrase": "אֲשֶׁר אָנֹכִי מְצַוְּךָ",
               "parts": [
                 {
                   "hebrew": "אֲשֶׁר",
@@ -518,6 +544,7 @@
             {
               "hebrew": "אָנֹכִי",
               "meaning": "I",
+              "phrase": "אֲשֶׁר אָנֹכִי מְצַוְּךָ",
               "parts": [
                 {
                   "hebrew": "אָנֹכִי",
@@ -532,6 +559,7 @@
             {
               "hebrew": "מְצַוְּךָ",
               "meaning": "command you",
+              "phrase": "אָנֹכִי מְצַוְּךָ הַיּוֹם",
               "parts": [
                 {
                   "hebrew": "מְצַוֶּה",
@@ -556,6 +584,7 @@
             {
               "hebrew": "הַיּוֹם",
               "meaning": "today",
+              "phrase": "מְצַוְּךָ הַיּוֹם",
               "parts": [
                 {
                   "hebrew": "הַ־",
@@ -575,6 +604,7 @@
             {
               "hebrew": "עַל־",
               "meaning": "upon",
+              "phrase": "עַל־לְבָבֶךָ",
               "parts": [
                 {
                   "hebrew": "עַל־",
@@ -586,6 +616,7 @@
             {
               "hebrew": "לְבָבֶךָ",
               "meaning": "your heart",
+              "phrase": "עַל־לְבָבֶךָ",
               "parts": [
                 {
                   "hebrew": "לְבַב",
@@ -615,6 +646,7 @@
             {
               "hebrew": "וְשִׁנַּנְתָּם",
               "meaning": "and you shall teach them",
+              "phrase": "וְשִׁנַּנְתָּם לְבָנֶיךָ",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -645,6 +677,7 @@
             {
               "hebrew": "לְבָנֶיךָ",
               "meaning": "to your children",
+              "phrase": "וְשִׁנַּנְתָּם לְבָנֶיךָ",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -673,6 +706,7 @@
             {
               "hebrew": "וְדִבַּרְתָּ",
               "meaning": "and you shall speak",
+              "phrase": "וְדִבַּרְתָּ בָּם",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -695,6 +729,7 @@
             {
               "hebrew": "בָּם",
               "meaning": "of them",
+              "phrase": "וְדִבַּרְתָּ בָּם",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -714,6 +749,7 @@
             {
               "hebrew": "בְּשִׁבְתְּךָ",
               "meaning": "when you sit",
+              "phrase": "בְּשִׁבְתְּךָ בְּבֵיתֶךָ",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -741,6 +777,7 @@
             {
               "hebrew": "בְּבֵיתֶךָ",
               "meaning": "in your house",
+              "phrase": "בְּשִׁבְתְּךָ בְּבֵיתֶךָ",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -769,6 +806,7 @@
             {
               "hebrew": "וּבְלֶכְתְּךָ",
               "meaning": "and when you walk",
+              "phrase": "וּבְלֶכְתְּךָ בַדֶּרֶךְ",
               "parts": [
                 {
                   "hebrew": "וּ־",
@@ -801,6 +839,7 @@
             {
               "hebrew": "בַדֶּרֶךְ",
               "meaning": "on the way",
+              "phrase": "וּבְלֶכְתְּךָ בַדֶּרֶךְ",
               "parts": [
                 {
                   "hebrew": "בַ־",
@@ -820,6 +859,7 @@
             {
               "hebrew": "וּבְשָׁכְבְּךָ",
               "meaning": "and when you lie down",
+              "phrase": "וּבְשָׁכְבְּךָ וּבְקוּמֶךָ",
               "parts": [
                 {
                   "hebrew": "וּ־",
@@ -852,6 +892,7 @@
             {
               "hebrew": "וּבְקוּמֶךָ",
               "meaning": "and when you rise up",
+              "phrase": "וּבְשָׁכְבְּךָ וּבְקוּמֶךָ",
               "parts": [
                 {
                   "hebrew": "וּ־",
@@ -890,6 +931,7 @@
             {
               "hebrew": "וּקְשַׁרְתָּם",
               "meaning": "and you shall bind them",
+              "phrase": "וּקְשַׁרְתָּם לְאוֹת",
               "parts": [
                 {
                   "hebrew": "וּ־",
@@ -920,6 +962,7 @@
             {
               "hebrew": "לְאוֹת",
               "meaning": "as a sign",
+              "phrase": "וּקְשַׁרְתָּם לְאוֹת",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -939,6 +982,7 @@
             {
               "hebrew": "עַל־",
               "meaning": "upon",
+              "phrase": "עַל־יָדֶךָ",
               "parts": [
                 {
                   "hebrew": "עַל־",
@@ -950,6 +994,7 @@
             {
               "hebrew": "יָדֶךָ",
               "meaning": "your hand",
+              "phrase": "עַל־יָדֶךָ",
               "parts": [
                 {
                   "hebrew": "יַד",
@@ -972,6 +1017,7 @@
             {
               "hebrew": "וְהָיוּ",
               "meaning": "and they shall be",
+              "phrase": "וְהָיוּ לְטֹטָפֹת",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -994,6 +1040,7 @@
             {
               "hebrew": "לְטֹטָפֹת",
               "meaning": "as frontlets (tefillin)",
+              "phrase": "וְהָיוּ לְטֹטָפֹת",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -1012,6 +1059,7 @@
             {
               "hebrew": "בֵּין",
               "meaning": "between",
+              "phrase": "בֵּין עֵינֶיךָ",
               "parts": [
                 {
                   "hebrew": "בֵּין",
@@ -1024,6 +1072,7 @@
             {
               "hebrew": "עֵינֶיךָ",
               "meaning": "your eyes",
+              "phrase": "בֵּין עֵינֶיךָ",
               "parts": [
                 {
                   "hebrew": "עֵינֵי",
@@ -1053,6 +1102,7 @@
             {
               "hebrew": "וּכְתַבְתָּם",
               "meaning": "and you shall write them",
+              "phrase": "וּכְתַבְתָּם עַל־מְזוּזֹת",
               "parts": [
                 {
                   "hebrew": "וּ־",
@@ -1083,6 +1133,7 @@
             {
               "hebrew": "עַל־",
               "meaning": "upon",
+              "phrase": "עַל־מְזוּזֹת בֵּיתֶךָ",
               "parts": [
                 {
                   "hebrew": "עַל־",
@@ -1094,6 +1145,7 @@
             {
               "hebrew": "מְזוּזֹת",
               "meaning": "the doorposts of",
+              "phrase": "עַל־מְזוּזֹת בֵּיתֶךָ",
               "parts": [
                 {
                   "hebrew": "מְזוּזֹת",
@@ -1108,6 +1160,7 @@
             {
               "hebrew": "בֵּיתֶךָ",
               "meaning": "your house",
+              "phrase": "עַל־מְזוּזֹת בֵּיתֶךָ",
               "parts": [
                 {
                   "hebrew": "בֵּית",
@@ -1131,6 +1184,7 @@
             {
               "hebrew": "וּבִשְׁעָרֶיךָ",
               "meaning": "and on your gates",
+              "phrase": "בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
               "parts": [
                 {
                   "hebrew": "וּ־",
