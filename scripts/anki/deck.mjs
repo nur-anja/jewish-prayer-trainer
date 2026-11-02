@@ -1,15 +1,13 @@
 // Turns one text breakdown into the decks and notes of its Anki deck. Used by index.mjs.
 //
 // Deck: "Prayer Trainer::<title>". Notes, in the order Anki introduces them (text order):
-//   for every line: a Word note for each word not seen before in this text, each followed by a Root note
-//   for its root when the root is new in this text; then the Line note.
+//   for every line: a Word note for each word not seen before in this text, then the Line note.
 //
 // Notes are identified (their guid) by:
 //   Word  text id + spelling. A spelling that comes back with a different breakdown (meaning, parts or
 //         root) gets a second note, identified by text id + spelling + meaning; its first occurrence gives
 //         the context line.
 //   Line  text id + section number + line number
-//   Root  text id + root (a root used in two texts has a note in each, listing that text's words)
 // So fixing a breakdown and re-importing updates the note; renaming a text id or moving lines makes new ones.
 //
 // Tags: the text id, "section::<title>" when the section has a title, and "pos::<part of speech>" for
@@ -20,7 +18,7 @@
 
 import { createHash } from "node:crypto";
 import { escape, gloss, partGloss, wordRoot } from "../render/common.mjs";
-import { LINE, ROOT_NOTE, WORD } from "./templates.mjs";
+import { LINE, WORD } from "./templates.mjs";
 
 const hash = (s) => createHash("sha1").update(s).digest("hex");
 const guid = (...identity) => hash(identity.join("\x1f")).slice(0, 20);
@@ -44,7 +42,6 @@ export function buildDeck(text, roots, file) {
   const deck = { id: deckId(`Prayer Trainer::${text.title}`), name: `Prayer Trainer::${text.title}` };
   const notes = [];
   const words = new Map(); // spelling -> [{ signature, ... }]
-  const rootNotes = new Map(); // root -> { note, words }
   let previous = `<div dir="ltr" class="start">Start of ${escape(text.title)}</div>`;
 
   text.sections.forEach((section, s) => {
@@ -81,15 +78,6 @@ export function buildDeck(text, roots, file) {
             escape(text.title),
           ],
         });
-
-        if (!root) continue;
-        if (!rootNotes.has(word.root)) {
-          const note = { guid: guid(text.id, "root", word.root), noteType: ROOT_NOTE, deck, tags: [text.id] };
-          rootNotes.set(word.root, { note, root, words: [] });
-          notes.push(note);
-        }
-        const entry = rootNotes.get(word.root);
-        if (!entry.words.some((w) => w.hebrew === word.hebrew)) entry.words.push(word);
       }
 
       notes.push({
@@ -108,17 +96,6 @@ export function buildDeck(text, roots, file) {
       previous = `<div dir="rtl" class="he">${escape(line.hebrew)}</div>`;
     });
   });
-
-  // Root notes list every word of the text with that root, so their fields are filled in at the end.
-  for (const [rootName, { note, root, words: rootWords }] of rootNotes) {
-    note.fields = [
-      escape(rootName),
-      escape(root.meaning),
-      glosses(root.related),
-      glosses(rootWords),
-      escape(text.title),
-    ];
-  }
 
   return { decks: [deck], notes };
 }

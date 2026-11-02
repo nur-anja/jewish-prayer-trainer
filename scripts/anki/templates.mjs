@@ -7,7 +7,6 @@
 //                      back:  the word, then the same as Recognize
 //   Line   Translate   front: the Hebrew line            back: its translation
 //          Next line   front: the line before it (or "Start of ...")   back: the line and its translation
-//   Root   Root        front: the root   back: its meaning, related words, and the words in this text with it
 //
 // The ids must never change: Anki recognizes a note type by its id, so changing one makes a re-import add
 // a second copy of every note. Adding, removing or reordering fields or templates also makes Anki treat
@@ -47,9 +46,9 @@ const CSS = `
 .meaning { font-size: 26px; font-weight: bold; }
 .details { text-align: left; display: inline-block; max-width: 34em; margin-top: 10px; }
 .details strong { font-size: 24px; }
-.parts div, .related div, .words div { padding-left: 1em; text-indent: -1em; }
-.root, .related, .words { margin-top: 6px; }
-.related, .words { font-size: 18px; }
+.parts div, .related div { padding-left: 1em; text-indent: -1em; }
+.root, .related { margin-top: 6px; }
+.related { font-size: 18px; }
 .heading { font-size: 14px; color: var(--dim); }
 .details .heading { margin-top: 10px; }
 em { color: var(--dim); }
@@ -107,22 +106,4 @@ export const LINE = {
   css: CSS,
 };
 
-export const ROOT_NOTE = {
-  id: 1761955200003,
-  name: "Prayer Trainer: Root",
-  fields: ["Root", "Meaning", "Related", "Words", "Text"],
-  templates: [
-    {
-      name: "Root",
-      front: `<div dir="rtl" class="heading">Root</div>\n<div dir="rtl" class="he big">{{Root}}</div>\n${SOURCE}`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>
-<div dir="ltr" class="details">
-{{#Related}}<div class="related">{{Related}}</div>{{/Related}}
-{{#Words}}<div dir="rtl" class="heading">In {{Text}}</div><div class="words">{{Words}}</div>{{/Words}}
-</div>`,
-    },
-  ],
-  css: CSS,
-};
-
-export const NOTE_TYPES = [WORD, LINE, ROOT_NOTE];
+export const NOTE_TYPES = [WORD, LINE];

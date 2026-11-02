@@ -4,7 +4,7 @@ Status: done. Built with `npm run anki`; the code is in scripts/anki/. This note
 
 ## Goal
 
-A third output next to the A4 and Kindle PDFs: an Anki deck built from the same breakdowns in processed/json/, so the words, lines and roots of each prayer can be learned with spaced repetition. Running one command rebuilds the deck, and importing the new deck into Anki updates the cards already there instead of adding duplicates, keeping their review history.
+A third output next to the A4 and Kindle PDFs: an Anki deck built from the same breakdowns in processed/json/, so the words and lines of each prayer can be learned with spaced repetition. Running one command rebuilds the deck, and importing the new deck into Anki updates the cards already there instead of adding duplicates, keeping their review history.
 
 ## Background
 
@@ -26,13 +26,13 @@ The writer is about 150 lines in `scripts/anki/apkg.mjs`, modeled on genanki: bu
 
 ### One deck per prayer
 
-One file per text, `processed/anki/<id>.apkg`, committed like the PDFs, holding one deck: "Prayer Trainer::<title>", e.g. Prayer Trainer::Shema. All of a prayer's cards are in that deck, in text order, so roots don't get a deck of their own: each text has its own root notes (see below).
+One file per text, `processed/anki/<id>.apkg`, committed like the PDFs, holding one deck: "Prayer Trainer::<title>", e.g. Prayer Trainer::Shema. All of a prayer's cards are in that deck, in text order.
 
 Tags on every note: the text id and, if the section has a title, `section::<title>`; word notes also get `pos::<part of speech>` for each part.
 
 ### Note types and cards
 
-Three note types, each with fields filled from the JSON and its own templates:
+Two note types, each with fields filled from the JSON and its own templates:
 
 1. **Word** (one per distinct word per text)
    - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the line with this word highlighted), LineTranslation, Text.
@@ -42,19 +42,18 @@ Three note types, each with fields filled from the JSON and its own templates:
    - Fields: Hebrew, Translation, PreviousLine, Section, Text.
    - Card "Translate": Hebrew line, then its translation.
    - Card "Next line": front is the previous line (or the section/text title for the first line), back is this line, for learning the prayer by heart in order.
-3. **Root** (one per root per text, introduced right after the first word with that root)
-   - Fields: Root, Meaning, Related, Words (the words from the texts that have this root, with their meanings).
-   - Card: root, then its meaning, related words and the words met in the texts.
+
+Root cards (a root, then its meaning, related words and the words in the text with it) were built at first and dropped: the root and related words are already on the back of every word card.
 
 ### Duplicates and stable ids
 
 - A word note is identified by text id + the word's spelling without punctuation. The first occurrence in the text decides its context line. If the same spelling appears twice in one text with a different breakdown (meaning or parts), it gets a second note, identified by also adding the meaning.
-- A line note is identified by text id + section index + line index; a root note by text id + root.
+- A line note is identified by text id + section index + line index.
 - The note guid is a hash of that identity, so a re-import after fixing a breakdown updates the fields of the existing note and keeps its reviews. Renaming a text id or reordering lines creates new notes; that's accepted.
 
 ### Card order
 
-New cards are numbered in text order: for each line, its new words (each followed by its root card when the root is new), then the line's cards. Anki introduces them in the order they appear in the prayer.
+New cards are numbered in text order: for each line, its new words, then the line's cards. Anki introduces them in the order they appear in the prayer.
 
 ### Font
 
