@@ -45,7 +45,7 @@ export function buildDeck(text, roots, file) {
   const notes = [];
   const words = new Map(); // spelling -> [{ signature, ... }]
   const rootNotes = new Map(); // root -> { note, words }
-  let previous = `<div class="start">Start of ${escape(text.title)}</div>`;
+  let previous = `<div dir="ltr" class="start">Start of ${escape(text.title)}</div>`;
 
   text.sections.forEach((section, s) => {
     const sectionTags = section.title ? [`section::${tag(section.title)}`] : [];
@@ -105,7 +105,7 @@ export function buildDeck(text, roots, file) {
           escape(text.title),
         ],
       });
-      previous = `<div class="he">${escape(line.hebrew)}</div>`;
+      previous = `<div dir="rtl" class="he">${escape(line.hebrew)}</div>`;
     });
   });
 

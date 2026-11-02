@@ -19,7 +19,10 @@ export const FONT_FILE = "_NotoSerifHebrew.ttf"; // the underscore keeps Anki's 
 
 const CSS = `
 @font-face { font-family: "Prayer Trainer Hebrew"; src: url("${FONT_FILE}"); }
+/* Every element states its direction (dir="ltr" or dir="rtl" in the templates and fields): AnkiDroid can
+   lay out a whole card right to left when its first text is Hebrew, which reverses the English lines. */
 .card {
+  direction: ltr;
   --text: #111; --dim: #666; --rule: #999;
   font-family: "Prayer Trainer Hebrew", "Noto Serif Hebrew", "Times New Roman", serif;
   font-size: 20px;
@@ -53,13 +56,13 @@ em { color: var(--dim); }
 `;
 
 const DETAILS = `
-<div class="details">
+<div dir="ltr" class="details">
 <div class="parts">{{Parts}}</div>
 {{#Root}}<div class="root">Root <strong>{{Root}}</strong> - {{RootMeaning}}</div>{{/Root}}
 {{#Related}}<div class="related">{{Related}}</div>{{/Related}}
 </div>`;
 
-const SOURCE = `<div class="source">{{Text}}</div>`;
+const SOURCE = `<div dir="ltr" class="source">{{Text}}</div>`;
 
 export const WORD = {
   id: 1761955200001,
@@ -68,16 +71,16 @@ export const WORD = {
   templates: [
     {
       name: "Recognize",
-      front: `<div class="he big">{{Hebrew}}</div>\n<div class="he context">{{Context}}</div>\n${SOURCE}`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div class="meaning">{{Meaning}}</div>${DETAILS}
-<div class="en context-en">{{LineTranslation}}</div>`,
+      front: `<div dir="rtl" class="he big">{{Hebrew}}</div>\n<div dir="rtl" class="he context">{{Context}}</div>\n${SOURCE}`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${DETAILS}
+<div dir="ltr" class="en context-en">{{LineTranslation}}</div>`,
     },
     {
       name: "Produce",
-      front: `<div class="meaning">{{Meaning}}</div>\n<div class="he context blank">{{Context}}</div>
-<div class="en context-en">{{LineTranslation}}</div>\n${SOURCE}`,
-      back: `<div class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div class="he big">{{Hebrew}}</div>
-<div class="he context">{{Context}}</div>${DETAILS}`,
+      front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>
+<div dir="ltr" class="en context-en">{{LineTranslation}}</div>\n${SOURCE}`,
+      back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>
+<div dir="rtl" class="he context">{{Context}}</div>${DETAILS}`,
     },
   ],
   css: CSS,
@@ -90,15 +93,15 @@ export const LINE = {
   templates: [
     {
       name: "Translate",
-      front: `<div class="he line">{{Hebrew}}</div>
-<div class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div class="en">{{Translation}}</div>`,
+      front: `<div dir="rtl" class="he line">{{Hebrew}}</div>
+<div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="en">{{Translation}}</div>`,
     },
     {
       name: "Next line",
-      front: `<div class="prompt">What comes next?</div>\n<div class="line context">{{Previous}}</div>
-<div class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div class="he line">{{Hebrew}}</div>\n<div class="en">{{Translation}}</div>`,
+      front: `<div dir="ltr" class="prompt">What comes next?</div>\n<div dir="ltr" class="line context">{{Previous}}</div>
+<div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>\n<div dir="ltr" class="en">{{Translation}}</div>`,
     },
   ],
   css: CSS,
@@ -111,11 +114,11 @@ export const ROOT_NOTE = {
   templates: [
     {
       name: "Root",
-      front: `<div class="heading">Root</div>\n<div class="he big">{{Root}}</div>\n${SOURCE}`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div class="meaning">{{Meaning}}</div>
-<div class="details">
+      front: `<div dir="rtl" class="heading">Root</div>\n<div dir="rtl" class="he big">{{Root}}</div>\n${SOURCE}`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>
+<div dir="ltr" class="details">
 {{#Related}}<div class="related">{{Related}}</div>{{/Related}}
-{{#Words}}<div class="heading">In {{Text}}</div><div class="words">{{Words}}</div>{{/Words}}
+{{#Words}}<div dir="rtl" class="heading">In {{Text}}</div><div class="words">{{Words}}</div>{{/Words}}
 </div>`,
     },
   ],
