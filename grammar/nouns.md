@@ -44,6 +44,25 @@ A וּת ending also makes abstract nouns:
 |---|---|---|
 | מַלְכ<b style="color:red">וּת</b> | מלך | kingship |
 
+## Dagesh and ו for acts
+
+Nouns with a hiriq under the first root letter, a dagesh in the second and a ו with shuruk before the last often name an act:
+
+| Example | Root | Note | Translation |
+|---|---|---|---|
+| קִדּ<b style="color:red">וּ</b>שׁ | קדש | dagesh in ד | sanctification, Kiddush |
+| לִמּ<b style="color:red">וּ</b>ד | למד | dagesh in מ | learning |
+| סִפּ<b style="color:red">וּ</b>ר | ספר | dagesh in פ | telling, story |
+
+They are the nouns of verbs with a dagesh in the middle root letter, like "sanctifies" in [participle](participle.md).
+
 ## Watch out
 
 A מ at the start can also be a [participle](participle.md) or the [prefix letter](prefix-letters.md) "from". A ת at the start can also be a [future tense](future-tense.md) prefix.
+
+A ו before the last root letter also comes in passive participles, but there the first root letter has a kamatz and the second no dagesh:
+
+| Example | Root | Note | Translation |
+|---|---|---|---|
+| כָּת<b style="color:red">וּ</b>ב | כתב | passive participle | written |
+| קִדּ<b style="color:red">וּ</b>שׁ | קדש | noun | sanctification |
