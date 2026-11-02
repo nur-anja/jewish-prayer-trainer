@@ -1,7 +1,7 @@
 // The Anki note types: their fields, card templates and styling. Used by deck.mjs.
 //
 //   Word   Recognize   front: the word, its phrase below it with the word in bold
-//                      back:  meaning, one "**part** - meaning (label)" per part, root and root meaning,
+//                      back:  meaning, one "**part** - meaning (label) → grammar note link(s)" per part, root and root meaning,
 //                             related root words, the line's translation (same content as a Kindle word card)
 //          Produce     front: the meaning, the phrase with the word blanked out
 //                      back:  the word, then the same as Recognize
@@ -54,6 +54,8 @@ const CSS = `
 .heading { font-size: 14px; color: var(--dim); }
 .details .heading { margin-top: 10px; }
 em { color: var(--dim); }
+a.grammar { font-size: 14px; color: var(--dim); white-space: nowrap; text-indent: 0; }
+a.grammar::before { content: "→ "; }
 `;
 
 const DETAILS = `

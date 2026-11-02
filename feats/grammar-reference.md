@@ -1,6 +1,6 @@
 # Grammar reference
 
-Status: idea, not started.
+Status: idea, partly started. The Anki word cards link each part to the note in [grammar/](../grammar/README.md) for its form (see [anki-deck](anki-deck.md)); the texts and PDFs don't link yet.
 
 ## Goal
 
