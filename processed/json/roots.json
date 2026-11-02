@@ -116,6 +116,19 @@
       }
     ]
   },
+  "א-ש-ר": {
+    "meaning": "happiness, fortune",
+    "related": [
+      {
+        "hebrew": "אַשְׁרֵי",
+        "meaning": "happy is (the Ashrei prayer)"
+      },
+      {
+        "hebrew": "אֹשֶׁר",
+        "meaning": "happiness"
+      }
+    ]
+  },
   "ב-ו-א": {
     "meaning": "to come",
     "related": [
@@ -126,6 +139,19 @@
       {
         "hebrew": "וּבָא",
         "meaning": "and will come"
+      }
+    ]
+  },
+  "ב-ט-ח": {
+    "meaning": "to trust",
+    "related": [
+      {
+        "hebrew": "בִּטָּחוֹן",
+        "meaning": "trust, security"
+      },
+      {
+        "hebrew": "בָּטוּחַ",
+        "meaning": "safe, sure"
       }
     ]
   },
@@ -310,6 +336,23 @@
       }
     ]
   },
+  "ז-מ-ר": {
+    "meaning": "to sing, make music",
+    "related": [
+      {
+        "hebrew": "מִזְמוֹר",
+        "meaning": "psalm"
+      },
+      {
+        "hebrew": "פְּסוּקֵי דְזִמְרָה",
+        "meaning": "Verses of Song"
+      },
+      {
+        "hebrew": "זֶמֶר",
+        "meaning": "song"
+      }
+    ]
+  },
   "ח-ו-ש": {
     "meaning": "to hurry",
     "related": [
@@ -415,11 +458,15 @@
     ]
   },
   "י-מ-ם": {
-    "meaning": "sea",
+    "meaning": "sea; west",
     "related": [
       {
         "hebrew": "הַיָּם",
         "meaning": "the sea"
+      },
+      {
+        "hebrew": "יָמָּה וָקֵדְמָה",
+        "meaning": "westward and eastward"
       }
     ]
   },
@@ -436,6 +483,19 @@
       }
     ]
   },
+  "י-ק-ר": {
+    "meaning": "precious, honor",
+    "related": [
+      {
+        "hebrew": "יָקָר",
+        "meaning": "precious, dear"
+      },
+      {
+        "hebrew": "יְקָר",
+        "meaning": "honor"
+      }
+    ]
+  },
   "י-ש-ב": {
     "meaning": "to sit, to dwell",
     "related": [
@@ -446,6 +506,23 @@
       {
         "hebrew": "יְשִׁיבָה",
         "meaning": "yeshiva"
+      }
+    ]
+  },
+  "י-ש-ע": {
+    "meaning": "to save",
+    "related": [
+      {
+        "hebrew": "יְשׁוּעָה",
+        "meaning": "salvation"
+      },
+      {
+        "hebrew": "הוֹשִׁיעָה",
+        "meaning": "save!"
+      },
+      {
+        "hebrew": "מוֹשִׁיעַ",
+        "meaning": "savior"
       }
     ]
   },
@@ -588,6 +665,23 @@
       }
     ]
   },
+  "נ-ש-א": {
+    "meaning": "to lift, carry",
+    "related": [
+      {
+        "hebrew": "נָשִׂיא",
+        "meaning": "prince, leader"
+      },
+      {
+        "hebrew": "יִשָּׂא יְיָ פָּנָיו",
+        "meaning": "may the LORD lift His face"
+      },
+      {
+        "hebrew": "נוֹשֵׂא",
+        "meaning": "subject; carrying"
+      }
+    ]
+  },
   "נ-ש-ם": {
     "meaning": "to breathe",
     "related": [
@@ -611,7 +705,7 @@
     ]
   },
   "ע-ו-ד": {
-    "meaning": "to witness, to testify",
+    "meaning": "to testify; still, again",
     "related": [
       {
         "hebrew": "עֵדֹתֶיךָ",
@@ -620,6 +714,27 @@
       {
         "hebrew": "עֵד",
         "meaning": "witness"
+      },
+      {
+        "hebrew": "עוֹד",
+        "meaning": "still, again, more"
+      }
+    ]
+  },
+  "ע-ז-ז": {
+    "meaning": "to be strong",
+    "related": [
+      {
+        "hebrew": "עֹז",
+        "meaning": "strength"
+      },
+      {
+        "hebrew": "יְיָ עֹז לְעַמּוֹ יִתֵּן",
+        "meaning": "the LORD will give strength to His people"
+      },
+      {
+        "hebrew": "עַז",
+        "meaning": "strong, fierce"
       }
     ]
   },
@@ -692,6 +807,32 @@
       }
     ]
   },
+  "ע-נ-ה": {
+    "meaning": "to answer",
+    "related": [
+      {
+        "hebrew": "עֲנֵנוּ",
+        "meaning": "answer us"
+      },
+      {
+        "hebrew": "תַּעֲנִית",
+        "meaning": "fast day"
+      }
+    ]
+  },
+  "ע-ק-ב": {
+    "meaning": "heel; to follow",
+    "related": [
+      {
+        "hebrew": "עָקֵב",
+        "meaning": "heel"
+      },
+      {
+        "hebrew": "עֵקֶב",
+        "meaning": "because (the Torah portion Eikev)"
+      }
+    ]
+  },
   "ע-ר-ץ": {
     "meaning": "to be in awe, to be mighty",
     "related": [
@@ -702,6 +843,19 @@
       {
         "hebrew": "עָרִיץ",
         "meaning": "tyrant"
+      }
+    ]
+  },
+  "פ-ח-ד": {
+    "meaning": "to fear",
+    "related": [
+      {
+        "hebrew": "פַּחַד",
+        "meaning": "fear"
+      },
+      {
+        "hebrew": "פַּחַד יִצְחָק",
+        "meaning": "the Fear of Isaac"
       }
     ]
   },
@@ -796,15 +950,6 @@
       }
     ]
   },
-  "ר-א-ם": {
-    "meaning": "wild ox",
-    "related": [
-      {
-        "hebrew": "בֶן רְאֵמִים",
-        "meaning": "young wild ox"
-      }
-    ]
-  },
   "ר-ב-ב": {
     "meaning": "many, great",
     "related": [
@@ -865,6 +1010,19 @@
       }
     ]
   },
+  "ש-א-ב": {
+    "meaning": "to draw (water)",
+    "related": [
+      {
+        "hebrew": "שׁוֹאֵב",
+        "meaning": "one who draws water"
+      },
+      {
+        "hebrew": "שְׁאִיבָה",
+        "meaning": "drawing"
+      }
+    ]
+  },
   "ש-ב-ת": {
     "meaning": "to cease, to rest",
     "related": [
@@ -879,6 +1037,36 @@
       {
         "hebrew": "שַׁבָּתוֹן",
         "meaning": "complete rest"
+      }
+    ]
+  },
+  "ש-ג-ב": {
+    "meaning": "to be high, exalted",
+    "related": [
+      {
+        "hebrew": "כִּי נִשְׂגָּב שְׁמוֹ לְבַדּוֹ",
+        "meaning": "for His name alone is exalted"
+      },
+      {
+        "hebrew": "נִשְׂגָּב",
+        "meaning": "exalted"
+      }
+    ]
+  },
+  "ש-ו-ש": {
+    "meaning": "to rejoice",
+    "related": [
+      {
+        "hebrew": "שָׂשׂוֹן וְשִׂמְחָה",
+        "meaning": "joy and gladness"
+      },
+      {
+        "hebrew": "יָשִׂישׂ עָלַיִךְ אֱלֹהָיִךְ",
+        "meaning": "your God will rejoice over you"
+      },
+      {
+        "hebrew": "מָשׂוֹשׂ",
+        "meaning": "joy"
       }
     ]
   },
@@ -996,15 +1184,6 @@
       {
         "hebrew": "הַשִּׁשִּׁי",
         "meaning": "the sixth"
-      }
-    ]
-  },
-  "ת-נ-ן": {
-    "meaning": "sea creature",
-    "related": [
-      {
-        "hebrew": "הַתַּנִּינִם",
-        "meaning": "the sea monsters"
       }
     ]
   }

@@ -489,8 +489,7 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ],
-              "root": "ת-נ-ן"
+              ]
             },
             {
               "hebrew": "וְאָדָם",
@@ -542,8 +541,7 @@
                   "gender": "masc",
                   "number": "pl"
                 }
-              ],
-              "root": "ר-א-ם"
+              ]
             }
           ]
         },
@@ -962,7 +960,8 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ]
+              ],
+              "root": "א-ל-ה"
             },
             {
               "hebrew": "מִכָּל",
@@ -1062,7 +1061,8 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ]
+              ],
+              "root": "א-ל-ה"
             },
             {
               "hebrew": "יַחֲלִיצָךְ",

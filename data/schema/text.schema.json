@@ -13,12 +13,12 @@
       "pattern": "^[a-z0-9_]+$"
     },
     "title": {
-      "description": "The text's commonly used name, transliterated, e.g. \"Menucha V'simcha\".",
+      "description": "The text's commonly used name, transliterated, e.g. \"Menucha V'simcha\". For part of a prayer: \"Prayer: Part\", e.g. \"Havdala: Hinei El\".",
       "type": "string",
       "minLength": 1
     },
     "kind": {
-      "description": "poem: each line is a verse. prose: each line is a sentence or pasuk of continuous text.",
+      "description": "poem: lines of verse. prose: continuous text.",
       "enum": ["poem", "prose"]
     },
     "sections": {
@@ -48,7 +48,7 @@
       }
     },
     "line": {
-      "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence.",
+      "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence of text that isn't a pasuk. A response added after a pasuk, such as כֵּן תִּהְיֶה לָּנוּ, is its own line.",
       "type": "object",
       "additionalProperties": false,
       "required": ["hebrew", "translation", "words"],
@@ -89,13 +89,8 @@
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root. When in doubt, leave it out.",
+          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root. When it's unclear whether a root is commonly taught, keep it if it links the word to other words in the siddur or the Torah; otherwise leave it out. Even then, leave out a root that would point to an unrelated meaning. Names follow the same rule.",
           "$ref": "#/$defs/root"
-        },
-        "notes": {
-          "description": "Anything about the whole word that the other fields can't express, e.g. an idiom or a textual variant. Details about one part go in that part's notes.",
-          "type": "string",
-          "minLength": 1
         }
       }
     },
@@ -106,7 +101,7 @@
       "required": ["hebrew", "meaning", "pos"],
       "properties": {
         "hebrew": {
-          "description": "Prefixes end with a maqaf and suffixes start with one: וְ־ (and), ־ָיו (his). A base word is written as it stands on its own, undoing changes caused by its prefixes and suffixes (dagesh, vowels, endings); a noun or verb that takes a suffix keeps its construct form. E.g. יְהוּדִים in לַיְּהוּדִים, כָּל־ in וּבְכָל־, שֶׁבֶת in בְּשִׁבְתְּךָ.",
+          "description": "Prefixes end with a maqaf and suffixes start with one: וְ־ (and), ־ָיו (his). A base word is written as it stands on its own, undoing changes caused by its prefixes and suffixes (dagesh, vowels, endings); a noun or verb that takes a suffix keeps its construct form. E.g. יְהוּדִים in לַיְּהוּדִים, כָּל־ in וּבְכָל־, שֶׁבֶת in בְּשִׁבְתְּךָ, אֶל־ in אֵלָיו.",
           "type": "string",
           "minLength": 1
         },
@@ -116,7 +111,7 @@
           "minLength": 1
         },
         "pos": {
-          "description": "The relative אֲשֶׁר (that) and the object marker אֵת are particles; the object marker's meaning is \"(marks the direct object)\".",
+          "description": "Particles are words that fit no other part of speech, such as the relative אֲשֶׁר (that), the object marker אֵת, הִנֵּה (behold) and סֶלָה (Selah); the object marker's meaning is \"(marks the direct object)\".",
           "enum": [
             "noun",
             "verb",
@@ -140,7 +135,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
-          "description": "Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
+          "description": "After a vav that flips the tense, the verb keeps its written form, past or future, and its meaning shows the flipped tense: וַיְהִי (and He became) is future, וּשְׁאַבְתֶּם (and you shall draw) is past. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
           "enum": [
             "past",
             "future",
@@ -162,11 +157,6 @@
         "language": {
           "description": "Language of the part when it isn't Hebrew; left out for Hebrew. Mark a part only when its form belongs to the other language: prefixes shared by Hebrew and Aramaic (וְ־, בְּ־, לְ־) follow the language of the surrounding text. E.g. רַבָּה (great), דְּ־ (of) and the ending ־ָא (the) are Aramaic.",
           "enum": ["aramaic", "greek", "latin", "persian"]
-        },
-        "notes": {
-          "description": "A short note on a form that breaks the usual patterns in a way the other fields can't express. Such details go here rather than being dropped. Most texts need none. Not unusual, so no notes: regular grammar (weak roots, merged prefixes, suffix forms), standard uses of a form (e.g. an infinitive absolute used as a command), allusions and sources.",
-          "type": "string",
-          "minLength": 1
         }
       },
       "allOf": [
