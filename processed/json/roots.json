@@ -812,6 +812,19 @@
       }
     ]
   },
+  "ע-ק-ב": {
+    "meaning": "heel; to follow",
+    "related": [
+      {
+        "hebrew": "עָקֵב",
+        "meaning": "heel"
+      },
+      {
+        "hebrew": "עֵקֶב",
+        "meaning": "because (the Torah portion Eikev)"
+      }
+    ]
+  },
   "ע-ר-ץ": {
     "meaning": "to be in awe, to be mighty",
     "related": [
@@ -1025,6 +1038,36 @@
       {
         "hebrew": "שַׁבָּתוֹן",
         "meaning": "complete rest"
+      }
+    ]
+  },
+  "ש-ג-ב": {
+    "meaning": "to be high, exalted",
+    "related": [
+      {
+        "hebrew": "כִּי נִשְׂגָּב שְׁמוֹ לְבַדּוֹ",
+        "meaning": "for His name alone is exalted"
+      },
+      {
+        "hebrew": "נִשְׂגָּב",
+        "meaning": "exalted"
+      }
+    ]
+  },
+  "ש-ו-ש": {
+    "meaning": "to rejoice",
+    "related": [
+      {
+        "hebrew": "שָׂשׂוֹן וְשִׂמְחָה",
+        "meaning": "joy and gladness"
+      },
+      {
+        "hebrew": "יָשִׂישׂ עָלַיִךְ אֱלֹהָיִךְ",
+        "meaning": "your God will rejoice over you"
+      },
+      {
+        "hebrew": "מָשׂוֹשׂ",
+        "meaning": "joy"
       }
     ]
   },
