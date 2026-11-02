@@ -11,11 +11,12 @@
 //     on an infinitive                             Object endings, After an infinitive
 //   noun or adjective in construct                 Construct forms
 //   noun or adjective in the plural                Plural forms (as well as Construct forms if both)
+//   noun with a pattern                            Nouns built from roots, the pattern's section
 //   verb, past / future                            Past tense / Future tense
 //   verb, present / participle / passive participle  Participle
 //
-// Nothing else links, e.g. the noun templates in nouns.md, which the JSON doesn't record. Anchors follow
-// GitHub's heading ids, so renaming a heading in grammar/ means updating it here.
+// Nothing else links. Anchors follow GitHub's heading ids, so renaming a heading in grammar/ means updating
+// it here.
 
 const BASE = "https://github.com/nur-anja/jewish-prayer-trainer/blob/main/grammar/";
 
@@ -31,6 +32,10 @@ const NOTES = {
   past: ["past-tense.md", "Past tense"],
   future: ["future-tense.md", "Future tense"],
   participle: ["participle.md", "Participle"],
+  "mem-prefix": ["nouns.md#מ-prefix", "Nouns built from roots"],
+  "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
+  "hei-ending": ["nouns.md#ה-ending-for-abstract-nouns", "Nouns built from roots"],
+  "vav-tav-ending": ["nouns.md#ות-ending-for-abstract-nouns", "Nouns built from roots"],
 };
 
 const VERB_FORMS = { past: "past", future: "future", present: "participle", participle: "participle", "passive-participle": "participle" };
@@ -50,11 +55,15 @@ export function grammarNotes(parts, i) {
   if (part.pos === "pronoun-suffix" && before?.pos === "verb") {
     keys.push(before.form === "infinitive-construct" ? "onInfinitive" : "object");
   }
+  if (part.pattern) keys.push(part.pattern);
   if (["noun", "adjective"].includes(part.pos)) {
     if (part.construct) keys.push("construct");
     if (part.number === "pl") keys.push("plural");
   }
   if (part.pos === "verb" && VERB_FORMS[part.form]) keys.push(VERB_FORMS[part.form]);
 
-  return keys.map((k) => ({ url: BASE + NOTES[k][0], title: NOTES[k][1] }));
+  return keys.map((k) => {
+    if (!NOTES[k]) throw new Error(`No grammar note for pattern "${k}" of ${part.hebrew}`);
+    return { url: encodeURI(BASE + NOTES[k][0]), title: NOTES[k][1] };
+  });
 }

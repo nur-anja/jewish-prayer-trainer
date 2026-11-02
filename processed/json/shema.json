@@ -176,6 +176,7 @@
                   "hebrew": "מַלְכוּת",
                   "meaning": "kingdom of",
                   "pos": "noun",
+                  "pattern": "vav-tav-ending",
                   "gender": "fem",
                   "number": "sg",
                   "construct": true

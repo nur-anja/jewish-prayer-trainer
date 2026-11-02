@@ -18,6 +18,6 @@ Words and parts have no free-text notes field: it was dropped from the schema. B
 1. Ask Claude to do a pass over the texts to find the grammar concepts that come up, and agree on the list.
 2. To be decided after step 1: where the reference lives, how words link to concepts in the JSON, and how the PDF shows them.
 
-## Related idea: pattern field
+## Pattern field
 
-Add a "pattern" field (for example "mem-noun" or "future, we") to the word breakdowns, so the word-formation patterns in [grammar/](../grammar/README.md) get pointed out while studying each prayer.
+Done for nouns: a noun part has a `pattern` (mem-prefix, tav-prefix, hei-ending or vav-tav-ending) when it is built with one of the templates in [nouns](../grammar/nouns.md), and the Anki cards link it to that template's section. The schema says how to choose, and the three texts were filled in by hand. Only nouns have it for now; verb patterns (such as binyan templates) could be added the same way once there is a grammar note for them.
