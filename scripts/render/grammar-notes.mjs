@@ -36,7 +36,6 @@ const NOTES = {
   "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
   "hei-ending": ["nouns.md#ה-ending-for-abstract-nouns", "Nouns built from roots"],
   "vav-tav-ending": ["nouns.md#ות-ending-for-abstract-nouns", "Nouns built from roots"],
-  "dagesh-vav": ["nouns.md#dagesh-and-ו-for-acts", "Nouns built from roots"],
 };
 
 const VERB_FORMS = { past: "past", future: "future", present: "participle", participle: "participle", "passive-participle": "participle" };

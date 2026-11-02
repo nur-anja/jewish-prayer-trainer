@@ -20,4 +20,4 @@ Words and parts have no free-text notes field: it was dropped from the schema. B
 
 ## Pattern field
 
-Done for nouns: a noun part has a `pattern` (mem-prefix, tav-prefix, hei-ending, vav-tav-ending or dagesh-vav) when it is built with one of the templates in [nouns](../grammar/nouns.md), and the Anki cards link it to that template's section. The schema says how to choose, and the three texts were filled in by hand. Only nouns have it for now; verb patterns (such as binyan templates) could be added the same way once there is a grammar note for them.
+Done for nouns: a noun part has a `pattern` (mem-prefix, tav-prefix, hei-ending or vav-tav-ending) when it is built with one of the templates in [nouns](../grammar/nouns.md), and the Anki cards link it to that template's section. The schema says how to choose, and the three texts were filled in by hand. Only nouns have it for now; verb patterns (such as binyan templates) could be added the same way once there is a grammar note for them.
