@@ -40,7 +40,7 @@ Two note types, each with fields filled from the JSON and its own templates:
    - Card "Produce" (English to Hebrew): front is the meaning and the context line with the word blanked out; back is the word.
 2. **Line** (one per line)
    - Fields: Hebrew, Translation, PreviousLine, Section, Text.
-   - Card "Translate": Hebrew line, then its translation.
+   - Card "Translate": the line's translation, then the Hebrew line. (First built the other way round, Hebrew to English; flipped so that whole lines are practised from English. The name stayed, because renaming a card type makes Anki treat re-imported notes as conflicts.)
    - Card "Next line": front is the previous line (or the section/text title for the first line), back is this line, for learning the prayer by heart in order.
 
 Root cards (a root, then its meaning, related words and the words in the text with it) were built at first and dropped: the root and related words are already on the back of every word card.

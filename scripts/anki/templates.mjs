@@ -5,14 +5,14 @@
 //                             related root words, the line's translation (same content as a Kindle word card)
 //          Produce     front: the meaning, the line with the word blanked out, the line's translation
 //                      back:  the word, then the same as Recognize
-//   Line   Translate   front: the Hebrew line            back: its translation
+//   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
 //          Next line   front: the line before it (or "Start of ...")   back: the line and its translation
 //
 // The ids must never change: Anki recognizes a note type by its id, so changing one makes a re-import add
 // a second copy of every note. Adding, removing or reordering fields or templates also makes Anki treat
 // the note type as a different one: importing the new deck then skips the notes already in Anki as
-// conflicts, unless "Merge note types" is ticked in the import dialog. Renaming a template or editing the
-// HTML and CSS is safe.
+// conflicts, unless "Merge note types" is ticked in the import dialog. Renaming a field or template does
+// the same (tried with Anki 26.09). Editing the HTML and CSS is safe.
 
 export const FONT_FILE = "_NotoSerifHebrew.ttf"; // the underscore keeps Anki's "Check Media" from deleting it
 
@@ -39,6 +39,7 @@ const CSS = `
 .context .target { color: var(--text); font-weight: bold; }
 .blank .target { color: transparent; border-bottom: 2px solid var(--rule); }
 .en { font-style: italic; margin-top: 8px; }
+.verse-en { font-size: 22px; }
 .context-en { font-size: 16px; color: var(--dim); }
 .source, .prompt { font-size: 14px; color: var(--dim); margin-top: 14px; }
 .prompt { margin: 0 0 10px; }
@@ -92,9 +93,9 @@ export const LINE = {
   templates: [
     {
       name: "Translate",
-      front: `<div dir="rtl" class="he line">{{Hebrew}}</div>
+      front: `<div dir="ltr" class="en verse-en">{{Translation}}</div>
 <div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="en">{{Translation}}</div>`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>`,
     },
     {
       name: "Next line",
