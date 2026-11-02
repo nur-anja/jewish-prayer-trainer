@@ -18,7 +18,7 @@
       "minLength": 1
     },
     "kind": {
-      "description": "poem: each line is a verse. prose: each line is a sentence or pasuk of continuous text.",
+      "description": "poem: lines of verse. prose: continuous text.",
       "enum": ["poem", "prose"]
     },
     "sections": {
