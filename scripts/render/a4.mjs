@@ -9,7 +9,7 @@
 //
 // Table cells:
 //   Hebrew            **word**
-//   Meaning           meaning in context; the word's notes, if any, below it in small italics
+//   Meaning           meaning in context
 //   Word Breakdown    one "**part** - meaning *(label)*" per part, separated by line breaks;
 //                     the label follows GRAMMAR LABELS in common.mjs and is left out when it is empty
 //   Root              **ר-ו-ט**, empty for words without a root
@@ -77,7 +77,6 @@ table { width: 100%; border-collapse: collapse; margin-bottom: 4mm; }
 th, td { border: 1px solid #bbb; padding: 4px 6px; vertical-align: top; }
 th { background: #f0ece4; font-size: 10pt; text-align: left; }
 tr { break-inside: avoid; }
-.note { display: block; font-size: 9pt; font-style: italic; color: #666; margin-top: 2px; }
 /* Hebrew word and root columns read right to left, in a larger size. */
 td:nth-child(1), td:nth-child(4) { direction: rtl; text-align: right; font-size: 15pt; white-space: nowrap; }
 /* Enlarge the Hebrew parts of the mixed Hebrew/English cells. */
@@ -96,7 +95,7 @@ function wordRow(word, roots, file) {
 
   const cells = [
     `<strong>${escape(word.hebrew)}</strong>`,
-    escape(word.meaning) + (word.notes ? `<span class="note">${escape(word.notes)}</span>` : ""),
+    escape(word.meaning),
     word.parts.map(partGloss).join("<br>"),
     root ? `<strong>${escape(word.root)}</strong>` : "",
     root ? escape(root.meaning) : "",

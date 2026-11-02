@@ -5,7 +5,7 @@
 //   for its root when the root is new in this text; then the Line note.
 //
 // Notes are identified (their guid) by:
-//   Word  text id + spelling. A spelling that comes back with a different breakdown (meaning, notes, parts or
+//   Word  text id + spelling. A spelling that comes back with a different breakdown (meaning, parts or
 //         root) gets a second note, identified by text id + spelling + meaning; its first occurrence gives
 //         the context line.
 //   Line  text id + section number + line number
@@ -57,7 +57,7 @@ export function buildDeck(text, roots, file) {
         cursor = end;
 
         const root = wordRoot(word, roots, file);
-        const signature = JSON.stringify([word.meaning, word.notes, word.parts, word.root]);
+        const signature = JSON.stringify([word.meaning, word.parts, word.root]);
         const seen = words.get(word.hebrew) ?? [];
         if (seen.includes(signature)) continue;
         const id = seen.length === 0 ? guid(text.id, "word", word.hebrew) : guid(text.id, "word", word.hebrew, word.meaning);
@@ -72,7 +72,6 @@ export function buildDeck(text, roots, file) {
           fields: [
             escape(word.hebrew),
             escape(word.meaning),
-            word.notes ? escape(word.notes) : "",
             word.parts.map((p) => `<div>${partGloss(p)}</div>`).join(""),
             root ? escape(word.root) : "",
             root ? escape(root.meaning) : "",

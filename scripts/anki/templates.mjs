@@ -1,7 +1,7 @@
 // The Anki note types: their fields, card templates and styling. Used by deck.mjs.
 //
 //   Word   Recognize   front: the word, its line below it with the word in bold
-//                      back:  meaning, notes, one "**part** - meaning (label)" per part, root and root meaning,
+//                      back:  meaning, one "**part** - meaning (label)" per part, root and root meaning,
 //                             related root words, the line's translation (same content as a Kindle word card)
 //          Produce     front: the meaning, the line with the word blanked out, the line's translation
 //                      back:  the word, then the same as Recognize
@@ -11,7 +11,9 @@
 //
 // The ids must never change: Anki recognizes a note type by its id, so changing one makes a re-import add
 // a second copy of every note. Adding, removing or reordering fields or templates also makes Anki treat
-// the note type as a different one; renaming a template or editing the HTML and CSS is safe.
+// the note type as a different one: importing the new deck then skips the notes already in Anki as
+// conflicts, unless "Merge note types" is ticked in the import dialog. Renaming a template or editing the
+// HTML and CSS is safe.
 
 export const FONT_FILE = "_NotoSerifHebrew.ttf"; // the underscore keeps Anki's "Check Media" from deleting it
 
@@ -40,7 +42,6 @@ const CSS = `
 .prompt { margin: 0 0 10px; }
 .start { font-style: italic; color: var(--dim); }
 .meaning { font-size: 26px; font-weight: bold; }
-.note { font-size: 16px; font-style: italic; }
 .details { text-align: left; display: inline-block; max-width: 34em; margin-top: 10px; }
 .details strong { font-size: 24px; }
 .parts div, .related div, .words div { padding-left: 1em; text-indent: -1em; }
@@ -52,7 +53,6 @@ em { color: var(--dim); }
 `;
 
 const DETAILS = `
-{{#Notes}}<div class="note">{{Notes}}</div>{{/Notes}}
 <div class="details">
 <div class="parts">{{Parts}}</div>
 {{#Root}}<div class="root">Root <strong>{{Root}}</strong> - {{RootMeaning}}</div>{{/Root}}
@@ -64,7 +64,7 @@ const SOURCE = `<div class="source">{{Text}}</div>`;
 export const WORD = {
   id: 1761955200001,
   name: "Prayer Trainer: Word",
-  fields: ["Hebrew", "Meaning", "Notes", "Parts", "Root", "RootMeaning", "Related", "Context", "LineTranslation", "Text"],
+  fields: ["Hebrew", "Meaning", "Parts", "Root", "RootMeaning", "Related", "Context", "LineTranslation", "Text"],
   templates: [
     {
       name: "Recognize",
