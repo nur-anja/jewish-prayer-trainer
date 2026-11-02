@@ -8,6 +8,7 @@
 //   - roots.json matches roots.schema.json, every text matches text.schema.json
 //   - every word's root exists in roots.json
 //   - no root lists the same related word twice
+//   - every word's phrase is a run of whole words of its line that includes the word
 
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -97,6 +98,24 @@ for (const [root, { related = [] }] of Object.entries(roots)) {
   }
 }
 
+// Reports every word of the line whose phrase isn't a run of whole words of the line that includes the word.
+function checkPhrases(file, line) {
+  if (typeof line.hebrew !== "string" || !Array.isArray(line.words)) return;
+  let cursor = 0;
+  const spans = line.words.map((w) => {
+    const at = line.hebrew.indexOf(w.hebrew, cursor);
+    if (at < 0) return null;
+    cursor = at + w.hebrew.length;
+    return [at, cursor];
+  });
+  if (spans.includes(null)) return; // the renderers report a word missing from its line
+  line.words.forEach((word, k) => {
+    if (typeof word.phrase !== "string") return;
+    const runs = spans.slice(0, k + 1).flatMap(([start]) => spans.slice(k).map(([, end]) => line.hebrew.slice(start, end)));
+    if (!runs.includes(word.phrase)) report(file, `phrase "${word.phrase}" of ${word.hebrew} is not a run of whole words of its line including the word`);
+  });
+}
+
 const textFiles = readdirSync(JSON_DIR).filter((f) => f.endsWith(".json") && f !== ROOTS_FILE).sort();
 for (const file of textFiles) {
   const text = load(file);
@@ -107,6 +126,7 @@ for (const file of textFiles) {
       for (const word of line.words ?? []) {
         if (word.root && !(word.root in roots)) report(file, `root ${word.root} of ${word.hebrew} is missing from ${ROOTS_FILE}`);
       }
+      checkPhrases(file, line);
     }
   }
 }

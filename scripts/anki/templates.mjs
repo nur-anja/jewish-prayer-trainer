@@ -1,10 +1,11 @@
 // The Anki note types: their fields, card templates and styling. Used by deck.mjs.
 //
-//   Word   Recognize   front: the word, its line below it with the word in bold
+//   Word   Recognize   front: the word, its phrase below it with the word in bold
 //                      back:  meaning, one "**part** - meaning (label)" per part, root and root meaning,
 //                             related root words, the line's translation (same content as a Kindle word card)
-//          Produce     front: the meaning, the line with the word blanked out, the line's translation
+//          Produce     front: the meaning, the phrase with the word blanked out
 //                      back:  the word, then the same as Recognize
+// The Context field holds the word's phrase (word.phrase), not the whole line; the field kept its name.
 //   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
 //          Next line   front: the line before it (or "Start of ...")   back: the line and its translation
 //
@@ -77,10 +78,10 @@ export const WORD = {
     },
     {
       name: "Produce",
-      front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>
-<div dir="ltr" class="en context-en">{{LineTranslation}}</div>\n${SOURCE}`,
+      front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>\n${SOURCE}`,
       back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>
-<div dir="rtl" class="he context">{{Context}}</div>${DETAILS}`,
+<div dir="rtl" class="he context">{{Context}}</div>${DETAILS}
+<div dir="ltr" class="en context-en">{{LineTranslation}}</div>`,
     },
   ],
   css: CSS,

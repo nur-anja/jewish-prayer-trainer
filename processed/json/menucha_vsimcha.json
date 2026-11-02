@@ -12,6 +12,7 @@
             {
               "hebrew": "מְנוּחָה",
               "meaning": "rest",
+              "phrase": "מְנוּחָה וְשִׂמְחָה",
               "parts": [
                 {
                   "hebrew": "מְנוּחָה",
@@ -26,6 +27,7 @@
             {
               "hebrew": "וְשִׂמְחָה",
               "meaning": "and joy",
+              "phrase": "מְנוּחָה וְשִׂמְחָה",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -45,6 +47,7 @@
             {
               "hebrew": "אוֹר",
               "meaning": "light",
+              "phrase": "אוֹר לַיְּהוּדִים",
               "parts": [
                 {
                   "hebrew": "אוֹר",
@@ -59,6 +62,7 @@
             {
               "hebrew": "לַיְּהוּדִים",
               "meaning": "for the Jews",
+              "phrase": "אוֹר לַיְּהוּדִים",
               "parts": [
                 {
                   "hebrew": "לַ־",
@@ -84,6 +88,7 @@
             {
               "hebrew": "יוֹם",
               "meaning": "a day of",
+              "phrase": "יוֹם שַׁבָּתוֹן",
               "parts": [
                 {
                   "hebrew": "יוֹם",
@@ -99,6 +104,7 @@
             {
               "hebrew": "שַׁבָּתוֹן",
               "meaning": "complete rest",
+              "phrase": "יוֹם שַׁבָּתוֹן",
               "parts": [
                 {
                   "hebrew": "שַׁבָּתוֹן",
@@ -113,6 +119,7 @@
             {
               "hebrew": "יוֹם",
               "meaning": "a day of",
+              "phrase": "יוֹם מַחֲמַדִּים",
               "parts": [
                 {
                   "hebrew": "יוֹם",
@@ -128,6 +135,7 @@
             {
               "hebrew": "מַחֲמַדִּים",
               "meaning": "delights",
+              "phrase": "יוֹם מַחֲמַדִּים",
               "parts": [
                 {
                   "hebrew": "מַחֲמַדִּים",
@@ -148,6 +156,7 @@
             {
               "hebrew": "שׁוֹמְרָיו",
               "meaning": "those who keep it",
+              "phrase": "שׁוֹמְרָיו וְזוֹכְרָיו",
               "parts": [
                 {
                   "hebrew": "שׁוֹמְרֵי",
@@ -173,6 +182,7 @@
             {
               "hebrew": "וְזוֹכְרָיו",
               "meaning": "and those who remember it",
+              "phrase": "שׁוֹמְרָיו וְזוֹכְרָיו",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -203,6 +213,7 @@
             {
               "hebrew": "הֵמָּה",
               "meaning": "they",
+              "phrase": "הֵמָּה מְעִידִים",
               "parts": [
                 {
                   "hebrew": "הֵמָּה",
@@ -218,6 +229,7 @@
             {
               "hebrew": "מְעִידִים",
               "meaning": "testify",
+              "phrase": "הֵמָּה מְעִידִים",
               "parts": [
                 {
                   "hebrew": "מְעִידִים",
@@ -240,6 +252,7 @@
             {
               "hebrew": "כִּי",
               "meaning": "that",
+              "phrase": "כִּי לְשִׁשָּׁה",
               "parts": [
                 {
                   "hebrew": "כִּי",
@@ -251,6 +264,7 @@
             {
               "hebrew": "לְשִׁשָּׁה",
               "meaning": "in six",
+              "phrase": "כִּי לְשִׁשָּׁה",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -269,6 +283,7 @@
             {
               "hebrew": "כֹּל",
               "meaning": "all",
+              "phrase": "כֹּל בְּרוּאִים",
               "parts": [
                 {
                   "hebrew": "כֹּל",
@@ -283,6 +298,7 @@
             {
               "hebrew": "בְּרוּאִים",
               "meaning": "were created",
+              "phrase": "כֹּל בְּרוּאִים וְעוֹמְדִים",
               "parts": [
                 {
                   "hebrew": "בְּרוּאִים",
@@ -299,6 +315,7 @@
             {
               "hebrew": "וְעוֹמְדִים",
               "meaning": "and endure",
+              "phrase": "בְּרוּאִים וְעוֹמְדִים",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -330,6 +347,7 @@
             {
               "hebrew": "שְׁמֵי",
               "meaning": "the heavens of",
+              "phrase": "שְׁמֵי שָׁמַיִם",
               "parts": [
                 {
                   "hebrew": "שְׁמֵי",
@@ -344,6 +362,7 @@
             {
               "hebrew": "שָׁמַיִם",
               "meaning": "heaven",
+              "phrase": "שְׁמֵי שָׁמַיִם",
               "parts": [
                 {
                   "hebrew": "שָׁמַיִם",
@@ -357,6 +376,7 @@
             {
               "hebrew": "אֶרֶץ",
               "meaning": "earth",
+              "phrase": "אֶרֶץ וְיַמִּים",
               "parts": [
                 {
                   "hebrew": "אֶרֶץ",
@@ -371,6 +391,7 @@
             {
               "hebrew": "וְיַמִּים",
               "meaning": "and seas",
+              "phrase": "אֶרֶץ וְיַמִּים",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -396,6 +417,7 @@
             {
               "hebrew": "כָּל",
               "meaning": "all",
+              "phrase": "כָּל צְבָא מָרוֹם",
               "parts": [
                 {
                   "hebrew": "כָּל",
@@ -411,6 +433,7 @@
             {
               "hebrew": "צְבָא",
               "meaning": "the host of",
+              "phrase": "כָּל צְבָא מָרוֹם",
               "parts": [
                 {
                   "hebrew": "צְבָא",
@@ -426,6 +449,7 @@
             {
               "hebrew": "מָרוֹם",
               "meaning": "on high",
+              "phrase": "כָּל צְבָא מָרוֹם",
               "parts": [
                 {
                   "hebrew": "מָרוֹם",
@@ -440,6 +464,7 @@
             {
               "hebrew": "גְּבוֹהִים",
               "meaning": "lofty",
+              "phrase": "גְּבוֹהִים וְרָמִים",
               "parts": [
                 {
                   "hebrew": "גְּבוֹהִים",
@@ -454,6 +479,7 @@
             {
               "hebrew": "וְרָמִים",
               "meaning": "and exalted",
+              "phrase": "גְּבוֹהִים וְרָמִים",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -481,6 +507,7 @@
             {
               "hebrew": "תַּנִּין",
               "meaning": "the sea monster",
+              "phrase": "תַּנִּין וְאָדָם",
               "parts": [
                 {
                   "hebrew": "תַּנִּין",
@@ -494,6 +521,7 @@
             {
               "hebrew": "וְאָדָם",
               "meaning": "and man",
+              "phrase": "תַּנִּין וְאָדָם",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -513,6 +541,7 @@
             {
               "hebrew": "וְחַיַּת",
               "meaning": "and the beasts of",
+              "phrase": "וְחַיַּת רְאֵמִים",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -533,6 +562,7 @@
             {
               "hebrew": "רְאֵמִים",
               "meaning": "wild oxen",
+              "phrase": "וְחַיַּת רְאֵמִים",
               "parts": [
                 {
                   "hebrew": "רְאֵמִים",
@@ -552,6 +582,7 @@
             {
               "hebrew": "כִּי",
               "meaning": "for",
+              "phrase": "כִּי בְּיָהּ",
               "parts": [
                 {
                   "hebrew": "כִּי",
@@ -563,6 +594,7 @@
             {
               "hebrew": "בְּיָהּ",
               "meaning": "in Yah",
+              "phrase": "כִּי בְּיָהּ יְיָ",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -581,6 +613,7 @@
             {
               "hebrew": "יְיָ",
               "meaning": "the LORD",
+              "phrase": "בְּיָהּ יְיָ",
               "parts": [
                 {
                   "hebrew": "יְיָ",
@@ -594,6 +627,7 @@
             {
               "hebrew": "צוּר",
               "meaning": "the Rock of",
+              "phrase": "צוּר עוֹלָמִים",
               "parts": [
                 {
                   "hebrew": "צוּר",
@@ -609,6 +643,7 @@
             {
               "hebrew": "עוֹלָמִים",
               "meaning": "the worlds, eternity",
+              "phrase": "צוּר עוֹלָמִים",
               "parts": [
                 {
                   "hebrew": "עוֹלָמִים",
@@ -633,6 +668,7 @@
             {
               "hebrew": "הוּא",
               "meaning": "He",
+              "phrase": "הוּא אֲשֶׁר",
               "parts": [
                 {
                   "hebrew": "הוּא",
@@ -648,6 +684,7 @@
             {
               "hebrew": "אֲשֶׁר",
               "meaning": "who",
+              "phrase": "הוּא אֲשֶׁר דִּבֶּר",
               "parts": [
                 {
                   "hebrew": "אֲשֶׁר",
@@ -659,6 +696,7 @@
             {
               "hebrew": "דִּבֶּר",
               "meaning": "spoke",
+              "phrase": "אֲשֶׁר דִּבֶּר לְעַם",
               "parts": [
                 {
                   "hebrew": "דִּבֶּר",
@@ -676,6 +714,7 @@
             {
               "hebrew": "לְעַם",
               "meaning": "to the people of",
+              "phrase": "לְעַם סְגֻלָּתוֹ",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -696,6 +735,7 @@
             {
               "hebrew": "סְגֻלָּתוֹ",
               "meaning": "His treasure",
+              "phrase": "לְעַם סְגֻלָּתוֹ",
               "parts": [
                 {
                   "hebrew": "סְגֻלַּת",
@@ -725,6 +765,7 @@
             {
               "hebrew": "שָׁמוֹר",
               "meaning": "keep",
+              "phrase": "שָׁמוֹר לְקַדְּשׁוֹ",
               "parts": [
                 {
                   "hebrew": "שָׁמוֹר",
@@ -739,6 +780,7 @@
             {
               "hebrew": "לְקַדְּשׁוֹ",
               "meaning": "to sanctify it",
+              "phrase": "שָׁמוֹר לְקַדְּשׁוֹ",
               "parts": [
                 {
                   "hebrew": "לְקַדֵּשׁ",
@@ -761,6 +803,7 @@
             {
               "hebrew": "מִבּוֹאוֹ",
               "meaning": "from its coming",
+              "phrase": "מִבּוֹאוֹ וְעַד צֵאתוֹ",
               "parts": [
                 {
                   "hebrew": "מִ־",
@@ -788,6 +831,7 @@
             {
               "hebrew": "וְעַד",
               "meaning": "and until",
+              "phrase": "מִבּוֹאוֹ וְעַד צֵאתוֹ",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -804,6 +848,7 @@
             {
               "hebrew": "צֵאתוֹ",
               "meaning": "its departure",
+              "phrase": "מִבּוֹאוֹ וְעַד צֵאתוֹ",
               "parts": [
                 {
                   "hebrew": "צֵאת",
@@ -832,6 +877,7 @@
             {
               "hebrew": "שַׁבַּת",
               "meaning": "the Sabbath of",
+              "phrase": "שַׁבַּת קֹדֶשׁ",
               "parts": [
                 {
                   "hebrew": "שַׁבַּת",
@@ -847,6 +893,7 @@
             {
               "hebrew": "קֹדֶשׁ",
               "meaning": "holiness",
+              "phrase": "שַׁבַּת קֹדֶשׁ",
               "parts": [
                 {
                   "hebrew": "קֹדֶשׁ",
@@ -861,6 +908,7 @@
             {
               "hebrew": "יוֹם",
               "meaning": "the day of",
+              "phrase": "יוֹם חֶמְדָּתוֹ",
               "parts": [
                 {
                   "hebrew": "יוֹם",
@@ -876,6 +924,7 @@
             {
               "hebrew": "חֶמְדָּתוֹ",
               "meaning": "His delight",
+              "phrase": "יוֹם חֶמְדָּתוֹ",
               "parts": [
                 {
                   "hebrew": "חֶמְדַּת",
@@ -905,6 +954,7 @@
             {
               "hebrew": "כִּי",
               "meaning": "for",
+              "phrase": "כִּי בוֹ שָׁבַת",
               "parts": [
                 {
                   "hebrew": "כִּי",
@@ -916,6 +966,7 @@
             {
               "hebrew": "בוֹ",
               "meaning": "on it",
+              "phrase": "כִּי בוֹ שָׁבַת",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -935,6 +986,7 @@
             {
               "hebrew": "שָׁבַת",
               "meaning": "rested",
+              "phrase": "בוֹ שָׁבַת אֵל",
               "parts": [
                 {
                   "hebrew": "שָׁבַת",
@@ -952,6 +1004,7 @@
             {
               "hebrew": "אֵל",
               "meaning": "God",
+              "phrase": "שָׁבַת אֵל",
               "parts": [
                 {
                   "hebrew": "אֵל",
@@ -966,6 +1019,7 @@
             {
               "hebrew": "מִכָּל",
               "meaning": "from all",
+              "phrase": "מִכָּל מְלַאכְתּוֹ",
               "parts": [
                 {
                   "hebrew": "מִ־",
@@ -986,6 +1040,7 @@
             {
               "hebrew": "מְלַאכְתּוֹ",
               "meaning": "His work",
+              "phrase": "מִכָּל מְלַאכְתּוֹ",
               "parts": [
                 {
                   "hebrew": "מְלֶאכֶת",
@@ -1019,6 +1074,7 @@
             {
               "hebrew": "בְּמִצְוַת",
               "meaning": "by the commandment of",
+              "phrase": "בְּמִצְוַת שַׁבָּת",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -1039,6 +1095,7 @@
             {
               "hebrew": "שַׁבָּת",
               "meaning": "Shabbat",
+              "phrase": "בְּמִצְוַת שַׁבָּת",
               "parts": [
                 {
                   "hebrew": "שַׁבָּת",
@@ -1053,6 +1110,7 @@
             {
               "hebrew": "אֵל",
               "meaning": "God",
+              "phrase": "אֵל יַחֲלִיצָךְ",
               "parts": [
                 {
                   "hebrew": "אֵל",
@@ -1067,6 +1125,7 @@
             {
               "hebrew": "יַחֲלִיצָךְ",
               "meaning": "He will deliver you",
+              "phrase": "אֵל יַחֲלִיצָךְ",
               "parts": [
                 {
                   "hebrew": "יַחֲלִיץ",
@@ -1098,6 +1157,7 @@
             {
               "hebrew": "קוּם",
               "meaning": "arise",
+              "phrase": "קוּם קְרָא",
               "parts": [
                 {
                   "hebrew": "קוּם",
@@ -1115,6 +1175,7 @@
             {
               "hebrew": "קְרָא",
               "meaning": "call out",
+              "phrase": "קוּם קְרָא אֵלָיו",
               "parts": [
                 {
                   "hebrew": "קְרָא",
@@ -1132,6 +1193,7 @@
             {
               "hebrew": "אֵלָיו",
               "meaning": "to Him",
+              "phrase": "קְרָא אֵלָיו",
               "parts": [
                 {
                   "hebrew": "אֶל־",
@@ -1151,6 +1213,7 @@
             {
               "hebrew": "יָחִישׁ",
               "meaning": "He will hasten",
+              "phrase": "יָחִישׁ לְאַמְּצָךְ",
               "parts": [
                 {
                   "hebrew": "יָחִישׁ",
@@ -1168,6 +1231,7 @@
             {
               "hebrew": "לְאַמְּצָךְ",
               "meaning": "to strengthen you",
+              "phrase": "יָחִישׁ לְאַמְּצָךְ",
               "parts": [
                 {
                   "hebrew": "לְאַמֵּץ",
@@ -1196,6 +1260,7 @@
             {
               "hebrew": "נִשְׁמַת",
               "meaning": "the soul of",
+              "phrase": "נִשְׁמַת כָּל חַי",
               "parts": [
                 {
                   "hebrew": "נִשְׁמַת",
@@ -1211,6 +1276,7 @@
             {
               "hebrew": "כָּל",
               "meaning": "every",
+              "phrase": "נִשְׁמַת כָּל חַי",
               "parts": [
                 {
                   "hebrew": "כָּל",
@@ -1226,6 +1292,7 @@
             {
               "hebrew": "חַי",
               "meaning": "living thing",
+              "phrase": "נִשְׁמַת כָּל חַי",
               "parts": [
                 {
                   "hebrew": "חַי",
@@ -1240,6 +1307,7 @@
             {
               "hebrew": "וְגַם",
               "meaning": "and also",
+              "phrase": "וְגַם נַעֲרִיצָךְ",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -1256,6 +1324,7 @@
             {
               "hebrew": "נַעֲרִיצָךְ",
               "meaning": "we will revere You",
+              "phrase": "וְגַם נַעֲרִיצָךְ",
               "parts": [
                 {
                   "hebrew": "נַעֲרִיץ",
@@ -1286,6 +1355,7 @@
             {
               "hebrew": "אֱכוֹל",
               "meaning": "eat",
+              "phrase": "אֱכוֹל בְּשִׂמְחָה",
               "parts": [
                 {
                   "hebrew": "אֱכוֹל",
@@ -1303,6 +1373,7 @@
             {
               "hebrew": "בְּשִׂמְחָה",
               "meaning": "with joy",
+              "phrase": "אֱכוֹל בְּשִׂמְחָה",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -1322,6 +1393,7 @@
             {
               "hebrew": "כִּי",
               "meaning": "for",
+              "phrase": "כִּי כְבָר רָצָךְ",
               "parts": [
                 {
                   "hebrew": "כִּי",
@@ -1333,6 +1405,7 @@
             {
               "hebrew": "כְבָר",
               "meaning": "already",
+              "phrase": "כִּי כְבָר רָצָךְ",
               "parts": [
                 {
                   "hebrew": "כְּבָר",
@@ -1344,6 +1417,7 @@
             {
               "hebrew": "רָצָךְ",
               "meaning": "He has favored you",
+              "phrase": "כִּי כְבָר רָצָךְ",
               "parts": [
                 {
                   "hebrew": "רָצָה",
@@ -1379,6 +1453,7 @@
             {
               "hebrew": "בְּמִשְׁנֶה",
               "meaning": "with a double portion of",
+              "phrase": "בְּמִשְׁנֶה לֶחֶם",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -1399,6 +1474,7 @@
             {
               "hebrew": "לֶחֶם",
               "meaning": "bread",
+              "phrase": "בְּמִשְׁנֶה לֶחֶם",
               "parts": [
                 {
                   "hebrew": "לֶחֶם",
@@ -1413,6 +1489,7 @@
             {
               "hebrew": "וְקִדּוּשׁ",
               "meaning": "and the Kiddush",
+              "phrase": "וְקִדּוּשׁ רַבָּה",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -1432,6 +1509,7 @@
             {
               "hebrew": "רַבָּה",
               "meaning": "great",
+              "phrase": "וְקִדּוּשׁ רַבָּה",
               "parts": [
                 {
                   "hebrew": "רַבָּה",
@@ -1453,6 +1531,7 @@
             {
               "hebrew": "בְּרֹב",
               "meaning": "with an abundance of",
+              "phrase": "בְּרֹב מַטְעַמִּים",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -1473,6 +1552,7 @@
             {
               "hebrew": "מַטְעַמִּים",
               "meaning": "delicacies",
+              "phrase": "בְּרֹב מַטְעַמִּים",
               "parts": [
                 {
                   "hebrew": "מַטְעַמִּים",
@@ -1487,6 +1567,7 @@
             {
               "hebrew": "וְרוּחַ",
               "meaning": "and a spirit",
+              "phrase": "וְרוּחַ נְדִיבָה",
               "parts": [
                 {
                   "hebrew": "וְ־",
@@ -1506,6 +1587,7 @@
             {
               "hebrew": "נְדִיבָה",
               "meaning": "generous",
+              "phrase": "וְרוּחַ נְדִיבָה",
               "parts": [
                 {
                   "hebrew": "נְדִיבָה",
@@ -1526,6 +1608,7 @@
             {
               "hebrew": "יִזְכּוּ",
               "meaning": "will merit",
+              "phrase": "יִזְכּוּ לְרַב טוּב",
               "parts": [
                 {
                   "hebrew": "יִזְכּוּ",
@@ -1543,6 +1626,7 @@
             {
               "hebrew": "לְרַב",
               "meaning": "to much",
+              "phrase": "יִזְכּוּ לְרַב טוּב",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -1562,6 +1646,7 @@
             {
               "hebrew": "טוּב",
               "meaning": "good",
+              "phrase": "יִזְכּוּ לְרַב טוּב",
               "parts": [
                 {
                   "hebrew": "טוּב",
@@ -1576,6 +1661,7 @@
             {
               "hebrew": "הַמִּתְעַנְּגִים",
               "meaning": "those who delight",
+              "phrase": "הַמִּתְעַנְּגִים בָּהּ",
               "parts": [
                 {
                   "hebrew": "הַ־",
@@ -1597,6 +1683,7 @@
             {
               "hebrew": "בָּהּ",
               "meaning": "in it",
+              "phrase": "הַמִּתְעַנְּגִים בָּהּ",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -1622,6 +1709,7 @@
             {
               "hebrew": "בְּבִיאַת",
               "meaning": "with the coming of",
+              "phrase": "בְּבִיאַת גּוֹאֵל",
               "parts": [
                 {
                   "hebrew": "בְּ־",
@@ -1642,6 +1730,7 @@
             {
               "hebrew": "גּוֹאֵל",
               "meaning": "the Redeemer",
+              "phrase": "בְּבִיאַת גּוֹאֵל",
               "parts": [
                 {
                   "hebrew": "גּוֹאֵל",
@@ -1658,6 +1747,7 @@
             {
               "hebrew": "לְחַיֵּי",
               "meaning": "for the life of",
+              "phrase": "לְחַיֵּי הָעוֹלָם הַבָּא",
               "parts": [
                 {
                   "hebrew": "לְ־",
@@ -1678,6 +1768,7 @@
             {
               "hebrew": "הָעוֹלָם",
               "meaning": "the world",
+              "phrase": "לְחַיֵּי הָעוֹלָם הַבָּא",
               "parts": [
                 {
                   "hebrew": "הָ־",
@@ -1697,6 +1788,7 @@
             {
               "hebrew": "הַבָּא",
               "meaning": "to come",
+              "phrase": "לְחַיֵּי הָעוֹלָם הַבָּא",
               "parts": [
                 {
                   "hebrew": "הַ־",

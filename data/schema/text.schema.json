@@ -70,7 +70,7 @@
     "word": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["hebrew", "meaning", "parts"],
+      "required": ["hebrew", "meaning", "phrase", "parts"],
       "properties": {
         "hebrew": {
           "description": "The word as it appears in the line, without punctuation; a maqaf stays: מְאֹדֶךָ without the ׃ that ends its verse, בְּכָל־ with its maqaf.",
@@ -79,6 +79,11 @@
         },
         "meaning": {
           "description": "Meaning of the word in this context.",
+          "type": "string",
+          "minLength": 1
+        },
+        "phrase": {
+          "description": "A short phrase around the word, shown on its Anki cards instead of the whole line: the word with the words it belongs with, usually two or three words and at most four, such as its construct chain, a preposition with its noun, a verb with its subject or object, or a pair joined by ו. Copied from the line as it stands, a run of whole words that includes this word, without punctuation at either end: יְיָ אֱלֹהֵינוּ, בְּכָל־לְבָבְךָ, אָנֹכִי מְצַוְּךָ הַיּוֹם. Words that belong together share the same phrase. A short line can be its own phrase.",
           "type": "string",
           "minLength": 1
         },
