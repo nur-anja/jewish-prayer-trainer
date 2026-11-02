@@ -10,7 +10,7 @@
 //            **word** (right)                 meaning (left)
 //            one "**part** - meaning *(label)*" per part; the label follows GRAMMAR LABELS in common.mjs
 //            Root **ר-ו-ט** - root meaning
-//            one "**word** - meaning" per related word from roots.json, grouped by a gray bar on the left
+//            one "**word** - meaning" per related word from roots.json
 //
 // Not rendered: id, kind.
 //
@@ -65,8 +65,6 @@ h2 + .verse { margin-top: 0; }
 .word-head .meaning { font-weight: bold; }
 .parts, .root, .related { margin-top: 0.8mm; }
 .parts div, .related div { padding-left: 3mm; text-indent: -3mm; }
-/* Related root words, grouped under the root by a bar in the color of the card dividers. */
-.related { border-left: 1pt solid #888; padding-left: 2mm; }
 .word strong { font-size: 12pt; }
 .word-head strong { font-size: inherit; }
 .related { font-size: 9pt; }
