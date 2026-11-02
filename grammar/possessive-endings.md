@@ -15,7 +15,7 @@ The vowel before the ending also changes from word to word, but the ending's let
 
 ## Same endings on prepositions
 
-The same endings attach to small words like "to" and "in":
+The same endings attach to small words like "to" and "in", and to verbs as their object (see [object endings](object-endings.md)):
 
 | Example | Translation |
 |---|---|

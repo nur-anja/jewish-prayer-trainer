@@ -65,7 +65,7 @@ Anki cards can't rely on the Google Fonts link used by the PDFs (offline phones)
 
 After each part on the back of a word card come links to the notes in [grammar/](../grammar/README.md) that explain its form, such as Prefix letters after an "and" prefix, Construct forms after a noun in construct, or Past tense after a past-tense verb. The mapping from a part's grammar fields to a note is in `scripts/render/grammar-notes.mjs`, next to the grammar labels, so the PDFs can use it later too. The links go to the notes on GitHub (main branch) and open in the browser.
 
-The links are written into the Parts field, not into a new field, because adding a field would make re-imports conflict. Parts that the JSON doesn't say enough about get no link: a pronoun suffix on a verb (no note covers object endings yet), and the noun templates in nouns.md (see the pattern field idea in [grammar-reference](grammar-reference.md)).
+The links are written into the Parts field, not into a new field, because adding a field would make re-imports conflict. Parts that the JSON doesn't say enough about get no link, such as the noun templates in nouns.md (see the pattern field idea in [grammar-reference](grammar-reference.md)).
 
 ## Checked
 

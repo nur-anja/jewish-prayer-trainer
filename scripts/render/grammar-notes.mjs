@@ -7,14 +7,15 @@
 //     a preposition prefix with "the" in it        Prefix letters, "The" hiding inside in, to, like
 //   pronoun suffix on a noun                       Possessive endings
 //   pronoun suffix on a preposition                Possessive endings, Same endings on prepositions
+//   pronoun suffix on a verb                       Object endings
+//     on an infinitive                             Object endings, After an infinitive
 //   noun or adjective in construct                 Construct forms
 //   noun or adjective in the plural                Plural forms (as well as Construct forms if both)
 //   verb, past / future                            Past tense / Future tense
 //   verb, present / participle / passive participle  Participle
 //
-// Nothing else links, e.g. a pronoun suffix on a verb (no note covers object endings yet) or the noun
-// templates in nouns.md, which the JSON doesn't record. Anchors follow GitHub's heading ids, so renaming a
-// heading in grammar/ means updating it here.
+// Nothing else links, e.g. the noun templates in nouns.md, which the JSON doesn't record. Anchors follow
+// GitHub's heading ids, so renaming a heading in grammar/ means updating it here.
 
 const BASE = "https://github.com/nur-anja/jewish-prayer-trainer/blob/main/grammar/";
 
@@ -23,6 +24,8 @@ const NOTES = {
   hiddenThe: ["prefix-letters.md#the-hiding-inside-in-to-like", "Prefix letters"],
   possessive: ["possessive-endings.md", "Possessive endings"],
   onPreposition: ["possessive-endings.md#same-endings-on-prepositions", "Possessive endings"],
+  object: ["object-endings.md", "Object endings"],
+  onInfinitive: ["object-endings.md#after-an-infinitive", "Object endings"],
   construct: ["construct.md", "Construct forms"],
   plural: ["plural.md", "Plural forms"],
   past: ["past-tense.md", "Past tense"],
@@ -44,6 +47,9 @@ export function grammarNotes(parts, i) {
   }
   if (part.pos === "pronoun-suffix" && before?.pos === "noun") keys.push("possessive");
   if (part.pos === "pronoun-suffix" && before?.pos === "preposition") keys.push("onPreposition");
+  if (part.pos === "pronoun-suffix" && before?.pos === "verb") {
+    keys.push(before.form === "infinitive-construct" ? "onInfinitive" : "object");
+  }
   if (["noun", "adjective"].includes(part.pos)) {
     if (part.construct) keys.push("construct");
     if (part.number === "pl") keys.push("plural");
