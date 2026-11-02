@@ -89,7 +89,7 @@
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root. When it's unclear whether a root is commonly taught, keep it if it links the word to other words in the siddur or the Torah; otherwise leave it out. Even then, leave out a root whose origin is disputed or that would point to an unrelated meaning. Names follow the same rule.",
+          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root. When it's unclear whether a root is commonly taught, keep it if it links the word to other words in the siddur or the Torah; otherwise leave it out. Even then, leave out a root that would point to an unrelated meaning. Names follow the same rule.",
           "$ref": "#/$defs/root"
         }
       }

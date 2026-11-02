@@ -960,7 +960,8 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ]
+              ],
+              "root": "א-ל-ה"
             },
             {
               "hebrew": "מִכָּל",
@@ -1060,7 +1061,8 @@
                   "gender": "masc",
                   "number": "sg"
                 }
-              ]
+              ],
+              "root": "א-ל-ה"
             },
             {
               "hebrew": "יַחֲלִיצָךְ",

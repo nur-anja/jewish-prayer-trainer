@@ -705,7 +705,7 @@
     ]
   },
   "ע-ו-ד": {
-    "meaning": "to witness, to testify",
+    "meaning": "to testify; still, again",
     "related": [
       {
         "hebrew": "עֵדֹתֶיךָ",
@@ -714,6 +714,10 @@
       {
         "hebrew": "עֵד",
         "meaning": "witness"
+      },
+      {
+        "hebrew": "עוֹד",
+        "meaning": "still, again, more"
       }
     ]
   },
