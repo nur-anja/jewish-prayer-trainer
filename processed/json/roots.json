@@ -458,11 +458,15 @@
     ]
   },
   "י-מ-ם": {
-    "meaning": "sea",
+    "meaning": "sea; west",
     "related": [
       {
         "hebrew": "הַיָּם",
         "meaning": "the sea"
+      },
+      {
+        "hebrew": "יָמָּה וָקֵדְמָה",
+        "meaning": "westward and eastward"
       }
     ]
   },
@@ -942,15 +946,6 @@
       }
     ]
   },
-  "ר-א-ם": {
-    "meaning": "wild ox",
-    "related": [
-      {
-        "hebrew": "בֶן רְאֵמִים",
-        "meaning": "young wild ox"
-      }
-    ]
-  },
   "ר-ב-ב": {
     "meaning": "many, great",
     "related": [
@@ -1185,15 +1180,6 @@
       {
         "hebrew": "הַשִּׁשִּׁי",
         "meaning": "the sixth"
-      }
-    ]
-  },
-  "ת-נ-ן": {
-    "meaning": "sea creature",
-    "related": [
-      {
-        "hebrew": "הַתַּנִּינִם",
-        "meaning": "the sea monsters"
       }
     ]
   }
