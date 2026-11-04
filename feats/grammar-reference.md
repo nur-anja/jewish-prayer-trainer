@@ -20,4 +20,21 @@ Words and parts have no free-text notes field: it was dropped from the schema. B
 
 ## Pattern field
 
-Done for nouns: a noun part has a `pattern` (mem-prefix, tav-prefix, hei-ending or vav-tav-ending) when it is built with one of the templates in [nouns](../grammar/nouns.md), and the Anki cards link it to that template's section. The schema says how to choose, and the three texts were filled in by hand. Only nouns have it for now; verb patterns (such as binyan templates) could be added the same way once there is a grammar note for them.
+Done for nouns: a noun part has a `pattern` (mem-prefix, tav-prefix or vav-tav-ending) when it is built with one of the templates in [nouns](../grammar/nouns.md), and the Anki cards link it to that template's section. The schema says how to choose, and the three texts were filled in by hand. Only nouns have it for now; verb patterns (such as binyan templates) could be added the same way once there is a grammar note for them.
+
+Patterns are limited to what a beginner can see in the letters (the rule is in [conventions](../meta/conventions.md#what-gets-a-section)). Two were tried and dropped because they are defined by vowels: the abstract-noun ה ending (a kubutz or shuruk before the last root letter, as in salvation and redemption), whose ה alone only says "feminine", and the dagesh-and-ו template of Kiddush.
+
+## Next
+
+Topics that pass the letters rule, in order of how often they come up in the three texts (Shema, Menucha V'simcha, Havdala: Hinei El):
+
+| Order | Topic | Where | Letters to spot | In the texts |
+|---|---|---|---|---|
+| 1 | Infinitive with ל | new note, linked from infinitive-construct verbs | ל before the verb, or בּ or מ when it says "when" or "from" | 9 infinitives |
+| 2 | Weak roots | new note, extends step 4 of the grammar README | a root letter (נ, י, ו, ה) that drops out | many words |
+| 3 | Hif'il | new binyan note, linked from the binyan | ה prefix and י before the last root letter | 5 verbs, incl. Havdala's "who separates" |
+| 4 | ון ending | section in nouns, new pattern value | ון at the end | 2 nouns (complete rest, joy) |
+
+Later, when a text needs them: Hitpa'el (ת after a prefix, 1 verb now, could go in the binyan note with Hif'il), Nif'al (נ prefix; clashes with the future prefix for "we"), the ית ending (beginning, remnant), the י ending on adjectives, the object marker with endings (him, them as a separate word) and Aramaic endings (for Kaddish).
+
+Checked and left out by the letters rule: the dual ending (same letters as the plural; a Watch out line in the plural note at most), Pi'el (only a dagesh) and the passive participle's ו (can't be told from Kiddush's ו without vowels; covered as a verb form in the participle note).

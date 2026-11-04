@@ -46,7 +46,6 @@
                   "hebrew": "יְשׁוּעַת",
                   "meaning": "salvation of",
                   "pos": "noun",
-                  "pattern": "hei-ending",
                   "gender": "fem",
                   "number": "sg",
                   "construct": true
@@ -251,7 +250,6 @@
                   "hebrew": "יְשׁוּעָה",
                   "meaning": "salvation",
                   "pos": "noun",
-                  "pattern": "hei-ending",
                   "gender": "fem",
                   "number": "sg"
                 }
@@ -357,7 +355,6 @@
                   "hebrew": "יְשׁוּעָה",
                   "meaning": "salvation",
                   "pos": "noun",
-                  "pattern": "hei-ending",
                   "gender": "fem",
                   "number": "sg"
                 }
@@ -403,7 +400,6 @@
                   "hebrew": "יְשׁוּעָה",
                   "meaning": "salvation",
                   "pos": "noun",
-                  "pattern": "hei-ending",
                   "gender": "fem",
                   "number": "sg"
                 }
@@ -1047,7 +1043,6 @@
                   "hebrew": "יְשׁוּעוֹת",
                   "meaning": "salvations",
                   "pos": "noun",
-                  "pattern": "hei-ending",
                   "gender": "fem",
                   "number": "pl"
                 }

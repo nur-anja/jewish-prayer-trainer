@@ -25,20 +25,9 @@ A ת prefix also forms nouns, often naming an act or its result:
 | <b style="color:red">תּ</b>וֹרָה | ירה | teaching |
 | <b style="color:red">תְּ</b>שׁוּבָה | שוב | return, repentance |
 
-## ה ending for abstract nouns
-
-Nouns with a kubutz or shuruk before the last root letter and a ה at the end often name a quality or an act:
-
-| Example | Root | Translation |
-|---|---|---|
-| גְּאֻלָּ<b style="color:red">ה</b> | גאל | redemption |
-| גְּבוּרָ<b style="color:red">ה</b> | גבר | might |
-| יְשׁוּעָ<b style="color:red">ה</b> | ישע | salvation |
-| קְדֻשָּׁ<b style="color:red">ה</b> | קדש | holiness |
-
 ## ות ending for abstract nouns
 
-A וּת ending also makes abstract nouns:
+A וּת ending makes abstract nouns:
 
 | Example | Root | Translation |
 |---|---|---|

@@ -34,7 +34,6 @@ const NOTES = {
   participle: ["participle.md", "Participle"],
   "mem-prefix": ["nouns.md#מ-prefix", "Nouns built from roots"],
   "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
-  "hei-ending": ["nouns.md#ה-ending-for-abstract-nouns", "Nouns built from roots"],
   "vav-tav-ending": ["nouns.md#ות-ending-for-abstract-nouns", "Nouns built from roots"],
 };
 
