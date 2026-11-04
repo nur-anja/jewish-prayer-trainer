@@ -64,6 +64,10 @@ export function buildDeck(text, roots, file) {
 
   text.sections.forEach((section, s) => {
     const sectionTags = section.title ? [`section::${tag(section.title)}`] : [];
+    // Show the section on the card only when it tells the sections apart:
+    // not for a one-section text ("Havdala: Hinei El · Hinei El"), nor when it repeats the title ("Shema · Shema").
+    const sectionField =
+      section.title && text.sections.length > 1 && section.title !== text.title ? escape(section.title) : "";
 
     section.lines.forEach((line, l) => {
       line.clauses.forEach((clause, c) => {
@@ -110,7 +114,7 @@ export function buildDeck(text, roots, file) {
               escape(clause.hebrew),
               escape(clause.translation),
               previousClause,
-              section.title && section.title !== text.title ? escape(section.title) : "",
+              sectionField,
               escape(text.title),
             ],
           });
@@ -127,7 +131,7 @@ export function buildDeck(text, roots, file) {
           escape(line.hebrew),
           escape(line.translation),
           previous,
-          section.title && section.title !== text.title ? escape(section.title) : "", // no "Shema · Shema"
+          sectionField,
           escape(text.title),
         ],
       });
