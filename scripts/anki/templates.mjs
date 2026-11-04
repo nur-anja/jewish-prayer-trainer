@@ -47,6 +47,7 @@ const CSS = `
 .en { font-style: italic; margin-top: 8px; }
 .verse-en { font-size: 22px; }
 .context-en { font-size: 16px; color: var(--dim); }
+.details .context-en { text-align: center; }
 .source, .prompt { font-size: 14px; color: var(--dim); margin-top: 14px; }
 .prompt { margin: 0 0 10px; }
 .start { font-style: italic; color: var(--dim); }
