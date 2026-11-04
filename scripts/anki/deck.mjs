@@ -6,7 +6,7 @@
 // Notes are identified (their guid) by:
 //   Word  text id + spelling. A spelling that comes back with a different breakdown (meaning, parts or
 //         root) gets a second note, identified by text id + spelling + meaning. The first occurrence gives
-//         the context: the word's phrase (a few words around it), with the word highlighted.
+//         the context: the word's phrase (the subsentence it belongs to), with the word highlighted.
 //   Line  text id + section number + line number
 // So fixing a breakdown and re-importing updates the note; renaming a text id or moving lines makes new ones.
 //

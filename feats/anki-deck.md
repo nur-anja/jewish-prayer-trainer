@@ -35,7 +35,7 @@ Tags on every note: the text id and, if the section has a title, `section::<titl
 Two note types, each with fields filled from the JSON and its own templates:
 
 1. **Word** (one per distinct word per text)
-   - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the word's phrase from the JSON, a few words around it, with the word highlighted), LineTranslation, Text.
+   - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the word's phrase from the JSON, the subsentence it belongs to, with the word highlighted), LineTranslation, Text.
    - Card "Recognize": front is the word, large, with its phrase below it in small type as context; back adds the meaning, the parts with their grammar labels, the root with its meaning, and the related root words — the same content as a Kindle word card.
    - Card "Produce" (English to Hebrew): front is the meaning and the phrase with the word blanked out; back is the word, then the same as Recognize with the line's translation.
 2. **Line** (one per line)
@@ -43,7 +43,7 @@ Two note types, each with fields filled from the JSON and its own templates:
    - Card "Translate": the line's translation, then the Hebrew line. (First built the other way round, Hebrew to English; flipped so that whole lines are practised from English. The name stayed, because renaming a card type makes Anki treat re-imported notes as conflicts.)
    - Card "Next line": front is the previous line (or the section/text title for the first line), back is this line, for learning the prayer by heart in order.
 
-The context was first the whole line; it became a short phrase (`phrase` on each word in the JSON, usually two or three words) so the word cards stay concise. The field kept the name Context, since renaming a field makes re-imports conflict. The line's translation moved from the front of Produce to its back: next to a short phrase, the whole sentence in English was out of place and gave the answer away.
+The context was first the whole line; it became a short phrase (`phrase` on each word in the JSON, usually two or three words) so the word cards stay concise. Two or three words turned out to give too little context, so the phrase is now the whole subsentence (clause) the word belongs to, still shorter than a long line. The field kept the name Context, since renaming a field makes re-imports conflict. The line's translation moved from the front of Produce to its back: next to a short phrase, the whole sentence in English was out of place and gave the answer away.
 
 Root cards (a root, then its meaning, related words and the words in the text with it) were built at first and dropped: the root and related words are already on the back of every word card.
 

@@ -83,7 +83,7 @@
           "minLength": 1
         },
         "phrase": {
-          "description": "A short phrase around the word, shown on its Anki cards instead of the whole line: the word with the words it belongs with, usually two or three words and at most four, such as its construct chain, a preposition with its noun, a verb with its subject or object, or a pair joined by ו. Copied from the line as it stands, a run of whole words that includes this word, without punctuation at either end: יְיָ אֱלֹהֵינוּ, בְּכָל־לְבָבְךָ, אָנֹכִי מְצַוְּךָ הַיּוֹם. Words that belong together share the same phrase. A short line can be its own phrase.",
+          "description": "The subsentence the word belongs to, shown on its Anki cards instead of the whole line: the clause with its verb (or, without a verb, what it says about its subject) and everything attached to it, usually ending at a comma. A long clause is split at its main pause, as the cantillation divides it, and a list of short parallel parts joined by ו stays together. A line that is one clause is its own phrase, and words of the same clause share the same phrase; a word of a relative clause gets the relative clause. Copied from the line as it stands, a run of whole words that includes this word, without punctuation at either end: כִּי עָזִּי וְזִמְרָת יָהּ יְיָ, בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ, אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם.",
           "type": "string",
           "minLength": 1
         },
