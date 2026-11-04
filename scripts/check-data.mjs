@@ -9,7 +9,7 @@
 //   - every word's root exists in roots.json
 //   - no root lists the same related word twice
 //   - a line's clauses, in order, cover the whole line, with only punctuation and spaces between them
-//   - a clause's words, in order, make up the whole clause, with only punctuation and spaces between them
+//   - a clause's words, in order, make up the whole clause, with only spaces between them
 
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -123,7 +123,7 @@ function checkClauses(file, line) {
     if (!Array.isArray(clause.words)) continue;
     const rest = leftover(clause.hebrew, clause.words.map((w) => w.hebrew));
     if (rest === null) report(file, `the words of clause "${clause.hebrew}" are not all in it, in order`);
-    else if (/[^\s,.:;!?׃]/u.test(rest)) report(file, `"${rest.trim()}" of clause "${clause.hebrew}" is in none of its words`);
+    else if (/\S/u.test(rest)) report(file, `"${rest.trim()}" of clause "${clause.hebrew}" is in none of its words`);
   }
 }
 
