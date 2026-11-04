@@ -66,7 +66,6 @@ export function buildDeck(text, roots, file) {
     const sectionTags = section.title ? [`section::${tag(section.title)}`] : [];
 
     section.lines.forEach((line, l) => {
-      let lineCursor = 0;
       line.clauses.forEach((clause, c) => {
         let cursor = 0;
         for (const word of clause.words) {
@@ -102,8 +101,6 @@ export function buildDeck(text, roots, file) {
         }
 
         if (line.clauses.length > 1) {
-          const position = locate(line.hebrew, clause.hebrew, lineCursor);
-          lineCursor = position.end;
           notes.push({
             guid: guid(text.id, "clause", s, l, c),
             noteType: CLAUSE,
@@ -113,7 +110,6 @@ export function buildDeck(text, roots, file) {
               escape(clause.hebrew),
               escape(clause.translation),
               previousClause,
-              highlight(line.hebrew, position),
               section.title && section.title !== text.title ? escape(section.title) : "",
               escape(text.title),
             ],
