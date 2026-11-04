@@ -6,7 +6,8 @@
 // Notes are identified (their guid) by:
 //   Word  text id + spelling. A spelling that comes back with a different breakdown (meaning, parts or
 //         root) gets a second note, identified by text id + spelling + meaning. The first occurrence gives
-//         the context: the word's phrase (the subsentence it belongs to), with the word highlighted.
+//         the context: the word's phrase (the subsentence it belongs to), with the word highlighted, and the
+//         phrase's translation.
 //   Line  text id + section number + line number
 // So fixing a breakdown and re-importing updates the note; renaming a text id or moving lines makes new ones.
 //
@@ -96,7 +97,7 @@ export function buildDeck(text, roots, file) {
             root ? escape(root.meaning) : "",
             root ? glosses(root.related) : "",
             context,
-            escape(line.translation),
+            escape(word.phraseTranslation),
             escape(text.title),
           ],
         });

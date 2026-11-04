@@ -2,10 +2,11 @@
 //
 //   Word   Recognize   front: the word, its phrase below it with the word in bold
 //                      back:  meaning, one "**part** - meaning (label) → grammar note link(s)" per part, root and root meaning,
-//                             related root words, the line's translation (same content as a Kindle word card)
+//                             related root words, the phrase's translation
 //          Produce     front: the meaning, the phrase with the word blanked out
 //                      back:  the word, then the same as Recognize
-// The Context field holds the word's phrase (word.phrase), not the whole line; the field kept its name.
+// The Context field holds the word's phrase (word.phrase), not the whole line, and LineTranslation holds the
+// phrase's translation (word.phraseTranslation); the fields kept their names.
 //   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
 //          Next line   front: the line before it (or "Start of ...")   back: the line and its translation
 //

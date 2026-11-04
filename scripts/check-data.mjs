@@ -9,6 +9,7 @@
 //   - every word's root exists in roots.json
 //   - no root lists the same related word twice
 //   - every word's phrase is a run of whole words of its line that includes the word
+//   - words of a line with the same phrase have the same phrase translation
 
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -114,6 +115,11 @@ function checkPhrases(file, line) {
     const runs = spans.slice(0, k + 1).flatMap(([start]) => spans.slice(k).map(([, end]) => line.hebrew.slice(start, end)));
     if (!runs.includes(word.phrase)) report(file, `phrase "${word.phrase}" of ${word.hebrew} is not a run of whole words of its line including the word`);
   });
+  const translations = new Map();
+  for (const { phrase, phraseTranslation } of line.words) {
+    if (!translations.has(phrase)) translations.set(phrase, phraseTranslation);
+    else if (translations.get(phrase) !== phraseTranslation) report(file, `phrase "${phrase}" has two translations: "${translations.get(phrase)}" and "${phraseTranslation}"`);
+  }
 }
 
 const textFiles = readdirSync(JSON_DIR).filter((f) => f.endsWith(".json") && f !== ROOTS_FILE).sort();
