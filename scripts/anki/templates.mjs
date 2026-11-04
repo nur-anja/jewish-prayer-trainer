@@ -1,8 +1,8 @@
 // The Anki note types: their fields, card templates and styling. Used by deck.mjs.
 //
 //   Word   Recognize   front: the word, its clause below it with the word in bold
-//                      back:  meaning, one "**part** - meaning (label) → grammar note link(s)" per part, the clause's
-//                             translation, root and root meaning, related root words
+//                      back:  meaning, the clause's translation, one "**part** - meaning (label) → grammar note
+//                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
 //                      back:  the word, then the same as Recognize
 // The Context field holds the clause the word is in (clause.hebrew), not the whole line, and LineTranslation
@@ -47,7 +47,6 @@ const CSS = `
 .en { font-style: italic; margin-top: 8px; }
 .verse-en { font-size: 22px; }
 .context-en { font-size: 16px; color: var(--dim); }
-.details .context-en { text-align: center; }
 .source, .prompt { font-size: 14px; color: var(--dim); margin-top: 14px; }
 .prompt { margin: 0 0 10px; }
 .start { font-style: italic; color: var(--dim); }
@@ -65,9 +64,9 @@ a.grammar::before { content: "→ "; }
 `;
 
 const DETAILS = `
+<div dir="ltr" class="en context-en">{{LineTranslation}}</div>
 <div dir="ltr" class="details">
 <div class="parts">{{Parts}}</div>
-<div dir="ltr" class="en context-en">{{LineTranslation}}</div>
 {{#Root}}<div class="root">Root <strong>{{Root}}</strong> - {{RootMeaning}}</div>{{/Root}}
 {{#Related}}<div class="related">{{Related}}</div>{{/Related}}
 </div>`;

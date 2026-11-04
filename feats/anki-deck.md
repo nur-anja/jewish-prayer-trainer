@@ -36,7 +36,7 @@ Three note types, each with fields filled from the JSON and its own templates:
 
 1. **Word** (one per distinct word per text)
    - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the clause the word is in, from the JSON, with the word highlighted), LineTranslation (the clause's translation), Text.
-   - Card "Recognize": front is the word, large, with its clause below it in small type as context; back adds the meaning, the parts with their grammar labels, the clause's translation, the root with its meaning, and the related root words — the same content as a Kindle word card. The clause's translation was first at the bottom, after the related words, and moved up before the root.
+   - Card "Recognize": front is the word, large, with its clause below it in small type as context; back adds the meaning, the clause's translation, the parts with their grammar labels, the root with its meaning, and the related root words — the same content as a Kindle word card. The clause's translation was first at the bottom, after the related words, then before the root, and moved up to right after the word's meaning.
    - Card "Produce" (English to Hebrew): front is the meaning and the clause with the word blanked out; back is the word, then the same as Recognize with the clause's translation.
 2. **Line** (one per line)
    - Fields: Hebrew, Translation, PreviousLine, Section, Text.
