@@ -1,13 +1,15 @@
 // Turns one text breakdown into the decks and notes of its Anki deck. Used by index.mjs.
 //
 // Deck: "Prayer Trainer::<title>". Notes, in the order Anki introduces them (text order):
-//   for every line: a Word note for each word not seen before in this text, then the Line note.
+//   for every line: for each clause, a Word note for each of its words not seen before in this text, then
+//   the clause's Clause note (only when the line has more than one clause); then the Line note.
 //
 // Notes are identified (their guid) by:
 //   Word  text id + spelling. A spelling that comes back with a different breakdown (meaning, parts or
 //         root) gets a second note, identified by text id + spelling + meaning. The first occurrence gives
 //         the context: the clause the word is in, with the word highlighted, and the clause's translation.
 //   Line  text id + section number + line number
+//   Clause text id + section number + line number + clause number
 // So fixing a breakdown and re-importing updates the note; renaming a text id or moving lines makes new ones.
 //
 // A part's line in the Parts field ends with links to the grammar notes for its form, e.g. Prefix letters
@@ -22,7 +24,7 @@
 import { createHash } from "node:crypto";
 import { escape, gloss, partGloss, wordRoot } from "../render/common.mjs";
 import { grammarNotes } from "../render/grammar-notes.mjs";
-import { LINE, WORD } from "./templates.mjs";
+import { CLAUSE, LINE, WORD } from "./templates.mjs";
 
 const hash = (s) => createHash("sha1").update(s).digest("hex");
 const guid = (...identity) => hash(identity.join("\x1f")).slice(0, 20);
@@ -56,13 +58,15 @@ export function buildDeck(text, roots, file) {
   const deck = { id: deckId(`Prayer Trainer::${text.title}`), name: `Prayer Trainer::${text.title}` };
   const notes = [];
   const words = new Map(); // spelling -> [{ signature, ... }]
-  let previous = `<div dir="ltr" class="start">Start of ${escape(text.title)}</div>`;
+  const start = `<div dir="ltr" class="start">Start of ${escape(text.title)}</div>`;
+  let previous = start;
+  let previousClause = start; // the clause before, across lines, for the Next clause card
 
   text.sections.forEach((section, s) => {
     const sectionTags = section.title ? [`section::${tag(section.title)}`] : [];
 
     section.lines.forEach((line, l) => {
-      for (const clause of line.clauses) {
+      line.clauses.forEach((clause, c) => {
         let cursor = 0;
         for (const word of clause.words) {
           const position = locate(clause.hebrew, word.hebrew, cursor);
@@ -95,7 +99,24 @@ export function buildDeck(text, roots, file) {
             ],
           });
         }
-      }
+
+        if (line.clauses.length > 1) {
+          notes.push({
+            guid: guid(text.id, "clause", s, l, c),
+            noteType: CLAUSE,
+            deck,
+            tags: [text.id, ...sectionTags],
+            fields: [
+              escape(clause.hebrew),
+              escape(clause.translation),
+              previousClause,
+              section.title && section.title !== text.title ? escape(section.title) : "",
+              escape(text.title),
+            ],
+          });
+        }
+        previousClause = `<div dir="rtl" class="he">${escape(clause.hebrew)}</div>`;
+      });
 
       notes.push({
         guid: guid(text.id, "line", s, l),

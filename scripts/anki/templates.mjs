@@ -9,6 +9,10 @@
 // holds the clause's translation (clause.translation); the fields kept their names.
 //   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
 //          Next line   front: the line before it (or "Start of ...")   back: the line and its translation
+//   Clause Translate   front: the clause's translation   back: the Hebrew clause
+//          Next clause front: the clause before it in the text (or "Start of ...")   back: the clause and its
+//                      translation
+// Clause notes exist only for lines of more than one clause; a one-clause line has its Line note.
 //
 // The ids must never change: Anki recognizes a note type by its id, so changing one makes a re-import add
 // a second copy of every note. Adding, removing or reordering fields or templates also makes Anki treat
@@ -111,4 +115,25 @@ export const LINE = {
   css: CSS,
 };
 
-export const NOTE_TYPES = [WORD, LINE];
+export const CLAUSE = {
+  id: 1761955200003,
+  name: "Prayer Trainer: Clause",
+  fields: ["Hebrew", "Translation", "Previous", "Section", "Text"],
+  templates: [
+    {
+      name: "Translate",
+      front: `<div dir="ltr" class="en verse-en">{{Translation}}</div>
+<div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>`,
+    },
+    {
+      name: "Next clause",
+      front: `<div dir="ltr" class="prompt">What comes next?</div>\n<div dir="ltr" class="line context">{{Previous}}</div>
+<div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>\n<div dir="ltr" class="en">{{Translation}}</div>`,
+    },
+  ],
+  css: CSS,
+};
+
+export const NOTE_TYPES = [WORD, LINE, CLAUSE];

@@ -32,7 +32,7 @@ Tags on every note: the text id and, if the section has a title, `section::<titl
 
 ### Note types and cards
 
-Two note types, each with fields filled from the JSON and its own templates:
+Three note types, each with fields filled from the JSON and its own templates:
 
 1. **Word** (one per distinct word per text)
    - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the clause the word is in, from the JSON, with the word highlighted), LineTranslation (the clause's translation), Text.
@@ -42,6 +42,11 @@ Two note types, each with fields filled from the JSON and its own templates:
    - Fields: Hebrew, Translation, PreviousLine, Section, Text.
    - Card "Translate": the line's translation, then the Hebrew line. (First built the other way round, Hebrew to English; flipped so that whole lines are practised from English. The name stayed, because renaming a card type makes Anki treat re-imported notes as conflicts.)
    - Card "Next line": front is the previous line (or the section/text title for the first line), back is this line, for learning the prayer by heart in order.
+3. **Clause** (one per clause, only in lines of more than one clause; a one-clause line already has its Line note)
+   - Fields: Hebrew, Translation, Previous, Section, Text.
+   - Card "Translate": the clause's translation, then the Hebrew clause.
+   - Card "Next clause": front is the clause before it in the text, across line boundaries (or "Start of …"), back is the clause and its translation. The whole line was first shown below the clause on both cards for context, and was removed to keep the cards short. Long lines can be learned piece by piece before their Line cards.
+   - Added as a new note type, so the Word and Line note types are unchanged and re-imports of existing decks don't conflict.
 
 The context was first the whole line; it became a short phrase (`phrase` on each word in the JSON, usually two or three words) so the word cards stay concise. The line's translation moved from the front of Produce to its back: next to a short phrase, the whole sentence in English was out of place and gave the answer away. Two or three words then turned out to give too little context, so the context became the clause the word is in, still shorter than a long line, and the back shows the clause's translation instead of the whole line's. The phrase and its translation were first stored on every word; since all the words of a clause repeated the same two values, each line is now divided into clauses (`clauses` in the JSON, each with its Hebrew, translation and words). The fields kept the names Context and LineTranslation, since renaming a field makes re-imports conflict.
 
@@ -50,12 +55,12 @@ Root cards (a root, then its meaning, related words and the words in the text wi
 ### Duplicates and stable ids
 
 - A word note is identified by text id + the word's spelling without punctuation. The first occurrence in the text decides its context clause. If the same spelling appears twice in one text with a different breakdown (meaning or parts), it gets a second note, identified by also adding the meaning.
-- A line note is identified by text id + section index + line index.
+- A line note is identified by text id + section index + line index; a clause note by those plus the clause index.
 - The note guid is a hash of that identity, so a re-import after fixing a breakdown updates the fields of the existing note and keeps its reviews. Renaming a text id or reordering lines creates new notes; that's accepted.
 
 ### Card order
 
-New cards are numbered in text order: for each line, its new words, then the line's cards. Anki introduces them in the order they appear in the prayer.
+New cards are numbered in text order: for each line, for each clause its new words and then the clause's cards, then the line's cards. Anki introduces them in the order they appear in the prayer.
 
 ### Font
 
