@@ -61,6 +61,12 @@ New cards are numbered in text order: for each line, its new words, then the lin
 
 Anki cards can't rely on the Google Fonts link used by the PDFs (offline phones). Bundle Noto Serif Hebrew (OFL license) as deck media named `_NotoSerifHebrew.ttf`; the leading underscore stops Anki's "Check media" from deleting it. The font file is downloaded once and committed under `scripts/anki/`.
 
+### Links to the grammar notes
+
+After each part on the back of a word card come links to the notes in [grammar/](../grammar/README.md) that explain its form, such as Prefix letters after an "and" prefix, Construct forms after a noun in construct, or Past tense after a past-tense verb. The mapping from a part's grammar fields to a note is in `scripts/render/grammar-notes.mjs`, next to the grammar labels, so the PDFs can use it later too. The links go to the notes on GitHub (main branch) and open in the browser.
+
+The links are written into the Parts field, not into a new field, because adding a field would make re-imports conflict. A noun built with one of the templates in nouns.md links to that template's section, from the part's `pattern` field (see [grammar-reference](grammar-reference.md)).
+
 ## Checked
 
 With the `anki` package from PyPI (version 26.09): both decks import with no conflicts and the font in the media folder; after studying a card, changing a meaning in the JSON, rebuilding and re-importing, all notes were updated in place, none were added, and the card kept its review. The cards were also rendered and looked at in light and night mode. Not yet tried on AnkiDroid or AnkiMobile.

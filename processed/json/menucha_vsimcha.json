@@ -18,6 +18,7 @@
                   "hebrew": "מְנוּחָה",
                   "meaning": "rest",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "fem",
                   "number": "sg"
                 }
@@ -141,6 +142,7 @@
                   "hebrew": "מַחֲמַדִּים",
                   "meaning": "delights",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "masc",
                   "number": "pl"
                 }
@@ -455,6 +457,7 @@
                   "hebrew": "מָרוֹם",
                   "meaning": "height, heaven",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "masc",
                   "number": "sg"
                 }
@@ -1046,6 +1049,7 @@
                   "hebrew": "מְלֶאכֶת",
                   "meaning": "work of",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "fem",
                   "number": "sg",
                   "construct": true
@@ -1085,6 +1089,7 @@
                   "hebrew": "מִצְוַת",
                   "meaning": "commandment of",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "fem",
                   "number": "sg",
                   "construct": true
@@ -1464,6 +1469,7 @@
                   "hebrew": "מִשְׁנֶה",
                   "meaning": "double of",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "masc",
                   "number": "sg",
                   "construct": true
@@ -1558,6 +1564,7 @@
                   "hebrew": "מַטְעַמִּים",
                   "meaning": "delicacies",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "masc",
                   "number": "pl"
                 }

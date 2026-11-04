@@ -333,6 +333,7 @@
                   "hebrew": "מַעַיְנֵי",
                   "meaning": "springs of",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "masc",
                   "number": "pl",
                   "construct": true
@@ -540,6 +541,7 @@
                   "hebrew": "מִשְׂגָּב",
                   "meaning": "stronghold",
                   "pos": "noun",
+                  "pattern": "mem-prefix",
                   "gender": "masc",
                   "number": "sg"
                 }
