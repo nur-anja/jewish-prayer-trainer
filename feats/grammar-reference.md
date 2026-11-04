@@ -39,7 +39,7 @@ Later, when a text needs them: Hitpa'el (ת after a prefix, 1 verb now, could go
 
 Checked and left out by the letters rule: the dual ending (same letters as the plural; a Watch out line in the plural note at most), Pi'el (only a dagesh) and the passive participle's ו (can't be told from Kiddush's ו without vowels; covered as a verb form in the participle note).
 
-## Later: vowel patterns for nouns
+### Later: vowel patterns for nouns
 
 Once the letter patterns are learned, expand the noun patterns (the notes and the `pattern` field) to the templates that the letters rule leaves out for now, because they are defined by vowels or a dagesh:
 
