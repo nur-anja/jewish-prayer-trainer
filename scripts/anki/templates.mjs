@@ -1,8 +1,8 @@
 // The Anki note types: their fields, card templates and styling. Used by deck.mjs.
 //
 //   Word   Recognize   front: the word, its clause below it with the word in bold
-//                      back:  meaning, one "**part** - meaning (label) → grammar note link(s)" per part, root and root meaning,
-//                             related root words, the clause's translation
+//                      back:  meaning, one "**part** - meaning (label) → grammar note link(s)" per part, the clause's
+//                             translation, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
 //                      back:  the word, then the same as Recognize
 // The Context field holds the clause the word is in (clause.hebrew), not the whole line, and LineTranslation
@@ -66,6 +66,7 @@ a.grammar::before { content: "→ "; }
 const DETAILS = `
 <div dir="ltr" class="details">
 <div class="parts">{{Parts}}</div>
+<div dir="ltr" class="en context-en">{{LineTranslation}}</div>
 {{#Root}}<div class="root">Root <strong>{{Root}}</strong> - {{RootMeaning}}</div>{{/Root}}
 {{#Related}}<div class="related">{{Related}}</div>{{/Related}}
 </div>`;
@@ -80,15 +81,13 @@ export const WORD = {
     {
       name: "Recognize",
       front: `<div dir="rtl" class="he big">{{Hebrew}}</div>\n<div dir="rtl" class="he context">{{Context}}</div>\n${SOURCE}`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${DETAILS}
-<div dir="ltr" class="en context-en">{{LineTranslation}}</div>`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${DETAILS}`,
     },
     {
       name: "Produce",
       front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>\n${SOURCE}`,
       back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>
-<div dir="rtl" class="he context">{{Context}}</div>${DETAILS}
-<div dir="ltr" class="en context-en">{{LineTranslation}}</div>`,
+<div dir="rtl" class="he context">{{Context}}</div>${DETAILS}`,
     },
   ],
   css: CSS,
