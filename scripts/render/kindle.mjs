@@ -18,7 +18,7 @@
 // value with no readable name in common.mjs (e.g. one newly added to the schema).
 
 import { join } from "node:path";
-import { escape, gloss, htmlPage, partGloss, ROOT, wordRoot } from "./common.mjs";
+import { escape, gloss, htmlPage, lineWords, partGloss, ROOT, wordRoot } from "./common.mjs";
 
 // ---------------------------------------------------------------------------------------------
 // HTML
@@ -92,7 +92,7 @@ function lineBreakdown(line, roots, file) {
   const header =
     `<div class="verse"><div class="he" dir="rtl">${escape(line.hebrew)}</div>` +
     `<div class="en">${escape(line.translation)}</div></div>`;
-  return header + line.words.map((w) => wordCard(w, roots, file)).join("");
+  return header + lineWords(line).map((w) => wordCard(w, roots, file)).join("");
 }
 
 function fullText(sections) {

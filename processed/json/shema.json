@@ -9,110 +9,110 @@
         {
           "hebrew": "שְׁמַע יִשְׂרָאֵל יְיָ אֱלֹהֵינוּ יְיָ אֶחָד׃",
           "translation": "Hear, Israel: the LORD is our God, the LORD is one.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "שְׁמַע",
-              "meaning": "hear",
-              "phrase": "שְׁמַע יִשְׂרָאֵל",
-              "phraseTranslation": "Hear, Israel",
-              "parts": [
+              "hebrew": "שְׁמַע יִשְׂרָאֵל",
+              "translation": "Hear, Israel",
+              "words": [
                 {
                   "hebrew": "שְׁמַע",
                   "meaning": "hear",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "imperative",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-מ-ע"
-            },
-            {
-              "hebrew": "יִשְׂרָאֵל",
-              "meaning": "Israel",
-              "phrase": "שְׁמַע יִשְׂרָאֵל",
-              "phraseTranslation": "Hear, Israel",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "שְׁמַע",
+                      "meaning": "hear",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "imperative",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-מ-ע"
+                },
                 {
                   "hebrew": "יִשְׂרָאֵל",
                   "meaning": "Israel",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-ר-ה"
-            },
-            {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "יְיָ אֱלֹהֵינוּ יְיָ אֶחָד",
-              "phraseTranslation": "the LORD is our God, the LORD is one",
-              "parts": [
-                {
-                  "hebrew": "יְיָ",
-                  "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "יִשְׂרָאֵל",
+                      "meaning": "Israel",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-ר-ה"
                 }
               ]
             },
             {
-              "hebrew": "אֱלֹהֵינוּ",
-              "meaning": "our God",
-              "phrase": "יְיָ אֱלֹהֵינוּ יְיָ אֶחָד",
-              "phraseTranslation": "the LORD is our God, the LORD is one",
-              "parts": [
+              "hebrew": "יְיָ אֱלֹהֵינוּ יְיָ אֶחָד",
+              "translation": "the LORD is our God, the LORD is one",
+              "words": [
                 {
-                  "hebrew": "אֱלֹהֵי",
-                  "meaning": "God of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl",
-                  "construct": true
+                  "hebrew": "יְיָ",
+                  "meaning": "the LORD",
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
                 },
                 {
-                  "hebrew": "־ֵינוּ",
-                  "meaning": "our",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "pl"
-                }
-              ],
-              "root": "א-ל-ה"
-            },
-            {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "יְיָ אֱלֹהֵינוּ יְיָ אֶחָד",
-              "phraseTranslation": "the LORD is our God, the LORD is one",
-              "parts": [
+                  "hebrew": "אֱלֹהֵינוּ",
+                  "meaning": "our God",
+                  "parts": [
+                    {
+                      "hebrew": "אֱלֹהֵי",
+                      "meaning": "God of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֵינוּ",
+                      "meaning": "our",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "א-ל-ה"
+                },
                 {
                   "hebrew": "יְיָ",
                   "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ]
-            },
-            {
-              "hebrew": "אֶחָד",
-              "meaning": "one",
-              "phrase": "יְיָ אֱלֹהֵינוּ יְיָ אֶחָד",
-              "phraseTranslation": "the LORD is our God, the LORD is one",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "אֶחָד",
                   "meaning": "one",
-                  "pos": "numeral",
-                  "gender": "masc"
+                  "parts": [
+                    {
+                      "hebrew": "אֶחָד",
+                      "meaning": "one",
+                      "pos": "numeral",
+                      "gender": "masc"
+                    }
+                  ],
+                  "root": "א-ח-ד"
                 }
-              ],
-              "root": "א-ח-ד"
+              ]
             }
           ]
         }
@@ -124,125 +124,119 @@
         {
           "hebrew": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
           "translation": "Blessed is the name of His glorious kingdom forever and ever.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "בָּרוּךְ",
-              "meaning": "blessed",
-              "phrase": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
-              "phraseTranslation": "Blessed is the name of His glorious kingdom forever and ever.",
-              "parts": [
+              "hebrew": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
+              "translation": "Blessed is the name of His glorious kingdom forever and ever.",
+              "words": [
                 {
                   "hebrew": "בָּרוּךְ",
                   "meaning": "blessed",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "passive-participle",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ב-ר-ך"
-            },
-            {
-              "hebrew": "שֵׁם",
-              "meaning": "the name of",
-              "phrase": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
-              "phraseTranslation": "Blessed is the name of His glorious kingdom forever and ever.",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "בָּרוּךְ",
+                      "meaning": "blessed",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "passive-participle",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-ר-ך"
+                },
                 {
                   "hebrew": "שֵׁם",
-                  "meaning": "name of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                }
-              ]
-            },
-            {
-              "hebrew": "כְּבוֹד",
-              "meaning": "the glory of",
-              "phrase": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
-              "phraseTranslation": "Blessed is the name of His glorious kingdom forever and ever.",
-              "parts": [
+                  "meaning": "the name of",
+                  "parts": [
+                    {
+                      "hebrew": "שֵׁם",
+                      "meaning": "name of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ]
+                },
                 {
                   "hebrew": "כְּבוֹד",
-                  "meaning": "glory of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                }
-              ],
-              "root": "כ-ב-ד"
-            },
-            {
-              "hebrew": "מַלְכוּתוֹ",
-              "meaning": "His kingdom",
-              "phrase": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
-              "phraseTranslation": "Blessed is the name of His glorious kingdom forever and ever.",
-              "parts": [
-                {
-                  "hebrew": "מַלְכוּת",
-                  "meaning": "kingdom of",
-                  "pos": "noun",
-                  "pattern": "vav-tav-ending",
-                  "gender": "fem",
-                  "number": "sg",
-                  "construct": true
+                  "meaning": "the glory of",
+                  "parts": [
+                    {
+                      "hebrew": "כְּבוֹד",
+                      "meaning": "glory of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "כ-ב-ד"
                 },
                 {
-                  "hebrew": "־וֹ",
-                  "meaning": "His",
-                  "pos": "pronoun-suffix",
-                  "person": 3,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "מ-ל-ך"
-            },
-            {
-              "hebrew": "לְעוֹלָם",
-              "meaning": "forever",
-              "phrase": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
-              "phraseTranslation": "Blessed is the name of His glorious kingdom forever and ever.",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "for",
-                  "pos": "preposition"
+                  "hebrew": "מַלְכוּתוֹ",
+                  "meaning": "His kingdom",
+                  "parts": [
+                    {
+                      "hebrew": "מַלְכוּת",
+                      "meaning": "kingdom of",
+                      "pos": "noun",
+                      "pattern": "vav-tav-ending",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־וֹ",
+                      "meaning": "His",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "מ-ל-ך"
                 },
                 {
-                  "hebrew": "עוֹלָם",
-                  "meaning": "eternity",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ע-ל-ם"
-            },
-            {
-              "hebrew": "וָעֶד",
-              "meaning": "and ever",
-              "phrase": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד",
-              "phraseTranslation": "Blessed is the name of His glorious kingdom forever and ever.",
-              "parts": [
-                {
-                  "hebrew": "וָ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "לְעוֹלָם",
+                  "meaning": "forever",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "עוֹלָם",
+                      "meaning": "eternity",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ל-ם"
                 },
                 {
-                  "hebrew": "עֶד",
-                  "meaning": "perpetuity",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "וָעֶד",
+                  "meaning": "and ever",
+                  "parts": [
+                    {
+                      "hebrew": "וָ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עֶד",
+                      "meaning": "perpetuity",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ו-ד"
                 }
-              ],
-              "root": "ע-ו-ד"
+              ]
             }
           ]
         }
@@ -254,1021 +248,1009 @@
         {
           "hebrew": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ׃",
           "translation": "And you shall love the LORD your God with all your heart, with all your soul and with all your might.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "וְאָהַבְתָּ",
-              "meaning": "and you shall love",
-              "phrase": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ",
-              "phraseTranslation": "And you shall love the LORD your God",
-              "parts": [
+              "hebrew": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ",
+              "translation": "And you shall love the LORD your God",
+              "words": [
                 {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וְאָהַבְתָּ",
+                  "meaning": "and you shall love",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "אָהַבְתָּ",
+                      "meaning": "you shall love",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ה-ב"
                 },
-                {
-                  "hebrew": "אָהַבְתָּ",
-                  "meaning": "you shall love",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "past",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "א-ה-ב"
-            },
-            {
-              "hebrew": "אֵת",
-              "meaning": "(marks the direct object)",
-              "phrase": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ",
-              "phraseTranslation": "And you shall love the LORD your God",
-              "parts": [
                 {
                   "hebrew": "אֵת",
                   "meaning": "(marks the direct object)",
-                  "pos": "particle"
-                }
-              ]
-            },
-            {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ",
-              "phraseTranslation": "And you shall love the LORD your God",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "אֵת",
+                      "meaning": "(marks the direct object)",
+                      "pos": "particle"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "יְיָ",
                   "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "אֱלֹהֶיךָ",
+                  "meaning": "your God",
+                  "parts": [
+                    {
+                      "hebrew": "אֱלֹהֵי",
+                      "meaning": "God of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ל-ה"
                 }
               ]
             },
             {
-              "hebrew": "אֱלֹהֶיךָ",
-              "meaning": "your God",
-              "phrase": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ",
-              "phraseTranslation": "And you shall love the LORD your God",
-              "parts": [
+              "hebrew": "בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
+              "translation": "with all your heart, with all your soul and with all your might",
+              "words": [
                 {
-                  "hebrew": "אֱלֹהֵי",
-                  "meaning": "God of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl",
-                  "construct": true
+                  "hebrew": "בְּכָל־",
+                  "meaning": "with all of",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "כָּל־",
+                      "meaning": "all of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "כ-ל-ל"
                 },
                 {
-                  "hebrew": "־ֶיךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "לְבָבְךָ",
+                  "meaning": "your heart",
+                  "parts": [
+                    {
+                      "hebrew": "לְבַב",
+                      "meaning": "heart of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ל-ב-ב"
+                },
+                {
+                  "hebrew": "וּבְכָל־",
+                  "meaning": "and with all of",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "בְ־",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "כָּל־",
+                      "meaning": "all of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "כ-ל-ל"
+                },
+                {
+                  "hebrew": "נַפְשְׁךָ",
+                  "meaning": "your soul",
+                  "parts": [
+                    {
+                      "hebrew": "נֶפֶשׁ",
+                      "meaning": "soul of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-פ-ש"
+                },
+                {
+                  "hebrew": "וּבְכָל־",
+                  "meaning": "and with all of",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "בְ־",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "כָּל־",
+                      "meaning": "all of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "כ-ל-ל"
+                },
+                {
+                  "hebrew": "מְאֹדֶךָ",
+                  "meaning": "your might",
+                  "parts": [
+                    {
+                      "hebrew": "מְאֹד",
+                      "meaning": "might of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "מ-א-ד"
                 }
-              ],
-              "root": "א-ל-ה"
-            },
-            {
-              "hebrew": "בְּכָל־",
-              "meaning": "with all of",
-              "phrase": "בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
-              "phraseTranslation": "with all your heart, with all your soul and with all your might",
-              "parts": [
-                {
-                  "hebrew": "בְּ־",
-                  "meaning": "with",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "כָּל־",
-                  "meaning": "all of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                }
-              ],
-              "root": "כ-ל-ל"
-            },
-            {
-              "hebrew": "לְבָבְךָ",
-              "meaning": "your heart",
-              "phrase": "בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
-              "phraseTranslation": "with all your heart, with all your soul and with all your might",
-              "parts": [
-                {
-                  "hebrew": "לְבַב",
-                  "meaning": "heart of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                },
-                {
-                  "hebrew": "־ְךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ל-ב-ב"
-            },
-            {
-              "hebrew": "וּבְכָל־",
-              "meaning": "and with all of",
-              "phrase": "בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
-              "phraseTranslation": "with all your heart, with all your soul and with all your might",
-              "parts": [
-                {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
-                },
-                {
-                  "hebrew": "בְ־",
-                  "meaning": "with",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "כָּל־",
-                  "meaning": "all of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                }
-              ],
-              "root": "כ-ל-ל"
-            },
-            {
-              "hebrew": "נַפְשְׁךָ",
-              "meaning": "your soul",
-              "phrase": "בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
-              "phraseTranslation": "with all your heart, with all your soul and with all your might",
-              "parts": [
-                {
-                  "hebrew": "נֶפֶשׁ",
-                  "meaning": "soul of",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg",
-                  "construct": true
-                },
-                {
-                  "hebrew": "־ְךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "נ-פ-ש"
-            },
-            {
-              "hebrew": "וּבְכָל־",
-              "meaning": "and with all of",
-              "phrase": "בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
-              "phraseTranslation": "with all your heart, with all your soul and with all your might",
-              "parts": [
-                {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
-                },
-                {
-                  "hebrew": "בְ־",
-                  "meaning": "with",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "כָּל־",
-                  "meaning": "all of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                }
-              ],
-              "root": "כ-ל-ל"
-            },
-            {
-              "hebrew": "מְאֹדֶךָ",
-              "meaning": "your might",
-              "phrase": "בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
-              "phraseTranslation": "with all your heart, with all your soul and with all your might",
-              "parts": [
-                {
-                  "hebrew": "מְאֹד",
-                  "meaning": "might of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                },
-                {
-                  "hebrew": "־ֶךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "מ-א-ד"
+              ]
             }
           ]
         },
         {
           "hebrew": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ׃",
           "translation": "And these words that I command you today shall be upon your heart.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "וְהָיוּ",
-              "meaning": "and they shall be",
-              "phrase": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ",
-              "phraseTranslation": "And these words that I command you today shall be upon your heart.",
-              "parts": [
+              "hebrew": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה",
+              "translation": "And these words shall be",
+              "words": [
                 {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וְהָיוּ",
+                  "meaning": "and they shall be",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "הָיוּ",
+                      "meaning": "they shall be",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "common",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
-                  "hebrew": "הָיוּ",
-                  "meaning": "they shall be",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "past",
-                  "person": 3,
-                  "gender": "common",
-                  "number": "pl"
-                }
-              ],
-              "root": "ה-י-ה"
-            },
-            {
-              "hebrew": "הַדְּבָרִים",
-              "meaning": "the words",
-              "phrase": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ",
-              "phraseTranslation": "And these words that I command you today shall be upon your heart.",
-              "parts": [
-                {
-                  "hebrew": "הַ־",
-                  "meaning": "the",
-                  "pos": "article"
+                  "hebrew": "הַדְּבָרִים",
+                  "meaning": "the words",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "דְּבָרִים",
+                      "meaning": "words",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ד-ב-ר"
                 },
                 {
-                  "hebrew": "דְּבָרִים",
-                  "meaning": "words",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "ד-ב-ר"
-            },
-            {
-              "hebrew": "הָאֵלֶּה",
-              "meaning": "these",
-              "phrase": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ",
-              "phraseTranslation": "And these words that I command you today shall be upon your heart.",
-              "parts": [
-                {
-                  "hebrew": "הָ־",
-                  "meaning": "the",
-                  "pos": "article"
-                },
-                {
-                  "hebrew": "אֵלֶּה",
+                  "hebrew": "הָאֵלֶּה",
                   "meaning": "these",
-                  "pos": "pronoun",
-                  "type": "demonstrative",
-                  "gender": "common",
-                  "number": "pl"
+                  "parts": [
+                    {
+                      "hebrew": "הָ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "אֵלֶּה",
+                      "meaning": "these",
+                      "pos": "pronoun",
+                      "type": "demonstrative",
+                      "gender": "common",
+                      "number": "pl"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "hebrew": "אֲשֶׁר",
-              "meaning": "that",
-              "phrase": "אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם",
-              "phraseTranslation": "that I command you today",
-              "parts": [
+              "hebrew": "אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם",
+              "translation": "that I command you today",
+              "words": [
                 {
                   "hebrew": "אֲשֶׁר",
                   "meaning": "that",
-                  "pos": "particle"
-                }
-              ]
-            },
-            {
-              "hebrew": "אָנֹכִי",
-              "meaning": "I",
-              "phrase": "אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם",
-              "phraseTranslation": "that I command you today",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "אֲשֶׁר",
+                      "meaning": "that",
+                      "pos": "particle"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "אָנֹכִי",
                   "meaning": "I",
-                  "pos": "pronoun",
-                  "type": "personal",
-                  "person": 1,
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "אָנֹכִי",
+                      "meaning": "I",
+                      "pos": "pronoun",
+                      "type": "personal",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "מְצַוְּךָ",
+                  "meaning": "command you",
+                  "parts": [
+                    {
+                      "hebrew": "מְצַוֶּה",
+                      "meaning": "command",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "present",
+                      "gender": "masc",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "you",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "צ-ו-ה"
+                },
+                {
+                  "hebrew": "הַיּוֹם",
+                  "meaning": "today",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "יוֹם",
+                      "meaning": "day",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ו-ם"
                 }
               ]
             },
             {
-              "hebrew": "מְצַוְּךָ",
-              "meaning": "command you",
-              "phrase": "אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם",
-              "phraseTranslation": "that I command you today",
-              "parts": [
-                {
-                  "hebrew": "מְצַוֶּה",
-                  "meaning": "command",
-                  "pos": "verb",
-                  "binyan": "piel",
-                  "form": "present",
-                  "gender": "masc",
-                  "number": "sg"
-                },
-                {
-                  "hebrew": "־ְךָ",
-                  "meaning": "you",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "צ-ו-ה"
-            },
-            {
-              "hebrew": "הַיּוֹם",
-              "meaning": "today",
-              "phrase": "אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם",
-              "phraseTranslation": "that I command you today",
-              "parts": [
-                {
-                  "hebrew": "הַ־",
-                  "meaning": "the",
-                  "pos": "article"
-                },
-                {
-                  "hebrew": "יוֹם",
-                  "meaning": "day",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "י-ו-ם"
-            },
-            {
-              "hebrew": "עַל־",
-              "meaning": "upon",
-              "phrase": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ",
-              "phraseTranslation": "And these words that I command you today shall be upon your heart.",
-              "parts": [
+              "hebrew": "עַל־לְבָבֶךָ",
+              "translation": "upon your heart",
+              "words": [
                 {
                   "hebrew": "עַל־",
                   "meaning": "upon",
-                  "pos": "preposition"
-                }
-              ]
-            },
-            {
-              "hebrew": "לְבָבֶךָ",
-              "meaning": "your heart",
-              "phrase": "וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל־לְבָבֶךָ",
-              "phraseTranslation": "And these words that I command you today shall be upon your heart.",
-              "parts": [
-                {
-                  "hebrew": "לְבַב",
-                  "meaning": "heart of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
+                  "parts": [
+                    {
+                      "hebrew": "עַל־",
+                      "meaning": "upon",
+                      "pos": "preposition"
+                    }
+                  ]
                 },
                 {
-                  "hebrew": "־ֶךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "לְבָבֶךָ",
+                  "meaning": "your heart",
+                  "parts": [
+                    {
+                      "hebrew": "לְבַב",
+                      "meaning": "heart of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ל-ב-ב"
                 }
-              ],
-              "root": "ל-ב-ב"
+              ]
             }
           ]
         },
         {
           "hebrew": "וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ׃",
           "translation": "And you shall teach them to your children and speak of them when you sit in your house, when you walk on the way, when you lie down and when you rise up.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "וְשִׁנַּנְתָּם",
-              "meaning": "and you shall teach them",
-              "phrase": "וְשִׁנַּנְתָּם לְבָנֶיךָ",
-              "phraseTranslation": "And you shall teach them to your children",
-              "parts": [
+              "hebrew": "וְשִׁנַּנְתָּם לְבָנֶיךָ",
+              "translation": "And you shall teach them to your children",
+              "words": [
                 {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וְשִׁנַּנְתָּם",
+                  "meaning": "and you shall teach them",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "שִׁנַּנְתָּ",
+                      "meaning": "you shall teach (by repetition)",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ם",
+                      "meaning": "them",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ש-נ-ן"
                 },
                 {
-                  "hebrew": "שִׁנַּנְתָּ",
-                  "meaning": "you shall teach (by repetition)",
-                  "pos": "verb",
-                  "binyan": "piel",
-                  "form": "past",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                },
-                {
-                  "hebrew": "־ם",
-                  "meaning": "them",
-                  "pos": "pronoun-suffix",
-                  "person": 3,
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "ש-נ-ן"
-            },
-            {
-              "hebrew": "לְבָנֶיךָ",
-              "meaning": "to your children",
-              "phrase": "וְשִׁנַּנְתָּם לְבָנֶיךָ",
-              "phraseTranslation": "And you shall teach them to your children",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "to",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "בְּנֵי",
-                  "meaning": "children of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl",
-                  "construct": true
-                },
-                {
-                  "hebrew": "־ֶיךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ב-נ-ה"
-            },
-            {
-              "hebrew": "וְדִבַּרְתָּ",
-              "meaning": "and you shall speak",
-              "phrase": "וְדִבַּרְתָּ בָּם",
-              "phraseTranslation": "and speak of them",
-              "parts": [
-                {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
-                },
-                {
-                  "hebrew": "דִּבַּרְתָּ",
-                  "meaning": "you shall speak",
-                  "pos": "verb",
-                  "binyan": "piel",
-                  "form": "past",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ד-ב-ר"
-            },
-            {
-              "hebrew": "בָּם",
-              "meaning": "of them",
-              "phrase": "וְדִבַּרְתָּ בָּם",
-              "phraseTranslation": "and speak of them",
-              "parts": [
-                {
-                  "hebrew": "בְּ־",
-                  "meaning": "of",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "־ָם",
-                  "meaning": "them",
-                  "pos": "pronoun-suffix",
-                  "person": 3,
-                  "gender": "masc",
-                  "number": "pl"
+                  "hebrew": "לְבָנֶיךָ",
+                  "meaning": "to your children",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "to",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "בְּנֵי",
+                      "meaning": "children of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-נ-ה"
                 }
               ]
             },
             {
-              "hebrew": "בְּשִׁבְתְּךָ",
-              "meaning": "when you sit",
-              "phrase": "בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ",
-              "phraseTranslation": "when you sit in your house and when you walk on the way",
-              "parts": [
+              "hebrew": "וְדִבַּרְתָּ בָּם",
+              "translation": "and speak of them",
+              "words": [
                 {
-                  "hebrew": "בְּ־",
-                  "meaning": "when",
-                  "pos": "preposition"
+                  "hebrew": "וְדִבַּרְתָּ",
+                  "meaning": "and you shall speak",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "דִּבַּרְתָּ",
+                      "meaning": "you shall speak",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ד-ב-ר"
                 },
                 {
-                  "hebrew": "שֶׁבֶת",
-                  "meaning": "sitting",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "infinitive-construct"
-                },
-                {
-                  "hebrew": "־ְךָ",
-                  "meaning": "you",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "בָּם",
+                  "meaning": "of them",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "of",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָם",
+                      "meaning": "them",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ]
                 }
-              ],
-              "root": "י-ש-ב"
+              ]
             },
             {
-              "hebrew": "בְּבֵיתֶךָ",
-              "meaning": "in your house",
-              "phrase": "בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ",
-              "phraseTranslation": "when you sit in your house and when you walk on the way",
-              "parts": [
+              "hebrew": "בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ",
+              "translation": "when you sit in your house and when you walk on the way",
+              "words": [
                 {
-                  "hebrew": "בְּ־",
-                  "meaning": "in",
-                  "pos": "preposition"
+                  "hebrew": "בְּשִׁבְתְּךָ",
+                  "meaning": "when you sit",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "when",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "שֶׁבֶת",
+                      "meaning": "sitting",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "infinitive-construct"
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "you",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ב"
                 },
                 {
-                  "hebrew": "בֵּית",
-                  "meaning": "house of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
+                  "hebrew": "בְּבֵיתֶךָ",
+                  "meaning": "in your house",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "בֵּית",
+                      "meaning": "house of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-י-ת"
                 },
                 {
-                  "hebrew": "־ֶךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "וּבְלֶכְתְּךָ",
+                  "meaning": "and when you walk",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "בְ־",
+                      "meaning": "when",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "לֶכֶת",
+                      "meaning": "walking",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "infinitive-construct"
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "you",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ה-ל-ך"
+                },
+                {
+                  "hebrew": "בַדֶּרֶךְ",
+                  "meaning": "on the way",
+                  "parts": [
+                    {
+                      "hebrew": "בַ־",
+                      "meaning": "on the",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "דֶּרֶךְ",
+                      "meaning": "way",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ד-ר-ך"
                 }
-              ],
-              "root": "ב-י-ת"
+              ]
             },
             {
-              "hebrew": "וּבְלֶכְתְּךָ",
-              "meaning": "and when you walk",
-              "phrase": "בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ",
-              "phraseTranslation": "when you sit in your house and when you walk on the way",
-              "parts": [
+              "hebrew": "וּבְשָׁכְבְּךָ וּבְקוּמֶךָ",
+              "translation": "when you lie down and when you rise up",
+              "words": [
                 {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וּבְשָׁכְבְּךָ",
+                  "meaning": "and when you lie down",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "בְ־",
+                      "meaning": "when",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "שְׁכַב",
+                      "meaning": "lying down",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "infinitive-construct"
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "you",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-כ-ב"
                 },
                 {
-                  "hebrew": "בְ־",
-                  "meaning": "when",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "לֶכֶת",
-                  "meaning": "walking",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "infinitive-construct"
-                },
-                {
-                  "hebrew": "־ְךָ",
-                  "meaning": "you",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "וּבְקוּמֶךָ",
+                  "meaning": "and when you rise up",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "בְ־",
+                      "meaning": "when",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "קוּם",
+                      "meaning": "rising up",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "infinitive-construct"
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "you",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ק-ו-ם"
                 }
-              ],
-              "root": "ה-ל-ך"
-            },
-            {
-              "hebrew": "בַדֶּרֶךְ",
-              "meaning": "on the way",
-              "phrase": "בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ",
-              "phraseTranslation": "when you sit in your house and when you walk on the way",
-              "parts": [
-                {
-                  "hebrew": "בַ־",
-                  "meaning": "on the",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "דֶּרֶךְ",
-                  "meaning": "way",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "ד-ר-ך"
-            },
-            {
-              "hebrew": "וּבְשָׁכְבְּךָ",
-              "meaning": "and when you lie down",
-              "phrase": "וּבְשָׁכְבְּךָ וּבְקוּמֶךָ",
-              "phraseTranslation": "when you lie down and when you rise up",
-              "parts": [
-                {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
-                },
-                {
-                  "hebrew": "בְ־",
-                  "meaning": "when",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "שְׁכַב",
-                  "meaning": "lying down",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "infinitive-construct"
-                },
-                {
-                  "hebrew": "־ְךָ",
-                  "meaning": "you",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-כ-ב"
-            },
-            {
-              "hebrew": "וּבְקוּמֶךָ",
-              "meaning": "and when you rise up",
-              "phrase": "וּבְשָׁכְבְּךָ וּבְקוּמֶךָ",
-              "phraseTranslation": "when you lie down and when you rise up",
-              "parts": [
-                {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
-                },
-                {
-                  "hebrew": "בְ־",
-                  "meaning": "when",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "קוּם",
-                  "meaning": "rising up",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "infinitive-construct"
-                },
-                {
-                  "hebrew": "־ֶךָ",
-                  "meaning": "you",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ק-ו-ם"
+              ]
             }
           ]
         },
         {
           "hebrew": "וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ׃",
           "translation": "And you shall bind them as a sign upon your hand, and they shall be as frontlets between your eyes.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "וּקְשַׁרְתָּם",
-              "meaning": "and you shall bind them",
-              "phrase": "וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ",
-              "phraseTranslation": "And you shall bind them as a sign upon your hand",
-              "parts": [
+              "hebrew": "וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ",
+              "translation": "And you shall bind them as a sign upon your hand",
+              "words": [
                 {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וּקְשַׁרְתָּם",
+                  "meaning": "and you shall bind them",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "קָשַׁרְתָּ",
+                      "meaning": "you shall bind",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ם",
+                      "meaning": "them",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ק-ש-ר"
                 },
                 {
-                  "hebrew": "קָשַׁרְתָּ",
-                  "meaning": "you shall bind",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "past",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "לְאוֹת",
+                  "meaning": "as a sign",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "as",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "אוֹת",
+                      "meaning": "sign",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ו-ת"
                 },
-                {
-                  "hebrew": "־ם",
-                  "meaning": "them",
-                  "pos": "pronoun-suffix",
-                  "person": 3,
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "ק-ש-ר"
-            },
-            {
-              "hebrew": "לְאוֹת",
-              "meaning": "as a sign",
-              "phrase": "וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ",
-              "phraseTranslation": "And you shall bind them as a sign upon your hand",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "as",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "אוֹת",
-                  "meaning": "sign",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "א-ו-ת"
-            },
-            {
-              "hebrew": "עַל־",
-              "meaning": "upon",
-              "phrase": "וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ",
-              "phraseTranslation": "And you shall bind them as a sign upon your hand",
-              "parts": [
                 {
                   "hebrew": "עַל־",
                   "meaning": "upon",
-                  "pos": "preposition"
+                  "parts": [
+                    {
+                      "hebrew": "עַל־",
+                      "meaning": "upon",
+                      "pos": "preposition"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "יָדֶךָ",
+                  "meaning": "your hand",
+                  "parts": [
+                    {
+                      "hebrew": "יַד",
+                      "meaning": "hand of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "hebrew": "יָדֶךָ",
-              "meaning": "your hand",
-              "phrase": "וּקְשַׁרְתָּם לְאוֹת עַל־יָדֶךָ",
-              "phraseTranslation": "And you shall bind them as a sign upon your hand",
-              "parts": [
+              "hebrew": "וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ",
+              "translation": "and they shall be as frontlets between your eyes",
+              "words": [
                 {
-                  "hebrew": "יַד",
-                  "meaning": "hand of",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg",
-                  "construct": true
+                  "hebrew": "וְהָיוּ",
+                  "meaning": "and they shall be",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "הָיוּ",
+                      "meaning": "they shall be",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "common",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
-                  "hebrew": "־ֶךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ]
-            },
-            {
-              "hebrew": "וְהָיוּ",
-              "meaning": "and they shall be",
-              "phrase": "וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ",
-              "phraseTranslation": "and they shall be as frontlets between your eyes",
-              "parts": [
-                {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "לְטֹטָפֹת",
+                  "meaning": "as frontlets (tefillin)",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "as",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "טֹטָפֹת",
+                      "meaning": "frontlets",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl"
+                    }
+                  ]
                 },
-                {
-                  "hebrew": "הָיוּ",
-                  "meaning": "they shall be",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "past",
-                  "person": 3,
-                  "gender": "common",
-                  "number": "pl"
-                }
-              ],
-              "root": "ה-י-ה"
-            },
-            {
-              "hebrew": "לְטֹטָפֹת",
-              "meaning": "as frontlets (tefillin)",
-              "phrase": "וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ",
-              "phraseTranslation": "and they shall be as frontlets between your eyes",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "as",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "טֹטָפֹת",
-                  "meaning": "frontlets",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "pl"
-                }
-              ]
-            },
-            {
-              "hebrew": "בֵּין",
-              "meaning": "between",
-              "phrase": "וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ",
-              "phraseTranslation": "and they shall be as frontlets between your eyes",
-              "parts": [
                 {
                   "hebrew": "בֵּין",
                   "meaning": "between",
-                  "pos": "preposition"
-                }
-              ],
-              "root": "ב-י-ן"
-            },
-            {
-              "hebrew": "עֵינֶיךָ",
-              "meaning": "your eyes",
-              "phrase": "וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ",
-              "phraseTranslation": "and they shall be as frontlets between your eyes",
-              "parts": [
-                {
-                  "hebrew": "עֵינֵי",
-                  "meaning": "eyes of",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "dual",
-                  "construct": true
+                  "parts": [
+                    {
+                      "hebrew": "בֵּין",
+                      "meaning": "between",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ב-י-ן"
                 },
                 {
-                  "hebrew": "־ֶיךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "עֵינֶיךָ",
+                  "meaning": "your eyes",
+                  "parts": [
+                    {
+                      "hebrew": "עֵינֵי",
+                      "meaning": "eyes of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "dual",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-י-ן"
                 }
-              ],
-              "root": "ע-י-ן"
+              ]
             }
           ]
         },
         {
           "hebrew": "וּכְתַבְתָּם עַל־מְזוּזֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ׃",
           "translation": "And you shall write them on the doorposts of your house and on your gates.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "וּכְתַבְתָּם",
-              "meaning": "and you shall write them",
-              "phrase": "וּכְתַבְתָּם עַל־מְזוּזֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
-              "phraseTranslation": "And you shall write them on the doorposts of your house and on your gates.",
-              "parts": [
+              "hebrew": "וּכְתַבְתָּם עַל־מְזוּזֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
+              "translation": "And you shall write them on the doorposts of your house and on your gates.",
+              "words": [
                 {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וּכְתַבְתָּם",
+                  "meaning": "and you shall write them",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "כָּתַבְתָּ",
+                      "meaning": "you shall write",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ם",
+                      "meaning": "them",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "כ-ת-ב"
                 },
-                {
-                  "hebrew": "כָּתַבְתָּ",
-                  "meaning": "you shall write",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "past",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                },
-                {
-                  "hebrew": "־ם",
-                  "meaning": "them",
-                  "pos": "pronoun-suffix",
-                  "person": 3,
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "כ-ת-ב"
-            },
-            {
-              "hebrew": "עַל־",
-              "meaning": "upon",
-              "phrase": "וּכְתַבְתָּם עַל־מְזוּזֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
-              "phraseTranslation": "And you shall write them on the doorposts of your house and on your gates.",
-              "parts": [
                 {
                   "hebrew": "עַל־",
                   "meaning": "upon",
-                  "pos": "preposition"
-                }
-              ]
-            },
-            {
-              "hebrew": "מְזוּזֹת",
-              "meaning": "the doorposts of",
-              "phrase": "וּכְתַבְתָּם עַל־מְזוּזֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
-              "phraseTranslation": "And you shall write them on the doorposts of your house and on your gates.",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "עַל־",
+                      "meaning": "upon",
+                      "pos": "preposition"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "מְזוּזֹת",
-                  "meaning": "doorposts of",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "pl",
-                  "construct": true
+                  "meaning": "the doorposts of",
+                  "parts": [
+                    {
+                      "hebrew": "מְזוּזֹת",
+                      "meaning": "doorposts of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "construct": true
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "בֵּיתֶךָ",
+                  "meaning": "your house",
+                  "parts": [
+                    {
+                      "hebrew": "בֵּית",
+                      "meaning": "house of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-י-ת"
+                },
+                {
+                  "hebrew": "וּבִשְׁעָרֶיךָ",
+                  "meaning": "and on your gates",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "בִ־",
+                      "meaning": "on",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "שַׁעֲרֵי",
+                      "meaning": "gates of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיךָ",
+                      "meaning": "your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-ע-ר"
                 }
               ]
-            },
-            {
-              "hebrew": "בֵּיתֶךָ",
-              "meaning": "your house",
-              "phrase": "וּכְתַבְתָּם עַל־מְזוּזֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
-              "phraseTranslation": "And you shall write them on the doorposts of your house and on your gates.",
-              "parts": [
-                {
-                  "hebrew": "בֵּית",
-                  "meaning": "house of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
-                },
-                {
-                  "hebrew": "־ֶךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ב-י-ת"
-            },
-            {
-              "hebrew": "וּבִשְׁעָרֶיךָ",
-              "meaning": "and on your gates",
-              "phrase": "וּכְתַבְתָּם עַל־מְזוּזֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ",
-              "phraseTranslation": "And you shall write them on the doorposts of your house and on your gates.",
-              "parts": [
-                {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
-                },
-                {
-                  "hebrew": "בִ־",
-                  "meaning": "on",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "שַׁעֲרֵי",
-                  "meaning": "gates of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl",
-                  "construct": true
-                },
-                {
-                  "hebrew": "־ֶיךָ",
-                  "meaning": "your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-ע-ר"
             }
           ]
         }

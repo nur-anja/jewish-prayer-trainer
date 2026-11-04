@@ -8,8 +8,8 @@
 //   - roots.json matches roots.schema.json, every text matches text.schema.json
 //   - every word's root exists in roots.json
 //   - no root lists the same related word twice
-//   - every word's phrase is a run of whole words of its line that includes the word
-//   - words of a line with the same phrase have the same phrase translation
+//   - a line's clauses, in order, cover the whole line, with only punctuation and spaces between them
+//   - a clause's words, in order, make up the whole clause, with only spaces between them
 
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -99,26 +99,31 @@ for (const [root, { related = [] }] of Object.entries(roots)) {
   }
 }
 
-// Reports every word of the line whose phrase isn't a run of whole words of the line that includes the word.
-function checkPhrases(file, line) {
-  if (typeof line.hebrew !== "string" || !Array.isArray(line.words)) return;
+// Text left over after taking `pieces` out of `whole` in order, or null if a piece isn't found.
+function leftover(whole, pieces) {
+  let rest = "";
   let cursor = 0;
-  const spans = line.words.map((w) => {
-    const at = line.hebrew.indexOf(w.hebrew, cursor);
+  for (const piece of pieces) {
+    const at = whole.indexOf(piece, cursor);
     if (at < 0) return null;
-    cursor = at + w.hebrew.length;
-    return [at, cursor];
-  });
-  if (spans.includes(null)) return; // the renderers report a word missing from its line
-  line.words.forEach((word, k) => {
-    if (typeof word.phrase !== "string") return;
-    const runs = spans.slice(0, k + 1).flatMap(([start]) => spans.slice(k).map(([, end]) => line.hebrew.slice(start, end)));
-    if (!runs.includes(word.phrase)) report(file, `phrase "${word.phrase}" of ${word.hebrew} is not a run of whole words of its line including the word`);
-  });
-  const translations = new Map();
-  for (const { phrase, phraseTranslation } of line.words) {
-    if (!translations.has(phrase)) translations.set(phrase, phraseTranslation);
-    else if (translations.get(phrase) !== phraseTranslation) report(file, `phrase "${phrase}" has two translations: "${translations.get(phrase)}" and "${phraseTranslation}"`);
+    rest += whole.slice(cursor, at);
+    cursor = at + piece.length;
+  }
+  return rest + whole.slice(cursor);
+}
+
+// Reports a line whose clauses don't cover it, and a clause whose words don't make it up.
+function checkClauses(file, line) {
+  if (typeof line.hebrew !== "string" || !Array.isArray(line.clauses)) return;
+  const clauses = line.clauses.filter((c) => typeof c.hebrew === "string");
+  const between = leftover(line.hebrew, clauses.map((c) => c.hebrew));
+  if (between === null) report(file, `the clauses of "${line.hebrew}" are not all in it, in order`);
+  else if (/[^\s,.:;!?׃]/u.test(between)) report(file, `"${between.trim()}" of "${line.hebrew}" is in none of its clauses`);
+  for (const clause of clauses) {
+    if (!Array.isArray(clause.words)) continue;
+    const rest = leftover(clause.hebrew, clause.words.map((w) => w.hebrew));
+    if (rest === null) report(file, `the words of clause "${clause.hebrew}" are not all in it, in order`);
+    else if (/\S/u.test(rest)) report(file, `"${rest.trim()}" of clause "${clause.hebrew}" is in none of its words`);
   }
 }
 
@@ -129,10 +134,10 @@ for (const file of textFiles) {
   validate(file, "text.schema.json", text);
   for (const section of text.sections ?? []) {
     for (const line of section.lines ?? []) {
-      for (const word of line.words ?? []) {
+      for (const word of (line.clauses ?? []).flatMap((c) => c.words ?? [])) {
         if (word.root && !(word.root in roots)) report(file, `root ${word.root} of ${word.hebrew} is missing from ${ROOTS_FILE}`);
       }
-      checkPhrases(file, line);
+      checkClauses(file, line);
     }
   }
 }

@@ -22,7 +22,7 @@
 // value with no readable name in common.mjs (e.g. one newly added to the schema).
 
 import { join } from "node:path";
-import { escape, gloss, htmlPage, partGloss, ROOT, wordRoot } from "./common.mjs";
+import { escape, gloss, htmlPage, lineWords, partGloss, ROOT, wordRoot } from "./common.mjs";
 
 // ---------------------------------------------------------------------------------------------
 // HTML
@@ -109,7 +109,7 @@ function lineBreakdown(line, roots, file) {
     `<div class="verse-row"><p class="verse" dir="rtl"><strong>${escape(line.hebrew)}</strong></p>` +
     `<p class="translation"><em>${escape(line.translation)}</em></p></div>`;
   const head = `<tr>${COLUMNS.map((c) => `<th>${c}</th>`).join("")}</tr>`;
-  const rows = line.words.map((w) => wordRow(w, roots, file)).join("");
+  const rows = lineWords(line).map((w) => wordRow(w, roots, file)).join("");
   return `${header}<table><thead>${head}</thead><tbody>${rows}</tbody></table>`;
 }
 
