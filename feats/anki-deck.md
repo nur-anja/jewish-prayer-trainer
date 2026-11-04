@@ -35,21 +35,21 @@ Tags on every note: the text id and, if the section has a title, `section::<titl
 Two note types, each with fields filled from the JSON and its own templates:
 
 1. **Word** (one per distinct word per text)
-   - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the word's phrase from the JSON, a few words around it, with the word highlighted), LineTranslation, Text.
-   - Card "Recognize": front is the word, large, with its phrase below it in small type as context; back adds the meaning, the parts with their grammar labels, the root with its meaning, and the related root words — the same content as a Kindle word card.
-   - Card "Produce" (English to Hebrew): front is the meaning and the phrase with the word blanked out; back is the word, then the same as Recognize with the line's translation.
+   - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the clause the word is in, from the JSON, with the word highlighted), LineTranslation (the clause's translation), Text.
+   - Card "Recognize": front is the word, large, with its clause below it in small type as context; back adds the meaning, the parts with their grammar labels, the root with its meaning, and the related root words — the same content as a Kindle word card.
+   - Card "Produce" (English to Hebrew): front is the meaning and the clause with the word blanked out; back is the word, then the same as Recognize with the clause's translation.
 2. **Line** (one per line)
    - Fields: Hebrew, Translation, PreviousLine, Section, Text.
    - Card "Translate": the line's translation, then the Hebrew line. (First built the other way round, Hebrew to English; flipped so that whole lines are practised from English. The name stayed, because renaming a card type makes Anki treat re-imported notes as conflicts.)
    - Card "Next line": front is the previous line (or the section/text title for the first line), back is this line, for learning the prayer by heart in order.
 
-The context was first the whole line; it became a short phrase (`phrase` on each word in the JSON, usually two or three words) so the word cards stay concise. The field kept the name Context, since renaming a field makes re-imports conflict. The line's translation moved from the front of Produce to its back: next to a short phrase, the whole sentence in English was out of place and gave the answer away.
+The context was first the whole line; it became a short phrase (`phrase` on each word in the JSON, usually two or three words) so the word cards stay concise. The line's translation moved from the front of Produce to its back: next to a short phrase, the whole sentence in English was out of place and gave the answer away. Two or three words then turned out to give too little context, so the context became the clause the word is in, still shorter than a long line, and the back shows the clause's translation instead of the whole line's. The phrase and its translation were first stored on every word; since all the words of a clause repeated the same two values, each line is now divided into clauses (`clauses` in the JSON, each with its Hebrew, translation and words). The fields kept the names Context and LineTranslation, since renaming a field makes re-imports conflict.
 
 Root cards (a root, then its meaning, related words and the words in the text with it) were built at first and dropped: the root and related words are already on the back of every word card.
 
 ### Duplicates and stable ids
 
-- A word note is identified by text id + the word's spelling without punctuation. The first occurrence in the text decides its context phrase. If the same spelling appears twice in one text with a different breakdown (meaning or parts), it gets a second note, identified by also adding the meaning.
+- A word note is identified by text id + the word's spelling without punctuation. The first occurrence in the text decides its context clause. If the same spelling appears twice in one text with a different breakdown (meaning or parts), it gets a second note, identified by also adding the meaning.
 - A line note is identified by text id + section index + line index.
 - The note guid is a hash of that identity, so a re-import after fixing a breakdown updates the fields of the existing note and keeps its reviews. Renaming a text id or reordering lines creates new notes; that's accepted.
 

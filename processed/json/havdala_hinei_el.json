@@ -9,472 +9,489 @@
         {
           "hebrew": "הִנֵּה אֵל יְשׁוּעָתִי אֶבְטַח וְלֹא אֶפְחָד, כִּי עָזִּי וְזִמְרָת יָהּ יְיָ, וַיְהִי לִי לִישׁוּעָה.",
           "translation": "Behold, God is my salvation; I will trust and not be afraid, for my strength and my song is Yah the LORD, and He has become my salvation.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "הִנֵּה",
-              "meaning": "behold",
-              "phrase": "הִנֵּה אֵל יְשׁוּעָתִי",
-              "parts": [
+              "hebrew": "הִנֵּה אֵל יְשׁוּעָתִי",
+              "translation": "Behold, God is my salvation",
+              "words": [
                 {
                   "hebrew": "הִנֵּה",
                   "meaning": "behold",
-                  "pos": "particle"
-                }
-              ]
-            },
-            {
-              "hebrew": "אֵל",
-              "meaning": "God",
-              "phrase": "הִנֵּה אֵל יְשׁוּעָתִי",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "הִנֵּה",
+                      "meaning": "behold",
+                      "pos": "particle"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "אֵל",
                   "meaning": "God",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "א-ל-ה"
-            },
-            {
-              "hebrew": "יְשׁוּעָתִי",
-              "meaning": "my salvation",
-              "phrase": "הִנֵּה אֵל יְשׁוּעָתִי",
-              "parts": [
-                {
-                  "hebrew": "יְשׁוּעַת",
-                  "meaning": "salvation of",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg",
-                  "construct": true
+                  "parts": [
+                    {
+                      "hebrew": "אֵל",
+                      "meaning": "God",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ל-ה"
                 },
                 {
-                  "hebrew": "־ִי",
-                  "meaning": "my",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "sg"
+                  "hebrew": "יְשׁוּעָתִי",
+                  "meaning": "my salvation",
+                  "parts": [
+                    {
+                      "hebrew": "יְשׁוּעַת",
+                      "meaning": "salvation of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ִי",
+                      "meaning": "my",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ע"
                 }
-              ],
-              "root": "י-ש-ע"
+              ]
             },
             {
-              "hebrew": "אֶבְטַח",
-              "meaning": "I will trust",
-              "phrase": "אֶבְטַח וְלֹא אֶפְחָד",
-              "parts": [
+              "hebrew": "אֶבְטַח וְלֹא אֶפְחָד",
+              "translation": "I will trust and not be afraid",
+              "words": [
                 {
                   "hebrew": "אֶבְטַח",
                   "meaning": "I will trust",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "future",
-                  "person": 1,
-                  "number": "sg"
-                }
-              ],
-              "root": "ב-ט-ח"
-            },
-            {
-              "hebrew": "וְלֹא",
-              "meaning": "and not",
-              "phrase": "אֶבְטַח וְלֹא אֶפְחָד",
-              "parts": [
-                {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "parts": [
+                    {
+                      "hebrew": "אֶבְטַח",
+                      "meaning": "I will trust",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-ט-ח"
                 },
                 {
-                  "hebrew": "לֹא",
-                  "meaning": "not",
-                  "pos": "adverb"
-                }
-              ]
-            },
-            {
-              "hebrew": "אֶפְחָד",
-              "meaning": "I will be afraid",
-              "phrase": "אֶבְטַח וְלֹא אֶפְחָד",
-              "parts": [
+                  "hebrew": "וְלֹא",
+                  "meaning": "and not",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "לֹא",
+                      "meaning": "not",
+                      "pos": "adverb"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "אֶפְחָד",
                   "meaning": "I will be afraid",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "future",
-                  "person": 1,
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "אֶפְחָד",
+                      "meaning": "I will be afraid",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "פ-ח-ד"
                 }
-              ],
-              "root": "פ-ח-ד"
+              ]
             },
             {
-              "hebrew": "כִּי",
-              "meaning": "for",
-              "phrase": "כִּי עָזִּי וְזִמְרָת",
-              "parts": [
+              "hebrew": "כִּי עָזִּי וְזִמְרָת יָהּ יְיָ",
+              "translation": "for my strength and my song is Yah the LORD",
+              "words": [
                 {
                   "hebrew": "כִּי",
                   "meaning": "for",
-                  "pos": "conjunction"
-                }
-              ]
-            },
-            {
-              "hebrew": "עָזִּי",
-              "meaning": "my strength",
-              "phrase": "כִּי עָזִּי וְזִמְרָת",
-              "parts": [
-                {
-                  "hebrew": "עֹז",
-                  "meaning": "strength of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
+                  "parts": [
+                    {
+                      "hebrew": "כִּי",
+                      "meaning": "for",
+                      "pos": "conjunction"
+                    }
+                  ]
                 },
                 {
-                  "hebrew": "־ִי",
-                  "meaning": "my",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "sg"
-                }
-              ],
-              "root": "ע-ז-ז"
-            },
-            {
-              "hebrew": "וְזִמְרָת",
-              "meaning": "and my song",
-              "phrase": "עָזִּי וְזִמְרָת יָהּ",
-              "parts": [
-                {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "עָזִּי",
+                  "meaning": "my strength",
+                  "parts": [
+                    {
+                      "hebrew": "עֹז",
+                      "meaning": "strength of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ִי",
+                      "meaning": "my",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ז-ז"
                 },
                 {
-                  "hebrew": "זִמְרָת",
-                  "meaning": "song",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "ז-מ-ר"
-            },
-            {
-              "hebrew": "יָהּ",
-              "meaning": "Yah",
-              "phrase": "וְזִמְרָת יָהּ יְיָ",
-              "parts": [
+                  "hebrew": "וְזִמְרָת",
+                  "meaning": "and my song",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "זִמְרָת",
+                      "meaning": "song",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ז-מ-ר"
+                },
                 {
                   "hebrew": "יָהּ",
                   "meaning": "Yah",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ]
-            },
-            {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "יָהּ יְיָ",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "יָהּ",
+                      "meaning": "Yah",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "יְיָ",
                   "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "hebrew": "וַיְהִי",
-              "meaning": "and He has become",
-              "phrase": "וַיְהִי לִי לִישׁוּעָה",
-              "parts": [
+              "hebrew": "וַיְהִי לִי לִישׁוּעָה",
+              "translation": "and He has become my salvation",
+              "words": [
                 {
-                  "hebrew": "וַ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וַיְהִי",
+                  "meaning": "and He has become",
+                  "parts": [
+                    {
+                      "hebrew": "וַ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "יְהִי",
+                      "meaning": "He has become",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
-                  "hebrew": "יְהִי",
-                  "meaning": "He has become",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "future",
-                  "person": 3,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ה-י-ה"
-            },
-            {
-              "hebrew": "לִי",
-              "meaning": "for me",
-              "phrase": "וַיְהִי לִי לִישׁוּעָה",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "for",
-                  "pos": "preposition"
+                  "hebrew": "לִי",
+                  "meaning": "for me",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ִי",
+                      "meaning": "me",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ]
                 },
                 {
-                  "hebrew": "־ִי",
-                  "meaning": "me",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "sg"
-                }
-              ]
-            },
-            {
-              "hebrew": "לִישׁוּעָה",
-              "meaning": "salvation",
-              "phrase": "וַיְהִי לִי לִישׁוּעָה",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "as",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "יְשׁוּעָה",
+                  "hebrew": "לִישׁוּעָה",
                   "meaning": "salvation",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "as",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "יְשׁוּעָה",
+                      "meaning": "salvation",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ע"
                 }
-              ],
-              "root": "י-ש-ע"
+              ]
             }
           ]
         },
         {
           "hebrew": "וּשְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן מִמַּעַיְנֵי הַיְשׁוּעָה.",
           "translation": "And you shall draw water with joy from the springs of salvation.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "וּשְׁאַבְתֶּם",
-              "meaning": "and you shall draw",
-              "phrase": "וּשְׁאַבְתֶּם מַיִם",
-              "parts": [
+              "hebrew": "וּשְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן מִמַּעַיְנֵי הַיְשׁוּעָה",
+              "translation": "And you shall draw water with joy from the springs of salvation.",
+              "words": [
                 {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וּשְׁאַבְתֶּם",
+                  "meaning": "and you shall draw",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "שְׁאַבְתֶּם",
+                      "meaning": "you shall draw",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ש-א-ב"
                 },
-                {
-                  "hebrew": "שְׁאַבְתֶּם",
-                  "meaning": "you shall draw",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "past",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "ש-א-ב"
-            },
-            {
-              "hebrew": "מַיִם",
-              "meaning": "water",
-              "phrase": "וּשְׁאַבְתֶּם מַיִם",
-              "parts": [
                 {
                   "hebrew": "מַיִם",
                   "meaning": "water",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl"
+                  "parts": [
+                    {
+                      "hebrew": "מַיִם",
+                      "meaning": "water",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "בְּשָׂשׂוֹן",
+                  "meaning": "with joy",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "שָׂשׂוֹן",
+                      "meaning": "joy",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-ו-ש"
+                },
+                {
+                  "hebrew": "מִמַּעַיְנֵי",
+                  "meaning": "from the springs of",
+                  "parts": [
+                    {
+                      "hebrew": "מִ־",
+                      "meaning": "from",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "מַעַיְנֵי",
+                      "meaning": "springs of",
+                      "pos": "noun",
+                      "pattern": "mem-prefix",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    }
+                  ],
+                  "root": "ע-י-ן"
+                },
+                {
+                  "hebrew": "הַיְשׁוּעָה",
+                  "meaning": "the salvation",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "יְשׁוּעָה",
+                      "meaning": "salvation",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ע"
                 }
               ]
-            },
-            {
-              "hebrew": "בְּשָׂשׂוֹן",
-              "meaning": "with joy",
-              "phrase": "מַיִם בְּשָׂשׂוֹן",
-              "parts": [
-                {
-                  "hebrew": "בְּ־",
-                  "meaning": "with",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "שָׂשׂוֹן",
-                  "meaning": "joy",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-ו-ש"
-            },
-            {
-              "hebrew": "מִמַּעַיְנֵי",
-              "meaning": "from the springs of",
-              "phrase": "מִמַּעַיְנֵי הַיְשׁוּעָה",
-              "parts": [
-                {
-                  "hebrew": "מִ־",
-                  "meaning": "from",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "מַעַיְנֵי",
-                  "meaning": "springs of",
-                  "pos": "noun",
-                  "pattern": "mem-prefix",
-                  "gender": "masc",
-                  "number": "pl",
-                  "construct": true
-                }
-              ],
-              "root": "ע-י-ן"
-            },
-            {
-              "hebrew": "הַיְשׁוּעָה",
-              "meaning": "the salvation",
-              "phrase": "מִמַּעַיְנֵי הַיְשׁוּעָה",
-              "parts": [
-                {
-                  "hebrew": "הַ־",
-                  "meaning": "the",
-                  "pos": "article"
-                },
-                {
-                  "hebrew": "יְשׁוּעָה",
-                  "meaning": "salvation",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "י-ש-ע"
             }
           ]
         },
         {
           "hebrew": "לַיְיָ הַיְשׁוּעָה, עַל עַמְּךָ בִרְכָתֶךָ סֶּלָה.",
           "translation": "Salvation belongs to the LORD; may Your blessing be upon Your people, Selah.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "לַיְיָ",
-              "meaning": "to the LORD",
-              "phrase": "לַיְיָ הַיְשׁוּעָה",
-              "parts": [
+              "hebrew": "לַיְיָ הַיְשׁוּעָה",
+              "translation": "Salvation belongs to the LORD",
+              "words": [
                 {
-                  "hebrew": "לַ־",
-                  "meaning": "to",
-                  "pos": "preposition"
+                  "hebrew": "לַיְיָ",
+                  "meaning": "to the LORD",
+                  "parts": [
+                    {
+                      "hebrew": "לַ־",
+                      "meaning": "to",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
                 },
                 {
-                  "hebrew": "יְיָ",
-                  "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "הַיְשׁוּעָה",
+                  "meaning": "the salvation",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "יְשׁוּעָה",
+                      "meaning": "salvation",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ע"
                 }
               ]
             },
             {
-              "hebrew": "הַיְשׁוּעָה",
-              "meaning": "the salvation",
-              "phrase": "לַיְיָ הַיְשׁוּעָה",
-              "parts": [
-                {
-                  "hebrew": "הַ־",
-                  "meaning": "the",
-                  "pos": "article"
-                },
-                {
-                  "hebrew": "יְשׁוּעָה",
-                  "meaning": "salvation",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "י-ש-ע"
-            },
-            {
-              "hebrew": "עַל",
-              "meaning": "upon",
-              "phrase": "עַל עַמְּךָ בִרְכָתֶךָ",
-              "parts": [
+              "hebrew": "עַל עַמְּךָ בִרְכָתֶךָ סֶּלָה",
+              "translation": "may Your blessing be upon Your people, Selah",
+              "words": [
                 {
                   "hebrew": "עַל",
                   "meaning": "upon",
-                  "pos": "preposition"
-                }
-              ]
-            },
-            {
-              "hebrew": "עַמְּךָ",
-              "meaning": "Your people",
-              "phrase": "עַל עַמְּךָ בִרְכָתֶךָ",
-              "parts": [
-                {
-                  "hebrew": "עַם",
-                  "meaning": "people of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
+                  "parts": [
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "upon",
+                      "pos": "preposition"
+                    }
+                  ]
                 },
                 {
-                  "hebrew": "־ְךָ",
-                  "meaning": "Your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "number": "sg",
-                  "gender": "masc"
-                }
-              ],
-              "root": "ע-מ-ם"
-            },
-            {
-              "hebrew": "בִרְכָתֶךָ",
-              "meaning": "Your blessing",
-              "phrase": "עַל עַמְּךָ בִרְכָתֶךָ",
-              "parts": [
-                {
-                  "hebrew": "בִּרְכַּת",
-                  "meaning": "blessing of",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg",
-                  "construct": true
+                  "hebrew": "עַמְּךָ",
+                  "meaning": "Your people",
+                  "parts": [
+                    {
+                      "hebrew": "עַם",
+                      "meaning": "people of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "Your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "number": "sg",
+                      "gender": "masc"
+                    }
+                  ],
+                  "root": "ע-מ-ם"
                 },
                 {
-                  "hebrew": "־ֶךָ",
-                  "meaning": "Your",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "number": "sg",
-                  "gender": "masc"
-                }
-              ],
-              "root": "ב-ר-ך"
-            },
-            {
-              "hebrew": "סֶּלָה",
-              "meaning": "Selah",
-              "phrase": "בִרְכָתֶךָ סֶּלָה",
-              "parts": [
+                  "hebrew": "בִרְכָתֶךָ",
+                  "meaning": "Your blessing",
+                  "parts": [
+                    {
+                      "hebrew": "בִּרְכַּת",
+                      "meaning": "blessing of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "Your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "number": "sg",
+                      "gender": "masc"
+                    }
+                  ],
+                  "root": "ב-ר-ך"
+                },
                 {
                   "hebrew": "סֶּלָה",
                   "meaning": "Selah",
-                  "pos": "particle"
+                  "parts": [
+                    {
+                      "hebrew": "סֶּלָה",
+                      "meaning": "Selah",
+                      "pos": "particle"
+                    }
+                  ]
                 }
               ]
             }
@@ -483,130 +500,134 @@
         {
           "hebrew": "יְיָ צְבָאוֹת עִמָּנוּ, מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה.",
           "translation": "The LORD of Hosts is with us; the God of Jacob is a stronghold for us, Selah.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "יְיָ צְבָאוֹת עִמָּנוּ",
-              "parts": [
+              "hebrew": "יְיָ צְבָאוֹת עִמָּנוּ",
+              "translation": "The LORD of Hosts is with us",
+              "words": [
                 {
                   "hebrew": "יְיָ",
                   "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ]
-            },
-            {
-              "hebrew": "צְבָאוֹת",
-              "meaning": "of Hosts",
-              "phrase": "יְיָ צְבָאוֹת עִמָּנוּ",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "צְבָאוֹת",
-                  "meaning": "hosts",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "צ-ב-א"
-            },
-            {
-              "hebrew": "עִמָּנוּ",
-              "meaning": "with us",
-              "phrase": "יְיָ צְבָאוֹת עִמָּנוּ",
-              "parts": [
-                {
-                  "hebrew": "עִם",
-                  "meaning": "with",
-                  "pos": "preposition"
+                  "meaning": "of Hosts",
+                  "parts": [
+                    {
+                      "hebrew": "צְבָאוֹת",
+                      "meaning": "hosts",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "צ-ב-א"
                 },
                 {
-                  "hebrew": "־ָּנוּ",
-                  "meaning": "us",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "pl"
+                  "hebrew": "עִמָּנוּ",
+                  "meaning": "with us",
+                  "parts": [
+                    {
+                      "hebrew": "עִם",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָּנוּ",
+                      "meaning": "us",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "hebrew": "מִשְׂגָּב",
-              "meaning": "a stronghold",
-              "phrase": "מִשְׂגָּב לָנוּ",
-              "parts": [
+              "hebrew": "מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה",
+              "translation": "the God of Jacob is a stronghold for us, Selah",
+              "words": [
                 {
                   "hebrew": "מִשְׂגָּב",
-                  "meaning": "stronghold",
-                  "pos": "noun",
-                  "pattern": "mem-prefix",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-ג-ב"
-            },
-            {
-              "hebrew": "לָנוּ",
-              "meaning": "for us",
-              "phrase": "מִשְׂגָּב לָנוּ",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "for",
-                  "pos": "preposition"
+                  "meaning": "a stronghold",
+                  "parts": [
+                    {
+                      "hebrew": "מִשְׂגָּב",
+                      "meaning": "stronghold",
+                      "pos": "noun",
+                      "pattern": "mem-prefix",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-ג-ב"
                 },
                 {
-                  "hebrew": "־ָנוּ",
-                  "meaning": "us",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "pl"
-                }
-              ]
-            },
-            {
-              "hebrew": "אֱלֹהֵי",
-              "meaning": "the God of",
-              "phrase": "אֱלֹהֵי יַעֲקֹב",
-              "parts": [
+                  "hebrew": "לָנוּ",
+                  "meaning": "for us",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָנוּ",
+                      "meaning": "us",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "אֱלֹהֵי",
-                  "meaning": "God of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl",
-                  "construct": true
-                }
-              ],
-              "root": "א-ל-ה"
-            },
-            {
-              "hebrew": "יַעֲקֹב",
-              "meaning": "Jacob",
-              "phrase": "אֱלֹהֵי יַעֲקֹב",
-              "parts": [
+                  "meaning": "the God of",
+                  "parts": [
+                    {
+                      "hebrew": "אֱלֹהֵי",
+                      "meaning": "God of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    }
+                  ],
+                  "root": "א-ל-ה"
+                },
                 {
                   "hebrew": "יַעֲקֹב",
                   "meaning": "Jacob",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ע-ק-ב"
-            },
-            {
-              "hebrew": "סֶלָה",
-              "meaning": "Selah",
-              "phrase": "אֱלֹהֵי יַעֲקֹב סֶלָה",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "יַעֲקֹב",
+                      "meaning": "Jacob",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ק-ב"
+                },
                 {
                   "hebrew": "סֶלָה",
                   "meaning": "Selah",
-                  "pos": "particle"
+                  "parts": [
+                    {
+                      "hebrew": "סֶלָה",
+                      "meaning": "Selah",
+                      "pos": "particle"
+                    }
+                  ]
                 }
               ]
             }
@@ -615,101 +636,107 @@
         {
           "hebrew": "יְיָ צְבָאוֹת, אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ.",
           "translation": "LORD of Hosts, happy is the person who trusts in You.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "יְיָ צְבָאוֹת",
-              "parts": [
+              "hebrew": "יְיָ צְבָאוֹת",
+              "translation": "LORD of Hosts",
+              "words": [
                 {
                   "hebrew": "יְיָ",
                   "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "צְבָאוֹת",
+                  "meaning": "of Hosts",
+                  "parts": [
+                    {
+                      "hebrew": "צְבָאוֹת",
+                      "meaning": "hosts",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "צ-ב-א"
                 }
               ]
             },
             {
-              "hebrew": "צְבָאוֹת",
-              "meaning": "of Hosts",
-              "phrase": "יְיָ צְבָאוֹת",
-              "parts": [
-                {
-                  "hebrew": "צְבָאוֹת",
-                  "meaning": "hosts",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "צ-ב-א"
-            },
-            {
-              "hebrew": "אַשְׁרֵי",
-              "meaning": "happy is",
-              "phrase": "אַשְׁרֵי אָדָם",
-              "parts": [
+              "hebrew": "אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ",
+              "translation": "happy is the person who trusts in You",
+              "words": [
                 {
                   "hebrew": "אַשְׁרֵי",
-                  "meaning": "the happiness of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl",
-                  "construct": true
-                }
-              ],
-              "root": "א-ש-ר"
-            },
-            {
-              "hebrew": "אָדָם",
-              "meaning": "the person",
-              "phrase": "אַשְׁרֵי אָדָם",
-              "parts": [
+                  "meaning": "happy is",
+                  "parts": [
+                    {
+                      "hebrew": "אַשְׁרֵי",
+                      "meaning": "the happiness of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    }
+                  ],
+                  "root": "א-ש-ר"
+                },
                 {
                   "hebrew": "אָדָם",
-                  "meaning": "person",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "א-ד-ם"
-            },
-            {
-              "hebrew": "בֹּטֵחַ",
-              "meaning": "who trusts",
-              "phrase": "בֹּטֵחַ בָּךְ",
-              "parts": [
+                  "meaning": "the person",
+                  "parts": [
+                    {
+                      "hebrew": "אָדָם",
+                      "meaning": "person",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ד-ם"
+                },
                 {
                   "hebrew": "בֹּטֵחַ",
                   "meaning": "who trusts",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "participle",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ב-ט-ח"
-            },
-            {
-              "hebrew": "בָּךְ",
-              "meaning": "in You",
-              "phrase": "בֹּטֵחַ בָּךְ",
-              "parts": [
-                {
-                  "hebrew": "בְּ־",
-                  "meaning": "in",
-                  "pos": "preposition"
+                  "parts": [
+                    {
+                      "hebrew": "בֹּטֵחַ",
+                      "meaning": "who trusts",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "participle",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-ט-ח"
                 },
                 {
-                  "hebrew": "־ָךְ",
-                  "meaning": "You",
-                  "pos": "pronoun-suffix",
-                  "person": 2,
-                  "number": "sg",
-                  "gender": "masc"
+                  "hebrew": "בָּךְ",
+                  "meaning": "in You",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָךְ",
+                      "meaning": "You",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "number": "sg",
+                      "gender": "masc"
+                    }
+                  ]
                 }
               ]
             }
@@ -718,298 +745,307 @@
         {
           "hebrew": "יְיָ הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ.",
           "translation": "LORD, save! May the King answer us on the day we call.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "יְיָ הוֹשִׁיעָה",
-              "parts": [
+              "hebrew": "יְיָ הוֹשִׁיעָה",
+              "translation": "LORD, save!",
+              "words": [
                 {
                   "hebrew": "יְיָ",
                   "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "הוֹשִׁיעָה",
+                  "meaning": "save",
+                  "parts": [
+                    {
+                      "hebrew": "הוֹשִׁיעָה",
+                      "meaning": "save",
+                      "pos": "verb",
+                      "binyan": "hifil",
+                      "form": "imperative",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ע"
                 }
               ]
             },
             {
-              "hebrew": "הוֹשִׁיעָה",
-              "meaning": "save",
-              "phrase": "יְיָ הוֹשִׁיעָה",
-              "parts": [
+              "hebrew": "הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ",
+              "translation": "May the King answer us on the day we call",
+              "words": [
                 {
-                  "hebrew": "הוֹשִׁיעָה",
-                  "meaning": "save",
-                  "pos": "verb",
-                  "binyan": "hifil",
-                  "form": "imperative",
-                  "person": 2,
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "י-ש-ע"
-            },
-            {
-              "hebrew": "הַמֶּלֶךְ",
-              "meaning": "the King",
-              "phrase": "הַמֶּלֶךְ יַעֲנֵנוּ",
-              "parts": [
-                {
-                  "hebrew": "הַ־",
-                  "meaning": "the",
-                  "pos": "article"
+                  "hebrew": "הַמֶּלֶךְ",
+                  "meaning": "the King",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "מֶלֶךְ",
+                      "meaning": "King",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "מ-ל-ך"
                 },
                 {
-                  "hebrew": "מֶלֶךְ",
-                  "meaning": "King",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "מ-ל-ך"
-            },
-            {
-              "hebrew": "יַעֲנֵנוּ",
-              "meaning": "may He answer us",
-              "phrase": "הַמֶּלֶךְ יַעֲנֵנוּ",
-              "parts": [
-                {
-                  "hebrew": "יַעֲנֶה",
-                  "meaning": "may He answer",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "future",
-                  "person": 3,
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "יַעֲנֵנוּ",
+                  "meaning": "may He answer us",
+                  "parts": [
+                    {
+                      "hebrew": "יַעֲנֶה",
+                      "meaning": "may He answer",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ֵנוּ",
+                      "meaning": "us",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ע-נ-ה"
                 },
                 {
-                  "hebrew": "־ֵנוּ",
-                  "meaning": "us",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "pl"
-                }
-              ],
-              "root": "ע-נ-ה"
-            },
-            {
-              "hebrew": "בְיוֹם",
-              "meaning": "on the day of",
-              "phrase": "בְיוֹם קָרְאֵנוּ",
-              "parts": [
-                {
-                  "hebrew": "בְּ־",
-                  "meaning": "on",
-                  "pos": "preposition"
+                  "hebrew": "בְיוֹם",
+                  "meaning": "on the day of",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "on",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "יוֹם",
+                      "meaning": "day of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "י-ו-ם"
                 },
                 {
-                  "hebrew": "יוֹם",
-                  "meaning": "day of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
+                  "hebrew": "קָרְאֵנוּ",
+                  "meaning": "our calling",
+                  "parts": [
+                    {
+                      "hebrew": "קְרֹא",
+                      "meaning": "calling",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "infinitive-construct"
+                    },
+                    {
+                      "hebrew": "־ֵנוּ",
+                      "meaning": "our",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ק-ר-א"
                 }
-              ],
-              "root": "י-ו-ם"
-            },
-            {
-              "hebrew": "קָרְאֵנוּ",
-              "meaning": "our calling",
-              "phrase": "בְיוֹם קָרְאֵנוּ",
-              "parts": [
-                {
-                  "hebrew": "קְרֹא",
-                  "meaning": "calling",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "infinitive-construct"
-                },
-                {
-                  "hebrew": "־ֵנוּ",
-                  "meaning": "our",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "pl"
-                }
-              ],
-              "root": "ק-ר-א"
+              ]
             }
           ]
         },
         {
           "hebrew": "לַיְּהוּדִים הָיְתָה אוֹרָה וְשִׂמְחָה וְשָׂשֹׂן וִיקָר.",
           "translation": "For the Jews there was light and gladness, joy and honor.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "לַיְּהוּדִים",
-              "meaning": "for the Jews",
-              "phrase": "לַיְּהוּדִים הָיְתָה אוֹרָה",
-              "parts": [
+              "hebrew": "לַיְּהוּדִים הָיְתָה אוֹרָה וְשִׂמְחָה וְשָׂשֹׂן וִיקָר",
+              "translation": "For the Jews there was light and gladness, joy and honor.",
+              "words": [
                 {
-                  "hebrew": "לַ־",
-                  "meaning": "for the",
-                  "pos": "preposition"
+                  "hebrew": "לַיְּהוּדִים",
+                  "meaning": "for the Jews",
+                  "parts": [
+                    {
+                      "hebrew": "לַ־",
+                      "meaning": "for the",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "יְהוּדִים",
+                      "meaning": "Jews",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "י-ד-ה"
                 },
                 {
-                  "hebrew": "יְהוּדִים",
-                  "meaning": "Jews",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "pl"
-                }
-              ],
-              "root": "י-ד-ה"
-            },
-            {
-              "hebrew": "הָיְתָה",
-              "meaning": "there was",
-              "phrase": "לַיְּהוּדִים הָיְתָה אוֹרָה",
-              "parts": [
-                {
                   "hebrew": "הָיְתָה",
-                  "meaning": "was",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "past",
-                  "person": 3,
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "ה-י-ה"
-            },
-            {
-              "hebrew": "אוֹרָה",
-              "meaning": "light",
-              "phrase": "לַיְּהוּדִים הָיְתָה אוֹרָה",
-              "parts": [
+                  "meaning": "there was",
+                  "parts": [
+                    {
+                      "hebrew": "הָיְתָה",
+                      "meaning": "was",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ה-י-ה"
+                },
                 {
                   "hebrew": "אוֹרָה",
                   "meaning": "light",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "א-ו-ר"
-            },
-            {
-              "hebrew": "וְשִׂמְחָה",
-              "meaning": "and gladness",
-              "phrase": "אוֹרָה וְשִׂמְחָה",
-              "parts": [
-                {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "parts": [
+                    {
+                      "hebrew": "אוֹרָה",
+                      "meaning": "light",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ו-ר"
                 },
                 {
-                  "hebrew": "שִׂמְחָה",
-                  "meaning": "gladness",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-מ-ח"
-            },
-            {
-              "hebrew": "וְשָׂשֹׂן",
-              "meaning": "and joy",
-              "phrase": "וְשִׂמְחָה וְשָׂשֹׂן",
-              "parts": [
-                {
-                  "hebrew": "וְ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וְשִׂמְחָה",
+                  "meaning": "and gladness",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "שִׂמְחָה",
+                      "meaning": "gladness",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-מ-ח"
                 },
                 {
-                  "hebrew": "שָׂשֹׂן",
-                  "meaning": "joy",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ],
-              "root": "ש-ו-ש"
-            },
-            {
-              "hebrew": "וִיקָר",
-              "meaning": "and honor",
-              "phrase": "וְשָׂשֹׂן וִיקָר",
-              "parts": [
-                {
-                  "hebrew": "וִ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
+                  "hebrew": "וְשָׂשֹׂן",
+                  "meaning": "and joy",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "שָׂשֹׂן",
+                      "meaning": "joy",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-ו-ש"
                 },
                 {
-                  "hebrew": "יְקָר",
-                  "meaning": "honor",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg"
+                  "hebrew": "וִיקָר",
+                  "meaning": "and honor",
+                  "parts": [
+                    {
+                      "hebrew": "וִ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "יְקָר",
+                      "meaning": "honor",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ק-ר"
                 }
-              ],
-              "root": "י-ק-ר"
+              ]
             }
           ]
         },
         {
           "hebrew": "כֵּן תִּהְיֶה לָּנוּ.",
           "translation": "So may it be for us.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "כֵּן",
-              "meaning": "so",
-              "phrase": "כֵּן תִּהְיֶה לָּנוּ",
-              "parts": [
+              "hebrew": "כֵּן תִּהְיֶה לָּנוּ",
+              "translation": "So may it be for us.",
+              "words": [
                 {
                   "hebrew": "כֵּן",
                   "meaning": "so",
-                  "pos": "adverb"
-                }
-              ]
-            },
-            {
-              "hebrew": "תִּהְיֶה",
-              "meaning": "may it be",
-              "phrase": "כֵּן תִּהְיֶה לָּנוּ",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "כֵּן",
+                      "meaning": "so",
+                      "pos": "adverb"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "תִּהְיֶה",
                   "meaning": "may it be",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "future",
-                  "person": 3,
-                  "gender": "fem",
-                  "number": "sg"
-                }
-              ],
-              "root": "ה-י-ה"
-            },
-            {
-              "hebrew": "לָּנוּ",
-              "meaning": "for us",
-              "phrase": "כֵּן תִּהְיֶה לָּנוּ",
-              "parts": [
-                {
-                  "hebrew": "לְ־",
-                  "meaning": "for",
-                  "pos": "preposition"
+                  "parts": [
+                    {
+                      "hebrew": "תִּהְיֶה",
+                      "meaning": "may it be",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
-                  "hebrew": "־ָנוּ",
-                  "meaning": "us",
-                  "pos": "pronoun-suffix",
-                  "person": 1,
-                  "number": "pl"
+                  "hebrew": "לָּנוּ",
+                  "meaning": "for us",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָנוּ",
+                      "meaning": "us",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ]
                 }
               ]
             }
@@ -1018,109 +1054,115 @@
         {
           "hebrew": "כּוֹס יְשׁוּעוֹת אֶשָּׂא, וּבְשֵׁם יְיָ אֶקְרָא.",
           "translation": "I will raise the cup of salvations, and call out in the name of the LORD.",
-          "words": [
+          "clauses": [
             {
-              "hebrew": "כּוֹס",
-              "meaning": "the cup of",
-              "phrase": "כּוֹס יְשׁוּעוֹת",
-              "parts": [
+              "hebrew": "כּוֹס יְשׁוּעוֹת אֶשָּׂא",
+              "translation": "I will raise the cup of salvations",
+              "words": [
                 {
                   "hebrew": "כּוֹס",
-                  "meaning": "cup of",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "sg",
-                  "construct": true
-                }
-              ]
-            },
-            {
-              "hebrew": "יְשׁוּעוֹת",
-              "meaning": "salvations",
-              "phrase": "כּוֹס יְשׁוּעוֹת",
-              "parts": [
+                  "meaning": "the cup of",
+                  "parts": [
+                    {
+                      "hebrew": "כּוֹס",
+                      "meaning": "cup of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ]
+                },
                 {
                   "hebrew": "יְשׁוּעוֹת",
                   "meaning": "salvations",
-                  "pos": "noun",
-                  "gender": "fem",
-                  "number": "pl"
-                }
-              ],
-              "root": "י-ש-ע"
-            },
-            {
-              "hebrew": "אֶשָּׂא",
-              "meaning": "I will raise",
-              "phrase": "יְשׁוּעוֹת אֶשָּׂא",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "יְשׁוּעוֹת",
+                      "meaning": "salvations",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "י-ש-ע"
+                },
                 {
                   "hebrew": "אֶשָּׂא",
                   "meaning": "I will raise",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "future",
-                  "person": 1,
-                  "number": "sg"
-                }
-              ],
-              "root": "נ-ש-א"
-            },
-            {
-              "hebrew": "וּבְשֵׁם",
-              "meaning": "and in the name of",
-              "phrase": "וּבְשֵׁם יְיָ",
-              "parts": [
-                {
-                  "hebrew": "וּ־",
-                  "meaning": "and",
-                  "pos": "conjunction"
-                },
-                {
-                  "hebrew": "בְּ־",
-                  "meaning": "in",
-                  "pos": "preposition"
-                },
-                {
-                  "hebrew": "שֵׁם",
-                  "meaning": "name of",
-                  "pos": "noun",
-                  "gender": "masc",
-                  "number": "sg",
-                  "construct": true
+                  "parts": [
+                    {
+                      "hebrew": "אֶשָּׂא",
+                      "meaning": "I will raise",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-ש-א"
                 }
               ]
             },
             {
-              "hebrew": "יְיָ",
-              "meaning": "the LORD",
-              "phrase": "וּבְשֵׁם יְיָ",
-              "parts": [
+              "hebrew": "וּבְשֵׁם יְיָ אֶקְרָא",
+              "translation": "and I will call out in the name of the LORD",
+              "words": [
+                {
+                  "hebrew": "וּבְשֵׁם",
+                  "meaning": "and in the name of",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "שֵׁם",
+                      "meaning": "name of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ]
+                },
                 {
                   "hebrew": "יְיָ",
                   "meaning": "the LORD",
-                  "pos": "name",
-                  "gender": "masc",
-                  "number": "sg"
-                }
-              ]
-            },
-            {
-              "hebrew": "אֶקְרָא",
-              "meaning": "I will call out",
-              "phrase": "וּבְשֵׁם יְיָ אֶקְרָא",
-              "parts": [
+                  "parts": [
+                    {
+                      "hebrew": "יְיָ",
+                      "meaning": "the LORD",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
                 {
                   "hebrew": "אֶקְרָא",
                   "meaning": "I will call out",
-                  "pos": "verb",
-                  "binyan": "paal",
-                  "form": "future",
-                  "person": 1,
-                  "number": "sg"
+                  "parts": [
+                    {
+                      "hebrew": "אֶקְרָא",
+                      "meaning": "I will call out",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ק-ר-א"
                 }
-              ],
-              "root": "ק-ר-א"
+              ]
             }
           ]
         }

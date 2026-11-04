@@ -119,6 +119,9 @@ export function partGloss(part) {
   return label ? `${gloss(part)} <em>(${escape(label)})</em>` : gloss(part);
 }
 
+// All the words of a line, in order, across its clauses.
+export const lineWords = (line) => line.clauses.flatMap((c) => c.words);
+
 // The word's entry in roots.json, or undefined for a word without a root. Fails on a root missing from roots.json.
 export function wordRoot(word, roots, file) {
   const root = word.root && roots[word.root];

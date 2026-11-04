@@ -51,7 +51,7 @@
       "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence of text that isn't a pasuk. A response added after a pasuk, such as כֵּן תִּהְיֶה לָּנוּ, is its own line.",
       "type": "object",
       "additionalProperties": false,
-      "required": ["hebrew", "translation", "words"],
+      "required": ["hebrew", "translation", "clauses"],
       "properties": {
         "hebrew": {
           "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃.",
@@ -59,8 +59,32 @@
           "minLength": 1
         },
         "translation": { "type": "string", "minLength": 1 },
+        "clauses": {
+          "description": "The line divided into its clauses, in order. Together they cover the whole line: only punctuation and spaces are left between them.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/clause" }
+        }
+      }
+    },
+    "clause": {
+      "description": "A subsentence of the line, shown on the Anki cards of its words instead of the whole line: a clause with its verb (or, without a verb, what it says about its subject) and everything attached to it, usually ending at a comma. A long clause is split at its main pause, as the cantillation divides it, and a list of short parallel parts joined by ו stays together. A line that is one clause has a single clause. Clauses don't overlap: a relative clause inside another clause splits it into three, וְהָיוּ הַדְּבָרִים הָאֵלֶּה, אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם, עַל־לְבָבֶךָ.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hebrew", "translation", "words"],
+      "properties": {
+        "hebrew": {
+          "description": "Copied from the line as it stands, without punctuation at either end: כִּי עָזִּי וְזִמְרָת יָהּ יְיָ, בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ.",
+          "type": "string",
+          "minLength": 1
+        },
+        "translation": {
+          "description": "The part of the line's translation that translates this clause, following the same rules (words with no Hebrew counterpart in [square brackets]); a clause that is the whole line has the line's translation.",
+          "type": "string",
+          "minLength": 1
+        },
         "words": {
-          "description": "Words joined by a maqaf are separate words, each with its own root; the maqaf stays on the first: בְּכָל־לְבָבְךָ is בְּכָל־ (with all of) and לְבָבְךָ (your heart).",
+          "description": "Words joined by a maqaf are separate words, each with its own root; the maqaf stays on the first: בְּכָל־לְבָבְךָ is בְּכָל־ (with all of) and לְבָבְךָ (your heart). Words joined by a maqaf are always in the same clause.",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/word" }
@@ -70,7 +94,7 @@
     "word": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["hebrew", "meaning", "phrase", "parts"],
+      "required": ["hebrew", "meaning", "parts"],
       "properties": {
         "hebrew": {
           "description": "The word as it appears in the line, without punctuation; a maqaf stays: מְאֹדֶךָ without the ׃ that ends its verse, בְּכָל־ with its maqaf.",
@@ -79,11 +103,6 @@
         },
         "meaning": {
           "description": "Meaning of the word in this context.",
-          "type": "string",
-          "minLength": 1
-        },
-        "phrase": {
-          "description": "A short phrase around the word, shown on its Anki cards instead of the whole line: the word with the words it belongs with, usually two or three words and at most four, such as its construct chain, a preposition with its noun, a verb with its subject or object, or a pair joined by ו. Copied from the line as it stands, a run of whole words that includes this word, without punctuation at either end: יְיָ אֱלֹהֵינוּ, בְּכָל־לְבָבְךָ, אָנֹכִי מְצַוְּךָ הַיּוֹם. Words that belong together share the same phrase. A short line can be its own phrase.",
           "type": "string",
           "minLength": 1
         },
