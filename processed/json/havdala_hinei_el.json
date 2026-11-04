@@ -1056,8 +1056,8 @@
           "translation": "I will raise the cup of salvations, and call out in the name of the LORD.",
           "clauses": [
             {
-              "hebrew": "כּוֹס יְשׁוּעוֹת אֶשָּׂא",
-              "translation": "I will raise the cup of salvations",
+              "hebrew": "כּוֹס יְשׁוּעוֹת אֶשָּׂא, וּבְשֵׁם יְיָ אֶקְרָא",
+              "translation": "I will raise the cup of salvations, and call out in the name of the LORD.",
               "words": [
                 {
                   "hebrew": "כּוֹס",
@@ -1102,13 +1102,7 @@
                     }
                   ],
                   "root": "נ-ש-א"
-                }
-              ]
-            },
-            {
-              "hebrew": "וּבְשֵׁם יְיָ אֶקְרָא",
-              "translation": "and I will call out in the name of the LORD",
-              "words": [
+                },
                 {
                   "hebrew": "וּבְשֵׁם",
                   "meaning": "and in the name of",
