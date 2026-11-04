@@ -38,3 +38,14 @@ Topics that pass the letters rule, in order of how often they come up in the thr
 Later, when a text needs them: Hitpa'el (ת after a prefix, 1 verb now, could go in the binyan note with Hif'il), Nif'al (נ prefix; clashes with the future prefix for "we"), the ית ending (beginning, remnant), the י ending on adjectives, the object marker with endings (him, them as a separate word) and Aramaic endings (for Kaddish).
 
 Checked and left out by the letters rule: the dual ending (same letters as the plural; a Watch out line in the plural note at most), Pi'el (only a dagesh) and the passive participle's ו (can't be told from Kiddush's ו without vowels; covered as a verb form in the participle note).
+
+## Later: vowel patterns for nouns
+
+Once the letter patterns are learned, expand the noun patterns (the notes and the `pattern` field) to the templates that the letters rule leaves out for now, because they are defined by vowels or a dagesh:
+
+| Template | Examples | Where it was |
+|---|---|---|
+| Kubutz or shuruk before the last root letter, then a ה | salvation, redemption, might, holiness | a section of the nouns note and a pattern value on six nouns in Havdala and Menucha V'simcha; dropped, see the git history of grammar/nouns.md |
+| Hiriq, dagesh in the middle root letter, ו before the last | Kiddush, learning, telling | written in commit 9b31d02 (section with a Watch out on passive participles), reverted in 57b4567 |
+
+Decide first how they fit the rule in [conventions](../meta/conventions.md#what-gets-a-section): relax it and add them as sections of the nouns note, or keep it and put them in a separate note for learners past the basics, linked from the nouns note's Watch out.
