@@ -113,7 +113,7 @@
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into processed/json/roots.json. The root of the word, whenever it has one. Left out only when the root is neither commonly taught nor shared with any other word, biblical or modern Hebrew, names included: רְאֵמִים (wild oxen) has no root, since no other word shares ר-א-ם. A root is kept even when its other words have an unrelated meaning; the root's meaning then lists both, e.g. \"bread; to fight\". Names follow the same rule. Words with no root at all, such as most particles, pronouns and prepositions, have none.",
+          "description": "Key into processed/json/roots.json. The root of the word, whenever it has one. Left out only when the root is neither commonly taught nor shared with any other word, biblical or modern Hebrew, names included: רְאֵמִים (wild oxen) has no root, since no other word shares ר-א-ם. A root is kept even when its other words have an unrelated meaning; the root's meaning then lists both, e.g. \"bread; to fight\". Names follow the same rule. Function words such as prepositions, adverbs and particles follow the same test: עַל (upon) has the root ע-ל-ה, shared with עֲלִיָּה (going up). Words with no root, such as pronouns, כִּי and לֹא, have none.",
           "$ref": "#/$defs/root"
         }
       }

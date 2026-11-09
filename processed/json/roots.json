@@ -754,6 +754,36 @@
       }
     ]
   },
+  "כ-ב-ר": {
+    "meaning": "much, length; already",
+    "related": [
+      {
+        "hebrew": "כִּבְרַת אֶרֶץ",
+        "meaning": "a stretch of land"
+      },
+      {
+        "hebrew": "כַּבִּיר",
+        "meaning": "mighty"
+      }
+    ]
+  },
+  "כ-ו-ן": {
+    "meaning": "to establish, prepare; right",
+    "related": [
+      {
+        "hebrew": "כַּוָּנָה",
+        "meaning": "intention, focus in prayer"
+      },
+      {
+        "hebrew": "נָכוֹן",
+        "meaning": "correct"
+      },
+      {
+        "hebrew": "הָכֵן",
+        "meaning": "to prepare"
+      }
+    ]
+  },
   "כ-ו-ס": {
     "meaning": "cup",
     "related": [
@@ -1097,7 +1127,7 @@
     ]
   },
   "ע-ו-ד": {
-    "meaning": "to testify; still, again",
+    "meaning": "to testify; still, again; until, ever",
     "related": [
       {
         "hebrew": "עֵדֹתֶיךָ",
@@ -1147,6 +1177,23 @@
       }
     ]
   },
+  "ע-ל-ה": {
+    "meaning": "to go up",
+    "related": [
+      {
+        "hebrew": "אֵל עֶלְיוֹן",
+        "meaning": "God Most High"
+      },
+      {
+        "hebrew": "עֲלִיָּה",
+        "meaning": "going up; being called to the Torah"
+      },
+      {
+        "hebrew": "לְמַעְלָה",
+        "meaning": "above"
+      }
+    ]
+  },
   "ע-ל-ם": {
     "meaning": "eternity; to be hidden",
     "related": [
@@ -1174,7 +1221,7 @@
     ]
   },
   "ע-מ-ם": {
-    "meaning": "people, nation",
+    "meaning": "people, nation; with",
     "related": [
       {
         "hebrew": "עַמְּךָ יִשְׂרָאֵל",

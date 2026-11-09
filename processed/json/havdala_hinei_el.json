@@ -438,7 +438,8 @@
                       "meaning": "upon",
                       "pos": "preposition"
                     }
-                  ]
+                  ],
+                  "root": "ע-ל-ה"
                 },
                 {
                   "hebrew": "עַמְּךָ",
@@ -553,7 +554,8 @@
                       "person": 1,
                       "number": "pl"
                     }
-                  ]
+                  ],
+                  "root": "ע-מ-ם"
                 }
               ]
             },
@@ -1017,7 +1019,8 @@
                       "meaning": "so",
                       "pos": "adverb"
                     }
-                  ]
+                  ],
+                  "root": "כ-ו-ן"
                 },
                 {
                   "hebrew": "תִּהְיֶה",
