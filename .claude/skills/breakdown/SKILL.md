@@ -15,7 +15,7 @@ A Hebrew text, verse, or prayer. If its text isn't given in `texts/`, write it t
 - The text as JSON in `processed/json/<id>.json`, matching `data/schema/text.schema.json`.
 - Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet; reuse existing entries as they are.
 
-The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else. Never write the four-letter name in your output, and don't comment on it: treat יְיָ as the text's own spelling.
+The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else.
 
 Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports. Then render the PDFs in every layout with `npm run render -- processed/json/<id>.json` and build the Anki deck with `npm run anki -- processed/json/<id>.json`.
 
