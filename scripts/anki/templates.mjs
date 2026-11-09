@@ -106,7 +106,7 @@ export const LINE = {
     },
     {
       name: "Next line",
-      front: `<div dir="ltr" class="prompt">What comes next?</div>\n<div dir="ltr" class="line context">{{Previous}}</div>
+      front: `<div dir="ltr" class="prompt">What's the next line?</div>\n<div dir="ltr" class="line context">{{Previous}}</div>
 <div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
       back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>\n<div dir="ltr" class="en">{{Translation}}</div>`,
     },
@@ -127,7 +127,7 @@ export const CLAUSE = {
     },
     {
       name: "Next clause",
-      front: `<div dir="ltr" class="prompt">What comes next?</div>\n<div dir="ltr" class="line context">{{Previous}}</div>
+      front: `<div dir="ltr" class="prompt">What's the next clause?</div>\n<div dir="ltr" class="line context">{{Previous}}</div>
 <div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
       back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>\n<div dir="ltr" class="en">{{Translation}}</div>`,
     },
