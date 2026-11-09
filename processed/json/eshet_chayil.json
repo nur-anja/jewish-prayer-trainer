@@ -112,7 +112,8 @@
                       "gender": "masc",
                       "number": "pl"
                     }
-                  ]
+                  ],
+                  "root": "פ-נ-ן"
                 },
                 {
                   "hebrew": "מִכְרָהּ",
@@ -456,7 +457,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "צ-מ-ר"
                 },
                 {
                   "hebrew": "וּפִשְׁתִּים",
@@ -474,7 +476,8 @@
                       "gender": "masc",
                       "number": "pl"
                     }
-                  ]
+                  ],
+                  "root": "פ-ש-ת"
                 }
               ]
             },
@@ -592,7 +595,8 @@
                       "number": "pl",
                       "construct": true
                     }
-                  ]
+                  ],
+                  "root": "א-נ-י"
                 },
                 {
                   "hebrew": "סוֹחֵר",
@@ -1008,7 +1012,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "כ-ר-ם"
                 }
               ]
             }
@@ -1078,7 +1083,8 @@
                       "gender": "fem",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "מ-ת-ן"
                 }
               ]
             },
@@ -1128,7 +1134,8 @@
                       "gender": "fem",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ז-ר-ע"
                 }
               ]
             }

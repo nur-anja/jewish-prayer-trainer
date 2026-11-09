@@ -62,7 +62,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "אֱלֹהֵינוּ",
@@ -97,7 +98,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "אֶחָד",
@@ -157,7 +159,8 @@
                       "number": "sg",
                       "construct": true
                     }
-                  ]
+                  ],
+                  "root": "ש-מ-ה"
                 },
                 {
                   "hebrew": "כְּבוֹד",
@@ -297,7 +300,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "אֱלֹהֶיךָ",
@@ -1044,7 +1048,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "י-ד-י"
                 }
               ]
             },
@@ -1192,7 +1197,8 @@
                       "number": "pl",
                       "construct": true
                     }
-                  ]
+                  ],
+                  "root": "ז-ו-ז"
                 },
                 {
                   "hebrew": "בֵּיתֶךָ",
