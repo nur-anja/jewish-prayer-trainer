@@ -13,7 +13,7 @@ A Hebrew text, verse, or prayer. If its text isn't given in `texts/`, write it t
 
 **Output:**
 - The text as JSON in `processed/json/<id>.json`, matching `data/schema/text.schema.json`.
-- Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet; reuse existing entries as they are.
+- Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet. Reuse existing entries, you can change them to accommodate new words (adding a new meaning or tweaking the example words list).
 
 The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else.
 
