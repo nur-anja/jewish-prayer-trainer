@@ -107,7 +107,7 @@
           "minLength": 1
         },
         "literal": {
-          "description": "The literal meaning, given only where the meaning departs from it: a verb whose traditional translation uses another tense than its form, or an idiom.",
+          "description": "The literal meaning, given only where the word's meaning departs from it. After a vav consecutive, the literal meaning has the flipped tense.",
           "type": "string",
           "minLength": 1
         },
@@ -118,7 +118,7 @@
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into processed/json/roots.json. The root of the word, whenever it has one. Left out only when the root is neither commonly taught nor shared with any other word, biblical or modern Hebrew, names included. A root is kept even when its other words have an unrelated meaning; the root's meaning then lists both, e.g. \"bread; to fight\". Names follow the same rule. Function words such as prepositions, adverbs and particles follow the same test. Words with no root, such as pronouns, have none.",
+          "description": "Key into processed/json/roots.json. The root of the word, whenever it has one. Left out only when the root is neither commonly taught nor shared with any other word, biblical or modern Hebrew, names included. A root is kept even when its other words have an unrelated meaning. Names follow the same rule. Function words such as prepositions, adverbs and particles follow the same test. Words with no root, such as pronouns, have none.",
           "$ref": "#/$defs/root"
         }
       }
@@ -164,7 +164,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
-          "description": "After a vav that flips the tense (vav consecutive), the vav part is marked consecutive, and the verb part keeps its written form, past or future, and the meaning of that form. The word's meaning shows the flipped tense; where it uses another tense, the literal gives the flipped tense. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
+          "description": "After a vav that flips the tense (vav consecutive), the verb part keeps its written form, past or future. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
           "enum": [
             "past",
             "future",
