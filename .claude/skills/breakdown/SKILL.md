@@ -21,4 +21,6 @@ Read both schemas first, and check them again for each decision: their descripti
 
 Finally, list the borderline roots in your reply: words where you weren't sure whether the root is commonly taught or shared with other words, whether you kept the root or left it out. Give them as a table with the columns Word, Candidate root, Decision (kept or left out) and Why.
 
+Then list the words that got a literal meaning, as a table with the columns Word, Meaning and Literal.
+
 Then list every decision the schemas and this skill don't cover: conventions you copied from existing texts in `processed/json/`, and judgement calls of your own. Also list anything you did that contradicts a rule. For each, say what you did and where, and whether it should become a rule. Leave out plain matters of correct grammar or translation.
