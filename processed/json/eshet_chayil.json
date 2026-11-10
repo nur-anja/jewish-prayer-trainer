@@ -1,0 +1,1167 @@
+{
+  "id": "eshet_chayil",
+  "title": "Eshet Chayil",
+  "kind": "poem",
+  "sections": [
+    {
+      "lines": [
+        {
+          "hebrew": "אֵשֶׁת חַיִל מִי יִמְצָא, וְרָחֹק מִפְּנִינִים מִכְרָהּ׃",
+          "translation": "A woman of valor, who can find? And her worth is far beyond pearls.",
+          "clauses": [
+            {
+              "hebrew": "אֵשֶׁת חַיִל מִי יִמְצָא",
+              "translation": "A woman of valor, who can find",
+              "words": [
+                {
+                  "hebrew": "אֵשֶׁת",
+                  "meaning": "a woman of",
+                  "parts": [
+                    {
+                      "hebrew": "אֵשֶׁת",
+                      "meaning": "woman of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "א-נ-ש"
+                },
+                {
+                  "hebrew": "חַיִל",
+                  "meaning": "valor",
+                  "parts": [
+                    {
+                      "hebrew": "חַיִל",
+                      "meaning": "valor",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-י-ל"
+                },
+                {
+                  "hebrew": "מִי",
+                  "meaning": "who",
+                  "parts": [
+                    {
+                      "hebrew": "מִי",
+                      "meaning": "who",
+                      "pos": "pronoun",
+                      "type": "interrogative"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "יִמְצָא",
+                  "meaning": "can find",
+                  "literal": "will find",
+                  "parts": [
+                    {
+                      "hebrew": "יִמְצָא",
+                      "meaning": "will find",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "מ-צ-א"
+                }
+              ]
+            },
+            {
+              "hebrew": "וְרָחֹק מִפְּנִינִים מִכְרָהּ",
+              "translation": "and her worth is far beyond pearls",
+              "words": [
+                {
+                  "hebrew": "וְרָחֹק",
+                  "meaning": "and far",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "רָחֹק",
+                      "meaning": "far",
+                      "pos": "adjective",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ר-ח-ק"
+                },
+                {
+                  "hebrew": "מִפְּנִינִים",
+                  "meaning": "beyond pearls",
+                  "parts": [
+                    {
+                      "hebrew": "מִ־",
+                      "meaning": "beyond",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "פְּנִינִים",
+                      "meaning": "pearls",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "פ-נ-ן"
+                },
+                {
+                  "hebrew": "מִכְרָהּ",
+                  "meaning": "her worth",
+                  "parts": [
+                    {
+                      "hebrew": "מֶכֶר",
+                      "meaning": "worth of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ָהּ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "מ-כ-ר"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "בָּטַח בָּהּ לֵב בַּעְלָהּ, וְשָׁלָל לֹא יֶחְסָר׃",
+          "translation": "The heart of her husband trusts in her, and he will lack no gain.",
+          "clauses": [
+            {
+              "hebrew": "בָּטַח בָּהּ לֵב בַּעְלָהּ",
+              "translation": "The heart of her husband trusts in her",
+              "words": [
+                {
+                  "hebrew": "בָּטַח",
+                  "meaning": "trusts",
+                  "literal": "trusted",
+                  "parts": [
+                    {
+                      "hebrew": "בָּטַח",
+                      "meaning": "trusted",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-ט-ח"
+                },
+                {
+                  "hebrew": "בָּהּ",
+                  "meaning": "in her",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָהּ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "לֵב",
+                  "meaning": "the heart of",
+                  "parts": [
+                    {
+                      "hebrew": "לֵב",
+                      "meaning": "heart of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "ל-ב-ב"
+                },
+                {
+                  "hebrew": "בַּעְלָהּ",
+                  "meaning": "her husband",
+                  "parts": [
+                    {
+                      "hebrew": "בַּעַל",
+                      "meaning": "husband of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ָהּ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-ע-ל"
+                }
+              ]
+            },
+            {
+              "hebrew": "וְשָׁלָל לֹא יֶחְסָר",
+              "translation": "and he will lack no gain",
+              "words": [
+                {
+                  "hebrew": "וְשָׁלָל",
+                  "meaning": "and gain",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "שָׁלָל",
+                      "meaning": "gain, spoil",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-ל-ל"
+                },
+                {
+                  "hebrew": "לֹא",
+                  "meaning": "not",
+                  "parts": [
+                    {
+                      "hebrew": "לֹא",
+                      "meaning": "not",
+                      "pos": "adverb"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "יֶחְסָר",
+                  "meaning": "he will lack",
+                  "parts": [
+                    {
+                      "hebrew": "יֶחְסָר",
+                      "meaning": "he will lack",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-ס-ר"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "גְּמָלַתְהוּ טוֹב וְלֹא רָע, כֹּל יְמֵי חַיֶּיהָ׃",
+          "translation": "She renders him good and not evil, all the days of her life.",
+          "clauses": [
+            {
+              "hebrew": "גְּמָלַתְהוּ טוֹב וְלֹא רָע",
+              "translation": "She renders him good and not evil",
+              "words": [
+                {
+                  "hebrew": "גְּמָלַתְהוּ",
+                  "meaning": "she renders him",
+                  "literal": "she rendered him",
+                  "parts": [
+                    {
+                      "hebrew": "גָּמְלָה",
+                      "meaning": "she rendered",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־הוּ",
+                      "meaning": "him",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ג-מ-ל"
+                },
+                {
+                  "hebrew": "טוֹב",
+                  "meaning": "good",
+                  "parts": [
+                    {
+                      "hebrew": "טוֹב",
+                      "meaning": "good",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ט-ו-ב"
+                },
+                {
+                  "hebrew": "וְלֹא",
+                  "meaning": "and not",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "לֹא",
+                      "meaning": "not",
+                      "pos": "adverb"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "רָע",
+                  "meaning": "evil",
+                  "parts": [
+                    {
+                      "hebrew": "רָע",
+                      "meaning": "evil",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ר-ע-ע"
+                }
+              ]
+            },
+            {
+              "hebrew": "כֹּל יְמֵי חַיֶּיהָ",
+              "translation": "all the days of her life",
+              "words": [
+                {
+                  "hebrew": "כֹּל",
+                  "meaning": "all of",
+                  "parts": [
+                    {
+                      "hebrew": "כֹּל",
+                      "meaning": "all of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "כ-ל-ל"
+                },
+                {
+                  "hebrew": "יְמֵי",
+                  "meaning": "the days of",
+                  "parts": [
+                    {
+                      "hebrew": "יְמֵי",
+                      "meaning": "days of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    }
+                  ],
+                  "root": "י-ו-ם"
+                },
+                {
+                  "hebrew": "חַיֶּיהָ",
+                  "meaning": "her life",
+                  "parts": [
+                    {
+                      "hebrew": "חַיֵּי",
+                      "meaning": "life of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיהָ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-י-ה"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "דָּרְשָׁה צֶמֶר וּפִשְׁתִּים, וַתַּעַשׂ בְּחֵפֶץ כַּפֶּיהָ׃",
+          "translation": "She seeks out wool and flax, and works willingly [with] her hands.",
+          "clauses": [
+            {
+              "hebrew": "דָּרְשָׁה צֶמֶר וּפִשְׁתִּים",
+              "translation": "She seeks out wool and flax",
+              "words": [
+                {
+                  "hebrew": "דָּרְשָׁה",
+                  "meaning": "she seeks out",
+                  "literal": "she sought out",
+                  "parts": [
+                    {
+                      "hebrew": "דָּרְשָׁה",
+                      "meaning": "she sought out",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ד-ר-ש"
+                },
+                {
+                  "hebrew": "צֶמֶר",
+                  "meaning": "wool",
+                  "parts": [
+                    {
+                      "hebrew": "צֶמֶר",
+                      "meaning": "wool",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "צ-מ-ר"
+                },
+                {
+                  "hebrew": "וּפִשְׁתִּים",
+                  "meaning": "and flax",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "פִּשְׁתִּים",
+                      "meaning": "flax",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "פ-ש-ת"
+                }
+              ]
+            },
+            {
+              "hebrew": "וַתַּעַשׂ בְּחֵפֶץ כַּפֶּיהָ",
+              "translation": "and works willingly [with] her hands",
+              "words": [
+                {
+                  "hebrew": "וַתַּעַשׂ",
+                  "meaning": "and she works",
+                  "literal": "and she worked",
+                  "parts": [
+                    {
+                      "hebrew": "וַ־",
+                      "meaning": "and",
+                      "pos": "conjunction",
+                      "consecutive": true
+                    },
+                    {
+                      "hebrew": "תַּעֲשֶׂה",
+                      "meaning": "she will work",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ש-ה"
+                },
+                {
+                  "hebrew": "בְּחֵפֶץ",
+                  "meaning": "willingly",
+                  "literal": "with desire",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "חֵפֶץ",
+                      "meaning": "desire",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-פ-ץ"
+                },
+                {
+                  "hebrew": "כַּפֶּיהָ",
+                  "meaning": "her hands",
+                  "parts": [
+                    {
+                      "hebrew": "כַּפֵּי",
+                      "meaning": "hands of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "dual",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיהָ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "כ-פ-ף"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "הָיְתָה כָּאֳנִיּוֹת סוֹחֵר, מִמֶּרְחָק תָּבִיא לַחְמָהּ׃",
+          "translation": "She is like merchant ships; from afar she brings her bread.",
+          "clauses": [
+            {
+              "hebrew": "הָיְתָה כָּאֳנִיּוֹת סוֹחֵר",
+              "translation": "She is like merchant ships",
+              "words": [
+                {
+                  "hebrew": "הָיְתָה",
+                  "meaning": "she is",
+                  "literal": "she was",
+                  "parts": [
+                    {
+                      "hebrew": "הָיְתָה",
+                      "meaning": "she was",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ה-י-ה"
+                },
+                {
+                  "hebrew": "כָּאֳנִיּוֹת",
+                  "meaning": "like ships of",
+                  "parts": [
+                    {
+                      "hebrew": "כָּ־",
+                      "meaning": "like",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "אֳנִיּוֹת",
+                      "meaning": "ships of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "construct": true
+                    }
+                  ],
+                  "root": "א-נ-י"
+                },
+                {
+                  "hebrew": "סוֹחֵר",
+                  "meaning": "a merchant",
+                  "parts": [
+                    {
+                      "hebrew": "סוֹחֵר",
+                      "meaning": "merchant",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "participle",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ס-ח-ר"
+                }
+              ]
+            },
+            {
+              "hebrew": "מִמֶּרְחָק תָּבִיא לַחְמָהּ",
+              "translation": "from afar she brings her bread",
+              "words": [
+                {
+                  "hebrew": "מִמֶּרְחָק",
+                  "meaning": "from afar",
+                  "parts": [
+                    {
+                      "hebrew": "מִ־",
+                      "meaning": "from",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "מֶרְחָק",
+                      "meaning": "distance",
+                      "pos": "noun",
+                      "pattern": "mem-prefix",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ר-ח-ק"
+                },
+                {
+                  "hebrew": "תָּבִיא",
+                  "meaning": "she brings",
+                  "literal": "she will bring",
+                  "parts": [
+                    {
+                      "hebrew": "תָּבִיא",
+                      "meaning": "she will bring",
+                      "pos": "verb",
+                      "binyan": "hifil",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-ו-א"
+                },
+                {
+                  "hebrew": "לַחְמָהּ",
+                  "meaning": "her bread",
+                  "parts": [
+                    {
+                      "hebrew": "לֶחֶם",
+                      "meaning": "bread of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ָהּ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ל-ח-ם"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "וַתָּקָם בְּעוֹד לַיְלָה, וַתִּתֵּן טֶרֶף לְבֵיתָהּ וְחֹק לְנַעֲרֹתֶיהָ׃",
+          "translation": "She rises while it is still night, and gives food to her household and a portion to her maidens.",
+          "clauses": [
+            {
+              "hebrew": "וַתָּקָם בְּעוֹד לַיְלָה",
+              "translation": "She rises while it is still night",
+              "words": [
+                {
+                  "hebrew": "וַתָּקָם",
+                  "meaning": "and she rises",
+                  "literal": "and she rose",
+                  "parts": [
+                    {
+                      "hebrew": "וַ־",
+                      "meaning": "and",
+                      "pos": "conjunction",
+                      "consecutive": true
+                    },
+                    {
+                      "hebrew": "תָּקוּם",
+                      "meaning": "she will rise",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ק-ו-ם"
+                },
+                {
+                  "hebrew": "בְּעוֹד",
+                  "meaning": "while still",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "while",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "עוֹד",
+                      "meaning": "still",
+                      "pos": "adverb"
+                    }
+                  ],
+                  "root": "ע-ו-ד"
+                },
+                {
+                  "hebrew": "לַיְלָה",
+                  "meaning": "night",
+                  "parts": [
+                    {
+                      "hebrew": "לַיְלָה",
+                      "meaning": "night",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ל-י-ל"
+                }
+              ]
+            },
+            {
+              "hebrew": "וַתִּתֵּן טֶרֶף לְבֵיתָהּ וְחֹק לְנַעֲרֹתֶיהָ",
+              "translation": "and gives food to her household and a portion to her maidens",
+              "words": [
+                {
+                  "hebrew": "וַתִּתֵּן",
+                  "meaning": "and she gives",
+                  "literal": "and she gave",
+                  "parts": [
+                    {
+                      "hebrew": "וַ־",
+                      "meaning": "and",
+                      "pos": "conjunction",
+                      "consecutive": true
+                    },
+                    {
+                      "hebrew": "תִּתֵּן",
+                      "meaning": "she will give",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-ת-ן"
+                },
+                {
+                  "hebrew": "טֶרֶף",
+                  "meaning": "food",
+                  "parts": [
+                    {
+                      "hebrew": "טֶרֶף",
+                      "meaning": "food, prey",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ט-ר-ף"
+                },
+                {
+                  "hebrew": "לְבֵיתָהּ",
+                  "meaning": "to her household",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "to",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "בֵּית",
+                      "meaning": "household of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ָהּ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-י-ת"
+                },
+                {
+                  "hebrew": "וְחֹק",
+                  "meaning": "and a portion",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "חֹק",
+                      "meaning": "portion",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-ק-ק"
+                },
+                {
+                  "hebrew": "לְנַעֲרֹתֶיהָ",
+                  "meaning": "to her maidens",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "to",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "נַעֲרֹת",
+                      "meaning": "maidens of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיהָ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-ע-ר"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "זָמְמָה שָׂדֶה וַתִּקָּחֵהוּ, מִפְּרִי כַפֶּיהָ נָטְעָה כָּרֶם׃",
+          "translation": "She considers a field and acquires it; from the fruit of her hands she plants a vineyard.",
+          "clauses": [
+            {
+              "hebrew": "זָמְמָה שָׂדֶה וַתִּקָּחֵהוּ",
+              "translation": "She considers a field and acquires it",
+              "words": [
+                {
+                  "hebrew": "זָמְמָה",
+                  "meaning": "she considers",
+                  "literal": "she considered",
+                  "parts": [
+                    {
+                      "hebrew": "זָמְמָה",
+                      "meaning": "she considered",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ז-מ-ם"
+                },
+                {
+                  "hebrew": "שָׂדֶה",
+                  "meaning": "a field",
+                  "parts": [
+                    {
+                      "hebrew": "שָׂדֶה",
+                      "meaning": "field",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-ד-ה"
+                },
+                {
+                  "hebrew": "וַתִּקָּחֵהוּ",
+                  "meaning": "and she acquires it",
+                  "literal": "and she acquired it",
+                  "parts": [
+                    {
+                      "hebrew": "וַ־",
+                      "meaning": "and",
+                      "pos": "conjunction",
+                      "consecutive": true
+                    },
+                    {
+                      "hebrew": "תִּקַּח",
+                      "meaning": "she will acquire",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ֵהוּ",
+                      "meaning": "it",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ל-ק-ח"
+                }
+              ]
+            },
+            {
+              "hebrew": "מִפְּרִי כַפֶּיהָ נָטְעָה כָּרֶם",
+              "translation": "from the fruit of her hands she plants a vineyard",
+              "words": [
+                {
+                  "hebrew": "מִפְּרִי",
+                  "meaning": "from the fruit of",
+                  "parts": [
+                    {
+                      "hebrew": "מִ־",
+                      "meaning": "from",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "פְּרִי",
+                      "meaning": "fruit of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "פ-ר-ה"
+                },
+                {
+                  "hebrew": "כַפֶּיהָ",
+                  "meaning": "her hands",
+                  "parts": [
+                    {
+                      "hebrew": "כַּפֵּי",
+                      "meaning": "hands of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "dual",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיהָ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "כ-פ-ף"
+                },
+                {
+                  "hebrew": "נָטְעָה",
+                  "meaning": "she plants",
+                  "literal": "she planted",
+                  "parts": [
+                    {
+                      "hebrew": "נָטְעָה",
+                      "meaning": "she planted",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-ט-ע"
+                },
+                {
+                  "hebrew": "כָּרֶם",
+                  "meaning": "a vineyard",
+                  "parts": [
+                    {
+                      "hebrew": "כֶּרֶם",
+                      "meaning": "vineyard",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "כ-ר-ם"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "חָגְרָה בְעוֹז מָתְנֶיהָ, וַתְּאַמֵּץ זְרֹעוֹתֶיהָ׃",
+          "translation": "She girds her loins with strength, and strengthens her arms.",
+          "clauses": [
+            {
+              "hebrew": "חָגְרָה בְעוֹז מָתְנֶיהָ",
+              "translation": "She girds her loins with strength",
+              "words": [
+                {
+                  "hebrew": "חָגְרָה",
+                  "meaning": "she girds",
+                  "literal": "she girded",
+                  "parts": [
+                    {
+                      "hebrew": "חָגְרָה",
+                      "meaning": "she girded",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-ג-ר"
+                },
+                {
+                  "hebrew": "בְעוֹז",
+                  "meaning": "with strength",
+                  "parts": [
+                    {
+                      "hebrew": "בְ־",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "עוֹז",
+                      "meaning": "strength",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ז-ז"
+                },
+                {
+                  "hebrew": "מָתְנֶיהָ",
+                  "meaning": "her loins",
+                  "parts": [
+                    {
+                      "hebrew": "מָתְנֵי",
+                      "meaning": "loins of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "dual",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיהָ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "מ-ת-ן"
+                }
+              ]
+            },
+            {
+              "hebrew": "וַתְּאַמֵּץ זְרֹעוֹתֶיהָ",
+              "translation": "and strengthens her arms",
+              "words": [
+                {
+                  "hebrew": "וַתְּאַמֵּץ",
+                  "meaning": "and she strengthens",
+                  "literal": "and she strengthened",
+                  "parts": [
+                    {
+                      "hebrew": "וַ־",
+                      "meaning": "and",
+                      "pos": "conjunction",
+                      "consecutive": true
+                    },
+                    {
+                      "hebrew": "תְּאַמֵּץ",
+                      "meaning": "she will strengthen",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-מ-ץ"
+                },
+                {
+                  "hebrew": "זְרֹעוֹתֶיהָ",
+                  "meaning": "her arms",
+                  "parts": [
+                    {
+                      "hebrew": "זְרֹעוֹת",
+                      "meaning": "arms of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיהָ",
+                      "meaning": "her",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ז-ר-ע"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

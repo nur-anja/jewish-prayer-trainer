@@ -9,7 +9,7 @@
 //
 // Table cells:
 //   Hebrew            **word**
-//   Meaning           meaning in context
+//   Meaning           meaning in context, followed by "(lit. ...)" when the word has a literal meaning
 //   Word Breakdown    one "**part** - meaning *(label)*" per part, separated by line breaks;
 //                     the label follows GRAMMAR LABELS in common.mjs and is left out when it is empty
 //   Root              **ר-ו-ט**, empty for words without a root
@@ -22,7 +22,7 @@
 // value with no readable name in common.mjs (e.g. one newly added to the schema).
 
 import { join } from "node:path";
-import { escape, gloss, htmlPage, lineWords, partGloss, ROOT, wordRoot } from "./common.mjs";
+import { escape, gloss, htmlPage, lineWords, meaningText, partGloss, ROOT, wordRoot } from "./common.mjs";
 
 // ---------------------------------------------------------------------------------------------
 // HTML
@@ -95,7 +95,7 @@ function wordRow(word, roots, file) {
 
   const cells = [
     `<strong>${escape(word.hebrew)}</strong>`,
-    escape(word.meaning),
+    escape(meaningText(word)),
     word.parts.map(partGloss).join("<br>"),
     root ? `<strong>${escape(word.root)}</strong>` : "",
     root ? escape(root.meaning) : "",

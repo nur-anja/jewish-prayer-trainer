@@ -103,6 +103,36 @@
       }
     ]
   },
+  "א-נ-י": {
+    "meaning": "ship",
+    "related": [
+      {
+        "hebrew": "אֳנִיָּה",
+        "meaning": "ship"
+      },
+      {
+        "hebrew": "אֳנִי",
+        "meaning": "fleet"
+      }
+    ]
+  },
+  "א-נ-ש": {
+    "meaning": "person, mankind",
+    "related": [
+      {
+        "hebrew": "אִשָּׁה",
+        "meaning": "woman"
+      },
+      {
+        "hebrew": "וּמְלַמֵּד לֶאֱנוֹשׁ בִּינָה",
+        "meaning": "and teaches understanding to mankind"
+      },
+      {
+        "hebrew": "אֲנָשִׁים",
+        "meaning": "men"
+      }
+    ]
+  },
   "א-ר-ץ": {
     "meaning": "land, earth",
     "related": [
@@ -202,6 +232,19 @@
       }
     ]
   },
+  "ב-ע-ל": {
+    "meaning": "to own, master; husband",
+    "related": [
+      {
+        "hebrew": "בַּעַל",
+        "meaning": "husband, owner"
+      },
+      {
+        "hebrew": "בַּעַל תְּשׁוּבָה",
+        "meaning": "one who has returned to Judaism"
+      }
+    ]
+  },
   "ב-ר-א": {
     "meaning": "to create",
     "related": [
@@ -258,6 +301,23 @@
       }
     ]
   },
+  "ג-מ-ל": {
+    "meaning": "to render, deal out; to wean",
+    "related": [
+      {
+        "hebrew": "גּוֹמֵל חֲסָדִים טוֹבִים",
+        "meaning": "Who bestows good kindnesses"
+      },
+      {
+        "hebrew": "גְּמִילוּת חֲסָדִים",
+        "meaning": "acts of kindness"
+      },
+      {
+        "hebrew": "בִּרְכַּת הַגּוֹמֵל",
+        "meaning": "the blessing of thanksgiving"
+      }
+    ]
+  },
   "ד-ב-ר": {
     "meaning": "to speak",
     "related": [
@@ -281,6 +341,23 @@
       {
         "hebrew": "תְּפִלַּת הַדֶּרֶךְ",
         "meaning": "the traveler's prayer"
+      }
+    ]
+  },
+  "ד-ר-ש": {
+    "meaning": "to seek, inquire, expound",
+    "related": [
+      {
+        "hebrew": "מִדְרָשׁ",
+        "meaning": "midrash"
+      },
+      {
+        "hebrew": "דְּרָשָׁה",
+        "meaning": "sermon"
+      },
+      {
+        "hebrew": "בֵּית מִדְרָשׁ",
+        "meaning": "house of study"
       }
     ]
   },
@@ -310,6 +387,23 @@
       }
     ]
   },
+  "ז-ו-ז": {
+    "meaning": "to move",
+    "related": [
+      {
+        "hebrew": "מְזוּזָה",
+        "meaning": "mezuzah"
+      },
+      {
+        "hebrew": "תְּזוּזָה",
+        "meaning": "movement"
+      },
+      {
+        "hebrew": "זָז",
+        "meaning": "moved"
+      }
+    ]
+  },
   "ז-כ-ה": {
     "meaning": "to merit, to be pure",
     "related": [
@@ -336,6 +430,19 @@
       }
     ]
   },
+  "ז-מ-ם": {
+    "meaning": "to plan, scheme",
+    "related": [
+      {
+        "hebrew": "מְזִמָּה",
+        "meaning": "scheme, plot"
+      },
+      {
+        "hebrew": "כַּאֲשֶׁר זָמַם",
+        "meaning": "as he schemed"
+      }
+    ]
+  },
   "ז-מ-ר": {
     "meaning": "to sing, make music",
     "related": [
@@ -350,6 +457,36 @@
       {
         "hebrew": "זֶמֶר",
         "meaning": "song"
+      }
+    ]
+  },
+  "ז-ר-ע": {
+    "meaning": "to sow, seed; arm",
+    "related": [
+      {
+        "hebrew": "זוֹרֵעַ צְדָקוֹת",
+        "meaning": "Who sows righteousness"
+      },
+      {
+        "hebrew": "בִּזְרֹעַ נְטוּיָה",
+        "meaning": "with an outstretched arm"
+      },
+      {
+        "hebrew": "זֶרַע",
+        "meaning": "seed, offspring"
+      }
+    ]
+  },
+  "ח-ג-ר": {
+    "meaning": "to gird",
+    "related": [
+      {
+        "hebrew": "חֲגוֹרָה",
+        "meaning": "belt"
+      },
+      {
+        "hebrew": "מָתְנֵיכֶם חֲגֻרִים",
+        "meaning": "your loins girded"
       }
     ]
   },
@@ -379,6 +516,19 @@
       }
     ]
   },
+  "ח-י-ל": {
+    "meaning": "strength, valor, army",
+    "related": [
+      {
+        "hebrew": "חַיָּל",
+        "meaning": "soldier"
+      },
+      {
+        "hebrew": "מֵחַיִל אֶל חָיִל",
+        "meaning": "from strength to strength"
+      }
+    ]
+  },
   "ח-ל-ץ": {
     "meaning": "to draw out, to rescue; to strengthen",
     "related": [
@@ -402,6 +552,45 @@
       {
         "hebrew": "נֶחְמָד",
         "meaning": "pleasant"
+      }
+    ]
+  },
+  "ח-ס-ר": {
+    "meaning": "to lack",
+    "related": [
+      {
+        "hebrew": "יְיָ רֹעִי לֹא אֶחְסָר",
+        "meaning": "the LORD is my shepherd, I shall not lack"
+      },
+      {
+        "hebrew": "חָסֵר",
+        "meaning": "lacking"
+      }
+    ]
+  },
+  "ח-פ-ץ": {
+    "meaning": "to desire, delight in",
+    "related": [
+      {
+        "hebrew": "מֶלֶךְ חָפֵץ בַּחַיִּים",
+        "meaning": "King Who desires life"
+      },
+      {
+        "hebrew": "חֵפֶץ",
+        "meaning": "desire; object"
+      }
+    ]
+  },
+  "ח-ק-ק": {
+    "meaning": "to engrave, decree",
+    "related": [
+      {
+        "hebrew": "חֻקֵּי רְצוֹנֶךָ",
+        "meaning": "the statutes of Your will"
+      },
+      {
+        "hebrew": "חֻקָּה",
+        "meaning": "statute"
       }
     ]
   },
@@ -431,6 +620,19 @@
       }
     ]
   },
+  "ט-ר-ף": {
+    "meaning": "to tear; prey",
+    "related": [
+      {
+        "hebrew": "טְרֵפָה",
+        "meaning": "non-kosher (torn) meat"
+      },
+      {
+        "hebrew": "טֶרֶף",
+        "meaning": "prey"
+      }
+    ]
+  },
   "י-ד-ה": {
     "meaning": "to thank, to acknowledge",
     "related": [
@@ -441,6 +643,19 @@
       {
         "hebrew": "הוֹדוּ",
         "meaning": "give thanks"
+      }
+    ]
+  },
+  "י-ד-י": {
+    "meaning": "hand",
+    "related": [
+      {
+        "hebrew": "בְּיָד חֲזָקָה",
+        "meaning": "with a mighty hand"
+      },
+      {
+        "hebrew": "יָדִית",
+        "meaning": "handle"
       }
     ]
   },
@@ -539,6 +754,49 @@
       }
     ]
   },
+  "כ-ב-ר": {
+    "meaning": "much, length; already",
+    "related": [
+      {
+        "hebrew": "כִּבְרַת אֶרֶץ",
+        "meaning": "a stretch of land"
+      },
+      {
+        "hebrew": "כַּבִּיר",
+        "meaning": "mighty"
+      }
+    ]
+  },
+  "כ-ו-ן": {
+    "meaning": "to establish, prepare; right",
+    "related": [
+      {
+        "hebrew": "כַּוָּנָה",
+        "meaning": "intention, focus in prayer"
+      },
+      {
+        "hebrew": "נָכוֹן",
+        "meaning": "correct"
+      },
+      {
+        "hebrew": "הָכֵן",
+        "meaning": "to prepare"
+      }
+    ]
+  },
+  "כ-ו-ס": {
+    "meaning": "cup",
+    "related": [
+      {
+        "hebrew": "כּוֹסִי רְוָיָה",
+        "meaning": "my cup overflows"
+      },
+      {
+        "hebrew": "כּוֹסִית",
+        "meaning": "small glass"
+      }
+    ]
+  },
   "כ-ל-ל": {
     "meaning": "whole, all, to include",
     "related": [
@@ -549,6 +807,32 @@
       {
         "hebrew": "כָּלִיל",
         "meaning": "complete"
+      }
+    ]
+  },
+  "כ-פ-ף": {
+    "meaning": "palm, to bend",
+    "related": [
+      {
+        "hebrew": "כַּף",
+        "meaning": "palm, spoon"
+      },
+      {
+        "hebrew": "נְשִׂיאַת כַּפַּיִם",
+        "meaning": "raising of the hands (the Priestly Blessing)"
+      }
+    ]
+  },
+  "כ-ר-ם": {
+    "meaning": "vineyard",
+    "related": [
+      {
+        "hebrew": "כּוֹרֵם",
+        "meaning": "vintner"
+      },
+      {
+        "hebrew": "כַּרְמִי",
+        "meaning": "Carmi"
       }
     ]
   },
@@ -600,12 +884,64 @@
       }
     ]
   },
+  "ל-י-ל": {
+    "meaning": "night",
+    "related": [
+      {
+        "hebrew": "לֵיל שַׁבָּת",
+        "meaning": "Friday night"
+      },
+      {
+        "hebrew": "מַה נִּשְׁתַּנָּה הַלַּיְלָה הַזֶּה",
+        "meaning": "why is this night different"
+      }
+    ]
+  },
+  "ל-ק-ח": {
+    "meaning": "to take",
+    "related": [
+      {
+        "hebrew": "כִּי לֶקַח טוֹב נָתַתִּי לָכֶם",
+        "meaning": "for I have given you good teaching"
+      },
+      {
+        "hebrew": "לָקַח",
+        "meaning": "he took"
+      }
+    ]
+  },
   "מ-א-ד": {
     "meaning": "very, might",
     "related": [
       {
         "hebrew": "מְאֹד",
         "meaning": "very"
+      }
+    ]
+  },
+  "מ-י-ם": {
+    "meaning": "water",
+    "related": [
+      {
+        "hebrew": "מֵימִיָּה",
+        "meaning": "water bottle"
+      },
+      {
+        "hebrew": "מֵימִי",
+        "meaning": "watery"
+      }
+    ]
+  },
+  "מ-כ-ר": {
+    "meaning": "to sell",
+    "related": [
+      {
+        "hebrew": "מְכִירָה",
+        "meaning": "sale"
+      },
+      {
+        "hebrew": "מוֹכֵר",
+        "meaning": "seller"
       }
     ]
   },
@@ -623,6 +959,32 @@
       {
         "hebrew": "אָבִינוּ מַלְכֵּנוּ",
         "meaning": "our Father, our King"
+      }
+    ]
+  },
+  "מ-צ-א": {
+    "meaning": "to find",
+    "related": [
+      {
+        "hebrew": "מָצָא",
+        "meaning": "he found"
+      },
+      {
+        "hebrew": "מְצִיאָה",
+        "meaning": "a find, bargain"
+      }
+    ]
+  },
+  "מ-ת-ן": {
+    "meaning": "loins; to wait",
+    "related": [
+      {
+        "hebrew": "מֹתֶן",
+        "meaning": "waist, hip"
+      },
+      {
+        "hebrew": "הַמְתָּנָה",
+        "meaning": "waiting"
       }
     ]
   },
@@ -649,6 +1011,36 @@
       {
         "hebrew": "מָנוֹחַ",
         "meaning": "resting place"
+      }
+    ]
+  },
+  "נ-ט-ע": {
+    "meaning": "to plant",
+    "related": [
+      {
+        "hebrew": "וְחַיֵּי עוֹלָם נָטַע בְּתוֹכֵנוּ",
+        "meaning": "and planted eternal life within us"
+      },
+      {
+        "hebrew": "נְטִיעָה",
+        "meaning": "planting"
+      }
+    ]
+  },
+  "נ-ע-ר": {
+    "meaning": "youth",
+    "related": [
+      {
+        "hebrew": "נַעַר הָיִיתִי גַּם זָקַנְתִּי",
+        "meaning": "I was young and have also grown old"
+      },
+      {
+        "hebrew": "נַעַר",
+        "meaning": "boy, youth"
+      },
+      {
+        "hebrew": "נְעוּרִים",
+        "meaning": "youth"
       }
     ]
   },
@@ -695,6 +1087,23 @@
       }
     ]
   },
+  "נ-ת-ן": {
+    "meaning": "to give",
+    "related": [
+      {
+        "hebrew": "נוֹתֵן הַתּוֹרָה",
+        "meaning": "Giver of the Torah"
+      },
+      {
+        "hebrew": "מַתָּנָה",
+        "meaning": "gift"
+      },
+      {
+        "hebrew": "מַתַּן תּוֹרָה",
+        "meaning": "the giving of the Torah"
+      }
+    ]
+  },
   "ס-ג-ל": {
     "meaning": "treasure, special quality",
     "related": [
@@ -704,8 +1113,21 @@
       }
     ]
   },
+  "ס-ח-ר": {
+    "meaning": "to trade, go around",
+    "related": [
+      {
+        "hebrew": "סְחוֹרָה",
+        "meaning": "merchandise"
+      },
+      {
+        "hebrew": "מִסְחָר",
+        "meaning": "commerce"
+      }
+    ]
+  },
   "ע-ו-ד": {
-    "meaning": "to testify; still, again",
+    "meaning": "to testify; still, again; until, ever",
     "related": [
       {
         "hebrew": "עֵדֹתֶיךָ",
@@ -755,6 +1177,23 @@
       }
     ]
   },
+  "ע-ל-ה": {
+    "meaning": "to go up",
+    "related": [
+      {
+        "hebrew": "אֵל עֶלְיוֹן",
+        "meaning": "God Most High"
+      },
+      {
+        "hebrew": "עֲלִיָּה",
+        "meaning": "going up; being called to the Torah"
+      },
+      {
+        "hebrew": "לְמַעְלָה",
+        "meaning": "above"
+      }
+    ]
+  },
   "ע-ל-ם": {
     "meaning": "eternity; to be hidden",
     "related": [
@@ -782,7 +1221,7 @@
     ]
   },
   "ע-מ-ם": {
-    "meaning": "people, nation",
+    "meaning": "people, nation; with",
     "related": [
       {
         "hebrew": "עַמְּךָ יִשְׂרָאֵל",
@@ -846,6 +1285,23 @@
       }
     ]
   },
+  "ע-ש-ה": {
+    "meaning": "to do, make",
+    "related": [
+      {
+        "hebrew": "עֹשֶׂה שָׁלוֹם",
+        "meaning": "Who makes peace"
+      },
+      {
+        "hebrew": "מַעֲשֶׂה",
+        "meaning": "deed"
+      },
+      {
+        "hebrew": "מַעֲשֵׂה בְרֵאשִׁית",
+        "meaning": "the work of creation"
+      }
+    ]
+  },
   "פ-ח-ד": {
     "meaning": "to fear",
     "related": [
@@ -856,6 +1312,37 @@
       {
         "hebrew": "פַּחַד יִצְחָק",
         "meaning": "the Fear of Isaac"
+      }
+    ]
+  },
+  "פ-נ-ן": {
+    "meaning": "pearl",
+    "related": [
+      {
+        "hebrew": "פְּנִינָה",
+        "meaning": "pearl; Peninah"
+      }
+    ]
+  },
+  "פ-ר-ה": {
+    "meaning": "to bear fruit",
+    "related": [
+      {
+        "hebrew": "בּוֹרֵא פְּרִי הַגָּפֶן",
+        "meaning": "Who creates the fruit of the vine"
+      },
+      {
+        "hebrew": "פְּרוּ וּרְבוּ",
+        "meaning": "be fruitful and multiply"
+      }
+    ]
+  },
+  "פ-ש-ת": {
+    "meaning": "flax",
+    "related": [
+      {
+        "hebrew": "פִּשְׁתָּן",
+        "meaning": "flax, linen"
       }
     ]
   },
@@ -895,6 +1382,19 @@
       {
         "hebrew": "צוּרָה",
         "meaning": "shape, form"
+      }
+    ]
+  },
+  "צ-מ-ר": {
+    "meaning": "wool",
+    "related": [
+      {
+        "hebrew": "צֶמֶר גֶּפֶן",
+        "meaning": "cotton wool"
+      },
+      {
+        "hebrew": "צַמֶּרֶת",
+        "meaning": "treetop, top echelon"
       }
     ]
   },
@@ -997,6 +1497,36 @@
       }
     ]
   },
+  "ר-ח-ק": {
+    "meaning": "to be far",
+    "related": [
+      {
+        "hebrew": "רָחוֹק",
+        "meaning": "far"
+      },
+      {
+        "hebrew": "מֶרְחָק",
+        "meaning": "distance"
+      }
+    ]
+  },
+  "ר-ע-ע": {
+    "meaning": "bad, evil",
+    "related": [
+      {
+        "hebrew": "רָעָה",
+        "meaning": "evil, harm"
+      },
+      {
+        "hebrew": "יֵצֶר הָרָע",
+        "meaning": "the evil inclination"
+      },
+      {
+        "hebrew": "לֹא אִירָא רָע",
+        "meaning": "I will fear no evil"
+      }
+    ]
+  },
   "ר-צ-ה": {
     "meaning": "to want, to be pleased with",
     "related": [
@@ -1053,6 +1583,19 @@
       }
     ]
   },
+  "ש-ד-ה": {
+    "meaning": "field",
+    "related": [
+      {
+        "hebrew": "וְנָתַתִּי עֵשֶׂב בְּשָׂדְךָ",
+        "meaning": "and I will give grass in your field"
+      },
+      {
+        "hebrew": "שָׂדוֹת",
+        "meaning": "fields"
+      }
+    ]
+  },
   "ש-ו-ש": {
     "meaning": "to rejoice",
     "related": [
@@ -1083,6 +1626,28 @@
       }
     ]
   },
+  "ש-ל-ל": {
+    "meaning": "to plunder",
+    "related": [
+      {
+        "hebrew": "אֲחַלֵּק שָׁלָל",
+        "meaning": "I will divide the spoil"
+      }
+    ]
+  },
+  "ש-מ-ה": {
+    "meaning": "name",
+    "related": [
+      {
+        "hebrew": "שְׁמוֹת",
+        "meaning": "names; the book of Exodus"
+      },
+      {
+        "hebrew": "שֵׁמִי",
+        "meaning": "Semitic"
+      }
+    ]
+  },
   "ש-מ-ח": {
     "meaning": "to rejoice",
     "related": [
@@ -1093,6 +1658,19 @@
       {
         "hebrew": "שָׂמֵחַ",
         "meaning": "happy"
+      }
+    ]
+  },
+  "ש-מ-י": {
+    "meaning": "sky, heaven",
+    "related": [
+      {
+        "hebrew": "אָבִינוּ שֶׁבַּשָּׁמַיִם",
+        "meaning": "our Father in heaven"
+      },
+      {
+        "hebrew": "שְׁמֵימִי",
+        "meaning": "heavenly"
       }
     ]
   },
@@ -1184,6 +1762,19 @@
       {
         "hebrew": "הַשִּׁשִּׁי",
         "meaning": "the sixth"
+      }
+    ]
+  },
+  "ת-נ-ן": {
+    "meaning": "jackal; sea monster",
+    "related": [
+      {
+        "hebrew": "הַתַּנִּינִם הַגְּדֹלִים",
+        "meaning": "the great sea monsters"
+      },
+      {
+        "hebrew": "תַּן",
+        "meaning": "jackal"
       }
     ]
   }

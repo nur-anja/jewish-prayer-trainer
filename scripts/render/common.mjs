@@ -27,7 +27,8 @@ const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Conte
 //   pronoun,    (gender number), only when the English meaning hides what Hebrew marks:
 //   pronoun-      you/your, it/its, they/them/their, and the demonstratives this/that/those.
 //   suffix        Never for I/me/we/us, he/him/his, she/her or "these" (see LABELED_PRONOUNS).
-//   all others  no label: prepositions, conjunctions, articles, particles, adverbs, numerals, names.
+//   conjunction (vav consecutive) for a vav that flips the tense, no label otherwise
+//   all others  no label: prepositions, articles, particles, adverbs, numerals, names.
 //
 // LANGUAGE IS NEVER HIDDEN. The rules above only filter the grammar fields. A part's language
 // (when not Hebrew) is always appended to its label, whatever its part of speech:
@@ -98,6 +99,8 @@ function structuredLabel(part) {
       const words = part.meaning.toLowerCase().match(/[a-z]+/g) ?? [];
       return words.some((w) => LABELED_PRONOUNS.has(w)) ? inflection(part) : "";
     }
+    case "conjunction":
+      return part.consecutive ? "vav consecutive" : "";
     default:
       return "";
   }
@@ -109,6 +112,9 @@ function structuredLabel(part) {
 
 export const escape = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+
+// "meaning (lit. literal)", or just the meaning when the word has no literal meaning.
+export const meaningText = ({ meaning, literal }) => (literal ? `${meaning} (lit. ${literal})` : meaning);
 
 // "**hebrew** - meaning", the format of both the word breakdown and the other root words.
 export const gloss = ({ hebrew, meaning }) => `<strong>${escape(hebrew)}</strong> - ${escape(meaning)}`;

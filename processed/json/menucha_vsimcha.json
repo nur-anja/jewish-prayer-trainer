@@ -369,7 +369,8 @@
                       "number": "pl",
                       "construct": true
                     }
-                  ]
+                  ],
+                  "root": "ש-מ-י"
                 },
                 {
                   "hebrew": "שָׁמַיִם",
@@ -382,7 +383,8 @@
                       "gender": "masc",
                       "number": "pl"
                     }
-                  ]
+                  ],
+                  "root": "ש-מ-י"
                 },
                 {
                   "hebrew": "אֶרֶץ",
@@ -532,7 +534,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ת-נ-ן"
                 },
                 {
                   "hebrew": "וְאָדָם",
@@ -625,7 +628,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "יְיָ",
@@ -638,7 +642,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "צוּר",
@@ -860,7 +865,8 @@
                       "meaning": "until",
                       "pos": "preposition"
                     }
-                  ]
+                  ],
+                  "root": "ע-ו-ד"
                 },
                 {
                   "hebrew": "צֵאתוֹ",
@@ -1456,7 +1462,8 @@
                       "meaning": "already",
                       "pos": "adverb"
                     }
-                  ]
+                  ],
+                  "root": "כ-ב-ר"
                 },
                 {
                   "hebrew": "רָצָךְ",

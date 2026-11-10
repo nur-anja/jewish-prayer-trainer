@@ -54,7 +54,7 @@
       "required": ["hebrew", "translation", "clauses"],
       "properties": {
         "hebrew": {
-          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃.",
+          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃. When the source has no punctuation, a verse from the Tanakh ends with ׃ and has a comma between its clauses, and nowhere else.",
           "type": "string",
           "minLength": 1
         },
@@ -106,14 +106,19 @@
           "type": "string",
           "minLength": 1
         },
+        "literal": {
+          "description": "The literal meaning, given only where the word's meaning departs from it. After a vav consecutive, the literal meaning has the flipped tense.",
+          "type": "string",
+          "minLength": 1
+        },
         "parts": {
-          "description": "Prefixes, base word and suffixes, in order, each with its meaning in context. A single entry if the word is not split. Keep the ל of an infinitive with its verb: לְאַמֵּץ (to strengthen) is one infinitive-construct part. A preposition with a merged article is one preposition part with \"the\" in its meaning: לַ־ (for the). A plural noun with a pronoun suffix splits into its construct plural and the full plural suffix, so the shared letters appear in both: אֱלֹהֵינוּ (our God) is אֱלֹהֵי (God of) and ־ֵינוּ (our).",
+          "description": "Prefixes, base word and suffixes, in order, each with its meaning in context. A single entry if the word is not split. Keep the ל of an infinitive with its verb: לְאַמֵּץ (to strengthen) is one infinitive-construct part. A preposition with a merged article is one preposition part with \"the\" in its meaning: לַ־ (for the). A plural noun with a pronoun suffix splits into its construct plural and the full plural suffix. The shared letters (if present) appear in both: אֱלֹהֵינוּ (our God) is אֱלֹהֵי (God of) and ־ֵינוּ (our).",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/part" }
         },
         "root": {
-          "description": "Key into processed/json/roots.json. The commonly taught root of the word, whenever there is one. Left out only for words with no commonly taught root. When it's unclear whether a root is commonly taught, keep it if it links the word to other words in the siddur or the Torah; otherwise leave it out. Even then, leave out a root that would point to an unrelated meaning. Names follow the same rule.",
+          "description": "Key into processed/json/roots.json. The root of the word, whenever it has one. Left out only when the root is neither commonly taught nor shared with any other word, biblical or modern Hebrew, names included. A root is kept even when its other words have an unrelated meaning. Names follow the same rule. Function words such as prepositions, adverbs and particles follow the same test. Words with no root, such as pronouns, have none.",
           "$ref": "#/$defs/root"
         }
       }
@@ -130,7 +135,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
           "type": "string",
           "minLength": 1
         },
@@ -159,7 +164,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
-          "description": "After a vav that flips the tense, the verb keeps its written form, past or future, and its meaning shows the flipped tense: וַיְהִי (and He became) is future, וּשְׁאַבְתֶּם (and you shall draw) is past. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
+          "description": "After a vav that flips the tense (vav consecutive), the verb part keeps its written form, past or future. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
           "enum": [
             "past",
             "future",
@@ -181,6 +186,10 @@
         "pattern": {
           "description": "The template from grammar/nouns.md the noun is built with, when it has one; only on nouns. mem-prefix: a מ that isn't a root letter, e.g. מִצְוָה (commandment), מָרוֹם (height). tav-prefix: a ת that isn't a root letter, e.g. תְּפִלָּה (prayer). vav-tav-ending: a וּת ending that isn't a root letter, e.g. מַלְכוּת (kingdom). A noun with a מ or ת prefix takes that pattern even if it also has an ending, e.g. מְנוּחָה (rest) is mem-prefix. Left out for nouns that are only a root with vowels, such as דֶּרֶךְ or קִדּוּשׁ, or have only a plain feminine ending, such as שִׂמְחָה or יְשׁוּעָה: a pattern is marked only by added letters, never by vowels alone (see meta/conventions.md).",
           "enum": ["mem-prefix", "tav-prefix", "vav-tav-ending"]
+        },
+        "consecutive": {
+          "description": "True for a vav that flips the tense of the verb after it (vav consecutive). Only on conjunctions.",
+          "const": true
         },
         "language": {
           "description": "Language of the part when it isn't Hebrew; left out for Hebrew. Mark a part only when its form belongs to the other language: prefixes shared by Hebrew and Aramaic (וְ־, בְּ־, לְ־) follow the language of the surrounding text. E.g. רַבָּה (great), דְּ־ (of) and the ending ־ָא (the) are Aramaic.",
@@ -238,6 +247,11 @@
           "then": {
             "properties": { "person": false, "gender": false, "number": false }
           }
+        },
+        {
+          "description": "Only conjunctions are consecutive.",
+          "if": { "properties": { "pos": { "const": "conjunction" } } },
+          "else": { "properties": { "consecutive": false } }
         },
         {
           "description": "Only nouns have a pattern.",

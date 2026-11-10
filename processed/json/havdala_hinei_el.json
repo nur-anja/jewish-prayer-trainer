@@ -184,7 +184,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "יְיָ",
@@ -197,7 +198,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 }
               ]
             },
@@ -212,11 +214,12 @@
                     {
                       "hebrew": "וַ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
-                      "hebrew": "יְהִי",
-                      "meaning": "He has become",
+                      "hebrew": "יִהְיֶה",
+                      "meaning": "He will be",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -283,11 +286,12 @@
                     {
                       "hebrew": "וּ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "שְׁאַבְתֶּם",
-                      "meaning": "you shall draw",
+                      "meaning": "you drew",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -309,7 +313,8 @@
                       "gender": "masc",
                       "number": "pl"
                     }
-                  ]
+                  ],
+                  "root": "מ-י-ם"
                 },
                 {
                   "hebrew": "בְּשָׂשׂוֹן",
@@ -398,7 +403,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "הַיְשׁוּעָה",
@@ -434,7 +440,8 @@
                       "meaning": "upon",
                       "pos": "preposition"
                     }
-                  ]
+                  ],
+                  "root": "ע-ל-ה"
                 },
                 {
                   "hebrew": "עַמְּךָ",
@@ -516,7 +523,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "צְבָאוֹת",
@@ -548,7 +556,8 @@
                       "person": 1,
                       "number": "pl"
                     }
-                  ]
+                  ],
+                  "root": "ע-מ-ם"
                 }
               ]
             },
@@ -652,7 +661,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "צְבָאוֹת",
@@ -761,7 +771,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "הוֹשִׁיעָה",
@@ -1010,7 +1021,8 @@
                       "meaning": "so",
                       "pos": "adverb"
                     }
-                  ]
+                  ],
+                  "root": "כ-ו-ן"
                 },
                 {
                   "hebrew": "תִּהְיֶה",
@@ -1071,7 +1083,8 @@
                       "number": "sg",
                       "construct": true
                     }
-                  ]
+                  ],
+                  "root": "כ-ו-ס"
                 },
                 {
                   "hebrew": "יְשׁוּעוֹת",
@@ -1131,7 +1144,8 @@
                       "number": "sg",
                       "construct": true
                     }
-                  ]
+                  ],
+                  "root": "ש-מ-ה"
                 },
                 {
                   "hebrew": "יְיָ",
@@ -1144,7 +1158,8 @@
                       "gender": "masc",
                       "number": "sg"
                     }
-                  ]
+                  ],
+                  "root": "ה-י-ה"
                 },
                 {
                   "hebrew": "אֶקְרָא",

@@ -48,3 +48,9 @@ A word starting with one of these letters doesn't always have a prefix, because 
 | מֶלֶךְ | the מ is part of the root | king |
 
 Strip a letter only if what's left is a real word.
+
+A kamatz under a prefix doesn't always hide "the": before a hataf vowel, the prefix takes the matching short vowel:
+
+| Example | Note | Translation |
+|---|---|---|
+| <b style="color:red">כָּ</b>אֳנִיּוֹת | kamatz only because of the hataf kamatz after it: no "the" | like ships of |

@@ -13,12 +13,12 @@ A Hebrew text, verse, or prayer. If its text isn't given in `texts/`, write it t
 
 **Output:**
 - The text as JSON in `processed/json/<id>.json`, matching `data/schema/text.schema.json`.
-- Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet; reuse existing entries as they are.
+- Its roots in the shared `processed/json/roots.json`, matching `data/schema/roots.schema.json`. Add roots that aren't there yet. Reuse existing entries, you can change them to accommodate new words (adding a new meaning or tweaking the example words list).
 
-The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else. Never write the four-letter name in your output, and don't comment on it: treat יְיָ as the text's own spelling.
+The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else.
 
-Read both schemas first: their descriptions say how to fill each field, and their rules say which fields each part needs. When done, run `npm run check` and fix every error it reports. Then render the PDFs in every layout with `npm run render -- processed/json/<id>.json` and build the Anki deck with `npm run anki -- processed/json/<id>.json`.
+Read both schemas first, and check them again for each decision: their descriptions say how to fill each field, and their rules say which fields each part needs. Look at existing texts only for decisions the schemas don't cover. When an existing text contradicts a rule, follow the rule, fix the existing text and report the fix. When done, run `npm run check` and fix every error it reports. Then render the PDFs in every layout with `npm run render -- processed/json/<id>.json` and build the Anki deck with `npm run anki -- processed/json/<id>.json`.
 
-Finally, list the borderline roots in your reply: words where you weren't sure whether a root is commonly taught, whether you kept the root or left it out. Give them as a table with the columns Word, Candidate root, Decision (kept or left out) and Why.
+Finally, list the borderline roots in your reply: words where you weren't sure whether the root is commonly taught or shared with other words, whether you kept the root or left it out. Give them as a table with the columns Word, Candidate root, Decision (kept or left out) and Why.
 
 Then list every decision the schemas and this skill don't cover: conventions you copied from existing texts in `processed/json/`, and judgement calls of your own. Also list anything you did that contradicts a rule. For each, say what you did and where, and whether it should become a rule. Leave out plain matters of correct grammar or translation.

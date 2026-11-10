@@ -13,7 +13,7 @@
       "required": ["meaning", "related"],
       "properties": {
         "meaning": {
-          "description": "Core meaning of the root.",
+          "description": "Core meaning of the root. A root with several unrelated meanings lists them all, separated by semicolons.",
           "type": "string",
           "minLength": 1
         },
