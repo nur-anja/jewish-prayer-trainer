@@ -820,10 +820,11 @@
                 {
                   "hebrew": "יַעֲנֵנוּ",
                   "meaning": "may He answer us",
+                  "literal": "He will answer us",
                   "parts": [
                     {
                       "hebrew": "יַעֲנֶה",
-                      "meaning": "may He answer",
+                      "meaning": "He will answer",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -1028,10 +1029,11 @@
                 {
                   "hebrew": "תִּהְיֶה",
                   "meaning": "may it be",
+                  "literal": "it will be",
                   "parts": [
                     {
                       "hebrew": "תִּהְיֶה",
-                      "meaning": "may it be",
+                      "meaning": "it will be",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
