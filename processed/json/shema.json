@@ -204,6 +204,7 @@
                 {
                   "hebrew": "לְעוֹלָם",
                   "meaning": "forever",
+                  "literal": "for eternity",
                   "parts": [
                     {
                       "hebrew": "לְ־",
@@ -603,6 +604,7 @@
                 {
                   "hebrew": "הַיּוֹם",
                   "meaning": "today",
+                  "literal": "the day",
                   "parts": [
                     {
                       "hebrew": "הַ־",
