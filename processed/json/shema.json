@@ -263,11 +263,12 @@
                     {
                       "hebrew": "וְ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "אָהַבְתָּ",
-                      "meaning": "you shall love",
+                      "meaning": "you loved",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -490,11 +491,12 @@
                     {
                       "hebrew": "וְ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "הָיוּ",
-                      "meaning": "they shall be",
+                      "meaning": "they were",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -677,11 +679,12 @@
                     {
                       "hebrew": "וְ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "שִׁנַּנְתָּ",
-                      "meaning": "you shall teach (by repetition)",
+                      "meaning": "you taught (by repetition)",
                       "pos": "verb",
                       "binyan": "piel",
                       "form": "past",
@@ -741,11 +744,12 @@
                     {
                       "hebrew": "וְ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "דִּבַּרְתָּ",
-                      "meaning": "you shall speak",
+                      "meaning": "you spoke",
                       "pos": "verb",
                       "binyan": "piel",
                       "form": "past",
@@ -976,11 +980,12 @@
                     {
                       "hebrew": "וּ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "קָשַׁרְתָּ",
-                      "meaning": "you shall bind",
+                      "meaning": "you bound",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -1066,11 +1071,12 @@
                     {
                       "hebrew": "וְ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "הָיוּ",
-                      "meaning": "they shall be",
+                      "meaning": "they were",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -1153,11 +1159,12 @@
                     {
                       "hebrew": "וּ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "כָּתַבְתָּ",
-                      "meaning": "you shall write",
+                      "meaning": "you wrote",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",

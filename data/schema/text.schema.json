@@ -135,7 +135,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning follows a traditional translation: תִּתֵּן in וַתִּתֵּן is \"she gave\" although the word's meaning is \"and she gives\". A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning follows a traditional translation: תִּתֵּן in וַתִּתֵּן is \"she will give\", its written future, although the word's meaning is \"and she gives\". A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
           "type": "string",
           "minLength": 1
         },
@@ -164,7 +164,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
-          "description": "After a vav that flips the tense, the verb keeps its written form, past or future, and its meaning shows the flipped tense: וַיְהִי (and He became) is future, וּשְׁאַבְתֶּם (and you shall draw) is past. When the traditional translation uses another tense, such as the present in a timeless description, the word's meaning follows the translation and its literal gives the tense of the form, flipped after such a vav; the part's meaning is always literal: וַתִּתֵּן (and she gives) is future, with the literal meaning \"and she gave\", and its part תִּתֵּן means \"she gave\". Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
+          "description": "After a vav that flips the tense (vav consecutive), the vav part is marked consecutive, and the verb part keeps its written form, past or future, with the meaning of that form: וַתִּתֵּן is וַ־ (and, consecutive) and תִּתֵּן (she will give, future); וּשְׁאַבְתֶּם is וּ־ (and, consecutive) and שְׁאַבְתֶּם (you drew, past). The word's meaning shows the flipped tense: וַיְהִי (and He became), וּשְׁאַבְתֶּם (and you shall draw). When the traditional translation uses another tense, such as the present in a timeless description, the word's meaning follows the translation and its literal gives the flipped tense: וַתִּתֵּן (and she gives), with the literal meaning \"and she gave\". Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
           "enum": [
             "past",
             "future",
@@ -186,6 +186,10 @@
         "pattern": {
           "description": "The template from grammar/nouns.md the noun is built with, when it has one; only on nouns. mem-prefix: a מ that isn't a root letter, e.g. מִצְוָה (commandment), מָרוֹם (height). tav-prefix: a ת that isn't a root letter, e.g. תְּפִלָּה (prayer). vav-tav-ending: a וּת ending that isn't a root letter, e.g. מַלְכוּת (kingdom). A noun with a מ or ת prefix takes that pattern even if it also has an ending, e.g. מְנוּחָה (rest) is mem-prefix. Left out for nouns that are only a root with vowels, such as דֶּרֶךְ or קִדּוּשׁ, or have only a plain feminine ending, such as שִׂמְחָה or יְשׁוּעָה: a pattern is marked only by added letters, never by vowels alone (see meta/conventions.md).",
           "enum": ["mem-prefix", "tav-prefix", "vav-tav-ending"]
+        },
+        "consecutive": {
+          "description": "True for a vav that flips the tense of the verb after it (vav consecutive): וַ־ in וַתִּתֵּן, וְ־ in וְאָהַבְתָּ. Only on conjunctions.",
+          "const": true
         },
         "language": {
           "description": "Language of the part when it isn't Hebrew; left out for Hebrew. Mark a part only when its form belongs to the other language: prefixes shared by Hebrew and Aramaic (וְ־, בְּ־, לְ־) follow the language of the surrounding text. E.g. רַבָּה (great), דְּ־ (of) and the ending ־ָא (the) are Aramaic.",
@@ -243,6 +247,11 @@
           "then": {
             "properties": { "person": false, "gender": false, "number": false }
           }
+        },
+        {
+          "description": "Only conjunctions are consecutive.",
+          "if": { "properties": { "pos": { "const": "conjunction" } } },
+          "else": { "properties": { "consecutive": false } }
         },
         {
           "description": "Only nouns have a pattern.",

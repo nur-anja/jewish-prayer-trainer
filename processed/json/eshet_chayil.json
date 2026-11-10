@@ -497,11 +497,12 @@
                     {
                       "hebrew": "וַ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "תַּעַשׂ",
-                      "meaning": "she worked",
+                      "meaning": "she will work",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -708,11 +709,12 @@
                     {
                       "hebrew": "וַ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "תָּקָם",
-                      "meaning": "she rose",
+                      "meaning": "she will rise",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -768,11 +770,12 @@
                     {
                       "hebrew": "וַ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "תִּתֵּן",
-                      "meaning": "she gave",
+                      "meaning": "she will give",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -924,11 +927,12 @@
                     {
                       "hebrew": "וַ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "תִּקַּח",
-                      "meaning": "she acquired",
+                      "meaning": "she will acquire",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -1114,11 +1118,12 @@
                     {
                       "hebrew": "וַ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "תְּאַמֵּץ",
-                      "meaning": "she strengthened",
+                      "meaning": "she will strengthen",
                       "pos": "verb",
                       "binyan": "piel",
                       "form": "future",

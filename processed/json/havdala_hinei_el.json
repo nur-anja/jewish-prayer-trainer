@@ -214,11 +214,12 @@
                     {
                       "hebrew": "וַ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "יְהִי",
-                      "meaning": "He has become",
+                      "meaning": "He will be",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -285,11 +286,12 @@
                     {
                       "hebrew": "וּ־",
                       "meaning": "and",
-                      "pos": "conjunction"
+                      "pos": "conjunction",
+                      "consecutive": true
                     },
                     {
                       "hebrew": "שְׁאַבְתֶּם",
-                      "meaning": "you shall draw",
+                      "meaning": "you drew",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
