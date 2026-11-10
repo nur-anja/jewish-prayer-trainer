@@ -158,8 +158,7 @@
                   "parts": [
                     {
                       "hebrew": "בָּטַח",
-                      "meaning": "trusts",
-                      "literal": "trusted",
+                      "meaning": "trusted",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -299,8 +298,7 @@
                   "parts": [
                     {
                       "hebrew": "גָּמְלָה",
-                      "meaning": "she renders",
-                      "literal": "she rendered",
+                      "meaning": "she rendered",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -441,8 +439,7 @@
                   "parts": [
                     {
                       "hebrew": "דָּרְשָׁה",
-                      "meaning": "she seeks out",
-                      "literal": "she sought out",
+                      "meaning": "she sought out",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -504,8 +501,7 @@
                     },
                     {
                       "hebrew": "תַּעַשׂ",
-                      "meaning": "she works",
-                      "literal": "she worked",
+                      "meaning": "she worked",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -578,8 +574,7 @@
                   "parts": [
                     {
                       "hebrew": "הָיְתָה",
-                      "meaning": "she is",
-                      "literal": "she was",
+                      "meaning": "she was",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -659,8 +654,7 @@
                   "parts": [
                     {
                       "hebrew": "תָּבִיא",
-                      "meaning": "she brings",
-                      "literal": "she will bring",
+                      "meaning": "she will bring",
                       "pos": "verb",
                       "binyan": "hifil",
                       "form": "future",
@@ -718,8 +712,7 @@
                     },
                     {
                       "hebrew": "תָּקָם",
-                      "meaning": "she rises",
-                      "literal": "she rose",
+                      "meaning": "she rose",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -779,8 +772,7 @@
                     },
                     {
                       "hebrew": "תִּתֵּן",
-                      "meaning": "she gives",
-                      "literal": "she gave",
+                      "meaning": "she gave",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -899,8 +891,7 @@
                   "parts": [
                     {
                       "hebrew": "זָמְמָה",
-                      "meaning": "she considers",
-                      "literal": "she considered",
+                      "meaning": "she considered",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -937,8 +928,7 @@
                     },
                     {
                       "hebrew": "תִּקַּח",
-                      "meaning": "she acquires",
-                      "literal": "she acquired",
+                      "meaning": "she acquired",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
@@ -1013,8 +1003,7 @@
                   "parts": [
                     {
                       "hebrew": "נָטְעָה",
-                      "meaning": "she plants",
-                      "literal": "she planted",
+                      "meaning": "she planted",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -1058,8 +1047,7 @@
                   "parts": [
                     {
                       "hebrew": "חָגְרָה",
-                      "meaning": "she girds",
-                      "literal": "she girded",
+                      "meaning": "she girded",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -1130,8 +1118,7 @@
                     },
                     {
                       "hebrew": "תְּאַמֵּץ",
-                      "meaning": "she strengthens",
-                      "literal": "she strengthened",
+                      "meaning": "she strengthened",
                       "pos": "verb",
                       "binyan": "piel",
                       "form": "future",

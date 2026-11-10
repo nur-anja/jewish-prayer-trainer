@@ -135,12 +135,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
-          "type": "string",
-          "minLength": 1
-        },
-        "literal": {
-          "description": "The literal meaning of the part, given only where its meaning departs from it; see the word's literal.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning follows a traditional translation: תִּתֵּן in וַתִּתֵּן is \"she gave\" although the word's meaning is \"and she gives\". A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
           "type": "string",
           "minLength": 1
         },
@@ -169,7 +164,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
-          "description": "After a vav that flips the tense, the verb keeps its written form, past or future, and its meaning shows the flipped tense: וַיְהִי (and He became) is future, וּשְׁאַבְתֶּם (and you shall draw) is past. When the traditional translation uses another tense, such as the present in a timeless description, the meaning follows the translation and literal gives the tense of the form, flipped after such a vav: וַתִּתֵּן (and she gives) is future, with the literal meaning \"and she gave\". Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
+          "description": "After a vav that flips the tense, the verb keeps its written form, past or future, and its meaning shows the flipped tense: וַיְהִי (and He became) is future, וּשְׁאַבְתֶּם (and you shall draw) is past. When the traditional translation uses another tense, such as the present in a timeless description, the word's meaning follows the translation and its literal gives the tense of the form, flipped after such a vav; the part's meaning is always literal: וַתִּתֵּן (and she gives) is future, with the literal meaning \"and she gave\", and its part תִּתֵּן means \"she gave\". Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
           "enum": [
             "past",
             "future",
