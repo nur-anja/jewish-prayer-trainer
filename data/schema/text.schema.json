@@ -54,7 +54,7 @@
       "required": ["hebrew", "translation", "clauses"],
       "properties": {
         "hebrew": {
-          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃.",
+          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃. When the source has no punctuation, a verse from the Tanakh ends with ׃ and has a comma between its clauses, and nowhere else.",
           "type": "string",
           "minLength": 1
         },
