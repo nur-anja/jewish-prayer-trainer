@@ -562,11 +562,11 @@
         },
         {
           "hebrew": "הָיְתָה כָּאֳנִיּוֹת סוֹחֵר, מִמֶּרְחָק תָּבִיא לַחְמָהּ׃",
-          "translation": "She is like the merchant ships; from afar she brings her bread.",
+          "translation": "She is like merchant ships; from afar she brings her bread.",
           "clauses": [
             {
               "hebrew": "הָיְתָה כָּאֳנִיּוֹת סוֹחֵר",
-              "translation": "She is like the merchant ships",
+              "translation": "She is like merchant ships",
               "words": [
                 {
                   "hebrew": "הָיְתָה",
@@ -588,7 +588,7 @@
                 },
                 {
                   "hebrew": "כָּאֳנִיּוֹת",
-                  "meaning": "like the ships of",
+                  "meaning": "like ships of",
                   "parts": [
                     {
                       "hebrew": "כָּ־",
