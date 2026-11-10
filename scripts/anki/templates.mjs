@@ -5,6 +5,7 @@
 //                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
 //                      back:  the word, then the same as Recognize
+// The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning.
 // The Context field holds the clause the word is in (clause.hebrew), not the whole line, and LineTranslation
 // holds the clause's translation (clause.translation); the fields kept their names.
 //   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line

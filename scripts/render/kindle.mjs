@@ -7,7 +7,7 @@
 //   3. Breakdown, starting on a new page. For every section, its title (if it has one), then for every line:
 //        - header: the Hebrew line (bold) with its translation (italic) below it
 //        - a card per word, never split across pages:
-//            **word** (right)                 meaning (left)
+//            **word** (right)                 meaning (left), followed by "(lit. ...)" when it has one
 //            one "**part** - meaning *(label)*" per part; the label follows GRAMMAR LABELS in common.mjs
 //            Root **ר-ו-ט** - root meaning
 //            one "**word** - meaning" per related word from roots.json
@@ -18,7 +18,7 @@
 // value with no readable name in common.mjs (e.g. one newly added to the schema).
 
 import { join } from "node:path";
-import { escape, gloss, htmlPage, lineWords, partGloss, ROOT, wordRoot } from "./common.mjs";
+import { escape, gloss, htmlPage, lineWords, meaningText, partGloss, ROOT, wordRoot } from "./common.mjs";
 
 // ---------------------------------------------------------------------------------------------
 // HTML
@@ -77,7 +77,7 @@ function wordCard(word, roots, file) {
   const related = root?.related ?? [];
   return (
     `<div class="word">` +
-    `<div class="word-head"><span class="meaning">${escape(word.meaning)}</span>` +
+    `<div class="word-head"><span class="meaning">${escape(meaningText(word))}</span>` +
     `<span class="he" dir="rtl">${escape(word.hebrew)}</span></div>` +
     `<div class="parts">${word.parts.map((p) => `<div>${partGloss(p)}</div>`).join("")}</div>` +
     (root ? `<div class="root">Root <strong>${escape(word.root)}</strong> - ${escape(root.meaning)}</div>` : "") +

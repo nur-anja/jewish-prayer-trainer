@@ -110,8 +110,11 @@ function structuredLabel(part) {
 export const escape = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
+// "meaning (lit. literal)", or just the meaning when the word or part has no literal meaning.
+export const meaningText = ({ meaning, literal }) => (literal ? `${meaning} (lit. ${literal})` : meaning);
+
 // "**hebrew** - meaning", the format of both the word breakdown and the other root words.
-export const gloss = ({ hebrew, meaning }) => `<strong>${escape(hebrew)}</strong> - ${escape(meaning)}`;
+export const gloss = (item) => `<strong>${escape(item.hebrew)}</strong> - ${escape(meaningText(item))}`;
 
 // "**part** - meaning *(label)*", the label left out when it is empty.
 export function partGloss(part) {
