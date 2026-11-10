@@ -791,10 +791,11 @@
                 {
                   "hebrew": "שָׁמוֹר",
                   "meaning": "keep",
+                  "literal": "keeping",
                   "parts": [
                     {
                       "hebrew": "שָׁמוֹר",
-                      "meaning": "keep",
+                      "meaning": "keeping",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "infinitive-absolute"
