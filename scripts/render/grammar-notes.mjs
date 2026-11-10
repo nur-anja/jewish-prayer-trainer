@@ -4,7 +4,7 @@
 // A part gets a link when the JSON says enough to know which note applies:
 //
 //   prefix (preposition, conjunction, article)    Prefix letters
-//     a vav consecutive                            Past tense or Future tense, "And" that flips, by the verb's form
+//     a vav consecutive                            nothing (the verb after it links to its tense)
 //     a preposition prefix with "the" in it        Prefix letters, "The" hiding inside in, to, like
 //   pronoun suffix on a noun                       Possessive endings
 //   pronoun suffix on a preposition                Possessive endings, Same endings on prepositions
@@ -32,8 +32,6 @@ const NOTES = {
   plural: ["plural.md", "Plural forms"],
   past: ["past-tense.md", "Past tense"],
   future: ["future-tense.md", "Future tense"],
-  flipToFuture: ["past-tense.md#and-that-flips-to-the-future", "Past tense"],
-  flipToPast: ["future-tense.md#and-that-flips-to-the-past", "Future tense"],
   participle: ["participle.md", "Participle"],
   "mem-prefix": ["nouns.md#מ-prefix", "Nouns built from roots"],
   "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
@@ -49,9 +47,7 @@ export function grammarNotes(parts, i) {
   const isPrefix = part.hebrew.endsWith("־") && i < parts.length - 1;
   const keys = [];
 
-  if (part.consecutive) {
-    keys.push(parts[i + 1]?.form === "past" ? "flipToFuture" : "flipToPast");
-  } else if (isPrefix && ["preposition", "conjunction", "article"].includes(part.pos)) {
+  if (isPrefix && !part.consecutive && ["preposition", "conjunction", "article"].includes(part.pos)) {
     keys.push(part.pos === "preposition" && /\bthe\b/i.test(part.meaning) ? "hiddenThe" : "prefix");
   }
   if (part.pos === "pronoun-suffix" && before?.pos === "noun") keys.push("possessive");
