@@ -102,12 +102,12 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "Meaning of the word in this context, following the traditional translation of the line.",
+          "description": "Meaning of the word in this context.",
           "type": "string",
           "minLength": 1
         },
         "literal": {
-          "description": "The literal meaning, given only where the meaning departs from it: a verb whose traditional translation uses another tense than its form, or an idiom. Outputs show it after the meaning, as in: and she gives (lit. and she gave). E.g. וַתִּתֵּן (and she gives) has the literal meaning \"and she gave\", בְּחֵפֶץ (willingly) has \"with desire\".",
+          "description": "The literal meaning, given only where the meaning departs from it: a verb whose traditional translation uses another tense than its form, or an idiom.",
           "type": "string",
           "minLength": 1
         },
@@ -135,7 +135,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning follows a traditional translation: תִּתֵּן in וַתִּתֵּן is \"she will give\", its written future, although the word's meaning is \"and she gives\". A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
           "type": "string",
           "minLength": 1
         },
@@ -188,7 +188,7 @@
           "enum": ["mem-prefix", "tav-prefix", "vav-tav-ending"]
         },
         "consecutive": {
-          "description": "True for a vav that flips the tense of the verb after it (vav consecutive): וַ־ in וַתִּתֵּן, וְ־ in וְאָהַבְתָּ. Only on conjunctions.",
+          "description": "True for a vav that flips the tense of the verb after it (vav consecutive). Only on conjunctions.",
           "const": true
         },
         "language": {
