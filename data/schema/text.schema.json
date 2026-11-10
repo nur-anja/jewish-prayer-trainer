@@ -112,7 +112,7 @@
           "minLength": 1
         },
         "parts": {
-          "description": "Prefixes, base word and suffixes, in order, each with its meaning in context. A single entry if the word is not split. Keep the ל of an infinitive with its verb: לְאַמֵּץ (to strengthen) is one infinitive-construct part. A preposition with a merged article is one preposition part with \"the\" in its meaning: לַ־ (for the). A plural noun with a pronoun suffix splits into its construct plural and the full plural suffix, so the shared letters appear in both: אֱלֹהֵינוּ (our God) is אֱלֹהֵי (God of) and ־ֵינוּ (our).",
+          "description": "Prefixes, base word and suffixes, in order, each with its meaning in context. A single entry if the word is not split. Keep the ל of an infinitive with its verb: לְאַמֵּץ (to strengthen) is one infinitive-construct part. A preposition with a merged article is one preposition part with \"the\" in its meaning: לַ־ (for the). A plural noun with a pronoun suffix splits into its construct plural and the full plural suffix. The shared letters (if present) appear in both: אֱלֹהֵינוּ (our God) is אֱלֹהֵי (God of) and ־ֵינוּ (our).",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/part" }
