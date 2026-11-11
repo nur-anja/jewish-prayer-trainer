@@ -60,7 +60,9 @@ Root cards (a root, then its meaning, related words and the words in the text wi
 
 ### Card order
 
-New cards are numbered in text order: for each line, for each clause its new words and then the clause's cards, then the line's cards. Anki introduces them in the order they appear in the prayer.
+New cards are numbered in text order: for each line, for each clause its new words and then the clause's cards, then the line's cards. A note's cards share one number.
+
+Anki's default "New card sort order", "Card type, then order gathered", shows every note's first card (Recognize, Translate) before any second card (Produce, Next clause, Next line), so the Next line cards came only after all the words and translations of the prayer. The decks therefore use their own options preset, "Prayer Trainer": Anki's defaults except the sort order "Order gathered", which follows the numbers. Anki takes the preset from the file only when "Include deck presets" is ticked in the import dialog; without it, the decks keep the preset they have (Default for a first import) and the sort order can be changed by hand. The preset id is fixed, so re-imports don't add a second preset, and a preset already in the collection is kept as the user left it. "Bury new siblings" stays on, as in Anki's defaults: a note's second card comes the day after its first.
 
 ### Font
 

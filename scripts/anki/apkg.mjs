@@ -46,21 +46,34 @@ CREATE INDEX ix_notes_csum on notes (csum);
 const FIELD_SEPARATOR = "\x1f";
 const DEFAULT_DECK = { id: 1, name: "Default" };
 
-// The default options group every deck uses: Anki's own defaults.
+// Options presets. "Default" (id 1) is Anki's own defaults, for the Default deck. The prayer decks use
+// "Prayer Trainer": Anki's defaults except that new cards are shown in the order gathered, which is the
+// order of their "due" numbers (text order), instead of all first cards of every note before any second
+// card. The preset id is fixed, so a re-import finds the preset already there instead of adding another.
+// Anki reads presets from the file only when "Include deck presets" is ticked in its import dialog. It then
+// adds a preset whose id the collection doesn't have yet, keeps one it already has (the user's changes to
+// it stay; changes made here don't reach it), and sets each imported deck to its preset from the file.
+const PRAYER_PRESET_ID = 1700000000001;
+const NEW_CARD_SORT_ORDER_GATHERED = 1;
+const ankiDefaults = {
+  mod: 0,
+  usn: 0,
+  maxTaken: 60,
+  autoplay: true,
+  timer: 0,
+  replayq: true,
+  dyn: false,
+  new: { bury: true, delays: [1, 10], initialFactor: 2500, ints: [1, 4, 7], order: 1, perDay: 20, separate: true },
+  lapse: { delays: [10], leechAction: 1, leechFails: 8, minInt: 1, mult: 0 },
+  rev: { bury: true, ease4: 1.3, fuzz: 0.05, ivlFct: 1, maxIvl: 36500, minSpace: 1, perDay: 200 },
+};
 const DECK_OPTIONS = {
-  1: {
-    id: 1,
-    name: "Default",
-    mod: 0,
-    usn: 0,
-    maxTaken: 60,
-    autoplay: true,
-    timer: 0,
-    replayq: true,
-    dyn: false,
-    new: { bury: true, delays: [1, 10], initialFactor: 2500, ints: [1, 4, 7], order: 1, perDay: 20, separate: true },
-    lapse: { delays: [10], leechAction: 1, leechFails: 8, minInt: 1, mult: 0 },
-    rev: { bury: true, ease4: 1.3, fuzz: 0.05, ivlFct: 1, maxIvl: 36500, minSpace: 1, perDay: 200 },
+  1: { id: 1, name: "Default", ...ankiDefaults },
+  [PRAYER_PRESET_ID]: {
+    id: PRAYER_PRESET_ID,
+    name: "Prayer Trainer",
+    ...ankiDefaults,
+    newSortOrder: NEW_CARD_SORT_ORDER_GATHERED,
   },
 };
 
@@ -107,7 +120,7 @@ function noteTypeJson({ id, name, fields, templates, css }, mod) {
   };
 }
 
-function deckJson({ id, name }, mod) {
+function deckJson({ id, name }, mod, conf) {
   return {
     id,
     name,
@@ -115,7 +128,7 @@ function deckJson({ id, name }, mod) {
     usn: -1,
     desc: "",
     dyn: 0,
-    conf: 1,
+    conf,
     collapsed: false,
     extendNew: 0,
     extendRev: 50,
@@ -134,7 +147,9 @@ export async function writeApkg(path, { noteTypes, decks, notes, media }) {
   const nowMs = Date.now();
   const now = Math.floor(nowMs / 1000);
   const models = Object.fromEntries(noteTypes.map((t) => [t.id, noteTypeJson(t, now)]));
-  const allDecks = Object.fromEntries([DEFAULT_DECK, ...decks].map((d) => [d.id, deckJson(d, now)]));
+  const allDecks = Object.fromEntries(
+    [[DEFAULT_DECK, 1], ...decks.map((d) => [d, PRAYER_PRESET_ID])].map(([d, conf]) => [d.id, deckJson(d, now, conf)]),
+  );
   const conf = {
     activeDecks: [1],
     curDeck: 1,
