@@ -832,7 +832,8 @@
                     {
                       "hebrew": "מִ־",
                       "meaning": "from",
-                      "pos": "preposition"
+                      "pos": "preposition",
+                      "assimilated": "nun"
                     },
                     {
                       "hebrew": "בּוֹא",
@@ -1050,7 +1051,8 @@
                     {
                       "hebrew": "מִ־",
                       "meaning": "from",
-                      "pos": "preposition"
+                      "pos": "preposition",
+                      "assimilated": "nun"
                     },
                     {
                       "hebrew": "כָּל",
