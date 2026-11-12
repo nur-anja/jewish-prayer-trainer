@@ -2,7 +2,7 @@
 
 Most Hebrew words are built from a small set of prefixes, suffixes and templates. Learning them lets you look at a word and see how it's built from its root.
 
-How these notes are written: [conventions](../meta/conventions.md).
+How these notes are written: [conventions](conventions.md).
 
 ## Topics
 

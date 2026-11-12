@@ -21,18 +21,18 @@ So when a future verb shows only two root letters and the first of them has a da
 
 ## מ for "from"
 
-The [prefix](prefix-letters.md) מ for "from" is short for the word מִן, and its נ merges into the next letter the same way:
+The מ for "from" in [prefix letters](prefix-letters.md) is a short form of a separate word for "from" that ends in נ, and that נ merges into the next letter the same way:
 
-| Prefix | Meaning | Example | Note | Translation |
-|---|---|---|---|---|
-| מִ־ | from | <b style="color:red">מִ</b>מֶּרְחָק | dagesh in the מ replaces the נ | from afar (from distance) |
-| מִ־ | from | <b style="color:red">מִ</b>כָּל | dagesh in the כ replaces the נ | from all of |
+| Spelled out | Written | Translation |
+|---|---|---|
+| <b style="color:red">מִן</b> מֶרְחָק | <b style="color:red">מִ</b>מֶּרְחָק | from distance (from afar) |
+| <b style="color:red">מִן</b> כָּל | <b style="color:red">מִ</b>כָּל | from all of |
 
-Before א, ה, ח, ע and ר, which can't take a dagesh, the prefix becomes מֵ־ instead: the longer vowel makes up for the missing doubling.
+The dagesh in the letter after the מ replaces the נ. Before א, ה, ח, ע and ר, which can't take a dagesh, the prefix becomes מֵ־ instead: the longer vowel makes up for the missing doubling.
 
 ## Watch out
 
-A dagesh doesn't always mean a missing נ. In the same word, one dagesh can come from something else:
+A dagesh in the same word can come from something other than a missing נ:
 
 | Example | Note | Translation |
 |---|---|---|

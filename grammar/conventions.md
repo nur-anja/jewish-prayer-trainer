@@ -1,6 +1,6 @@
 # Conventions for the grammar notes
 
-How the notes in [grammar/](../grammar/README.md) are written, so new notes look and read the same as the existing ones.
+How the notes in [grammar/](README.md) are written, so new notes look and read the same as the existing ones.
 
 ## What gets a section
 
