@@ -13,6 +13,8 @@
 //   noun or adjective in construct                 Construct forms
 //   noun or adjective in the plural                Plural forms (as well as Construct forms if both)
 //   noun with a pattern                            Nouns built from roots, the pattern's section
+//   part with an assimilated nun                   Letter assimilation: מ for "from" on a preposition,
+//                                                    Roots starting with נ otherwise
 //   verb, past / future                            Past tense / Future tense
 //   verb, present / participle / passive participle  Participle
 //
@@ -35,6 +37,8 @@ const NOTES = {
   flipToFuture: ["past-tense.md#and-that-flips-to-the-future", "Past tense"],
   flipToPast: ["future-tense.md#and-that-flips-to-the-past", "Future tense"],
   participle: ["participle.md", "Participle"],
+  nunFrom: ["assimilation.md#מ-for-from", "Letter assimilation"],
+  nunRoot: ["assimilation.md#roots-starting-with-נ", "Letter assimilation"],
   "mem-prefix": ["nouns.md#מ-prefix", "Nouns built from roots"],
   "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
   "vav-tav-ending": ["nouns.md#ות-ending-for-abstract-nouns", "Nouns built from roots"],
@@ -60,6 +64,7 @@ export function grammarNotes(parts, i) {
     keys.push(before.form === "infinitive-construct" ? "onInfinitive" : "object");
   }
   if (part.pattern) keys.push(part.pattern);
+  if (part.assimilated === "nun") keys.push(part.pos === "preposition" ? "nunFrom" : "nunRoot");
   if (["noun", "adjective"].includes(part.pos)) {
     if (part.construct) keys.push("construct");
     if (part.number === "pl") keys.push("plural");

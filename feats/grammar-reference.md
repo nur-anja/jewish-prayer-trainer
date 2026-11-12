@@ -22,7 +22,7 @@ Words and parts have no free-text notes field: it was dropped from the schema. B
 
 Done for nouns: a noun part has a `pattern` (mem-prefix, tav-prefix or vav-tav-ending) when it is built with one of the templates in [nouns](../grammar/nouns.md), and the Anki cards link it to that template's section. The schema says how to choose, and the three texts were filled in by hand. Only nouns have it for now; verb patterns (such as binyan templates) could be added the same way once there is a grammar note for them.
 
-Patterns are limited to what a beginner can see in the letters (the rule is in [conventions](../meta/conventions.md#what-gets-a-section)). Two noun templates defined by vowels were tried and dropped for now; see [Vowel patterns for nouns](#vowel-patterns-for-nouns).
+Patterns are limited to what a beginner can see in the letters (the rule is in [conventions](../grammar/conventions.md#what-gets-a-section)). Two noun templates defined by vowels were tried and dropped for now; see [Vowel patterns for nouns](#vowel-patterns-for-nouns).
 
 ## Next
 
@@ -31,7 +31,7 @@ Topics that pass the letters rule, in order of how often they come up in the thr
 | Order | Topic | Where | Letters to spot | In the texts |
 |---|---|---|---|---|
 | 1 | Infinitive with ל | new note, linked from infinitive-construct verbs | ל before the verb, or בּ or מ when it says "when" or "from" | 9 infinitives |
-| 2 | Weak roots | new note, extends step 4 of the grammar README | a root letter (נ, י, ו, ה) that drops out | many words |
+| 2 | Weak roots | new note, extends step 4 of the grammar README | a root letter (נ, י, ו, ה) that drops out | many words; the נ that merges into the next letter is done in [letter assimilation](../grammar/assimilation.md), linked from the `assimilated` field |
 | 3 | Hif'il | new binyan note, linked from the binyan | ה prefix and י before the last root letter | 5 verbs, incl. Havdala's "who separates" |
 | 4 | ון ending | section in nouns, new pattern value | ון at the end | 2 nouns (complete rest, joy) |
 
@@ -48,4 +48,4 @@ Once the letter patterns are learned, expand the noun patterns (the notes and th
 | Kubutz or shuruk before the last root letter, then a ה (the ה alone only says "feminine") | salvation, redemption, might, holiness | a section of the nouns note and a pattern value on six nouns in Havdala and Menucha V'simcha; dropped, see the git history of grammar/nouns.md |
 | Hiriq, dagesh in the middle root letter, ו before the last | Kiddush, learning, telling | written in commit 9b31d02 (section with a Watch out on passive participles), reverted in 57b4567 |
 
-Decide first how they fit the rule in [conventions](../meta/conventions.md#what-gets-a-section): relax it and add them as sections of the nouns note, or keep it and put them in a separate note for learners past the basics, linked from the nouns note's Watch out.
+Decide first how they fit the rule in [conventions](../grammar/conventions.md#what-gets-a-section): relax it and add them as sections of the nouns note, or keep it and put them in a separate note for learners past the basics, linked from the nouns note's Watch out.

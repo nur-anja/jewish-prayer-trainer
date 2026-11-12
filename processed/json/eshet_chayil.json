@@ -104,7 +104,8 @@
                     {
                       "hebrew": "מִ־",
                       "meaning": "beyond",
-                      "pos": "preposition"
+                      "pos": "preposition",
+                      "assimilated": "nun"
                     },
                     {
                       "hebrew": "פְּנִינִים",
@@ -635,7 +636,8 @@
                     {
                       "hebrew": "מִ־",
                       "meaning": "from",
-                      "pos": "preposition"
+                      "pos": "preposition",
+                      "assimilated": "nun"
                     },
                     {
                       "hebrew": "מֶרְחָק",
@@ -781,7 +783,8 @@
                       "form": "future",
                       "person": 3,
                       "gender": "fem",
-                      "number": "sg"
+                      "number": "sg",
+                      "assimilated": "nun"
                     }
                   ],
                   "root": "נ-ת-ן"
@@ -964,7 +967,8 @@
                     {
                       "hebrew": "מִ־",
                       "meaning": "from",
-                      "pos": "preposition"
+                      "pos": "preposition",
+                      "assimilated": "nun"
                     },
                     {
                       "hebrew": "פְּרִי",

@@ -184,8 +184,12 @@
           "const": true
         },
         "pattern": {
-          "description": "The template from grammar/nouns.md the noun is built with, when it has one; only on nouns. mem-prefix: a מ that isn't a root letter, e.g. מִצְוָה (commandment), מָרוֹם (height). tav-prefix: a ת that isn't a root letter, e.g. תְּפִלָּה (prayer). vav-tav-ending: a וּת ending that isn't a root letter, e.g. מַלְכוּת (kingdom). A noun with a מ or ת prefix takes that pattern even if it also has an ending, e.g. מְנוּחָה (rest) is mem-prefix. Left out for nouns that are only a root with vowels, such as דֶּרֶךְ or קִדּוּשׁ, or have only a plain feminine ending, such as שִׂמְחָה or יְשׁוּעָה: a pattern is marked only by added letters, never by vowels alone (see meta/conventions.md).",
+          "description": "The template from grammar/nouns.md the noun is built with, when it has one; only on nouns. mem-prefix: a מ that isn't a root letter, e.g. מִצְוָה (commandment), מָרוֹם (height). tav-prefix: a ת that isn't a root letter, e.g. תְּפִלָּה (prayer). vav-tav-ending: a וּת ending that isn't a root letter, e.g. מַלְכוּת (kingdom). A noun with a מ or ת prefix takes that pattern even if it also has an ending, e.g. מְנוּחָה (rest) is mem-prefix. Left out for nouns that are only a root with vowels, such as דֶּרֶךְ or קִדּוּשׁ, or have only a plain feminine ending, such as שִׂמְחָה or יְשׁוּעָה: a pattern is marked only by added letters, never by vowels alone (see grammar/conventions.md).",
           "enum": ["mem-prefix", "tav-prefix", "vav-tav-ending"]
+        },
+        "assimilated": {
+          "description": "A letter of the part that merged into the next letter (hidamut) and is no longer written; see grammar/assimilation.md. nun: a נ with no vowel of its own, of the root or of the prefix מִ־ or מֵ־ (short for מִן), dropped out and the next letter took a dagesh, or a longer vowel before a letter that can't take a dagesh. Set on the part that lost the letter, whatever its part of speech.",
+          "enum": ["nun"]
         },
         "consecutive": {
           "description": "True for a vav that flips the tense of the verb after it (vav consecutive). Only on conjunctions.",

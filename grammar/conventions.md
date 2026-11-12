@@ -1,6 +1,6 @@
 # Conventions for the grammar notes
 
-How the notes in [grammar/](../grammar/README.md) are written, so new notes look and read the same as the existing ones.
+How the notes in [grammar/](README.md) are written, so new notes look and read the same as the existing ones.
 
 ## What gets a section
 
@@ -11,7 +11,7 @@ How the notes in [grammar/](../grammar/README.md) are written, so new notes look
 ## File and section structure
 
 - Each file has a title, then a short intro, then sections.
-- Every section (and the intro, if a table follows it) starts with one sentence stating the pattern. That sentence ends with a colon and is followed directly by its table.
+- Every section (and the intro, if a table follows it) starts with one or two short sentences stating the pattern. The last of them ends with a colon and is followed directly by its table.
 - Further explanation goes after the table, not before it.
 - Pitfalls (words that look like the pattern but aren't, or forms that can mean two things) go in a section called "Watch out". It is always the last section of the file.
 - Link to related notes inline, with the topic name as the link text.
@@ -39,7 +39,6 @@ Columns appear in this order, using only the ones a table needs:
 ## Hebrew
 
 - Example words and phrases have full nikkud. Roots are written without nikkud.
-- In prose, Hebrew appears only as single letters or short affixes (such as ת or נוּ). Whole Hebrew words go in tables.
 - Letters are written as Hebrew letters, never by their English names.
 - Endings and prefixes aren't transliterated. Refer to them by the Hebrew letters or by their meaning (such as "the ending for 'our'").
 - Vowel signs are called by their English names: patach, holam, kubutz, shuruk, dagesh and so on.

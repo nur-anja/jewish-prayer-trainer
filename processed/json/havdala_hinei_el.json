@@ -342,7 +342,8 @@
                     {
                       "hebrew": "מִ־",
                       "meaning": "from",
-                      "pos": "preposition"
+                      "pos": "preposition",
+                      "assimilated": "nun"
                     },
                     {
                       "hebrew": "מַעַיְנֵי",
@@ -1114,7 +1115,8 @@
                       "binyan": "paal",
                       "form": "future",
                       "person": 1,
-                      "number": "sg"
+                      "number": "sg",
+                      "assimilated": "nun"
                     }
                   ],
                   "root": "נ-ש-א"
