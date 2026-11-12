@@ -188,7 +188,7 @@
           "enum": ["mem-prefix", "tav-prefix", "vav-tav-ending"]
         },
         "assimilated": {
-          "description": "A letter of the part that merged into the next letter (hidamut) and is no longer written; see grammar/assimilation.md. nun: a נ with no vowel of its own, of the root or of the prefix מִ־ or מֵ־ (short for מִן), dropped out and the next letter took a dagesh, or a longer vowel before a letter that can't take a dagesh. lamed: the first ל of the root ל-ק-ח, which merges into the next letter the same way. Set on the part that lost the letter, whatever its part of speech.",
+          "description": "A letter of the part that merged into the next letter (hidamut) and is no longer written; see grammar/assimilation.md. nun: a נ with no vowel of its own, of the root or of the prefix מִ־ or מֵ־ (short for מִן), dropped out and the next letter took a dagesh, or a longer vowel before a letter that can't take a dagesh. lamed: the first ל of the root ל-ק-ח, which merged into the next letter, which took a dagesh. Set on the part that lost the letter, whatever its part of speech.",
           "enum": ["nun", "lamed"]
         },
         "consecutive": {

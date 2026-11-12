@@ -32,7 +32,7 @@ The dagesh in the letter after the מ replaces the נ. Before א, ה, ח, ע and
 
 ## The root לקח
 
-The root for "take" starts with ל, but in the future tense its ל merges into the next letter as if it were a נ:
+The root for "take" starts with ל, but in the future tense its ל merges into the next letter:
 
 | Example | Root | Note | Translation |
 |---|---|---|---|
