@@ -17,7 +17,7 @@ In the [future tense](future-tense.md), the prefix comes right before the first 
 | וַתִּתֵּן | נתן | dagesh in the second ת replaces the נ | and she gave |
 | אֶשָּׂא | נשא | dagesh in the ש replaces the נ | I will raise |
 
-So when a future verb shows only two root letters and the first of them has a dagesh, try נ as the missing first letter. It is the usual answer, but not the only one: a few roots with another first letter do the same.
+So when a future verb shows only two root letters and the first of them has a dagesh, try נ as the missing first letter. It is the usual answer, but not the only one: a few roots with another first letter do the same, the most common being [the root לקח](#the-root-לקח).
 
 ## מ for "from"
 
@@ -29,6 +29,17 @@ The מ for "from" in [prefix letters](prefix-letters.md) is short for the word �
 | <b style="color:red">מִן</b> כָּל | <b style="color:red">מִ</b>כָּל | from all of |
 
 The dagesh in the letter after the מ replaces the נ. Before א, ה, ח, ע and ר, which can't take a dagesh, the prefix becomes מֵ־ instead: the longer vowel makes up for the missing doubling.
+
+## The root לקח
+
+The root for "take" starts with ל, but in the future tense its ל merges into the next letter:
+
+| Example | Root | Note | Translation |
+|---|---|---|---|
+| וַתִּקָּחֵהוּ | לקח | dagesh in the ק replaces the ל | and she acquired it |
+| יִקַּח | לקח | dagesh in the ק replaces the ל | he will take |
+
+It is the only root where ל does this; other roots starting with ל keep it.
 
 ## Watch out
 

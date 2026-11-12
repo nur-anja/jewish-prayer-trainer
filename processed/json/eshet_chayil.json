@@ -941,7 +941,8 @@
                       "form": "future",
                       "person": 3,
                       "gender": "fem",
-                      "number": "sg"
+                      "number": "sg",
+                      "assimilated": "lamed"
                     },
                     {
                       "hebrew": "־ֵהוּ",
