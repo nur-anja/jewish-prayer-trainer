@@ -39,7 +39,6 @@ Columns appear in this order, using only the ones a table needs:
 ## Hebrew
 
 - Example words and phrases have full nikkud. Roots are written without nikkud.
-- In prose, Hebrew appears only as single letters or short affixes (such as ת or נוּ). Whole Hebrew words go in tables.
 - Letters are written as Hebrew letters, never by their English names.
 - Endings and prefixes aren't transliterated. Refer to them by the Hebrew letters or by their meaning (such as "the ending for 'our'").
 - Vowel signs are called by their English names: patach, holam, kubutz, shuruk, dagesh and so on.

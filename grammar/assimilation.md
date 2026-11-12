@@ -21,7 +21,7 @@ So when a future verb shows only two root letters and the first of them has a da
 
 ## מ for "from"
 
-The מ for "from" in [prefix letters](prefix-letters.md) is a short form of a separate word for "from" that ends in נ, and that נ merges into the next letter the same way:
+The מ for "from" in [prefix letters](prefix-letters.md) is short for the word מִן, and its נ merges into the next letter the same way:
 
 | Spelled out | Written | Translation |
 |---|---|---|
