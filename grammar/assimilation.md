@@ -17,7 +17,7 @@ In the [future tense](future-tense.md), the prefix comes right before the first 
 | וַתִּתֵּן | נתן | dagesh in the second ת replaces the נ | and she gave |
 | אֶשָּׂא | נשא | dagesh in the ש replaces the נ | I will raise |
 
-So when a future verb shows only two root letters and the first of them has a dagesh, try נ as the missing first letter.
+So when a future verb shows only two root letters and the first of them has a dagesh, try נ as the missing first letter. It is the usual answer, but not the only one: a few roots with another first letter do the same.
 
 ## מ for "from"
 
