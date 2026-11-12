@@ -31,7 +31,7 @@ Topics that pass the letters rule, in order of how often they come up in the thr
 | Order | Topic | Where | Letters to spot | In the texts |
 |---|---|---|---|---|
 | 1 | Infinitive with ל | new note, linked from infinitive-construct verbs | ל before the verb, or בּ or מ when it says "when" or "from" | 9 infinitives |
-| 2 | Weak roots | new note, extends step 4 of the grammar README | a root letter (נ, י, ו, ה) that drops out | many words; the נ that merges into the next letter is done in [letter assimilation](../grammar/assimilation.md), linked from the `assimilated` field |
+| 2 | Weak roots | new note, extends step 4 of the grammar README | a root letter (נ, י, ו, ה) that drops out | many words; the נ that merges into the next letter, and the ל of לקח, are done in [letter assimilation](../grammar/assimilation.md), linked from the `assimilated` field |
 | 3 | Hif'il | new binyan note, linked from the binyan | ה prefix and י before the last root letter | 5 verbs, incl. Havdala's "who separates" |
 | 4 | ון ending | section in nouns, new pattern value | ון at the end | 2 nouns (complete rest, joy) |
 

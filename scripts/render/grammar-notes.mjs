@@ -15,6 +15,7 @@
 //   noun with a pattern                            Nouns built from roots, the pattern's section
 //   part with an assimilated nun                   Letter assimilation: מ for "from" on a preposition,
 //                                                    Roots starting with נ otherwise
+//   part with an assimilated lamed                 Letter assimilation, The root לקח
 //   verb, past / future                            Past tense / Future tense
 //   verb, present / participle / passive participle  Participle
 //
@@ -39,6 +40,7 @@ const NOTES = {
   participle: ["participle.md", "Participle"],
   nunFrom: ["assimilation.md#מ-for-from", "Letter assimilation"],
   nunRoot: ["assimilation.md#roots-starting-with-נ", "Letter assimilation"],
+  lamed: ["assimilation.md#the-root-לקח", "Letter assimilation"],
   "mem-prefix": ["nouns.md#מ-prefix", "Nouns built from roots"],
   "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
   "vav-tav-ending": ["nouns.md#ות-ending-for-abstract-nouns", "Nouns built from roots"],
@@ -65,6 +67,7 @@ export function grammarNotes(parts, i) {
   }
   if (part.pattern) keys.push(part.pattern);
   if (part.assimilated === "nun") keys.push(part.pos === "preposition" ? "nunFrom" : "nunRoot");
+  if (part.assimilated === "lamed") keys.push("lamed");
   if (["noun", "adjective"].includes(part.pos)) {
     if (part.construct) keys.push("construct");
     if (part.number === "pl") keys.push("plural");
