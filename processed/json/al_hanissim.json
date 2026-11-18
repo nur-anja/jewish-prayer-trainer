@@ -1,0 +1,331 @@
+{
+  "id": "al_hanissim",
+  "title": "Al Hanissim",
+  "kind": "prose",
+  "sections": [
+    {
+      "lines": [
+        {
+          "hebrew": "עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת, שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה.",
+          "translation": "For the miracles, and for the redemption, and for the mighty deeds, and for the salvations, and for the wars, that You performed for our fathers in those days, at this time.",
+          "clauses": [
+            {
+              "hebrew": "עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת",
+              "translation": "For the miracles, and for the redemption, and for the mighty deeds, and for the salvations, and for the wars",
+              "words": [
+                {
+                  "hebrew": "עַל",
+                  "meaning": "for",
+                  "parts": [
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַנִּסִּים",
+                  "meaning": "the miracles",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "נִסִּים",
+                      "meaning": "miracles",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "נ-ס-ס"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַפֻּרְקָן",
+                  "meaning": "the redemption",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "פֻּרְקָן",
+                      "meaning": "redemption",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "פ-ר-ק"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַגְּבוּרוֹת",
+                  "meaning": "the mighty deeds",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "גְּבוּרוֹת",
+                      "meaning": "mighty deeds",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ג-ב-ר"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַתְּשׁוּעוֹת",
+                  "meaning": "the salvations",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "תְּשׁוּעוֹת",
+                      "meaning": "salvations",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "pattern": "tav-prefix"
+                    }
+                  ],
+                  "root": "י-ש-ע"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַמִּלְחָמוֹת",
+                  "meaning": "the wars",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "מִלְחָמוֹת",
+                      "meaning": "wars",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "pattern": "mem-prefix"
+                    }
+                  ],
+                  "root": "ל-ח-ם"
+                }
+              ]
+            },
+            {
+              "hebrew": "שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה",
+              "translation": "that You performed for our fathers in those days, at this time",
+              "words": [
+                {
+                  "hebrew": "שֶׁעָשִׂיתָ",
+                  "meaning": "that You performed",
+                  "parts": [
+                    {
+                      "hebrew": "שֶׁ־",
+                      "meaning": "that",
+                      "pos": "particle"
+                    },
+                    {
+                      "hebrew": "עָשִׂיתָ",
+                      "meaning": "You did",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ש-ה"
+                },
+                {
+                  "hebrew": "לַאֲבוֹתֵינוּ",
+                  "meaning": "for our fathers",
+                  "parts": [
+                    {
+                      "hebrew": "לַ־",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "אֲבוֹתֵי",
+                      "meaning": "fathers of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֵינוּ",
+                      "meaning": "our",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "א-ב-ה"
+                },
+                {
+                  "hebrew": "בַּיָּמִים",
+                  "meaning": "in the days",
+                  "parts": [
+                    {
+                      "hebrew": "בַּ־",
+                      "meaning": "in the",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "יָמִים",
+                      "meaning": "days",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "י-ו-ם"
+                },
+                {
+                  "hebrew": "הָהֵם",
+                  "meaning": "those",
+                  "parts": [
+                    {
+                      "hebrew": "הָ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "הֵם",
+                      "meaning": "those",
+                      "pos": "pronoun",
+                      "type": "demonstrative",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "בַּזְּמַן",
+                  "meaning": "at the time",
+                  "parts": [
+                    {
+                      "hebrew": "בַּ־",
+                      "meaning": "at the",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "זְמַן",
+                      "meaning": "time",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ז-מ-ן"
+                },
+                {
+                  "hebrew": "הַזֶּה",
+                  "meaning": "this",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "זֶה",
+                      "meaning": "this",
+                      "pos": "pronoun",
+                      "type": "demonstrative",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
