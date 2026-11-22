@@ -11,15 +11,13 @@ Flipping vavs are common in the Torah verses quoted in prayers, and rare in pray
 
 ## On a future form
 
-Before a [future](future-tense.md) form, the flipping ו has a patach, and the tense prefix right after it has a dagesh:
+Before a [future](future-tense.md) form, the flipping ו has a patach, and the tense prefix right after it has a dagesh. Before the א of "I", which can't take a dagesh, the ו has a kamatz instead:
 
 | Prefix | Example | Note | Translation |
 |---|---|---|---|
 | וַ־ | <b style="color:red">וַ</b>יַּעַשׂ | dagesh in the י | and he made |
 | וַ־ | <b style="color:red">וַ</b>נִּצְעַק | dagesh in the נ | and we cried out |
 | וָ־ | <b style="color:red">וָ</b>אֹמַר | kamatz, no dagesh | and I said |
-
-The א of "I" can't take a dagesh, so the ו has a kamatz there instead of a patach.
 
 ## On a past form
 
