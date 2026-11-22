@@ -36,15 +36,16 @@
                 {
                   "hebrew": "הַגֹּאֵל",
                   "meaning": "who redeems",
+                  "literal": "the one redeeming",
                   "parts": [
                     {
                       "hebrew": "הַ־",
-                      "meaning": "who",
+                      "meaning": "the",
                       "pos": "article"
                     },
                     {
                       "hebrew": "גֹּאֵל",
-                      "meaning": "redeems",
+                      "meaning": "redeeming",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "participle",

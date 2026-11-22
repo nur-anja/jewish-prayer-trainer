@@ -135,7 +135,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. The article is always \"the\", also where the word's meaning is a relative clause (\"who…\"). A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
           "type": "string",
           "minLength": 1
         },

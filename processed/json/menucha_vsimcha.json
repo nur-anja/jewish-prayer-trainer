@@ -1723,15 +1723,16 @@
                 {
                   "hebrew": "הַמִּתְעַנְּגִים",
                   "meaning": "those who delight",
+                  "literal": "the ones delighting",
                   "parts": [
                     {
                       "hebrew": "הַ־",
-                      "meaning": "those who",
+                      "meaning": "the",
                       "pos": "article"
                     },
                     {
                       "hebrew": "מִתְעַנְּגִים",
-                      "meaning": "delight",
+                      "meaning": "delighting",
                       "pos": "verb",
                       "binyan": "hitpael",
                       "form": "participle",
