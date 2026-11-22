@@ -365,6 +365,19 @@
       }
     ]
   },
+  "ד-ג-ה": {
+    "meaning": "fish; to multiply like fish",
+    "related": [
+      {
+        "hebrew": "דָּג",
+        "meaning": "fish"
+      },
+      {
+        "hebrew": "דְּגַת הַיָּם",
+        "meaning": "the fish of the sea"
+      }
+    ]
+  },
   "ד-ר-ך": {
     "meaning": "way, path; to tread",
     "related": [
@@ -1466,6 +1479,19 @@
       }
     ]
   },
+  "צ-ח-ק": {
+    "meaning": "to laugh",
+    "related": [
+      {
+        "hebrew": "צְחוֹק",
+        "meaning": "laughter"
+      },
+      {
+        "hebrew": "לִצְחוֹק",
+        "meaning": "to laugh"
+      }
+    ]
+  },
   "צ-מ-ר": {
     "meaning": "wool",
     "related": [
@@ -1519,6 +1545,23 @@
       {
         "hebrew": "מִקְרָא קֹדֶשׁ",
         "meaning": "holy convocation"
+      }
+    ]
+  },
+  "ק-ר-ב": {
+    "meaning": "to come near; midst, inside",
+    "related": [
+      {
+        "hebrew": "קָרְבָּן",
+        "meaning": "offering"
+      },
+      {
+        "hebrew": "קָרוֹב",
+        "meaning": "near"
+      },
+      {
+        "hebrew": "וְקֵרַבְתָּנוּ",
+        "meaning": "and You brought us near"
       }
     ]
   },

@@ -1,0 +1,399 @@
+{
+  "id": "hamalach_hagoel",
+  "title": "Hamalach Hagoel",
+  "kind": "prose",
+  "sections": [
+    {
+      "lines": [
+        {
+          "hebrew": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים, וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק, וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָרֶץ׃",
+          "translation": "May the angel who redeems me from all evil bless the lads, and may my name be called upon them, and the name of my fathers Abraham and Isaac, and may they multiply abundantly in the midst of the land.",
+          "clauses": [
+            {
+              "hebrew": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים",
+              "translation": "May the angel who redeems me from all evil bless the lads",
+              "words": [
+                {
+                  "hebrew": "הַמַּלְאָךְ",
+                  "meaning": "the angel",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "מַלְאָךְ",
+                      "meaning": "angel",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "pattern": "mem-prefix"
+                    }
+                  ],
+                  "root": "ל-א-ך"
+                },
+                {
+                  "hebrew": "הַגֹּאֵל",
+                  "meaning": "who redeems",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "who",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "גֹּאֵל",
+                      "meaning": "redeems",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "participle",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ג-א-ל"
+                },
+                {
+                  "hebrew": "אֹתִי",
+                  "meaning": "me",
+                  "parts": [
+                    {
+                      "hebrew": "אֵת",
+                      "meaning": "(marks the direct object)",
+                      "pos": "particle"
+                    },
+                    {
+                      "hebrew": "־ִי",
+                      "meaning": "me",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "מִכָּל־",
+                  "meaning": "from all",
+                  "parts": [
+                    {
+                      "hebrew": "מִ־",
+                      "meaning": "from",
+                      "pos": "preposition",
+                      "assimilated": "nun"
+                    },
+                    {
+                      "hebrew": "כָּל־",
+                      "meaning": "all of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "כ-ל-ל"
+                },
+                {
+                  "hebrew": "רָע",
+                  "meaning": "evil",
+                  "parts": [
+                    {
+                      "hebrew": "רָע",
+                      "meaning": "evil",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ר-ע-ע"
+                },
+                {
+                  "hebrew": "יְבָרֵךְ",
+                  "meaning": "may bless",
+                  "literal": "will bless",
+                  "parts": [
+                    {
+                      "hebrew": "יְבָרֵךְ",
+                      "meaning": "he will bless",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-ר-ך"
+                },
+                {
+                  "hebrew": "אֶת־",
+                  "meaning": "(marks the direct object)",
+                  "parts": [
+                    {
+                      "hebrew": "אֶת־",
+                      "meaning": "(marks the direct object)",
+                      "pos": "particle"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "הַנְּעָרִים",
+                  "meaning": "the lads",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "נְעָרִים",
+                      "meaning": "lads",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "נ-ע-ר"
+                }
+              ]
+            },
+            {
+              "hebrew": "וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק",
+              "translation": "and may my name be called upon them, and the name of my fathers Abraham and Isaac",
+              "words": [
+                {
+                  "hebrew": "וְיִקָּרֵא",
+                  "meaning": "and may be called",
+                  "literal": "and will be called",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "יִקָּרֵא",
+                      "meaning": "it will be called",
+                      "pos": "verb",
+                      "binyan": "nifal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ק-ר-א"
+                },
+                {
+                  "hebrew": "בָהֶם",
+                  "meaning": "upon them",
+                  "literal": "in them",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָהֶם",
+                      "meaning": "them",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "שְׁמִי",
+                  "meaning": "my name",
+                  "parts": [
+                    {
+                      "hebrew": "שֵׁם",
+                      "meaning": "name of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ִי",
+                      "meaning": "my",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-מ-ה"
+                },
+                {
+                  "hebrew": "וְשֵׁם",
+                  "meaning": "and the name of",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "שֵׁם",
+                      "meaning": "name of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "ש-מ-ה"
+                },
+                {
+                  "hebrew": "אֲבֹתַי",
+                  "meaning": "my fathers",
+                  "parts": [
+                    {
+                      "hebrew": "אֲבֹת",
+                      "meaning": "fathers of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ַי",
+                      "meaning": "my",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ב-ה"
+                },
+                {
+                  "hebrew": "אַבְרָהָם",
+                  "meaning": "Abraham",
+                  "parts": [
+                    {
+                      "hebrew": "אַבְרָהָם",
+                      "meaning": "Abraham",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ב-ה"
+                },
+                {
+                  "hebrew": "וְיִצְחָק",
+                  "meaning": "and Isaac",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "יִצְחָק",
+                      "meaning": "Isaac",
+                      "pos": "name",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "צ-ח-ק"
+                }
+              ]
+            },
+            {
+              "hebrew": "וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָרֶץ",
+              "translation": "and may they multiply abundantly in the midst of the land",
+              "words": [
+                {
+                  "hebrew": "וְיִדְגּוּ",
+                  "meaning": "and may they multiply",
+                  "literal": "and they will multiply like fish",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "יִדְגּוּ",
+                      "meaning": "they will multiply like fish",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ד-ג-ה"
+                },
+                {
+                  "hebrew": "לָרֹב",
+                  "meaning": "abundantly",
+                  "literal": "to the abundance",
+                  "parts": [
+                    {
+                      "hebrew": "לָ־",
+                      "meaning": "to the",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "רֹב",
+                      "meaning": "abundance",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ר-ב-ב"
+                },
+                {
+                  "hebrew": "בְּקֶרֶב",
+                  "meaning": "in the midst of",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "קֶרֶב",
+                      "meaning": "midst of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "ק-ר-ב"
+                },
+                {
+                  "hebrew": "הָאָרֶץ",
+                  "meaning": "the land",
+                  "parts": [
+                    {
+                      "hebrew": "הָ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "אֶרֶץ",
+                      "meaning": "land",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "א-ר-ץ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
