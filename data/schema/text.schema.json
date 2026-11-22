@@ -157,7 +157,7 @@
           ]
         },
         "type": {
-          "description": "Kind of pronoun; only on pos pronoun. Pronoun suffixes are always personal.",
+          "description": "Kind of pronoun; only on pos pronoun. Pronoun suffixes are always personal. A 3rd person pronoun after the article, meaning that or those, is personal: the word's meaning gives the demonstrative sense, and its literal meaning has the pronoun's own meaning.",
           "enum": ["personal", "demonstrative", "interrogative"]
         },
         "binyan": {

@@ -13,7 +13,8 @@
 // So fixing a breakdown and re-importing updates the note; renaming a text id or moving lines makes new ones.
 //
 // A part's line in the Parts field ends with links to the grammar notes for its form, e.g. Prefix letters
-// after a וְ־ prefix (see grammar-notes.mjs). They are plain HTML in the field, so the note types don't change.
+// after a וְ־ prefix, and the field ends with a line of links to the notes for the word as a whole, e.g.
+// This and that for הָהֵם (see grammar-notes.mjs). They are plain HTML in the field, so the note types don't change.
 //
 // Tags: the text id, "section::<title>" when the section has a title, and "pos::<part of speech>" for
 // every part of a word.
@@ -23,7 +24,7 @@
 
 import { createHash } from "node:crypto";
 import { escape, gloss, meaningText, partGloss, wordRoot } from "../render/common.mjs";
-import { grammarNotes } from "../render/grammar-notes.mjs";
+import { grammarNotes, wordGrammarNotes } from "../render/grammar-notes.mjs";
 import { CLAUSE, LINE, WORD } from "./templates.mjs";
 
 const hash = (s) => createHash("sha1").update(s).digest("hex");
@@ -34,14 +35,16 @@ const deckId = (name) => parseInt(hash(name).slice(0, 12), 16);
 const tag = (s) => s.replace(/\s+/g, "_");
 const glosses = (items) => items.map((i) => `<div>${gloss(i)}</div>`).join("");
 
-// One line per part: its gloss, then links to the grammar notes that explain its form (grammar-notes.mjs).
-const partLines = (parts) =>
-  parts
-    .map((p, i) => {
-      const links = grammarNotes(parts, i).map((n) => ` <a class="grammar" href="${escape(n.url)}">${escape(n.title)}</a>`);
-      return `<div>${partGloss(p)}${links.join("")}</div>`;
-    })
-    .join("");
+const noteLinks = (notes) => notes.map((n) => ` <a class="grammar" href="${escape(n.url)}">${escape(n.title)}</a>`).join("");
+
+// One line per part: its gloss, then links to the grammar notes that explain its form; then, if any, a line
+// of links to the notes for the word as a whole (grammar-notes.mjs).
+function partLines(word) {
+  const parts = word.parts.map((p, i) => `<div>${partGloss(p)}${noteLinks(grammarNotes(word.parts, i))}</div>`);
+  const whole = wordGrammarNotes(word);
+  if (whole.length) parts.push(`<div style="font-size: 14px; color: var(--dim)">Whole word:${noteLinks(whole)}</div>`);
+  return parts.join("");
+}
 
 // The word's position in its clause: the first occurrence at or after `from`.
 function locate(clause, word, from) {
@@ -93,7 +96,7 @@ export function buildDeck(text, roots, file) {
             fields: [
               escape(word.hebrew),
               escape(meaningText(word)),
-              partLines(word.parts),
+              partLines(word),
               root ? escape(word.root) : "",
               root ? escape(root.meaning) : "",
               root ? glosses(root.related) : "",

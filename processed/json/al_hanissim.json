@@ -267,6 +267,7 @@
                 {
                   "hebrew": "הָהֵם",
                   "meaning": "those",
+                  "literal": "the they",
                   "parts": [
                     {
                       "hebrew": "הָ־",
@@ -275,9 +276,10 @@
                     },
                     {
                       "hebrew": "הֵם",
-                      "meaning": "those",
+                      "meaning": "they",
                       "pos": "pronoun",
-                      "type": "demonstrative",
+                      "type": "personal",
+                      "person": 3,
                       "gender": "masc",
                       "number": "pl"
                     }
