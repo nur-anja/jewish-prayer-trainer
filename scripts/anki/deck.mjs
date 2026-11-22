@@ -13,7 +13,7 @@
 // So fixing a breakdown and re-importing updates the note; renaming a text id or moving lines makes new ones.
 //
 // A part's line in the Parts field ends with links to the grammar notes for its form, e.g. Prefix letters
-// after a וְ־ prefix. The Meaning field ends with links to the notes for the word as a whole, e.g. This and
+// after a וְ־ prefix. The Grammar field holds the links to the notes for the word as a whole, e.g. This and
 // that for הָהֵם (see grammar-notes.mjs). They are plain HTML in the field, so the note types don't change.
 //
 // Tags: the text id, "section::<title>" when the section has a title, and "pos::<part of speech>" for
@@ -36,12 +36,6 @@ const tag = (s) => s.replace(/\s+/g, "_");
 const glosses = (items) => items.map((i) => `<div>${gloss(i)}</div>`).join("");
 
 const noteLinks = (notes) => notes.map((n) => ` <a class="grammar" href="${escape(n.url)}">${escape(n.title)}</a>`).join("");
-
-// The links to the notes for the word as a whole, in their own block under the meaning; empty when none.
-const wordNotes = (word) => {
-  const links = noteLinks(wordGrammarNotes(word));
-  return links ? `<div class="word-notes">${links}</div>` : "";
-};
 
 // One line per part: its gloss, then links to the grammar notes that explain its form (grammar-notes.mjs).
 const partLines = (parts) =>
@@ -96,7 +90,7 @@ export function buildDeck(text, roots, file) {
             tags: [text.id, ...sectionTags, ...posTags],
             fields: [
               escape(word.hebrew),
-              escape(meaningText(word)) + wordNotes(word),
+              escape(meaningText(word)),
               partLines(word.parts),
               root ? escape(word.root) : "",
               root ? escape(root.meaning) : "",
@@ -104,6 +98,7 @@ export function buildDeck(text, roots, file) {
               context,
               escape(clause.translation),
               escape(text.title),
+              noteLinks(wordGrammarNotes(word)).trim(),
             ],
           });
         }

@@ -35,7 +35,7 @@ Tags on every note: the text id and, if the section has a title, `section::<titl
 Three note types, each with fields filled from the JSON and its own templates:
 
 1. **Word** (one per distinct word per text)
-   - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the clause the word is in, from the JSON, with the word highlighted), LineTranslation (the clause's translation), Text.
+   - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the clause the word is in, from the JSON, with the word highlighted), LineTranslation (the clause's translation), Text, Grammar (links to the grammar notes for the word as a whole; added later as the last field, so importing the first deck with it needs "Merge note types").
    - Card "Recognize": front is the word, large, with its clause below it in small type as context; back adds the meaning, the clause's translation, the parts with their grammar labels, the root with its meaning, and the related root words — the same content as a Kindle word card. The clause's translation was first at the bottom, after the related words, then before the root, and moved up to right after the word's meaning.
    - Card "Produce" (English to Hebrew): front is the meaning and the clause with the word blanked out; back is the word, then the same as Recognize with the clause's translation.
 2. **Line** (one per line)
