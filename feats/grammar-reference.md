@@ -22,7 +22,7 @@ Words and parts have no free-text notes field: it was dropped from the schema. B
 
 Done for nouns: a noun part has a `pattern` (mem-prefix, tav-prefix or vav-tav-ending) when it is built with one of the templates in [nouns](../grammar/nouns.md), and the Anki cards link it to that template's section. The schema says how to choose, and the three texts were filled in by hand. Only nouns have it for now; verb patterns (such as binyan templates) could be added the same way once there is a grammar note for them.
 
-Patterns used to be limited to what a beginner can see in the letters. That rule is dropped from [conventions](../grammar/conventions.md#what-gets-a-section): patterns defined by vowels or a dagesh can now get sections, added as they come up. Two noun templates defined by vowels were tried and dropped earlier; see [Vowel patterns for nouns](#vowel-patterns-for-nouns).
+Patterns used to be limited to what a beginner can see in the letters. That rule is dropped from the [conventions](../grammar/conventions.md): patterns defined by vowels or a dagesh can now get sections, added as they come up. Two noun templates defined by vowels were tried and dropped earlier; see [Vowel patterns for nouns](#vowel-patterns-for-nouns).
 
 ## Next
 

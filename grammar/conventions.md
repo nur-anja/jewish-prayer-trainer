@@ -2,9 +2,8 @@
 
 How the notes in [grammar/](README.md) are written, so new notes look and read the same as the existing ones.
 
-## What gets a section
+## Length
 
-- A pattern gets its own section (and a value in the `pattern` field) only if it tells more than gender and number.
 - Keep each note to about a page: one short table per section.
 
 ## File and section structure
