@@ -55,5 +55,5 @@ Columns appear in this order, using only the ones a table needs:
 
 ## Translations
 
-- Translate literally: add "the" only when the Hebrew has it.
-- Give a looser meaning in parentheses if the literal one is unclear, such as "forever (to the world)".
+- Translate naturally. Where the word-for-word meaning differs, add it after the natural one, in parentheses starting with "lit.", such as "forever (lit. to the world)".
+- The literal meaning has "the" exactly where the Hebrew has it.

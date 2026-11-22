@@ -18,8 +18,8 @@ After an infinitive, the same endings usually say who does the action, like "my"
 
 | Example | Translation |
 |---|---|
-| בְּשִׁבְתְּ<b style="color:red">ךָ</b> | when you sit (in your sitting) |
-| וּבְקוּמֶ<b style="color:red">ךָ</b> | and when you rise up (and in your rising) |
+| בְּשִׁבְתְּ<b style="color:red">ךָ</b> | when you sit (lit. in your sitting) |
+| וּבְקוּמֶ<b style="color:red">ךָ</b> | and when you rise up (lit. and in your rising) |
 | מִבּוֹא<b style="color:red">וֹ</b> | from its coming |
 
 They can also be the object, as on other verbs:
