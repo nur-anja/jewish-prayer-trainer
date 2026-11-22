@@ -3,7 +3,7 @@
 //   Word   Recognize   front: the word, its clause below it with the word in bold
 //                      back:  meaning, the clause's translation, one "**part** - meaning (label) → grammar note
 //                             link(s)" per part, root and root meaning, related root words
-//          Produce     front: the meaning, the clause with the word blanked out
+//          Produce     front: the meaning (without its grammar links), the clause with the word blanked out
 //                      back:  the word, then the same as Recognize
 // The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning, then links
 // to the grammar notes for the word as a whole.
@@ -63,6 +63,7 @@ const CSS = `
 em { color: var(--dim); }
 a.grammar { font-size: 14px; font-weight: normal; font-style: normal; color: var(--dim); white-space: nowrap; text-indent: 0; }
 a.grammar::before { content: "→ "; }
+.no-links a.grammar { display: none; }
 `;
 
 const DETAILS = `
@@ -87,7 +88,7 @@ export const WORD = {
     },
     {
       name: "Produce",
-      front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>\n${SOURCE}`,
+      front: `<div dir="ltr" class="meaning no-links">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>\n${SOURCE}`,
       back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>
 <div dir="rtl" class="he context">{{Context}}</div>${DETAILS}`,
     },
