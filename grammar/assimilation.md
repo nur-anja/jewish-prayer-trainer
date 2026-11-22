@@ -49,4 +49,4 @@ A dagesh in the same word can come from something other than a missing נ:
 |---|---|---|
 | וַתִּתֵּן | dagesh in the first ת: from the "and" that flips the tense; dagesh in the second ת: the missing נ | and she gave |
 
-The "and" that flips the tense is in [future tense](future-tense.md#and-that-flips-to-the-past). Put back a נ only if it gives a real root.
+The "and" that flips the tense is in [flipping vav](flipping-vav.md#on-a-future-form). Put back a נ only if it gives a real root.

@@ -36,16 +36,8 @@ In prayers, the future often reads as a wish ("may it…", "let…"):
 
 Both are the opening words of the Kaddish.
 
-## "And" that flips to the past
-
-In biblical narrative, a ו before a future form often turns it into past tense:
-
-| Example | Root | Translation |
-|---|---|---|
-| <b style="color:red">וַ</b>יֹּאמֶר | אמר | and he said |
-
-This is common in verses quoted in prayers. The ו usually has a patach, and the next letter a dagesh. The opposite flip, from past to future, is in [past tense](past-tense.md).
-
 ## Watch out
 
 A word starting with one of these letters isn't always a future verb, because the letter may be part of the root, or a [prefix letter](prefix-letters.md) like "and". Check whether a 3-letter root remains after removing it.
+
+A ו in front of a future form can flip it to the past; see [flipping vav](flipping-vav.md).

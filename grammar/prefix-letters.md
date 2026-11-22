@@ -10,7 +10,7 @@ Each prefix letter stands for a short word:
 
 | Prefix | Meaning | Example | Translation |
 |---|---|---|---|
-| וְ־ | and | <b style="color:red">וְ</b>אָהַבְתָּ | and you shall love |
+| וְ־ | and | <b style="color:red">וְ</b>עַל | and for |
 | בְּ־ | in, with | <b style="color:red">בְּ</b>כָל | with all |
 | לְ־ | to, for | <b style="color:red">לְ</b>עוֹלָם | forever (lit. to the world) |
 | כְּ־ | like, as | <b style="color:red">כְּ</b>צֵל | like a shadow |
@@ -54,3 +54,5 @@ A kamatz under a prefix doesn't always hide "the": before a hataf vowel, the pre
 | Example | Note | Translation |
 |---|---|---|
 | <b style="color:red">כָּ</b>אֳנִיּוֹת | kamatz only because of the hataf kamatz after it: no "the" | like ships of |
+
+A ו in front of a verb can also flip its tense; see [flipping vav](flipping-vav.md).
