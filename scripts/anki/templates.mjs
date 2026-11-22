@@ -4,9 +4,11 @@
 //                      back:  meaning, the clause's translation, one "**part** - meaning (label) → grammar note
 //                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning (without its grammar links), the clause with the word blanked out
+//                      back:  the meaning, the word with its grammar links under it, then the same as Recognize
 //                      back:  the word, then the same as Recognize
-// The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning, then links
-// to the grammar notes for the word as a whole.
+// The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning, then the
+// links to the grammar notes for the word as a whole in a <div class="word-notes">. Recognize shows them under
+// the meaning; Produce hides them with the meaning (.no-links) and shows only them (.links-only) under the word.
 // The Context field holds the clause the word is in (clause.hebrew), not the whole line, and LineTranslation
 // holds the clause's translation (clause.translation); the fields kept their names.
 //   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
@@ -63,7 +65,11 @@ const CSS = `
 em { color: var(--dim); }
 a.grammar { font-size: 14px; font-weight: normal; font-style: normal; color: var(--dim); white-space: nowrap; text-indent: 0; }
 a.grammar::before { content: "→ "; }
-.no-links a.grammar { display: none; }
+.word-notes { margin-top: 2px; }
+.no-links .word-notes { display: none; }
+/* Hides the meaning's own text and keeps only its grammar links. */
+.links-only { font-size: 0; }
+.links-only .word-notes { font-size: 14px; }
 `;
 
 const DETAILS = `
@@ -89,7 +95,8 @@ export const WORD = {
     {
       name: "Produce",
       front: `<div dir="ltr" class="meaning no-links">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>\n${SOURCE}`,
-      back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>
+      back: `<div dir="ltr" class="meaning no-links">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>
+<div dir="ltr" class="links-only">{{Meaning}}</div>
 <div dir="rtl" class="he context">{{Context}}</div>${DETAILS}`,
     },
   ],

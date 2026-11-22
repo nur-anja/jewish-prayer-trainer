@@ -37,6 +37,12 @@ const glosses = (items) => items.map((i) => `<div>${gloss(i)}</div>`).join("");
 
 const noteLinks = (notes) => notes.map((n) => ` <a class="grammar" href="${escape(n.url)}">${escape(n.title)}</a>`).join("");
 
+// The links to the notes for the word as a whole, in their own block under the meaning; empty when none.
+const wordNotes = (word) => {
+  const links = noteLinks(wordGrammarNotes(word));
+  return links ? `<div class="word-notes">${links}</div>` : "";
+};
+
 // One line per part: its gloss, then links to the grammar notes that explain its form (grammar-notes.mjs).
 const partLines = (parts) =>
   parts.map((p, i) => `<div>${partGloss(p)}${noteLinks(grammarNotes(parts, i))}</div>`).join("");
@@ -90,7 +96,7 @@ export function buildDeck(text, roots, file) {
             tags: [text.id, ...sectionTags, ...posTags],
             fields: [
               escape(word.hebrew),
-              escape(meaningText(word)) + noteLinks(wordGrammarNotes(word)),
+              escape(meaningText(word)) + wordNotes(word),
               partLines(word.parts),
               root ? escape(word.root) : "",
               root ? escape(root.meaning) : "",
