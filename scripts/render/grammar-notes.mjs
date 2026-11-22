@@ -1,5 +1,5 @@
 // Links from a word, or one of its parts, to the notes in grammar/ that explain its form. Used by the Anki
-// cards (scripts/anki/deck.mjs), which show a part's links after its gloss and the word's links after its parts.
+// cards (scripts/anki/deck.mjs), which show a part's links after its gloss and the word's links after its meaning.
 //
 // A part gets a link when the JSON says enough to know which note applies:
 //

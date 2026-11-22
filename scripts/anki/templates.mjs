@@ -5,7 +5,8 @@
 //                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
 //                      back:  the word, then the same as Recognize
-// The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning.
+// The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning, then links
+// to the grammar notes for the word as a whole.
 // The Context field holds the clause the word is in (clause.hebrew), not the whole line, and LineTranslation
 // holds the clause's translation (clause.translation); the fields kept their names.
 //   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
@@ -60,7 +61,7 @@ const CSS = `
 .heading { font-size: 14px; color: var(--dim); }
 .details .heading { margin-top: 10px; }
 em { color: var(--dim); }
-a.grammar { font-size: 14px; color: var(--dim); white-space: nowrap; text-indent: 0; }
+a.grammar { font-size: 14px; font-weight: normal; font-style: normal; color: var(--dim); white-space: nowrap; text-indent: 0; }
 a.grammar::before { content: "→ "; }
 `;
 
