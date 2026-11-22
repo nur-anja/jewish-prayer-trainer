@@ -36,7 +36,7 @@
       "required": ["lines"],
       "properties": {
         "title": {
-          "description": "Name of the section, e.g. \"Avot\" or \"V'ahavta\". Given when the section has a commonly used name; left out otherwise, e.g. for the stanzas of a poem.",
+          "description": "Name of the section, e.g. \"Avot\" or \"V'ahavta\". Given when the section has a commonly used name; left out otherwise, e.g. for the stanzas of a poem. Left out when the text has only one section.",
           "type": "string",
           "minLength": 1
         },
