@@ -112,6 +112,20 @@ function leftover(whole, pieces) {
   return rest + whole.slice(cursor);
 }
 
+// Reports a standard spelling that is the same as the word, or that differs from it by more than added ו and י letters.
+function checkStandard(file, word) {
+  if (typeof word.standard !== "string") return;
+  if (word.standard === word.hebrew) return report(file, `standard spelling of ${word.hebrew} is the same as the word`);
+  const letters = (s) => s.replace(/[\u0591-\u05BD\u05BF-\u05C7]/gu, ""); // keep letters and maqaf
+  const text = letters(word.hebrew);
+  let i = 0;
+  for (const ch of letters(word.standard)) {
+    if (ch === text[i]) i++;
+    else if (ch !== "ו" && ch !== "י") return report(file, `standard spelling ${word.standard} of ${word.hebrew} changes more than ו and י`);
+  }
+  if (i < text.length) report(file, `standard spelling ${word.standard} of ${word.hebrew} leaves out letters of the word`);
+}
+
 // Reports a line whose clauses don't cover it, and a clause whose words don't make it up.
 function checkClauses(file, line) {
   if (typeof line.hebrew !== "string" || !Array.isArray(line.clauses)) return;
@@ -136,6 +150,7 @@ for (const file of textFiles) {
     for (const line of section.lines ?? []) {
       for (const word of (line.clauses ?? []).flatMap((c) => c.words ?? [])) {
         if (word.root && !(word.root in roots)) report(file, `root ${word.root} of ${word.hebrew} is missing from ${ROOTS_FILE}`);
+        checkStandard(file, word);
       }
       checkClauses(file, line);
     }

@@ -80,6 +80,7 @@
               "words": [
                 {
                   "hebrew": "וְרָחֹק",
+                  "standard": "וְרָחוֹק",
                   "meaning": "and far",
                   "parts": [
                     {
@@ -88,7 +89,7 @@
                       "pos": "conjunction"
                     },
                     {
-                      "hebrew": "רָחֹק",
+                      "hebrew": "רָחוֹק",
                       "meaning": "far",
                       "pos": "adjective",
                       "gender": "masc",
@@ -852,6 +853,7 @@
                 },
                 {
                   "hebrew": "לְנַעֲרֹתֶיהָ",
+                  "standard": "לְנַעֲרוֹתֶיהָ",
                   "meaning": "to her maidens",
                   "parts": [
                     {
@@ -860,7 +862,7 @@
                       "pos": "preposition"
                     },
                     {
-                      "hebrew": "נַעֲרֹת",
+                      "hebrew": "נַעֲרוֹת",
                       "meaning": "maidens of",
                       "pos": "noun",
                       "gender": "fem",
@@ -1141,10 +1143,11 @@
                 },
                 {
                   "hebrew": "זְרֹעוֹתֶיהָ",
+                  "standard": "זְרוֹעוֹתֶיהָ",
                   "meaning": "her arms",
                   "parts": [
                     {
-                      "hebrew": "זְרֹעוֹת",
+                      "hebrew": "זְרוֹעוֹת",
                       "meaning": "arms of",
                       "pos": "noun",
                       "gender": "fem",

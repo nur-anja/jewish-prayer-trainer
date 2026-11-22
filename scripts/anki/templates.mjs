@@ -6,6 +6,8 @@
 //          Produce     front: the meaning, the clause with the word blanked out
 //                      back:  the meaning, the word with its grammar links under it, then the same as Recognize
 //                      back:  the word, then the same as Recognize
+// The Hebrew field holds the word, followed by its standard spelling in a small line when it has one (in the
+// field, not a field of its own, so the note type doesn't change).
 // The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning. The Grammar
 // field holds the links to the grammar notes for the word as a whole, shown on the back under the meaning
 // (Recognize) or under the word (Produce).
@@ -55,6 +57,7 @@ const CSS = `
 .prompt { margin: 0 0 10px; }
 .start { font-style: italic; color: var(--dim); }
 .meaning { font-size: 26px; font-weight: bold; }
+.big .standard { display: block; font-size: 22px; font-weight: normal; color: var(--dim); }
 .details { text-align: left; display: inline-block; max-width: 34em; margin-top: 10px; }
 .details strong { font-size: 24px; }
 .parts div, .related div { padding-left: 1em; text-indent: -1em; }

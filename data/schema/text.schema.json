@@ -101,6 +101,11 @@
           "type": "string",
           "minLength": 1
         },
+        "standard": {
+          "description": "The word in its standard spelling with nikud, given only where the text leaves out a ו or י that the standard spelling has. It differs from hebrew only in those letters and the vowel marks that move onto them; everything else, punctuation and maqaf included, stays as in hebrew.",
+          "type": "string",
+          "minLength": 1
+        },
         "meaning": {
           "description": "Meaning of the word in this context.",
           "type": "string",
@@ -130,7 +135,7 @@
       "required": ["hebrew", "meaning", "pos"],
       "properties": {
         "hebrew": {
-          "description": "Prefixes end with a maqaf and suffixes start with one: וְ־ (and), ־ָיו (his). A base word is written as it stands on its own, undoing changes caused by its prefixes and suffixes (dagesh, vowels, endings); a noun or verb that takes a suffix keeps its construct form. E.g. יְהוּדִים in לַיְּהוּדִים, כָּל־ in וּבְכָל־, שֶׁבֶת in בְּשִׁבְתְּךָ, אֶל־ in אֵלָיו.",
+          "description": "Prefixes end with a maqaf and suffixes start with one: וְ־ (and), ־ָיו (his). A base word is written as it stands on its own, undoing changes caused by its prefixes and suffixes (dagesh, vowels, endings); a noun or verb that takes a suffix keeps its construct form. E.g. יְהוּדִים in לַיְּהוּדִים, כָּל־ in וּבְכָל־, שֶׁבֶת in בְּשִׁבְתְּךָ, אֶל־ in אֵלָיו. Parts are spelled as in the word's standard spelling when it has one.",
           "type": "string",
           "minLength": 1
         },

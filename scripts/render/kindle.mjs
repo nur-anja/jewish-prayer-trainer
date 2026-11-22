@@ -8,6 +8,7 @@
 //        - header: the Hebrew line (bold) with its translation (italic) below it
 //        - a card per word, never split across pages:
 //            **word** (right)                 meaning (left), followed by "(lit. ...)" when it has one
+//            standard spelling, small, under the word, when it has one
 //            one "**part** - meaning *(label)*" per part; the label follows GRAMMAR LABELS in common.mjs
 //            Root **ר-ו-ט** - root meaning
 //            one "**word** - meaning" per related word from roots.json
@@ -18,7 +19,7 @@
 // value with no readable name in common.mjs (e.g. one newly added to the schema).
 
 import { join } from "node:path";
-import { escape, gloss, htmlPage, lineWords, meaningText, partGloss, ROOT, wordRoot } from "./common.mjs";
+import { escape, gloss, htmlPage, lineWords, meaningText, partGloss, ROOT, standardHtml, wordRoot } from "./common.mjs";
 
 // ---------------------------------------------------------------------------------------------
 // HTML
@@ -63,6 +64,7 @@ h2 + .verse { margin-top: 0; }
 .word-head { display: flex; justify-content: space-between; align-items: baseline; gap: 3mm; }
 .word-head .he { font-size: 17pt; font-weight: bold; white-space: nowrap; }
 .word-head .meaning { font-weight: bold; }
+.word-head .standard { display: block; font-size: 11pt; font-weight: normal; color: #444; }
 .parts, .root, .related { margin-top: 0.8mm; }
 .parts div, .related div { padding-left: 3mm; text-indent: -3mm; }
 .word strong { font-size: 12pt; }
@@ -78,7 +80,7 @@ function wordCard(word, roots, file) {
   return (
     `<div class="word">` +
     `<div class="word-head"><span class="meaning">${escape(meaningText(word))}</span>` +
-    `<span class="he" dir="rtl">${escape(word.hebrew)}</span></div>` +
+    `<span class="he" dir="rtl">${escape(word.hebrew)}${standardHtml(word)}</span></div>` +
     `<div class="parts">${word.parts.map((p) => `<div>${partGloss(p)}</div>`).join("")}</div>` +
     (root ? `<div class="root">Root <strong>${escape(word.root)}</strong> - ${escape(root.meaning)}</div>` : "") +
     (related.length

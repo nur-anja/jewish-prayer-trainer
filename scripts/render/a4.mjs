@@ -8,7 +8,7 @@
 //        - table:  Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words
 //
 // Table cells:
-//   Hebrew            **word**
+//   Hebrew            **word**, with its standard spelling in small type under it when it has one
 //   Meaning           meaning in context, followed by "(lit. ...)" when the word has a literal meaning
 //   Word Breakdown    one "**part** - meaning *(label)*" per part, separated by line breaks;
 //                     the label follows GRAMMAR LABELS in common.mjs and is left out when it is empty
@@ -22,7 +22,7 @@
 // value with no readable name in common.mjs (e.g. one newly added to the schema).
 
 import { join } from "node:path";
-import { escape, gloss, htmlPage, lineWords, meaningText, partGloss, ROOT, wordRoot } from "./common.mjs";
+import { escape, gloss, htmlPage, lineWords, meaningText, partGloss, ROOT, standardHtml, wordRoot } from "./common.mjs";
 
 // ---------------------------------------------------------------------------------------------
 // HTML
@@ -82,6 +82,7 @@ td:nth-child(1), td:nth-child(4) { direction: rtl; text-align: right; font-size:
 /* Enlarge the Hebrew parts of the mixed Hebrew/English cells. */
 td:nth-child(3) strong, td:nth-child(6) strong { font-size: 13pt; }
 td:nth-child(1) { width: 11%; }
+td .standard { display: block; font-size: 11pt; color: #444; }
 td:nth-child(2) { width: 14%; }
 td:nth-child(3) { width: 31%; }
 td:nth-child(4) { width: 9%; }
@@ -94,7 +95,7 @@ function wordRow(word, roots, file) {
   const root = wordRoot(word, roots, file);
 
   const cells = [
-    `<strong>${escape(word.hebrew)}</strong>`,
+    `<strong>${escape(word.hebrew)}</strong>${standardHtml(word)}`,
     escape(meaningText(word)),
     word.parts.map(partGloss).join("<br>"),
     root ? `<strong>${escape(word.root)}</strong>` : "",

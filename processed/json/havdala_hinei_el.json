@@ -967,6 +967,7 @@
                 },
                 {
                   "hebrew": "וְשָׂשֹׂן",
+                  "standard": "וְשָׂשׂוֹן",
                   "meaning": "and joy",
                   "parts": [
                     {
@@ -975,7 +976,7 @@
                       "pos": "conjunction"
                     },
                     {
-                      "hebrew": "שָׂשֹׂן",
+                      "hebrew": "שָׂשׂוֹן",
                       "meaning": "joy",
                       "pos": "noun",
                       "gender": "masc",

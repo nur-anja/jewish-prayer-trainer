@@ -23,7 +23,7 @@
 // like the PDFs.
 
 import { createHash } from "node:crypto";
-import { escape, gloss, meaningText, partGloss, wordRoot } from "../render/common.mjs";
+import { escape, gloss, meaningText, partGloss, standardHtml, wordRoot } from "../render/common.mjs";
 import { grammarNotes, wordGrammarNotes } from "../render/grammar-notes.mjs";
 import { CLAUSE, LINE, WORD } from "./templates.mjs";
 
@@ -76,7 +76,7 @@ export function buildDeck(text, roots, file) {
           const context = highlight(clause.hebrew, position);
 
           const root = wordRoot(word, roots, file);
-          const signature = JSON.stringify([word.meaning, word.literal, word.parts, word.root]);
+          const signature = JSON.stringify([word.meaning, word.literal, word.standard, word.parts, word.root]);
           const seen = words.get(word.hebrew) ?? [];
           if (seen.includes(signature)) continue;
           const id = seen.length === 0 ? guid(text.id, "word", word.hebrew) : guid(text.id, "word", word.hebrew, word.meaning);
@@ -89,7 +89,7 @@ export function buildDeck(text, roots, file) {
             deck,
             tags: [text.id, ...sectionTags, ...posTags],
             fields: [
-              escape(word.hebrew),
+              escape(word.hebrew) + standardHtml(word),
               escape(meaningText(word)),
               partLines(word.parts),
               root ? escape(word.root) : "",

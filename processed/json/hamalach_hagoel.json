@@ -57,6 +57,7 @@
                 },
                 {
                   "hebrew": "אֹתִי",
+                  "standard": "אוֹתִי",
                   "meaning": "me",
                   "parts": [
                     {
@@ -249,10 +250,11 @@
                 },
                 {
                   "hebrew": "אֲבֹתַי",
+                  "standard": "אֲבוֹתַי",
                   "meaning": "my fathers",
                   "parts": [
                     {
-                      "hebrew": "אֲבֹת",
+                      "hebrew": "אֲבוֹת",
                       "meaning": "fathers of",
                       "pos": "noun",
                       "gender": "masc",

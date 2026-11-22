@@ -113,6 +113,10 @@ function structuredLabel(part) {
 export const escape = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
+// The word's standard spelling, in a small line under the word, or nothing when it has none.
+export const standardHtml = ({ standard }) =>
+  standard ? `<span class="standard" dir="rtl">${escape(standard)}</span>` : "";
+
 // "meaning (lit. literal)", or just the meaning when the word has no literal meaning.
 export const meaningText = ({ meaning, literal }) => (literal ? `${meaning} (lit. ${literal})` : meaning);
 

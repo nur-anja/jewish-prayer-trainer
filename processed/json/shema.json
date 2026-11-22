@@ -1091,6 +1091,7 @@
                 },
                 {
                   "hebrew": "לְטֹטָפֹת",
+                  "standard": "לְטוֹטָפוֹת",
                   "meaning": "as frontlets (tefillin)",
                   "parts": [
                     {
@@ -1099,7 +1100,7 @@
                       "pos": "preposition"
                     },
                     {
-                      "hebrew": "טֹטָפֹת",
+                      "hebrew": "טוֹטָפוֹת",
                       "meaning": "frontlets",
                       "pos": "noun",
                       "gender": "fem",
@@ -1199,10 +1200,11 @@
                 },
                 {
                   "hebrew": "מְזוּזֹת",
+                  "standard": "מְזוּזוֹת",
                   "meaning": "the doorposts of",
                   "parts": [
                     {
-                      "hebrew": "מְזוּזֹת",
+                      "hebrew": "מְזוּזוֹת",
                       "meaning": "doorposts of",
                       "pos": "noun",
                       "gender": "fem",
