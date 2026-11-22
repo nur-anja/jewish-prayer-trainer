@@ -3,7 +3,7 @@
 //
 // A part gets a link when the JSON says enough to know which note applies:
 //
-//   prefix (preposition, conjunction, article)    Prefix letters
+//   prefix (preposition, conjunction, article, particle)  Prefix letters
 //     a vav consecutive                            Past tense or Future tense, "And" that flips, by the verb's form
 //     a preposition prefix with "the" in it        Prefix letters, "The" hiding inside in, to, like
 //   pronoun suffix on a noun                       Possessive endings
@@ -67,7 +67,7 @@ export function grammarNotes(parts, i) {
 
   if (part.consecutive) {
     keys.push(parts[i + 1]?.form === "past" ? "flipToFuture" : "flipToPast");
-  } else if (isPrefix && ["preposition", "conjunction", "article"].includes(part.pos)) {
+  } else if (isPrefix && ["preposition", "conjunction", "article", "particle"].includes(part.pos)) {
     keys.push(part.pos === "preposition" && /\bthe\b/i.test(part.meaning) ? "hiddenThe" : "prefix");
   }
   if (part.pos === "pronoun-suffix" && before?.pos === "noun") keys.push("possessive");
