@@ -35,20 +35,19 @@ Tags on every note: the text id and, if the section has a title, `section::<titl
 Three note types, each with fields filled from the JSON and its own templates:
 
 1. **Word** (one per distinct word per text)
-   - Fields: Hebrew, Meaning, Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Context (the clause the word is in, from the JSON, with the word highlighted), LineTranslation (the clause's translation), Text, Grammar (links to the grammar notes for the word as a whole; added later as the last field, so importing the first deck with it needs "Merge note types").
+   - Fields: Hebrew, Standard (the standard spelling, when the text spells the word without ו or י), Meaning, Grammar (links to the grammar notes for the word as a whole), Parts (HTML from `partGloss`), Root, RootMeaning, Related (from roots.json), Clause (the clause the word is in, from the JSON, with the word highlighted), ClauseTranslation (the clause's translation), Text.
    - Card "Recognize": front is the word, large, with its clause below it in small type as context; back adds the meaning, the clause's translation, the parts with their grammar labels, the root with its meaning, and the related root words — the same content as a Kindle word card. The clause's translation was first at the bottom, after the related words, then before the root, and moved up to right after the word's meaning.
    - Card "Produce" (English to Hebrew): front is the meaning and the clause with the word blanked out; back is the word, then the same as Recognize with the clause's translation.
 2. **Line** (one per line)
-   - Fields: Hebrew, Translation, PreviousLine, Section, Text.
-   - Card "Translate": the line's translation, then the Hebrew line. (First built the other way round, Hebrew to English; flipped so that whole lines are practised from English. The name stayed, because renaming a card type makes Anki treat re-imported notes as conflicts.)
+   - Fields: Hebrew, Translation, Previous, Section, Text.
+   - Card "Produce": the line's translation, then the Hebrew line. (First built the other way round, Hebrew to English, as "Translate"; flipped so that whole lines are practised from English, and renamed to match the Produce card of words.)
    - Card "Next line": front is the previous line (or the section/text title for the first line), back is this line, for learning the prayer by heart in order.
 3. **Clause** (one per clause, only in lines of more than one clause; a one-clause line already has its Line note)
    - Fields: Hebrew, Translation, Previous, Section, Text.
-   - Card "Translate": the clause's translation, then the Hebrew clause.
+   - Card "Produce": the clause's translation, then the Hebrew clause.
    - Card "Next clause": front is the clause before it in the text, across line boundaries (or "Start of …"), back is the clause and its translation. The whole line was first shown below the clause on both cards for context, and was removed to keep the cards short. Long lines can be learned piece by piece before their Line cards.
-   - Added as a new note type, so the Word and Line note types are unchanged and re-imports of existing decks don't conflict.
 
-The context was first the whole line; it became a short phrase (`phrase` on each word in the JSON, usually two or three words) so the word cards stay concise. The line's translation moved from the front of Produce to its back: next to a short phrase, the whole sentence in English was out of place and gave the answer away. Two or three words then turned out to give too little context, so the context became the clause the word is in, still shorter than a long line, and the back shows the clause's translation instead of the whole line's. The phrase and its translation were first stored on every word; since all the words of a clause repeated the same two values, each line is now divided into clauses (`clauses` in the JSON, each with its Hebrew, translation and words). The fields kept the names Context and LineTranslation, since renaming a field makes re-imports conflict.
+The context was first the whole line; it became a short phrase (`phrase` on each word in the JSON, usually two or three words) so the word cards stay concise. The line's translation moved from the front of Produce to its back: next to a short phrase, the whole sentence in English was out of place and gave the answer away. Two or three words then turned out to give too little context, so the context became the clause the word is in, still shorter than a long line, and the back shows the clause's translation instead of the whole line's. The phrase and its translation were first stored on every word; since all the words of a clause repeated the same two values, each line is now divided into clauses (`clauses` in the JSON, each with its Hebrew, translation and words). The fields, first named Context and LineTranslation, were renamed Clause and ClauseTranslation.
 
 Root cards (a root, then its meaning, related words and the words in the text with it) were built at first and dropped: the root and related words are already on the back of every word card.
 
@@ -70,7 +69,7 @@ Anki cards can't rely on the Google Fonts link used by the PDFs (offline phones)
 
 After each part on the back of a word card come links to the notes in [grammar/](../grammar/README.md) that explain its form, such as Prefix letters after an "and" prefix, Construct forms after a noun in construct, or Past tense after a past-tense verb. The mapping from a part's grammar fields to a note is in `scripts/render/grammar-notes.mjs`, next to the grammar labels, so the PDFs can use it later too. The links go to the notes on GitHub (main branch) and open in the browser.
 
-The links are written into the Parts field, not into a new field, because adding a field would make re-imports conflict. A noun built with one of the templates in nouns.md links to that template's section, from the part's `pattern` field (see [grammar-reference](grammar-reference.md)).
+The links for a part are written into the Parts field, at the end of that part's line; the links for the word as a whole are in the Grammar field. A noun built with one of the templates in nouns.md links to that template's section, from the part's `pattern` field (see [grammar-reference](grammar-reference.md)).
 
 ## Checked
 

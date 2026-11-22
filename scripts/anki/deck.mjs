@@ -14,7 +14,7 @@
 //
 // A part's line in the Parts field ends with links to the grammar notes for its form, e.g. Prefix letters
 // after a וְ־ prefix. The Grammar field holds the links to the notes for the word as a whole, e.g. This and
-// that for הָהֵם (see grammar-notes.mjs). They are plain HTML in the field, so the note types don't change.
+// that for הָהֵם (see grammar-notes.mjs).
 //
 // Tags: the text id, "section::<title>" when the section has a title, and "pos::<part of speech>" for
 // every part of a word.
@@ -92,6 +92,7 @@ export function buildDeck(text, roots, file) {
               escape(word.hebrew),
               word.standard ? escape(word.standard) : "",
               escape(meaningText(word)),
+              noteLinks(wordGrammarNotes(word)).trim(),
               partLines(word.parts),
               root ? escape(word.root) : "",
               root ? escape(root.meaning) : "",
@@ -99,7 +100,6 @@ export function buildDeck(text, roots, file) {
               context,
               escape(clause.translation),
               escape(text.title),
-              noteLinks(wordGrammarNotes(word)).trim(),
             ],
           });
         }

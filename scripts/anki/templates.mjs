@@ -5,16 +5,15 @@
 //                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
 //                      back:  the meaning, the word with its standard spelling (if any) and grammar links under it, then the same as Recognize
-//                      back:  the word, then the same as Recognize
 // The Standard field holds the word's standard spelling when it has one, shown in a small line under the word.
 // The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning. The Grammar
 // field holds the links to the grammar notes for the word as a whole, shown on the back under the meaning
 // (Recognize) or under the word (Produce).
-// The Context field holds the clause the word is in (clause.hebrew), not the whole line, and LineTranslation
-// holds the clause's translation (clause.translation); the fields kept their names.
-//   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
+// The Clause field holds the clause the word is in, with the word in bold, and ClauseTranslation holds the
+// clause's translation.
+//   Line   Produce     front: the line's translation (English to Hebrew)   back: the Hebrew line
 //          Next line   front: the line before it (or "Start of ...")   back: the line and its translation
-//   Clause Translate   front: the clause's translation   back: the Hebrew clause
+//   Clause Produce     front: the clause's translation   back: the Hebrew clause
 //          Next clause front: the clause before it in the text (or "Start of ...")   back: the clause and its
 //                      translation
 // Clause notes exist only for lines of more than one clause; a one-clause line has its Line note.
@@ -71,7 +70,7 @@ a.grammar::before { content: "→ "; }
 `;
 
 const DETAILS = `
-<div dir="ltr" class="en context-en">{{LineTranslation}}</div>
+<div dir="ltr" class="en context-en">{{ClauseTranslation}}</div>
 <div dir="ltr" class="details">
 <div class="parts">{{Parts}}</div>
 {{#Root}}<div class="root">Root <strong>{{Root}}</strong> - {{RootMeaning}}</div>{{/Root}}
@@ -87,18 +86,18 @@ const SOURCE = `<div dir="ltr" class="source">{{Text}}</div>`;
 export const WORD = {
   id: 1761955200001,
   name: "Prayer Trainer: Word",
-  fields: ["Hebrew", "Standard", "Meaning", "Parts", "Root", "RootMeaning", "Related", "Context", "LineTranslation", "Text", "Grammar"],
+  fields: ["Hebrew", "Standard", "Meaning", "Grammar", "Parts", "Root", "RootMeaning", "Related", "Clause", "ClauseTranslation", "Text"],
   templates: [
     {
       name: "Recognize",
-      front: `<div dir="rtl" class="he big">{{Hebrew}}</div>${STANDARD}\n<div dir="rtl" class="he context">{{Context}}</div>\n${SOURCE}`,
+      front: `<div dir="rtl" class="he big">{{Hebrew}}</div>${STANDARD}\n<div dir="rtl" class="he context">{{Clause}}</div>\n${SOURCE}`,
       back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${GRAMMAR}${DETAILS}`,
     },
     {
       name: "Produce",
-      front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>\n${SOURCE}`,
+      front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Clause}}</div>\n${SOURCE}`,
       back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>${STANDARD}${GRAMMAR}
-<div dir="rtl" class="he context">{{Context}}</div>${DETAILS}`,
+<div dir="rtl" class="he context">{{Clause}}</div>${DETAILS}`,
     },
   ],
   css: CSS,
@@ -110,7 +109,7 @@ export const LINE = {
   fields: ["Hebrew", "Translation", "Previous", "Section", "Text"],
   templates: [
     {
-      name: "Translate",
+      name: "Produce",
       front: `<div dir="ltr" class="en verse-en">{{Translation}}</div>
 <div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
       back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>`,
@@ -131,7 +130,7 @@ export const CLAUSE = {
   fields: ["Hebrew", "Translation", "Previous", "Section", "Text"],
   templates: [
     {
-      name: "Translate",
+      name: "Produce",
       front: `<div dir="ltr" class="en verse-en">{{Translation}}</div>
 <div dir="ltr" class="source">{{Text}}{{#Section}} · {{Section}}{{/Section}}</div>`,
       back: `{{FrontSide}}\n<hr id="answer">\n<div dir="rtl" class="he line">{{Hebrew}}</div>`,
