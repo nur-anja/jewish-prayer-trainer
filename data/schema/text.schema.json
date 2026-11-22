@@ -107,7 +107,7 @@
           "minLength": 1
         },
         "literal": {
-          "description": "The literal meaning, given only where the word's meaning departs from it. After a vav consecutive, the literal meaning has the flipped tense.",
+          "description": "The literal meaning, given only where the word's meaning departs from it. After a vav consecutive, the literal meaning has the flipped tense. Left out for a pronoun with the article, meaning this, that, these or those: its grammar note explains how it is built.",
           "type": "string",
           "minLength": 1
         },
@@ -157,7 +157,7 @@
           ]
         },
         "type": {
-          "description": "Kind of pronoun; only on pos pronoun. Pronoun suffixes are always personal.",
+          "description": "Kind of pronoun; only on pos pronoun. Pronoun suffixes are always personal. A 3rd person pronoun after the article, meaning that or those, is personal: the word's meaning gives the demonstrative sense.",
           "enum": ["personal", "demonstrative", "interrogative"]
         },
         "binyan": {

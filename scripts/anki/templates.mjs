@@ -1,11 +1,14 @@
 // The Anki note types: their fields, card templates and styling. Used by deck.mjs.
 //
 //   Word   Recognize   front: the word, its clause below it with the word in bold
-//                      back:  meaning, the clause's translation, one "**part** - meaning (label) → grammar note
+//                      back:  meaning, grammar links for the whole word, the clause's translation, one "**part** - meaning (label) → grammar note
 //                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
+//                      back:  the meaning, the word with its grammar links under it, then the same as Recognize
 //                      back:  the word, then the same as Recognize
-// The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning.
+// The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning. The Grammar
+// field holds the links to the grammar notes for the word as a whole, shown on the back under the meaning
+// (Recognize) or under the word (Produce).
 // The Context field holds the clause the word is in (clause.hebrew), not the whole line, and LineTranslation
 // holds the clause's translation (clause.translation); the fields kept their names.
 //   Line   Translate   front: the line's translation (English to Hebrew)   back: the Hebrew line
@@ -60,8 +63,9 @@ const CSS = `
 .heading { font-size: 14px; color: var(--dim); }
 .details .heading { margin-top: 10px; }
 em { color: var(--dim); }
-a.grammar { font-size: 14px; color: var(--dim); white-space: nowrap; text-indent: 0; }
+a.grammar { font-size: 14px; font-weight: normal; font-style: normal; color: var(--dim); white-space: nowrap; text-indent: 0; }
 a.grammar::before { content: "→ "; }
+.word-notes { margin-top: 2px; }
 `;
 
 const DETAILS = `
@@ -72,22 +76,24 @@ const DETAILS = `
 {{#Related}}<div class="related">{{Related}}</div>{{/Related}}
 </div>`;
 
+const GRAMMAR = `{{#Grammar}}\n<div dir="ltr" class="word-notes">{{Grammar}}</div>{{/Grammar}}`;
+
 const SOURCE = `<div dir="ltr" class="source">{{Text}}</div>`;
 
 export const WORD = {
   id: 1761955200001,
   name: "Prayer Trainer: Word",
-  fields: ["Hebrew", "Meaning", "Parts", "Root", "RootMeaning", "Related", "Context", "LineTranslation", "Text"],
+  fields: ["Hebrew", "Meaning", "Parts", "Root", "RootMeaning", "Related", "Context", "LineTranslation", "Text", "Grammar"],
   templates: [
     {
       name: "Recognize",
       front: `<div dir="rtl" class="he big">{{Hebrew}}</div>\n<div dir="rtl" class="he context">{{Context}}</div>\n${SOURCE}`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${DETAILS}`,
+      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${GRAMMAR}${DETAILS}`,
     },
     {
       name: "Produce",
       front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Context}}</div>\n${SOURCE}`,
-      back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>
+      back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>${GRAMMAR}
 <div dir="rtl" class="he context">{{Context}}</div>${DETAILS}`,
     },
   ],

@@ -1,9 +1,9 @@
-// Links from a word part to the notes in grammar/ that explain its form. Used by the Anki cards
-// (scripts/anki/deck.mjs), which show them after each part's gloss.
+// Links from a word, or one of its parts, to the notes in grammar/ that explain its form. Used by the Anki
+// cards (scripts/anki/deck.mjs), which show a part's links after its gloss and the word's links after its meaning.
 //
 // A part gets a link when the JSON says enough to know which note applies:
 //
-//   prefix (preposition, conjunction, article)    Prefix letters
+//   prefix (preposition, conjunction, article, particle)  Prefix letters
 //     a vav consecutive                            Past tense or Future tense, "And" that flips, by the verb's form
 //     a preposition prefix with "the" in it        Prefix letters, "The" hiding inside in, to, like
 //   pronoun suffix on a noun                       Possessive endings
@@ -18,6 +18,10 @@
 //   part with an assimilated lamed                 Letter assimilation, The root לקח
 //   verb, past / future                            Past tense / Future tense
 //   verb, present / participle / passive participle  Participle
+//
+// A word gets a link when its meaning comes from its parts together, not from one of them:
+//
+//   article followed by a pronoun (this, that, these, those)  This and that
 //
 // Nothing else links. Anchors follow GitHub's heading ids, so renaming a heading in grammar/ means updating
 // it here.
@@ -44,6 +48,12 @@ const NOTES = {
   "mem-prefix": ["nouns.md#מ-prefix", "Nouns built from roots"],
   "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
   "vav-tav-ending": ["nouns.md#ות-ending-for-abstract-nouns", "Nouns built from roots"],
+  demonstrative: ["demonstratives.md", "This and that"],
+};
+
+const link = (k, what) => {
+  if (!NOTES[k]) throw new Error(`No grammar note for pattern "${k}" of ${what}`);
+  return { url: encodeURI(BASE + NOTES[k][0]), title: NOTES[k][1] };
 };
 
 const VERB_FORMS = { past: "past", future: "future", present: "participle", participle: "participle", "passive-participle": "participle" };
@@ -57,7 +67,7 @@ export function grammarNotes(parts, i) {
 
   if (part.consecutive) {
     keys.push(parts[i + 1]?.form === "past" ? "flipToFuture" : "flipToPast");
-  } else if (isPrefix && ["preposition", "conjunction", "article"].includes(part.pos)) {
+  } else if (isPrefix && ["preposition", "conjunction", "article", "particle"].includes(part.pos)) {
     keys.push(part.pos === "preposition" && /\bthe\b/i.test(part.meaning) ? "hiddenThe" : "prefix");
   }
   if (part.pos === "pronoun-suffix" && before?.pos === "noun") keys.push("possessive");
@@ -74,8 +84,15 @@ export function grammarNotes(parts, i) {
   }
   if (part.pos === "verb" && VERB_FORMS[part.form]) keys.push(VERB_FORMS[part.form]);
 
-  return keys.map((k) => {
-    if (!NOTES[k]) throw new Error(`No grammar note for pattern "${k}" of ${part.hebrew}`);
-    return { url: encodeURI(BASE + NOTES[k][0]), title: NOTES[k][1] };
-  });
+  return keys.map((k) => link(k, part.hebrew));
+}
+
+// The notes for the word as a whole, as [{ url, title }]; empty when no note applies.
+export function wordGrammarNotes(word) {
+  const keys = [];
+  const parts = word.parts;
+  for (let i = 1; i < parts.length; i++) {
+    if (parts[i - 1].pos === "article" && parts[i].pos === "pronoun") keys.push("demonstrative");
+  }
+  return keys.map((k) => link(k, word.hebrew));
 }

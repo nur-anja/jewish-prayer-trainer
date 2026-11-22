@@ -15,6 +15,7 @@ How these notes are written: [conventions](conventions.md).
 - [Past tense](past-tense.md)
 - [Participle (present tense)](participle.md)
 - [Nouns built from roots](nouns.md)
+- [This and that](demonstratives.md)
 - [Letter assimilation](assimilation.md)
 
 ## How to take a word apart

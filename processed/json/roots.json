@@ -1,4 +1,21 @@
 {
+  "א-ב-ה": {
+    "meaning": "father; to be willing",
+    "related": [
+      {
+        "hebrew": "אָבִינוּ מַלְכֵּנוּ",
+        "meaning": "our Father, our King"
+      },
+      {
+        "hebrew": "אֱלֹהֵי אֲבוֹתֵינוּ",
+        "meaning": "God of our fathers"
+      },
+      {
+        "hebrew": "אַבָּא",
+        "meaning": "dad"
+      }
+    ]
+  },
   "א-ד-ם": {
     "meaning": "red, earth",
     "related": [
@@ -301,6 +318,23 @@
       }
     ]
   },
+  "ג-ב-ר": {
+    "meaning": "to be strong, prevail",
+    "related": [
+      {
+        "hebrew": "אַתָּה גִּבּוֹר לְעוֹלָם",
+        "meaning": "You are mighty forever"
+      },
+      {
+        "hebrew": "גְּבוּרָה",
+        "meaning": "might"
+      },
+      {
+        "hebrew": "גֶּבֶר",
+        "meaning": "man"
+      }
+    ]
+  },
   "ג-מ-ל": {
     "meaning": "to render, deal out; to wean",
     "related": [
@@ -440,6 +474,23 @@
       {
         "hebrew": "כַּאֲשֶׁר זָמַם",
         "meaning": "as he schemed"
+      }
+    ]
+  },
+  "ז-מ-ן": {
+    "meaning": "time; to invite, appoint",
+    "related": [
+      {
+        "hebrew": "וְהִגִּיעָנוּ לַזְּמַן הַזֶּה",
+        "meaning": "and brought us to this season"
+      },
+      {
+        "hebrew": "זִמּוּן",
+        "meaning": "invitation to say Grace after Meals together"
+      },
+      {
+        "hebrew": "הַזְמָנָה",
+        "meaning": "invitation"
       }
     ]
   },
@@ -881,6 +932,10 @@
       {
         "hebrew": "מִלְחָמָה",
         "meaning": "war"
+      },
+      {
+        "hebrew": "לֶחֶם",
+        "meaning": "bread"
       }
     ]
   },
@@ -1024,6 +1079,19 @@
       {
         "hebrew": "נְטִיעָה",
         "meaning": "planting"
+      }
+    ]
+  },
+  "נ-ס-ס": {
+    "meaning": "banner, sign; miracle",
+    "related": [
+      {
+        "hebrew": "נֵס גָּדוֹל הָיָה שָׁם",
+        "meaning": "a great miracle happened there"
+      },
+      {
+        "hebrew": "נִסִּים",
+        "meaning": "miracles"
       }
     ]
   },
@@ -1334,6 +1402,19 @@
       {
         "hebrew": "פְּרוּ וּרְבוּ",
         "meaning": "be fruitful and multiply"
+      }
+    ]
+  },
+  "פ-ר-ק": {
+    "meaning": "to break off, take apart; to rescue",
+    "related": [
+      {
+        "hebrew": "פִּרְקֵי אָבוֹת",
+        "meaning": "Chapters of the Fathers"
+      },
+      {
+        "hebrew": "פֶּרֶק",
+        "meaning": "chapter"
       }
     ]
   },

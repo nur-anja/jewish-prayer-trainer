@@ -12,7 +12,7 @@ Each prefix letter stands for a short word:
 |---|---|---|---|
 | וְ־ | and | <b style="color:red">וְ</b>אָהַבְתָּ | and you shall love |
 | בְּ־ | in, with | <b style="color:red">בְּ</b>כָל | with all |
-| לְ־ | to, for | <b style="color:red">לְ</b>עוֹלָם | forever (to the world) |
+| לְ־ | to, for | <b style="color:red">לְ</b>עוֹלָם | forever (lit. to the world) |
 | כְּ־ | like, as | <b style="color:red">כְּ</b>צֵל | like a shadow |
 | מִ־ | from | <b style="color:red">מִ</b>מִּצְרַיִם | from Egypt |
 | הַ־ | the | <b style="color:red">הַ</b>גָּדוֹל | the great |

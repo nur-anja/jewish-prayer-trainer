@@ -25,7 +25,7 @@ The מ for "from" in [prefix letters](prefix-letters.md) is short for the word �
 
 | Spelled out | Written | Translation |
 |---|---|---|
-| <b style="color:red">מִן</b> מֶרְחָק | <b style="color:red">מִ</b>מֶּרְחָק | from distance (from afar) |
+| <b style="color:red">מִן</b> מֶרְחָק | <b style="color:red">מִ</b>מֶּרְחָק | from afar (lit. from distance) |
 | <b style="color:red">מִן</b> כָּל | <b style="color:red">מִ</b>כָּל | from all of |
 
 The dagesh in the letter after the מ replaces the נ. Before א, ה, ח, ע and ר, which can't take a dagesh, the prefix becomes מֵ־ instead: the longer vowel makes up for the missing doubling.
