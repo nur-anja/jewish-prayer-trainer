@@ -61,6 +61,10 @@ Root cards (a root, then its meaning, related words and the words in the text wi
 
 New cards are numbered in text order: for each line, for each clause its new words and then the clause's cards, then the line's cards. Anki introduces them in the order they appear in the prayer.
 
+### Deck options
+
+The decks use their own options preset, "Prayer Trainer": Anki's defaults with every sibling burying option on (new, review and interday learning siblings). Once one card of a note is shown, the note's other cards wait until the next day, so the Produce card comes the day after the Recognize card. Anki imports the preset when "Import any deck presets" is ticked, and also switches decks already in the collection to it.
+
 ### Font
 
 Anki cards can't rely on the Google Fonts link used by the PDFs (offline phones). Bundle Noto Serif Hebrew (OFL license) as deck media named `_NotoSerifHebrew.ttf`; the leading underscore stops Anki's "Check media" from deleting it. The font file is downloaded once and committed under `scripts/anki/`.
@@ -73,7 +77,7 @@ The links for a part are written into the Parts field, at the end of that part's
 
 ## Checked
 
-With the `anki` package from PyPI (version 26.09): both decks import with no conflicts and the font in the media folder; after studying a card, changing a meaning in the JSON, rebuilding and re-importing, all notes were updated in place, none were added, and the card kept its review. The cards were also rendered and looked at in light and night mode. Not yet tried on AnkiDroid or AnkiMobile.
+With the `anki` package from PyPI (version 26.09): both decks import with no conflicts and the font in the media folder; after studying a card, changing a meaning in the JSON, rebuilding and re-importing, all notes were updated in place, none were added, and the card kept its review. The cards were also rendered and looked at in light and night mode. With the v3 scheduler, a deck imported with "Import any deck presets", fresh or over an earlier build that used the Default preset, uses the "Prayer Trainer" preset, and the day's 20 new cards are all Recognize cards of 20 different notes. Not yet tried on AnkiDroid or AnkiMobile.
 
 ## Later
 

@@ -2,14 +2,16 @@
 // ("collection.anki2"), which Anki desktop, AnkiDroid and AnkiMobile all import, plus the media files.
 // Modeled on genanki (https://github.com/kerrickstaley/genanki).
 //
-//   writeApkg(path, { noteTypes, decks, notes, media })
+//   writeApkg(path, { noteTypes, decks, preset, notes, media })
 //     noteTypes  [{ id, name, fields: [name], templates: [{ name, front, back }], css }]
-//     decks      [{ id, name }]
+//     decks      [{ id, name }], all using the options preset
+//     preset     { id, name }, the deck options preset (Anki's defaults, with every sibling burying option on:
+//                once one card of a note is shown, its other cards wait until the next day)
 //     notes      [{ guid, noteType, deck, fields: [string], tags: [string] }], in the order Anki should
 //                introduce them; a note gets one card per template of its note type
 //     media      [{ name, data }], files the templates refer to by name
 //
-// Ids of note types and decks must stay the same between builds: Anki recognizes them by id. Notes are
+// Ids of note types, decks and the preset must stay the same between builds: Anki recognizes them by id. Notes are
 // recognized by guid, so re-importing a rebuilt deck updates the notes already in the collection and keeps
 // their reviews. Every modification time is the build time, so Anki sees the imported notes and note types
 // as newer than the ones it has.
@@ -45,14 +47,16 @@ CREATE INDEX ix_notes_csum on notes (csum);
 
 const FIELD_SEPARATOR = "\x1f";
 const DEFAULT_DECK = { id: 1, name: "Default" };
+const DEFAULT_PRESET = { id: 1, name: "Default" };
 
-// The default options group every deck uses: Anki's own defaults.
-const DECK_OPTIONS = {
-  1: {
-    id: 1,
-    name: "Default",
-    mod: 0,
-    usn: 0,
+// A deck options preset: Anki's own defaults, with every sibling burying option on. The Default deck uses
+// the Default preset (id 1), the package's decks use `preset`.
+function presetJson({ id, name }, mod) {
+  return {
+    id,
+    name,
+    mod,
+    usn: -1,
     maxTaken: 60,
     autoplay: true,
     timer: 0,
@@ -61,8 +65,9 @@ const DECK_OPTIONS = {
     new: { bury: true, delays: [1, 10], initialFactor: 2500, ints: [1, 4, 7], order: 1, perDay: 20, separate: true },
     lapse: { delays: [10], leechAction: 1, leechFails: 8, minInt: 1, mult: 0 },
     rev: { bury: true, ease4: 1.3, fuzz: 0.05, ivlFct: 1, maxIvl: 36500, minSpace: 1, perDay: 200 },
-  },
-};
+    buryInterdayLearning: true,
+  };
+}
 
 const stripHtml = (s) =>
   s
@@ -107,7 +112,7 @@ function noteTypeJson({ id, name, fields, templates, css }, mod) {
   };
 }
 
-function deckJson({ id, name }, mod) {
+function deckJson({ id, name }, conf, mod) {
   return {
     id,
     name,
@@ -115,7 +120,7 @@ function deckJson({ id, name }, mod) {
     usn: -1,
     desc: "",
     dyn: 0,
-    conf: 1,
+    conf,
     collapsed: false,
     extendNew: 0,
     extendRev: 50,
@@ -126,7 +131,7 @@ function deckJson({ id, name }, mod) {
   };
 }
 
-export async function writeApkg(path, { noteTypes, decks, notes, media }) {
+export async function writeApkg(path, { noteTypes, decks, preset, notes, media }) {
   const SQL = await initSqlJs();
   const db = new SQL.Database();
   db.run(SCHEMA);
@@ -134,7 +139,11 @@ export async function writeApkg(path, { noteTypes, decks, notes, media }) {
   const nowMs = Date.now();
   const now = Math.floor(nowMs / 1000);
   const models = Object.fromEntries(noteTypes.map((t) => [t.id, noteTypeJson(t, now)]));
-  const allDecks = Object.fromEntries([DEFAULT_DECK, ...decks].map((d) => [d.id, deckJson(d, now)]));
+  const allDecks = Object.fromEntries([
+    [DEFAULT_DECK.id, deckJson(DEFAULT_DECK, DEFAULT_PRESET.id, now)],
+    ...decks.map((d) => [d.id, deckJson(d, preset.id, now)]),
+  ]);
+  const presets = Object.fromEntries([DEFAULT_PRESET, preset].map((p) => [p.id, presetJson(p, now)]));
   const conf = {
     activeDecks: [1],
     curDeck: 1,
@@ -156,7 +165,7 @@ export async function writeApkg(path, { noteTypes, decks, notes, media }) {
     JSON.stringify(conf),
     JSON.stringify(models),
     JSON.stringify(allDecks),
-    JSON.stringify(DECK_OPTIONS),
+    JSON.stringify(presets),
   ]);
 
   // Note and card ids only need to be unique within the file: Anki matches notes by guid.
