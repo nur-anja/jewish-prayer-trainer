@@ -107,7 +107,7 @@
           "minLength": 1
         },
         "literal": {
-          "description": "The literal meaning, given only where the word's meaning departs from it. After a vav consecutive, the literal meaning has the flipped tense. Left out for a pronoun with the article, meaning this, that, these or those: its grammar note explains how it is built.",
+          "description": "The literal meaning, given only where the word's meaning departs from it. After a vav consecutive, the literal meaning has the flipped tense. A future verb that expresses a wish has its meaning with \"may\" and its literal in the future tense. Left out for a pronoun with the article, meaning this, that, these or those: its grammar note explains how it is built.",
           "type": "string",
           "minLength": 1
         },
