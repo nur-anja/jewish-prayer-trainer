@@ -16,12 +16,12 @@ Hebrew has its own words for "this" and "these". For "that" and "those" it uses 
 
 "That" and "those" are the words for "he", "she" and "they" with "the" in front:
 
-| Example | Note | Translation |
-|---|---|---|
-| <b style="color:red">הַ</b>הוּא | masc. | that (lit. the he) |
-| <b style="color:red">הַ</b>הִיא | fem. | that (lit. the she) |
-| <b style="color:red">הָ</b>הֵם | masc. | those (lit. the they) |
-| <b style="color:red">הָ</b>הֵן | fem. | those (lit. the they) |
+| Example | Translation |
+|---|---|
+| <b style="color:red">הַ</b>הוּא | that (lit. the he) |
+| <b style="color:red">הַ</b>הִיא | that (lit. the she) |
+| <b style="color:red">הָ</b>הֵם | those (lit. the they (masc.)) |
+| <b style="color:red">הָ</b>הֵן | those (lit. the they (fem.)) |
 
 On its own, the word after "the" means "he", "she" or "they"; with "the" in front, it always means "that" or "those". The vowel under "the" changes with the next letter, but the letter stays the same (see [prefix letters](prefix-letters.md)).
 
