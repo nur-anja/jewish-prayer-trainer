@@ -4,8 +4,7 @@ How the notes in [grammar/](README.md) are written, so new notes look and read t
 
 ## What gets a section
 
-- A pattern gets its own section (and a value in the `pattern` field) only if a beginner can spot it from the letters alone, without reading the vowels, and it tells more than gender and number. A מ or ת prefix and the וּת ending pass; a plain feminine ה ending and templates defined by vowels or a dagesh don't.
-- Vowels can still be mentioned in a Note column or in a sentence after a table, such as "the vowel before the ending changes", but they never define a section.
+- A pattern gets its own section (and a value in the `pattern` field) only if it tells more than gender and number.
 - Keep each note to about a page: one short table per section.
 
 ## File and section structure
