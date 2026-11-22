@@ -1,7 +1,8 @@
 // Build an Anki deck for every text breakdown in processed/json/: processed/anki/<name>.apkg.
 // Import the file in Anki (File > Import, or open it on a phone). Importing a rebuilt file again updates the
 // cards already in Anki and keeps their reviews. The cards are described in templates.mjs, which notes
-// become which cards in deck.mjs.
+// become which cards in deck.mjs. The decks use the "Prayer Trainer" options preset, which buries a note's
+// other cards until the next day once one is shown; tick "Import any deck presets" when importing to get it.
 //
 // Usage:
 //   node scripts/anki/index.mjs                   # every text in processed/json/
@@ -18,6 +19,8 @@ import { writeApkg } from "./apkg.mjs";
 import { buildDeck } from "./deck.mjs";
 import { FONT_FILE, NOTE_TYPES } from "./templates.mjs";
 
+// The preset's id must stay the same between builds: Anki recognizes it by id.
+const PRESET = { id: 1700000000001, name: "Prayer Trainer" };
 const OUT_DIR = join(ROOT, "processed", "anki");
 const FONT = readFileSync(join(dirname(fileURLToPath(import.meta.url)), "NotoSerifHebrew.ttf"));
 
@@ -29,7 +32,7 @@ for (const file of files) {
   try {
     const text = JSON.parse(readFileSync(file, "utf8"));
     const { decks, notes } = buildDeck(text, roots, basename(file));
-    await writeApkg(out, { noteTypes: NOTE_TYPES, decks, notes, media: [{ name: FONT_FILE, data: FONT }] });
+    await writeApkg(out, { noteTypes: NOTE_TYPES, decks, preset: PRESET, notes, media: [{ name: FONT_FILE, data: FONT }] });
     const cards = notes.reduce((n, note) => n + note.noteType.templates.length, 0);
     console.log(`✓ ${out.replace(ROOT + "/", "")} (${notes.length} notes, ${cards} cards)`);
   } catch (e) {
