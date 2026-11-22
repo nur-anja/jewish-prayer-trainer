@@ -8,7 +8,7 @@
 //        - header: the Hebrew line (bold) with its translation (italic) below it
 //        - a card per word, never split across pages:
 //            **word** (right)                 meaning (left), followed by "(lit. ...)" when it has one
-//            standard spelling, small, under the word, when it has one
+//            "standard spelling: <standard>", small, under the word, when it has one
 //            one "**part** - meaning *(label)*" per part; the label follows GRAMMAR LABELS in common.mjs
 //            Root **ר-ו-ט** - root meaning
 //            one "**word** - meaning" per related word from roots.json

@@ -5,7 +5,7 @@
 //                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
 //                      back:  the meaning, the word with its standard spelling (if any) and grammar links under it, then the same as Recognize
-// The Standard field holds the word's standard spelling when it has one, shown in a small line under the word.
+// The Standard field holds the word's standard spelling when it has one, shown under the word as "standard spelling: <standard>".
 // The Meaning field holds the meaning followed by "(lit. ...)" when the word has a literal meaning. The Grammar
 // field holds the links to the grammar notes for the word as a whole, shown on the back under the meaning
 // (Recognize) or under the word (Produce).
@@ -79,7 +79,7 @@ const DETAILS = `
 
 const GRAMMAR = `{{#Grammar}}\n<div dir="ltr" class="word-notes">{{Grammar}}</div>{{/Grammar}}`;
 
-const STANDARD = `{{#Standard}}\n<div dir="rtl" class="he standard">{{Standard}}</div>{{/Standard}}`;
+const STANDARD = `{{#Standard}}\n<div dir="ltr" class="standard">standard spelling: <span dir="rtl" class="he">{{Standard}}</span></div>{{/Standard}}`;
 
 const SOURCE = `<div dir="ltr" class="source">{{Text}}</div>`;
 

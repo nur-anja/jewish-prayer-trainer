@@ -8,7 +8,7 @@
 //        - table:  Hebrew | Meaning | Word Breakdown | Root | Root Meaning | Other Root Words
 //
 // Table cells:
-//   Hebrew            **word**, with its standard spelling in small type under it when it has one
+//   Hebrew            **word**, with "standard spelling: <standard>" in small type under it when it has one
 //   Meaning           meaning in context, followed by "(lit. ...)" when the word has a literal meaning
 //   Word Breakdown    one "**part** - meaning *(label)*" per part, separated by line breaks;
 //                     the label follows GRAMMAR LABELS in common.mjs and is left out when it is empty
