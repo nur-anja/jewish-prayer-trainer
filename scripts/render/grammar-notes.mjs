@@ -4,7 +4,7 @@
 // A part gets a link when the JSON says enough to know which note applies:
 //
 //   prefix (preposition, conjunction, article, particle)  Prefix letters
-//     a vav consecutive                            Past tense or Future tense, "And" that flips, by the verb's form
+//     a vav consecutive                            Flipping vav, On a past form or On a future form, by the verb's form
 //     a preposition prefix with "the" in it        Prefix letters, "The" hiding inside in, to, like
 //   pronoun suffix on a noun                       Possessive endings
 //   pronoun suffix on a preposition                Possessive endings, Same endings on prepositions
@@ -39,8 +39,8 @@ const NOTES = {
   plural: ["plural.md", "Plural forms"],
   past: ["past-tense.md", "Past tense"],
   future: ["future-tense.md", "Future tense"],
-  flipToFuture: ["past-tense.md#and-that-flips-to-the-future", "Past tense"],
-  flipToPast: ["future-tense.md#and-that-flips-to-the-past", "Future tense"],
+  flipToFuture: ["flipping-vav.md#on-a-past-form", "Flipping vav"],
+  flipToPast: ["flipping-vav.md#on-a-future-form", "Flipping vav"],
   participle: ["participle.md", "Participle"],
   nunFrom: ["assimilation.md#מ-for-from", "Letter assimilation"],
   nunRoot: ["assimilation.md#roots-starting-with-נ", "Letter assimilation"],

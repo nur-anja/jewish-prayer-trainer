@@ -12,16 +12,6 @@ In the past tense, an ending (not a prefix) shows who did the action, and the ba
 | ־תֶּם | you (plural) | שְׁמַעְ<b style="color:red">תֶּם</b> | שמע | you heard |
 | ־וּ | they | שָׁמְר<b style="color:red">וּ</b> | שמר | they kept |
 
-## "And" that flips to the future
-
-In biblical text, a ו before a past form can turn it into future or command:
-
-| Example | Root | Translation |
-|---|---|---|
-| <b style="color:red">וְ</b>אָהַבְתָּ | אהב | and you shall love |
-
-The opposite flip, from future to past, is in [future tense](future-tense.md).
-
 ## Watch out
 
 The ending נוּ can mean "we did" in the past, or "us" as an object:
@@ -37,3 +27,5 @@ The blessing formula has both object forms:
 | Example | Translation |
 |---|---|
 | אֲשֶׁר קִדְּשָׁ<b style="color:red">נוּ</b> בְּמִצְוֹתָיו וְצִוָּ<b style="color:red">נוּ</b> | who sanctified us with his commandments and commanded us |
+
+A ו in front of a past form can flip it to the future; see [flipping vav](flipping-vav.md).

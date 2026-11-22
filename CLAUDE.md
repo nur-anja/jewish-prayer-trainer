@@ -18,6 +18,11 @@
 
 - Before saving something to remember, propose the wording and ask whether it goes in this CLAUDE.md (shared through the repository) or in local memory (private to the user).
 
+## Grammar notes
+
+- Write and edit the notes in grammar/ by grammar/conventions.md.
+- Where following a convention would make a note wrong or harder to understand, don't follow it there, and say in the reply which convention was set aside and why.
+
 ## Writing rules
 
 - Write rules (in the schemas, skills and conventions) in clear, generic terms that can't be misread. Try to avoid examples. Add an example only when ambiguity is unavoidable.

@@ -2,17 +2,15 @@
 
 How the notes in [grammar/](README.md) are written, so new notes look and read the same as the existing ones.
 
-## What gets a section
+## Length
 
-- A pattern gets its own section (and a value in the `pattern` field) only if a beginner can spot it from the letters alone, without reading the vowels, and it tells more than gender and number. A מ or ת prefix and the וּת ending pass; a plain feminine ה ending and templates defined by vowels or a dagesh don't.
-- Vowels can still be mentioned in a Note column or in a sentence after a table, such as "the vowel before the ending changes", but they never define a section.
 - Keep each note to about a page: one short table per section.
 
 ## File and section structure
 
 - Each file has a title, then a short intro, then sections.
-- Every section (and the intro, if a table follows it) starts with one or two short sentences stating the pattern. The last of them ends with a colon and is followed directly by its table.
-- Further explanation goes after the table, not before it.
+- Every section (and the intro, if a table follows it) starts with one or two short sentences stating the pattern, including every variant its table shows. The last of them ends with a colon and is followed directly by its table.
+- Reasons and background (why a form looks the way it does, where it comes up) go after the table, not before it.
 - Pitfalls (words that look like the pattern but aren't, or forms that can mean two things) go in a section called "Watch out". It is always the last section of the file.
 - Link to related notes inline, with the topic name as the link text.
 
