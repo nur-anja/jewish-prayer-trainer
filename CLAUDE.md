@@ -9,6 +9,11 @@
 
 - Before starting heavy work against third-party sources (e.g. looking words up in online dictionaries like Pealim or Sefaria, or scraping websites), say what you plan to fetch and why, and wait for confirmation.
 
+## Changing outputs
+
+- Make the clean change to the Anki note types, PDFs and scripts (add, rename or reorder fields and templates as the change needs) instead of working around them to keep existing Anki notes compatible.
+- When a change needs "Merge note types" on the next Anki import, say so in the reply.
+
 ## Memories
 
 - Before saving something to remember, propose the wording and ask whether it goes in this CLAUDE.md (shared through the repository) or in local memory (private to the user).

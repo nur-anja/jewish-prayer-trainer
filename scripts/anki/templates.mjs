@@ -20,10 +20,10 @@
 // Clause notes exist only for lines of more than one clause; a one-clause line has its Line note.
 //
 // The ids must never change: Anki recognizes a note type by its id, so changing one makes a re-import add
-// a second copy of every note. Adding, removing or reordering fields or templates also makes Anki treat
-// the note type as a different one: importing the new deck then skips the notes already in Anki as
-// conflicts, unless "Merge note types" is ticked in the import dialog. Renaming a field or template does
-// the same (tried with Anki 26.09). Editing the HTML and CSS is safe.
+// a second copy of every note. Fields and templates can be changed freely as a change needs: after adding,
+// removing, reordering or renaming one, the next import needs "Merge note types" ticked in the import
+// dialog, or Anki skips the notes already in it as conflicts (tried with Anki 26.09). Editing the HTML and
+// CSS needs nothing.
 
 export const FONT_FILE = "_NotoSerifHebrew.ttf"; // the underscore keeps Anki's "Check Media" from deleting it
 
