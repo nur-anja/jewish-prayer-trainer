@@ -9,8 +9,8 @@ How the notes in [grammar/](README.md) are written, so new notes look and read t
 ## File and section structure
 
 - Each file has a title, then a short intro, then sections.
-- Every section (and the intro, if a table follows it) starts with one or two short sentences stating the pattern. The last of them ends with a colon and is followed directly by its table.
-- Further explanation goes after the table, not before it.
+- Every section (and the intro, if a table follows it) starts with one or two short sentences stating the pattern, including every variant its table shows. The last of them ends with a colon and is followed directly by its table.
+- Reasons and background (why a form looks the way it does, where it comes up) go after the table, not before it.
 - Pitfalls (words that look like the pattern but aren't, or forms that can mean two things) go in a section called "Watch out". It is always the last section of the file.
 - Link to related notes inline, with the topic name as the link text.
 
