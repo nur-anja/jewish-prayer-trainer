@@ -149,7 +149,7 @@
           "minLength": 1
         },
         "pos": {
-          "description": "Particles are words that fit no other part of speech, such as the relative אֲשֶׁר (that), the object marker אֵת, הִנֵּה (behold) and סֶלָה (Selah); the object marker's meaning is \"(marks the direct object)\".",
+          "description": "A name is the name of a person, a people, a place or God. The name of a day or festival is a noun, even where English treats it as a proper noun: the part's meaning is the noun's own meaning, the word's meaning is the day's name, and the word's literal is the noun's own meaning where it differs from the name. Particles are words that fit no other part of speech, such as the relative אֲשֶׁר (that), the object marker אֵת, הִנֵּה (behold) and סֶלָה (Selah); the object marker's meaning is \"(marks the direct object)\".",
           "enum": [
             "noun",
             "verb",

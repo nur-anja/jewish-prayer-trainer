@@ -17,6 +17,8 @@ A Hebrew text, verse, or prayer. If its text isn't given in `texts/`, write it t
 
 The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else.
 
+A blessing's opening formula is abbreviated as the schema's line rule says, in the input text file as well as in the JSON. Before you start, replace the full formula in the input text file with the abbreviation.
+
 Read both schemas first, and check them again for each decision: their descriptions say how to fill each field, and their rules say which fields each part needs. Look at existing texts only for decisions where the schemas allow more than one answer. When an existing text contradicts a rule, follow the rule, fix the existing text and report the fix. When done, run `npm run check` and fix every error it reports. Then render the PDFs in every layout with `npm run render -- processed/json/<id>.json` and build the Anki deck with `npm run anki -- processed/json/<id>.json`.
 
 Finally, list the words whose root you left out, as a table with the columns Word, Candidate root and Why.
