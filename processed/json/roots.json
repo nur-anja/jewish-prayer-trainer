@@ -352,6 +352,23 @@
       }
     ]
   },
+  "ג-מ-ר": {
+    "meaning": "to complete",
+    "related": [
+      {
+        "hebrew": "גְּמַר חֲתִימָה טוֹבָה",
+        "meaning": "a good final sealing"
+      },
+      {
+        "hebrew": "גְּמָרָא",
+        "meaning": "Gemara"
+      },
+      {
+        "hebrew": "גָּמַר",
+        "meaning": "finished"
+      }
+    ]
+  },
   "ד-ב-ר": {
     "meaning": "to speak",
     "related": [
@@ -444,6 +461,19 @@
       {
         "hebrew": "הוֹלֵךְ",
         "meaning": "walks, goes"
+      }
+    ]
+  },
+  "ז-ב-ח": {
+    "meaning": "to sacrifice",
+    "related": [
+      {
+        "hebrew": "מִזְבֵּחַ",
+        "meaning": "altar"
+      },
+      {
+        "hebrew": "זֶבַח",
+        "meaning": "sacrifice"
       }
     ]
   },
@@ -681,6 +711,23 @@
       {
         "hebrew": "חֻקָּה",
         "meaning": "statute"
+      }
+    ]
+  },
+  "ט-ב-ח": {
+    "meaning": "to slaughter",
+    "related": [
+      {
+        "hebrew": "טֶבַח",
+        "meaning": "slaughter"
+      },
+      {
+        "hebrew": "מִטְבָּח",
+        "meaning": "kitchen"
+      },
+      {
+        "hebrew": "טַבָּח",
+        "meaning": "cook"
       }
     ]
   },
@@ -1082,6 +1129,32 @@
       }
     ]
   },
+  "נ-א-ה": {
+    "meaning": "to be fitting, beautiful",
+    "related": [
+      {
+        "hebrew": "נָאֶה",
+        "meaning": "fitting, handsome"
+      },
+      {
+        "hebrew": "נָאוֶה",
+        "meaning": "lovely"
+      }
+    ]
+  },
+  "נ-ב-ח": {
+    "meaning": "to bark",
+    "related": [
+      {
+        "hebrew": "נָבַח",
+        "meaning": "barked"
+      },
+      {
+        "hebrew": "נְבִיחָה",
+        "meaning": "barking"
+      }
+    ]
+  },
   "נ-ג-ע": {
     "meaning": "to touch; to reach",
     "related": [
@@ -1284,8 +1357,8 @@
         "meaning": "strength"
       },
       {
-        "hebrew": "יְיָ עֹז לְעַמּוֹ יִתֵּן",
-        "meaning": "the LORD will give strength to His people"
+        "hebrew": "מָעוֹז",
+        "meaning": "stronghold"
       },
       {
         "hebrew": "עַז",
@@ -1448,6 +1521,23 @@
       }
     ]
   },
+  "פ-ל-ל": {
+    "meaning": "to pray",
+    "related": [
+      {
+        "hebrew": "תְּפִלָּה",
+        "meaning": "prayer"
+      },
+      {
+        "hebrew": "הִתְפַּלֵּל",
+        "meaning": "he prayed"
+      },
+      {
+        "hebrew": "שׁוֹמֵעַ תְּפִלָּה",
+        "meaning": "who hears prayer"
+      }
+    ]
+  },
   "פ-נ-ן": {
     "meaning": "pearl",
     "related": [
@@ -1554,6 +1644,23 @@
       {
         "hebrew": "צַמֶּרֶת",
         "meaning": "treetop, top echelon"
+      }
+    ]
+  },
+  "צ-ר-ר": {
+    "meaning": "to be narrow; to oppress",
+    "related": [
+      {
+        "hebrew": "צָרָה",
+        "meaning": "trouble"
+      },
+      {
+        "hebrew": "צַר",
+        "meaning": "narrow"
+      },
+      {
+        "hebrew": "צוֹרֵר",
+        "meaning": "enemy"
       }
     ]
   },
@@ -1729,6 +1836,23 @@
       }
     ]
   },
+  "ש-ב-ח": {
+    "meaning": "to praise",
+    "related": [
+      {
+        "hebrew": "עָלֵינוּ לְשַׁבֵּחַ",
+        "meaning": "it is our duty to praise"
+      },
+      {
+        "hebrew": "יִשְׁתַּבַּח",
+        "meaning": "may [Your name] be praised"
+      },
+      {
+        "hebrew": "שֶׁבַח",
+        "meaning": "praise"
+      }
+    ]
+  },
   "ש-ב-ת": {
     "meaning": "to cease, to rest",
     "related": [
@@ -1786,6 +1910,23 @@
       {
         "hebrew": "מָשׂוֹשׂ",
         "meaning": "joy"
+      }
+    ]
+  },
+  "ש-י-ר": {
+    "meaning": "to sing",
+    "related": [
+      {
+        "hebrew": "שִׁיר הַשִּׁירִים",
+        "meaning": "Song of Songs"
+      },
+      {
+        "hebrew": "אָז יָשִׁיר",
+        "meaning": "then [Moses] sang"
+      },
+      {
+        "hebrew": "שִׁירָה",
+        "meaning": "song"
       }
     ]
   },

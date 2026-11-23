@@ -1,0 +1,461 @@
+{
+  "id": "maoz_tsur",
+  "title": "Maoz Tsur",
+  "kind": "poem",
+  "sections": [
+    {
+      "lines": [
+        {
+          "hebrew": "מָעוֹז צוּר יְשׁוּעָתִי, לְךָ נָאֶה לְשַׁבֵּחַ,",
+          "translation": "Stronghold, Rock of my salvation, to You it is fitting to give praise",
+          "clauses": [
+            {
+              "hebrew": "מָעוֹז צוּר יְשׁוּעָתִי, לְךָ נָאֶה לְשַׁבֵּחַ",
+              "translation": "Stronghold, Rock of my salvation, to You it is fitting to give praise",
+              "words": [
+                {
+                  "hebrew": "מָעוֹז",
+                  "meaning": "Stronghold",
+                  "parts": [
+                    {
+                      "hebrew": "מָעוֹז",
+                      "meaning": "stronghold",
+                      "pos": "noun",
+                      "pattern": "mem-prefix",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ז-ז"
+                },
+                {
+                  "hebrew": "צוּר",
+                  "meaning": "Rock of",
+                  "parts": [
+                    {
+                      "hebrew": "צוּר",
+                      "meaning": "rock of",
+                      "pos": "noun",
+                      "construct": true,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "צ-ו-ר"
+                },
+                {
+                  "hebrew": "יְשׁוּעָתִי",
+                  "meaning": "my salvation",
+                  "parts": [
+                    {
+                      "hebrew": "יְשׁוּעַת",
+                      "meaning": "salvation of",
+                      "pos": "noun",
+                      "construct": true,
+                      "gender": "fem",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ִי",
+                      "meaning": "my",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ע"
+                },
+                {
+                  "hebrew": "לְךָ",
+                  "meaning": "to You",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "to",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "you",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "נָאֶה",
+                  "meaning": "it is fitting",
+                  "literal": "fitting",
+                  "parts": [
+                    {
+                      "hebrew": "נָאֶה",
+                      "meaning": "fitting",
+                      "pos": "adjective",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-א-ה"
+                },
+                {
+                  "hebrew": "לְשַׁבֵּחַ",
+                  "meaning": "to give praise",
+                  "literal": "to praise",
+                  "parts": [
+                    {
+                      "hebrew": "לְשַׁבֵּחַ",
+                      "meaning": "to praise",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "infinitive-construct"
+                    }
+                  ],
+                  "root": "ש-ב-ח"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "תִּכּוֹן בֵּית תְּפִלָּתִי, וְשָׁם תּוֹדָה נְזַבֵּחַ.",
+          "translation": "May my House of Prayer be established, and there we will sacrifice a thanksgiving offering.",
+          "clauses": [
+            {
+              "hebrew": "תִּכּוֹן בֵּית תְּפִלָּתִי",
+              "translation": "May my House of Prayer be established",
+              "words": [
+                {
+                  "hebrew": "תִּכּוֹן",
+                  "meaning": "may [it] be established",
+                  "literal": "it will be established",
+                  "parts": [
+                    {
+                      "hebrew": "תִּכּוֹן",
+                      "meaning": "it will be established",
+                      "pos": "verb",
+                      "binyan": "nifal",
+                      "form": "future",
+                      "person": 3,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "כ-ו-ן"
+                },
+                {
+                  "hebrew": "בֵּית",
+                  "meaning": "the House of",
+                  "parts": [
+                    {
+                      "hebrew": "בֵּית",
+                      "meaning": "house of",
+                      "pos": "noun",
+                      "construct": true,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ב-י-ת"
+                },
+                {
+                  "hebrew": "תְּפִלָּתִי",
+                  "meaning": "my prayer",
+                  "parts": [
+                    {
+                      "hebrew": "תְּפִלַּת",
+                      "meaning": "prayer of",
+                      "pos": "noun",
+                      "pattern": "tav-prefix",
+                      "construct": true,
+                      "gender": "fem",
+                      "number": "sg"
+                    },
+                    {
+                      "hebrew": "־ִי",
+                      "meaning": "my",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "פ-ל-ל"
+                }
+              ]
+            },
+            {
+              "hebrew": "וְשָׁם תּוֹדָה נְזַבֵּחַ",
+              "translation": "and there we will sacrifice a thanksgiving offering",
+              "words": [
+                {
+                  "hebrew": "וְשָׁם",
+                  "meaning": "and there",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "שָׁם",
+                      "meaning": "there",
+                      "pos": "adverb"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "תּוֹדָה",
+                  "meaning": "a thanksgiving offering",
+                  "literal": "thanksgiving",
+                  "parts": [
+                    {
+                      "hebrew": "תּוֹדָה",
+                      "meaning": "thanksgiving",
+                      "pos": "noun",
+                      "pattern": "tav-prefix",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ד-ה"
+                },
+                {
+                  "hebrew": "נְזַבֵּחַ",
+                  "meaning": "we will sacrifice",
+                  "parts": [
+                    {
+                      "hebrew": "נְזַבֵּחַ",
+                      "meaning": "we will sacrifice",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "future",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ז-ב-ח"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "לְעֵת תָּכִין מַטְבֵּחַ, מִצָּר הַמְנַבֵּחַ,",
+          "translation": "At the time You prepare a slaughter of the foe who barks",
+          "clauses": [
+            {
+              "hebrew": "לְעֵת תָּכִין מַטְבֵּחַ, מִצָּר הַמְנַבֵּחַ",
+              "translation": "At the time You prepare a slaughter of the foe who barks",
+              "words": [
+                {
+                  "hebrew": "לְעֵת",
+                  "meaning": "at the time of",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "at",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "עֵת",
+                      "meaning": "time of",
+                      "pos": "noun",
+                      "construct": true,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "תָּכִין",
+                  "meaning": "You prepare",
+                  "literal": "You will prepare",
+                  "parts": [
+                    {
+                      "hebrew": "תָּכִין",
+                      "meaning": "You will prepare",
+                      "pos": "verb",
+                      "binyan": "hifil",
+                      "form": "future",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "כ-ו-ן"
+                },
+                {
+                  "hebrew": "מַטְבֵּחַ",
+                  "meaning": "a slaughter",
+                  "parts": [
+                    {
+                      "hebrew": "מַטְבֵּחַ",
+                      "meaning": "slaughter",
+                      "pos": "noun",
+                      "pattern": "mem-prefix",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ט-ב-ח"
+                },
+                {
+                  "hebrew": "מִצָּר",
+                  "meaning": "of the foe",
+                  "literal": "from a foe",
+                  "parts": [
+                    {
+                      "hebrew": "מִ־",
+                      "meaning": "from",
+                      "pos": "preposition",
+                      "assimilated": "nun"
+                    },
+                    {
+                      "hebrew": "צָר",
+                      "meaning": "foe",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "צ-ר-ר"
+                },
+                {
+                  "hebrew": "הַמְנַבֵּחַ",
+                  "meaning": "who barks",
+                  "literal": "the one barking",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "מְנַבֵּחַ",
+                      "meaning": "barking",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "participle",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-ב-ח"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "אָז אֶגְמוֹר בְּשִׁיר מִזְמוֹר, חֲנֻכַּת הַמִּזְבֵּחַ.",
+          "translation": "Then I will complete, with song [and] psalm, the dedication of the altar.",
+          "clauses": [
+            {
+              "hebrew": "אָז אֶגְמוֹר בְּשִׁיר מִזְמוֹר, חֲנֻכַּת הַמִּזְבֵּחַ",
+              "translation": "Then I will complete, with song [and] psalm, the dedication of the altar",
+              "words": [
+                {
+                  "hebrew": "אָז",
+                  "meaning": "then",
+                  "parts": [
+                    {
+                      "hebrew": "אָז",
+                      "meaning": "then",
+                      "pos": "adverb"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "אֶגְמוֹר",
+                  "meaning": "I will complete",
+                  "parts": [
+                    {
+                      "hebrew": "אֶגְמוֹר",
+                      "meaning": "I will complete",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "future",
+                      "person": 1,
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ג-מ-ר"
+                },
+                {
+                  "hebrew": "בְּשִׁיר",
+                  "meaning": "with song",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "with",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "שִׁיר",
+                      "meaning": "song",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-י-ר"
+                },
+                {
+                  "hebrew": "מִזְמוֹר",
+                  "meaning": "psalm",
+                  "parts": [
+                    {
+                      "hebrew": "מִזְמוֹר",
+                      "meaning": "psalm",
+                      "pos": "noun",
+                      "pattern": "mem-prefix",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ז-מ-ר"
+                },
+                {
+                  "hebrew": "חֲנֻכַּת",
+                  "meaning": "the dedication of",
+                  "parts": [
+                    {
+                      "hebrew": "חֲנֻכַּת",
+                      "meaning": "dedication of",
+                      "pos": "noun",
+                      "construct": true,
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-נ-ך"
+                },
+                {
+                  "hebrew": "הַמִּזְבֵּחַ",
+                  "meaning": "the altar",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "מִזְבֵּחַ",
+                      "meaning": "altar",
+                      "pos": "noun",
+                      "pattern": "mem-prefix",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ז-ב-ח"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
