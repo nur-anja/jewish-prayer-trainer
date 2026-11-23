@@ -54,13 +54,17 @@
       "required": ["hebrew", "translation", "clauses"],
       "properties": {
         "hebrew": {
-          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃. When the source has no punctuation, a verse from the Tanakh ends with ׃ and has a comma between its clauses, and nowhere else.",
+          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃. When the source has no punctuation, a verse from the Tanakh ends with ׃ and has a comma between its clauses, and nowhere else. A blessing's opening formula בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם is written as the abbreviation בא״י אמ״ה, without nikud; the abbreviation is in no clause, so its words get no breakdown.",
           "type": "string",
           "minLength": 1
         },
-        "translation": { "type": "string", "minLength": 1 },
+        "translation": {
+          "description": "A blessing's opening formula, written as בא״י אמ״ה in the Hebrew, is written as B.A.A.E.M.H.",
+          "type": "string",
+          "minLength": 1
+        },
         "clauses": {
-          "description": "The line divided into its clauses, in order. Together they cover the whole line: only punctuation and spaces are left between them.",
+          "description": "The line divided into its clauses, in order. Together they cover the whole line: only punctuation, spaces and the abbreviation בא״י אמ״ה are left between them.",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/clause" }
