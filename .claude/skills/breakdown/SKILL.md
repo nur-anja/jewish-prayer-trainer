@@ -17,10 +17,12 @@ A Hebrew text, verse, or prayer. If its text isn't given in `texts/`, write it t
 
 The four-letter divine name (yud-hei-vav-hei, with or without nikud) must not appear anywhere in the repository. Before anything else, replace it in the input text file with יְיָ, then use יְיָ in the JSON and everywhere else.
 
+A blessing's opening formula is abbreviated as the schema's line rule says, in the input text file as well as in the JSON. Before you start, replace the full formula in the input text file with the abbreviation.
+
 Read both schemas first, and check them again for each decision: their descriptions say how to fill each field, and their rules say which fields each part needs. Look at existing texts only for decisions where the schemas allow more than one answer. When an existing text contradicts a rule, follow the rule, fix the existing text and report the fix. When done, run `npm run check` and fix every error it reports. Then render the PDFs in every layout with `npm run render -- processed/json/<id>.json` and build the Anki deck with `npm run anki -- processed/json/<id>.json`.
 
 Finally, list the words whose root you left out, as a table with the columns Word, Candidate root and Why.
 
 Then list the words that got a literal meaning, as a table with the columns Word, Meaning and Literal.
 
-Then list the decisions where the schemas and this skill allowed more than one answer and you chose one: conventions you copied from existing texts in `processed/json/`, and choices of your own. A decision that follows from a rule is covered, even when the rule states it in general terms and doesn't name the case; leave it out. Leave out matters of grammar or translation. Also list anything you did that contradicts a rule. For each, say what you did and where, and whether it should become a rule.
+Then list the decisions where you chose between answers that all fit the schemas and this skill. A decision belongs on the list only if a different answer would also have matched every rule. Before listing one, look for a rule that decides it, even if the rule is stated in general terms and doesn't name the case. If you find one, leave the decision out. A convention copied from an existing text in `processed/json/`, including its breakdown of the same word or phrase, belongs on the list only if the rules allowed another answer. Leave out matters of grammar or translation. Also list anything you did that contradicts a rule. For each item, say what you did and where, and whether it should become a rule.

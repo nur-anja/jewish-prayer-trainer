@@ -378,6 +378,19 @@
       }
     ]
   },
+  "ד-ל-ק": {
+    "meaning": "to burn, to light",
+    "related": [
+      {
+        "hebrew": "הַדְלָקַת נֵרוֹת",
+        "meaning": "candle lighting"
+      },
+      {
+        "hebrew": "דֶּלֶק",
+        "meaning": "fuel"
+      }
+    ]
+  },
   "ד-ר-ך": {
     "meaning": "way, path; to tread",
     "related": [
@@ -616,6 +629,19 @@
       {
         "hebrew": "נֶחְמָד",
         "meaning": "pleasant"
+      }
+    ]
+  },
+  "ח-נ-ך": {
+    "meaning": "to dedicate; to educate",
+    "related": [
+      {
+        "hebrew": "חֲנֻכַּת הַבַּיִת",
+        "meaning": "dedication of the House"
+      },
+      {
+        "hebrew": "חִנּוּךְ",
+        "meaning": "education"
       }
     ]
   },
@@ -1056,6 +1082,19 @@
       }
     ]
   },
+  "נ-ג-ע": {
+    "meaning": "to touch; to reach",
+    "related": [
+      {
+        "hebrew": "הִגִּיעַ",
+        "meaning": "arrived"
+      },
+      {
+        "hebrew": "נֶגַע",
+        "meaning": "plague, affliction"
+      }
+    ]
+  },
   "נ-ד-ב": {
     "meaning": "to give freely, to volunteer",
     "related": [
@@ -1079,6 +1118,19 @@
       {
         "hebrew": "מָנוֹחַ",
         "meaning": "resting place"
+      }
+    ]
+  },
+  "נ-ו-ר": {
+    "meaning": "light, lamp; fire",
+    "related": [
+      {
+        "hebrew": "מְנוֹרָה",
+        "meaning": "menorah, lamp"
+      },
+      {
+        "hebrew": "נוּרָה",
+        "meaning": "light bulb"
       }
     ]
   },

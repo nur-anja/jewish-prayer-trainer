@@ -54,13 +54,17 @@
       "required": ["hebrew", "translation", "clauses"],
       "properties": {
         "hebrew": {
-          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃. When the source has no punctuation, a verse from the Tanakh ends with ׃ and has a comma between its clauses, and nowhere else.",
+          "description": "The full line, with nikud, keeping its punctuation, such as the sof pasuk ׃. When the source has no punctuation, a verse from the Tanakh ends with ׃ and has a comma between its clauses, and nowhere else. A blessing's opening formula בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם is written as the abbreviation בא״י אמ״ה, without nikud; the abbreviation is in no clause, so its words get no breakdown.",
           "type": "string",
           "minLength": 1
         },
-        "translation": { "type": "string", "minLength": 1 },
+        "translation": {
+          "description": "A blessing's opening formula, written as בא״י אמ״ה in the Hebrew, is written as B.A.A.E.M.H.",
+          "type": "string",
+          "minLength": 1
+        },
         "clauses": {
-          "description": "The line divided into its clauses, in order. Together they cover the whole line: only punctuation and spaces are left between them.",
+          "description": "The line divided into its clauses, in order. Together they cover the whole line: only punctuation, spaces and the abbreviation בא״י אמ״ה are left between them.",
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/clause" }
@@ -145,7 +149,7 @@
           "minLength": 1
         },
         "pos": {
-          "description": "Particles are words that fit no other part of speech, such as the relative אֲשֶׁר (that), the object marker אֵת, הִנֵּה (behold) and סֶלָה (Selah); the object marker's meaning is \"(marks the direct object)\".",
+          "description": "A name is the name of a person, a people, a place or God. The name of a day or festival is a noun, even where English treats it as a proper noun: the part's meaning is the noun's own meaning, the word's meaning is the day's name, and the word's literal is the noun's own meaning where it differs from the name. Particles are words that fit no other part of speech, such as the relative אֲשֶׁר (that), the object marker אֵת, הִנֵּה (behold) and סֶלָה (Selah); the object marker's meaning is \"(marks the direct object)\".",
           "enum": [
             "noun",
             "verb",

@@ -8,7 +8,7 @@
 //   - roots.json matches roots.schema.json, every text matches text.schema.json
 //   - every word's root exists in roots.json
 //   - no root lists the same related word twice
-//   - a line's clauses, in order, cover the whole line, with only punctuation and spaces between them
+//   - a line's clauses, in order, cover the whole line, with only punctuation, spaces and a blessing's abbreviated opening between them
 //   - a clause's words, in order, make up the whole clause, with only punctuation and spaces between them
 
 import { readdirSync, readFileSync } from "node:fs";
@@ -126,11 +126,14 @@ function checkStandard(file, word) {
   if (i < text.length) report(file, `standard spelling ${word.standard} of ${word.hebrew} leaves out letters of the word`);
 }
 
+// A blessing's opening formula, written abbreviated in the line and left out of its clauses.
+const BLESSING_OPENING = "בא״י אמ״ה";
+
 // Reports a line whose clauses don't cover it, and a clause whose words don't make it up.
 function checkClauses(file, line) {
   if (typeof line.hebrew !== "string" || !Array.isArray(line.clauses)) return;
   const clauses = line.clauses.filter((c) => typeof c.hebrew === "string");
-  const between = leftover(line.hebrew, clauses.map((c) => c.hebrew));
+  const between = leftover(line.hebrew, clauses.map((c) => c.hebrew))?.replace(BLESSING_OPENING, "") ?? null;
   if (between === null) report(file, `the clauses of "${line.hebrew}" are not all in it, in order`);
   else if (/[^\s,.:;!?׃]/u.test(between)) report(file, `"${between.trim()}" of "${line.hebrew}" is in none of its clauses`);
   for (const clause of clauses) {
