@@ -16,6 +16,19 @@
       }
     ]
   },
+  "א-ב-ן": {
+    "meaning": "stone",
+    "related": [
+      {
+        "hebrew": "אֶבֶן",
+        "meaning": "stone"
+      },
+      {
+        "hebrew": "מְאֻבָּן",
+        "meaning": "fossilized"
+      }
+    ]
+  },
   "א-ד-ם": {
     "meaning": "red, earth",
     "related": [
@@ -81,6 +94,19 @@
       }
     ]
   },
+  "א-י-ב": {
+    "meaning": "to be hostile",
+    "related": [
+      {
+        "hebrew": "אוֹיֵב",
+        "meaning": "enemy"
+      },
+      {
+        "hebrew": "אֵיבָה",
+        "meaning": "enmity"
+      }
+    ]
+  },
   "א-כ-ל": {
     "meaning": "to eat",
     "related": [
@@ -104,6 +130,19 @@
       {
         "hebrew": "אֱלֹהֵי אֲבוֹתֵינוּ",
         "meaning": "God of our fathers"
+      }
+    ]
+  },
+  "א-מ-ם": {
+    "meaning": "nation",
+    "related": [
+      {
+        "hebrew": "אֻמָּה",
+        "meaning": "nation"
+      },
+      {
+        "hebrew": "אֻמּוֹת הָעוֹלָם",
+        "meaning": "the nations of the world"
       }
     ]
   },
@@ -147,6 +186,19 @@
       {
         "hebrew": "אֲנָשִׁים",
         "meaning": "men"
+      }
+    ]
+  },
+  "א-ר-ך": {
+    "meaning": "to be long",
+    "related": [
+      {
+        "hebrew": "אֶרֶךְ אַפַּיִם",
+        "meaning": "slow to anger"
+      },
+      {
+        "hebrew": "אָרוֹךְ",
+        "meaning": "long"
       }
     ]
   },
@@ -232,6 +284,19 @@
       }
     ]
   },
+  "ב-ל-ל": {
+    "meaning": "to mix, to confuse",
+    "related": [
+      {
+        "hebrew": "בָּלַל",
+        "meaning": "He confused"
+      },
+      {
+        "hebrew": "בְּלוּלָה בַשֶּׁמֶן",
+        "meaning": "mixed with oil"
+      }
+    ]
+  },
   "ב-נ-ה": {
     "meaning": "to build; son",
     "related": [
@@ -262,6 +327,19 @@
       }
     ]
   },
+  "ב-ק-ש": {
+    "meaning": "to seek, to request",
+    "related": [
+      {
+        "hebrew": "בַּקָּשָׁה",
+        "meaning": "request"
+      },
+      {
+        "hebrew": "מְבַקֵּשׁ",
+        "meaning": "seeking"
+      }
+    ]
+  },
   "ב-ר-א": {
     "meaning": "to create",
     "related": [
@@ -289,6 +367,23 @@
       {
         "hebrew": "בָּרוּךְ אַתָּה",
         "meaning": "blessed are You"
+      }
+    ]
+  },
+  "ג-א-ה": {
+    "meaning": "to be proud, exalted",
+    "related": [
+      {
+        "hebrew": "גָּאֹה גָּאָה",
+        "meaning": "He is highly exalted"
+      },
+      {
+        "hebrew": "גַּאֲוָה",
+        "meaning": "pride"
+      },
+      {
+        "hebrew": "גָּאוֹן",
+        "meaning": "majesty; genius"
       }
     ]
   },
@@ -335,6 +430,40 @@
       }
     ]
   },
+  "ג-ד-ל": {
+    "meaning": "to grow, to be great",
+    "related": [
+      {
+        "hebrew": "יִתְגַּדַּל",
+        "meaning": "may [His name] be magnified"
+      },
+      {
+        "hebrew": "גָּדוֹל",
+        "meaning": "great, big"
+      },
+      {
+        "hebrew": "מִגְדָּל",
+        "meaning": "tower"
+      }
+    ]
+  },
+  "ג-ל-ה": {
+    "meaning": "to go into exile; to reveal",
+    "related": [
+      {
+        "hebrew": "גָּלוּת",
+        "meaning": "exile"
+      },
+      {
+        "hebrew": "גִּלָּה",
+        "meaning": "he revealed"
+      },
+      {
+        "hebrew": "קִבּוּץ גָּלֻיּוֹת",
+        "meaning": "the ingathering of exiles"
+      }
+    ]
+  },
   "ג-מ-ל": {
     "meaning": "to render, deal out; to wean",
     "related": [
@@ -349,6 +478,19 @@
       {
         "hebrew": "בִּרְכַּת הַגּוֹמֵל",
         "meaning": "the blessing of thanksgiving"
+      }
+    ]
+  },
+  "ג-מ-ר": {
+    "meaning": "to finish, to complete",
+    "related": [
+      {
+        "hebrew": "גָּמַר",
+        "meaning": "he finished"
+      },
+      {
+        "hebrew": "גְּמַר חֲתִימָה טוֹבָה",
+        "meaning": "a good final sealing"
       }
     ]
   },
@@ -375,6 +517,19 @@
       {
         "hebrew": "דְּגַת הַיָּם",
         "meaning": "the fish of the sea"
+      }
+    ]
+  },
+  "ד-ח-ה": {
+    "meaning": "to push away, to reject",
+    "related": [
+      {
+        "hebrew": "מְקַבֵּץ נִדְחֵי עַמּוֹ",
+        "meaning": "Who gathers the dispersed of His people"
+      },
+      {
+        "hebrew": "דְּחִיָּה",
+        "meaning": "postponement"
       }
     ]
   },
@@ -447,6 +602,19 @@
       }
     ]
   },
+  "ז-ב-ח": {
+    "meaning": "to sacrifice",
+    "related": [
+      {
+        "hebrew": "מִזְבֵּחַ",
+        "meaning": "altar"
+      },
+      {
+        "hebrew": "זֶבַח",
+        "meaning": "sacrifice"
+      }
+    ]
+  },
   "ז-ו-ז": {
     "meaning": "to move",
     "related": [
@@ -461,6 +629,19 @@
       {
         "hebrew": "זָז",
         "meaning": "moved"
+      }
+    ]
+  },
+  "ז-ו-ר": {
+    "meaning": "to be foreign, strange",
+    "related": [
+      {
+        "hebrew": "עֲבוֹדָה זָרָה",
+        "meaning": "idol worship"
+      },
+      {
+        "hebrew": "זָר",
+        "meaning": "stranger"
       }
     ]
   },
@@ -684,6 +865,36 @@
       }
     ]
   },
+  "ח-ש-ף": {
+    "meaning": "to bare, to expose",
+    "related": [
+      {
+        "hebrew": "חָשַׂף",
+        "meaning": "he exposed"
+      },
+      {
+        "hebrew": "חָשׂוּף",
+        "meaning": "bare, exposed"
+      }
+    ]
+  },
+  "ט-ב-ח": {
+    "meaning": "to slaughter; to cook",
+    "related": [
+      {
+        "hebrew": "טֶבַח",
+        "meaning": "slaughter"
+      },
+      {
+        "hebrew": "מִטְבָּח",
+        "meaning": "kitchen"
+      },
+      {
+        "hebrew": "טַבָּח",
+        "meaning": "cook"
+      }
+    ]
+  },
   "ט-ו-ב": {
     "meaning": "good",
     "related": [
@@ -694,6 +905,19 @@
       {
         "hebrew": "הַמֵּטִיב",
         "meaning": "Who does good"
+      }
+    ]
+  },
+  "ט-מ-א": {
+    "meaning": "to be impure",
+    "related": [
+      {
+        "hebrew": "טָמֵא",
+        "meaning": "impure"
+      },
+      {
+        "hebrew": "טֻמְאָה",
+        "meaning": "impurity"
       }
     ]
   },
@@ -720,6 +944,19 @@
       {
         "hebrew": "טֶרֶף",
         "meaning": "prey"
+      }
+    ]
+  },
+  "י-ג-ה": {
+    "meaning": "to grieve",
+    "related": [
+      {
+        "hebrew": "יָגוֹן",
+        "meaning": "grief"
+      },
+      {
+        "hebrew": "תּוּגָה",
+        "meaning": "sorrow"
       }
     ]
   },
@@ -775,6 +1012,23 @@
       }
     ]
   },
+  "י-מ-ן": {
+    "meaning": "right (side); south",
+    "related": [
+      {
+        "hebrew": "יָמִין",
+        "meaning": "right"
+      },
+      {
+        "hebrew": "בִּנְיָמִין",
+        "meaning": "Benjamin"
+      },
+      {
+        "hebrew": "תֵּימָן",
+        "meaning": "Yemen; south"
+      }
+    ]
+  },
   "י-צ-א": {
     "meaning": "to go out",
     "related": [
@@ -798,6 +1052,36 @@
       {
         "hebrew": "יְקָר",
         "meaning": "honor"
+      }
+    ]
+  },
+  "י-ק-ש": {
+    "meaning": "to ensnare",
+    "related": [
+      {
+        "hebrew": "מוֹקֵשׁ",
+        "meaning": "snare; landmine"
+      },
+      {
+        "hebrew": "נוֹקַשׁ",
+        "meaning": "was ensnared"
+      }
+    ]
+  },
+  "י-ר-ד": {
+    "meaning": "to go down",
+    "related": [
+      {
+        "hebrew": "יָרַד",
+        "meaning": "he went down"
+      },
+      {
+        "hebrew": "יַרְדֵּן",
+        "meaning": "the Jordan"
+      },
+      {
+        "hebrew": "יְרִידָה",
+        "meaning": "descent"
       }
     ]
   },
@@ -828,6 +1112,23 @@
       {
         "hebrew": "מוֹשִׁיעַ",
         "meaning": "savior"
+      }
+    ]
+  },
+  "י-ת-ר": {
+    "meaning": "to remain, to be left over",
+    "related": [
+      {
+        "hebrew": "יוֹתֵר",
+        "meaning": "more"
+      },
+      {
+        "hebrew": "יֶתֶר",
+        "meaning": "remainder"
+      },
+      {
+        "hebrew": "מוּתָּר",
+        "meaning": "permitted"
       }
     ]
   },
@@ -887,6 +1188,19 @@
       }
     ]
   },
+  "כ-ל-ה": {
+    "meaning": "to be finished, to be consumed",
+    "related": [
+      {
+        "hebrew": "וַיְכֻלּוּ",
+        "meaning": "and [they] were finished"
+      },
+      {
+        "hebrew": "תַּכְלִית",
+        "meaning": "purpose"
+      }
+    ]
+  },
   "כ-ל-ל": {
     "meaning": "whole, all, to include",
     "related": [
@@ -923,6 +1237,19 @@
       {
         "hebrew": "כַּרְמִי",
         "meaning": "Carmi"
+      }
+    ]
+  },
+  "כ-ר-ת": {
+    "meaning": "to cut",
+    "related": [
+      {
+        "hebrew": "כָּרַת בְּרִית",
+        "meaning": "he made a covenant"
+      },
+      {
+        "hebrew": "כָּרֵת",
+        "meaning": "cutting off (karet)"
       }
     ]
   },
@@ -1013,6 +1340,19 @@
       }
     ]
   },
+  "מ-ח-ה": {
+    "meaning": "to wipe out, to blot out",
+    "related": [
+      {
+        "hebrew": "תִּמְחֶה אֶת זֵכֶר עֲמָלֵק",
+        "meaning": "you shall blot out the memory of Amalek"
+      },
+      {
+        "hebrew": "מָחָה",
+        "meaning": "he wiped"
+      }
+    ]
+  },
   "מ-י-ם": {
     "meaning": "water",
     "related": [
@@ -1056,6 +1396,32 @@
       }
     ]
   },
+  "מ-ס-ך": {
+    "meaning": "to mix (wine)",
+    "related": [
+      {
+        "hebrew": "מָסְכָה יֵינָהּ",
+        "meaning": "she mixed her wine"
+      },
+      {
+        "hebrew": "מִמְסָךְ",
+        "meaning": "mixed wine"
+      }
+    ]
+  },
+  "מ-ע-ט": {
+    "meaning": "to be few, little",
+    "related": [
+      {
+        "hebrew": "מְעַט",
+        "meaning": "a little"
+      },
+      {
+        "hebrew": "מִעוּט",
+        "meaning": "minority"
+      }
+    ]
+  },
   "מ-צ-א": {
     "meaning": "to find",
     "related": [
@@ -1066,6 +1432,19 @@
       {
         "hebrew": "מְצִיאָה",
         "meaning": "a find, bargain"
+      }
+    ]
+  },
+  "מ-ר-ר": {
+    "meaning": "to be bitter",
+    "related": [
+      {
+        "hebrew": "מָרוֹר",
+        "meaning": "bitter herb"
+      },
+      {
+        "hebrew": "מַר",
+        "meaning": "bitter"
       }
     ]
   },
@@ -1082,6 +1461,32 @@
       }
     ]
   },
+  "נ-א-ה": {
+    "meaning": "to be fitting, beautiful",
+    "related": [
+      {
+        "hebrew": "נָאֶה",
+        "meaning": "fitting, beautiful"
+      },
+      {
+        "hebrew": "נָאוָה",
+        "meaning": "lovely"
+      }
+    ]
+  },
+  "נ-ב-ח": {
+    "meaning": "to bark",
+    "related": [
+      {
+        "hebrew": "נָבַח",
+        "meaning": "he barked"
+      },
+      {
+        "hebrew": "נְבִיחָה",
+        "meaning": "barking"
+      }
+    ]
+  },
   "נ-ג-ע": {
     "meaning": "to touch; to reach",
     "related": [
@@ -1092,6 +1497,23 @@
       {
         "hebrew": "נֶגַע",
         "meaning": "plague, affliction"
+      }
+    ]
+  },
+  "נ-ג-ש": {
+    "meaning": "to oppress; to approach",
+    "related": [
+      {
+        "hebrew": "נֹגְשָׂיו",
+        "meaning": "its taskmasters"
+      },
+      {
+        "hebrew": "וַיִּגַּשׁ",
+        "meaning": "and he approached"
+      },
+      {
+        "hebrew": "לְהַגִּישׁ",
+        "meaning": "to serve, to present"
       }
     ]
   },
@@ -1190,6 +1612,19 @@
       }
     ]
   },
+  "נ-ק-ם": {
+    "meaning": "to avenge",
+    "related": [
+      {
+        "hebrew": "נְקָמָה",
+        "meaning": "revenge"
+      },
+      {
+        "hebrew": "נוֹקֵם",
+        "meaning": "avenger"
+      }
+    ]
+  },
   "נ-ש-א": {
     "meaning": "to lift, carry",
     "related": [
@@ -1256,6 +1691,57 @@
       {
         "hebrew": "מִסְחָר",
         "meaning": "commerce"
+      }
+    ]
+  },
+  "ע-ב-ד": {
+    "meaning": "to serve, to work",
+    "related": [
+      {
+        "hebrew": "עֲבָדִים הָיִינוּ",
+        "meaning": "we were slaves"
+      },
+      {
+        "hebrew": "עֲבוֹדָה",
+        "meaning": "service, work"
+      },
+      {
+        "hebrew": "עֶבֶד",
+        "meaning": "servant, slave"
+      }
+    ]
+  },
+  "ע-ב-ר": {
+    "meaning": "to pass, to cross",
+    "related": [
+      {
+        "hebrew": "עִבְרִי",
+        "meaning": "Hebrew"
+      },
+      {
+        "hebrew": "עֲבֵרָה",
+        "meaning": "transgression"
+      },
+      {
+        "hebrew": "עָבָר",
+        "meaning": "past"
+      }
+    ]
+  },
+  "ע-ג-ל": {
+    "meaning": "calf; round",
+    "related": [
+      {
+        "hebrew": "עֵגֶל הַזָּהָב",
+        "meaning": "the golden calf"
+      },
+      {
+        "hebrew": "עֲגָלָה",
+        "meaning": "wagon"
+      },
+      {
+        "hebrew": "עָגֹל",
+        "meaning": "round"
       }
     ]
   },
@@ -1435,6 +1921,19 @@
       }
     ]
   },
+  "ע-ת-ת": {
+    "meaning": "time",
+    "related": [
+      {
+        "hebrew": "עֵת",
+        "meaning": "time"
+      },
+      {
+        "hebrew": "עִתּוֹן",
+        "meaning": "newspaper"
+      }
+    ]
+  },
   "פ-ח-ד": {
     "meaning": "to fear",
     "related": [
@@ -1445,6 +1944,19 @@
       {
         "hebrew": "פַּחַד יִצְחָק",
         "meaning": "the Fear of Isaac"
+      }
+    ]
+  },
+  "פ-ל-ל": {
+    "meaning": "to pray; to judge",
+    "related": [
+      {
+        "hebrew": "תְּפִלָּה",
+        "meaning": "prayer"
+      },
+      {
+        "hebrew": "לְהִתְפַּלֵּל",
+        "meaning": "to pray"
       }
     ]
   },
@@ -1467,6 +1979,19 @@
       {
         "hebrew": "פְּרוּ וּרְבוּ",
         "meaning": "be fruitful and multiply"
+      }
+    ]
+  },
+  "פ-ר-ץ": {
+    "meaning": "to break through",
+    "related": [
+      {
+        "hebrew": "יָמִין וּשְׂמֹאל תִּפְרֹצִי",
+        "meaning": "right and left you shall spread out"
+      },
+      {
+        "hebrew": "פִּרְצָה",
+        "meaning": "breach"
       }
     ]
   },
@@ -1518,6 +2043,19 @@
       }
     ]
   },
+  "צ-ו-ל": {
+    "meaning": "deep",
+    "related": [
+      {
+        "hebrew": "וְתַשְׁלִיךְ בִּמְצֻלוֹת יָם",
+        "meaning": "and You will cast into the depths of the sea"
+      },
+      {
+        "hebrew": "צוּלָה",
+        "meaning": "the deep"
+      }
+    ]
+  },
   "צ-ו-ר": {
     "meaning": "rock; to shape",
     "related": [
@@ -1544,6 +2082,36 @@
       }
     ]
   },
+  "צ-ל-ל": {
+    "meaning": "shade; to sink",
+    "related": [
+      {
+        "hebrew": "בְּצֵל שַׁדַּי",
+        "meaning": "in the shadow of the Almighty"
+      },
+      {
+        "hebrew": "צְלָלִית",
+        "meaning": "silhouette"
+      },
+      {
+        "hebrew": "צָלְלוּ כַּעוֹפֶרֶת",
+        "meaning": "they sank like lead"
+      }
+    ]
+  },
+  "צ-ל-ם": {
+    "meaning": "image; darkness",
+    "related": [
+      {
+        "hebrew": "בְּצֶלֶם אֱלֹהִים",
+        "meaning": "in the image of God"
+      },
+      {
+        "hebrew": "צַלְמָוֶת",
+        "meaning": "deep darkness"
+      }
+    ]
+  },
   "צ-מ-ר": {
     "meaning": "wool",
     "related": [
@@ -1554,6 +2122,53 @@
       {
         "hebrew": "צַמֶּרֶת",
         "meaning": "treetop, top echelon"
+      }
+    ]
+  },
+  "צ-ר-ר": {
+    "meaning": "to be narrow, to distress; foe",
+    "related": [
+      {
+        "hebrew": "צָרָה",
+        "meaning": "trouble, distress"
+      },
+      {
+        "hebrew": "צַר",
+        "meaning": "narrow"
+      },
+      {
+        "hebrew": "צוֹרְרִים",
+        "meaning": "oppressors"
+      }
+    ]
+  },
+  "ק-ב-ע": {
+    "meaning": "to fix, to establish",
+    "related": [
+      {
+        "hebrew": "קָבוּעַ",
+        "meaning": "fixed, permanent"
+      },
+      {
+        "hebrew": "קְבִיעוּת",
+        "meaning": "regularity"
+      }
+    ]
+  },
+  "ק-ב-ץ": {
+    "meaning": "to gather",
+    "related": [
+      {
+        "hebrew": "קַבְּצֵנוּ",
+        "meaning": "gather us"
+      },
+      {
+        "hebrew": "קִבּוּץ",
+        "meaning": "kibbutz; gathering"
+      },
+      {
+        "hebrew": "קְבוּצָה",
+        "meaning": "group"
       }
     ]
   },
@@ -1587,6 +2202,36 @@
       }
     ]
   },
+  "ק-נ-ה": {
+    "meaning": "to acquire, to buy",
+    "related": [
+      {
+        "hebrew": "קוֹנֵה הַכֹּל",
+        "meaning": "Possessor of all"
+      },
+      {
+        "hebrew": "קָנָה",
+        "meaning": "he bought"
+      },
+      {
+        "hebrew": "מִקְנֶה",
+        "meaning": "livestock"
+      }
+    ]
+  },
+  "ק-צ-ץ": {
+    "meaning": "end; to cut off",
+    "related": [
+      {
+        "hebrew": "קֵץ הַיָּמִים",
+        "meaning": "the end of days"
+      },
+      {
+        "hebrew": "קִצֵּץ",
+        "meaning": "he cut off"
+      }
+    ]
+  },
   "ק-ר-א": {
     "meaning": "to call, to read",
     "related": [
@@ -1617,12 +2262,42 @@
       }
     ]
   },
+  "ק-ש-ה": {
+    "meaning": "to be hard",
+    "related": [
+      {
+        "hebrew": "קָשֶׁה",
+        "meaning": "hard"
+      },
+      {
+        "hebrew": "קְשֵׁה עֹרֶף",
+        "meaning": "stiff-necked"
+      }
+    ]
+  },
   "ק-ש-ר": {
     "meaning": "to tie, to bind",
     "related": [
       {
         "hebrew": "קֶשֶׁר",
         "meaning": "knot, connection"
+      }
+    ]
+  },
+  "ר-א-ש": {
+    "meaning": "head",
+    "related": [
+      {
+        "hebrew": "רֹאשׁ הַשָּׁנָה",
+        "meaning": "Rosh Hashana"
+      },
+      {
+        "hebrew": "רִאשׁוֹן",
+        "meaning": "first"
+      },
+      {
+        "hebrew": "רֵאשִׁית",
+        "meaning": "beginning"
       }
     ]
   },
@@ -1686,6 +2361,53 @@
       }
     ]
   },
+  "ר-נ-ן": {
+    "meaning": "to sing for joy",
+    "related": [
+      {
+        "hebrew": "לְכוּ נְרַנְּנָה",
+        "meaning": "come, let us sing for joy"
+      },
+      {
+        "hebrew": "רִנָּה",
+        "meaning": "joyous song"
+      }
+    ]
+  },
+  "ר-ע-ה": {
+    "meaning": "to shepherd, to graze",
+    "related": [
+      {
+        "hebrew": "יְיָ רֹעִי",
+        "meaning": "the LORD is my shepherd"
+      },
+      {
+        "hebrew": "רוֹעֶה",
+        "meaning": "shepherd"
+      },
+      {
+        "hebrew": "מִרְעֶה",
+        "meaning": "pasture"
+      }
+    ]
+  },
+  "ר-ע-ל": {
+    "meaning": "poison",
+    "related": [
+      {
+        "hebrew": "רַעַל",
+        "meaning": "poison"
+      },
+      {
+        "hebrew": "רָעִיל",
+        "meaning": "poisonous"
+      },
+      {
+        "hebrew": "הַרְעָלָה",
+        "meaning": "poisoning"
+      }
+    ]
+  },
   "ר-ע-ע": {
     "meaning": "bad, evil",
     "related": [
@@ -1716,6 +2438,23 @@
       }
     ]
   },
+  "ר-ש-ע": {
+    "meaning": "to be wicked",
+    "related": [
+      {
+        "hebrew": "רָשָׁע",
+        "meaning": "wicked"
+      },
+      {
+        "hebrew": "הִרְשַׁעְנוּ",
+        "meaning": "we have acted wickedly"
+      },
+      {
+        "hebrew": "רִשְׁעָה",
+        "meaning": "wickedness"
+      }
+    ]
+  },
   "ש-א-ב": {
     "meaning": "to draw (water)",
     "related": [
@@ -1726,6 +2465,40 @@
       {
         "hebrew": "שְׁאִיבָה",
         "meaning": "drawing"
+      }
+    ]
+  },
+  "ש-ב-ח": {
+    "meaning": "to praise",
+    "related": [
+      {
+        "hebrew": "עָלֵינוּ לְשַׁבֵּחַ",
+        "meaning": "it is our duty to praise"
+      },
+      {
+        "hebrew": "יִשְׁתַּבַּח",
+        "meaning": "may [His name] be praised"
+      },
+      {
+        "hebrew": "שֶׁבַח",
+        "meaning": "praise"
+      }
+    ]
+  },
+  "ש-ב-ע": {
+    "meaning": "to be sated; seven; to swear",
+    "related": [
+      {
+        "hebrew": "וְאָכַלְתָּ וְשָׂבָעְתָּ",
+        "meaning": "and you shall eat and be satisfied"
+      },
+      {
+        "hebrew": "שֶׁבַע",
+        "meaning": "seven"
+      },
+      {
+        "hebrew": "שְׁבוּעָה",
+        "meaning": "oath"
       }
     ]
   },
@@ -1786,6 +2559,23 @@
       {
         "hebrew": "מָשׂוֹשׂ",
         "meaning": "joy"
+      }
+    ]
+  },
+  "ש-י-ר": {
+    "meaning": "to sing",
+    "related": [
+      {
+        "hebrew": "שִׁיר הַמַּעֲלוֹת",
+        "meaning": "a song of ascents"
+      },
+      {
+        "hebrew": "שִׁירָה",
+        "meaning": "song, poetry"
+      },
+      {
+        "hebrew": "אָז יָשִׁיר",
+        "meaning": "then [Moses] sang"
       }
     ]
   },
@@ -1850,6 +2640,23 @@
       }
     ]
   },
+  "ש-מ-ן": {
+    "meaning": "oil, fat; eight",
+    "related": [
+      {
+        "hebrew": "שֶׁמֶן",
+        "meaning": "oil"
+      },
+      {
+        "hebrew": "שְׁמִינִי עֲצֶרֶת",
+        "meaning": "Shemini Atzeret, the eighth [day] of assembly"
+      },
+      {
+        "hebrew": "שָׁמֵן",
+        "meaning": "fat"
+      }
+    ]
+  },
   "ש-מ-ע": {
     "meaning": "to hear",
     "related": [
@@ -1906,6 +2713,36 @@
       }
     ]
   },
+  "ש-ע-ב-ד": {
+    "meaning": "to enslave, to subjugate",
+    "related": [
+      {
+        "hebrew": "שִׁעְבֵּד",
+        "meaning": "he enslaved"
+      },
+      {
+        "hebrew": "מְשֻׁעְבָּד",
+        "meaning": "subjugated"
+      }
+    ]
+  },
+  "ש-ע-ה": {
+    "meaning": "hour; to regard",
+    "related": [
+      {
+        "hebrew": "שָׁעָה",
+        "meaning": "hour"
+      },
+      {
+        "hebrew": "שָׁעוֹן",
+        "meaning": "clock"
+      },
+      {
+        "hebrew": "וַיִּשַׁע",
+        "meaning": "and He regarded"
+      }
+    ]
+  },
   "ש-ע-ר": {
     "meaning": "gate",
     "related": [
@@ -1916,6 +2753,19 @@
       {
         "hebrew": "שַׁעֲרֵי שָׁמַיִם",
         "meaning": "gates of heaven"
+      }
+    ]
+  },
+  "ש-ק-ט": {
+    "meaning": "to be quiet, at rest",
+    "related": [
+      {
+        "hebrew": "שֶׁקֶט",
+        "meaning": "quiet"
+      },
+      {
+        "hebrew": "שָׁקֵט",
+        "meaning": "calm"
       }
     ]
   },
@@ -1938,6 +2788,19 @@
       {
         "hebrew": "הַשִּׁשִּׁי",
         "meaning": "the sixth"
+      }
+    ]
+  },
+  "ת-ל-ה": {
+    "meaning": "to hang",
+    "related": [
+      {
+        "hebrew": "תָּלָה",
+        "meaning": "he hanged"
+      },
+      {
+        "hebrew": "תָּלוּי",
+        "meaning": "hanging; dependent"
       }
     ]
   },
