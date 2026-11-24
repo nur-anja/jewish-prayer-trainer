@@ -48,7 +48,7 @@
       }
     },
     "line": {
-      "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence of text that isn't a pasuk. A response added after a pasuk, such as כֵּן תִּהְיֶה לָּנוּ, is its own line.",
+      "description": "The smallest natural unit of the text: a verse of a poem, a pasuk, or a sentence of text that isn't a pasuk. A verse of a poem made of two halves (hemistichs) is one line holding both halves, with a comma between them. A response added after a pasuk, such as כֵּן תִּהְיֶה לָּנוּ, is its own line.",
       "type": "object",
       "additionalProperties": false,
       "required": ["hebrew", "translation", "clauses"],
@@ -72,7 +72,7 @@
       }
     },
     "clause": {
-      "description": "A subsentence of the line, shown on the Anki cards of its words instead of the whole line: a clause with its verb (or, without a verb, what it says about its subject) and everything attached to it, usually ending at a comma. A long clause is split at its main pause, as the cantillation divides it, and a list of short parallel parts joined by ו stays together. A line that is one clause has a single clause. Clauses don't overlap: a relative clause inside another clause splits it into three, וְהָיוּ הַדְּבָרִים הָאֵלֶּה, אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם, עַל־לְבָבֶךָ.",
+      "description": "A subsentence of the line, shown on the Anki cards of its words instead of the whole line: a clause with its verb (or, without a verb, what it says about its subject) and everything attached to it, usually ending at a comma. A long clause is split at its main pause, as the cantillation divides it, and a list of short parallel parts joined by ו stays together. A line that is one clause has a single clause. In a verse of a poem made of two halves, no clause crosses the break between the halves, even where both halves form one sentence. Clauses don't overlap: a relative clause inside another clause splits it into three, וְהָיוּ הַדְּבָרִים הָאֵלֶּה, אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם, עַל־לְבָבֶךָ.",
       "type": "object",
       "additionalProperties": false,
       "required": ["hebrew", "translation", "words"],
