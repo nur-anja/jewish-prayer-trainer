@@ -83,3 +83,42 @@ Add the rule as proposed, or with the "only when the meaning differs" tweak?
 ## Lost in the move to the schema
 
 The breakdown skill used to describe the Meaning column as a "**Direct** English translation of the word in context". When the rules moved into the schema, `word.meaning` in `data/schema/text.schema.json` became just "Meaning of the word in this context.", dropping the one word that asked for a literal translation. Restore it, or replace it with the wording of this rule, when the rule is adopted.
+
+Done: `word.meaning` now says the word is "translated word for word: the context picks the sense, but no English word is added or dropped to fit the sentence", and `word.literal` is given only where the context picks a different sense for the word or one of its parts.
+
+---
+
+## Parked: parts with two meanings
+
+Status: parked. A first pass was made and reverted (commit 02c5e16 reverts 952022e).
+
+### Question
+
+Some parts have two meanings in their meaning field. A part's meaning is meant to be literal, and the word's literal now covers a sense the context picks. Should every part have a single meaning?
+
+### Parts with two meanings
+
+| Text | Hebrew | Part meaning | Word meaning |
+|---|---|---|---|
+| Chanukah Candles, Menucha V'simcha | אֲשֶׁר | who, that | who |
+| Chanukah Candles | נֵר | light, candle | light |
+| Eshet Chayil | שָׁלָל | gain, spoil | and gain |
+| Eshet Chayil | טֶרֶף | food, prey | food |
+| Maoz Tsur | מָעוֹז | stronghold, fortress | stronghold |
+| Maoz Tsur | נָאֶה | fitting, becoming | fitting |
+| Maoz Tsur | תּוֹדָה | thanks, thanksgiving offering | thanksgiving offering |
+| Menucha V'simcha | עוֹמְדִים | stand, endure | and endure (literal: and stand) |
+| Menucha V'simcha | אֶרֶץ | earth, land | earth |
+| Menucha V'simcha | צְבָא | host, army of | host of |
+| Menucha V'simcha | קִדּוּשׁ | Kiddush, sanctification | and Kiddush |
+| Menucha V'simcha | רַב | much, great | to much |
+
+### The reverted pass
+
+- Two synonyms: the part kept the first one, and the word didn't change (stronghold, fitting, earth, host of, much, stand).
+- A basic sense and a context sense: the part kept the basic sense, and the word got it as its literal (that, spoil, prey, thanks, sanctification).
+- The word for candle became "candle" in its part, its meaning and the clause and line translations.
+
+### Open decision
+
+Whether a part's meaning is always one sense, and whether the field should say so.
