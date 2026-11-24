@@ -94,7 +94,7 @@
               "words": [
                 {
                   "hebrew": "יוֹם",
-                  "meaning": "a day of",
+                  "meaning": "day of",
                   "parts": [
                     {
                       "hebrew": "יוֹם",
@@ -123,7 +123,7 @@
                 },
                 {
                   "hebrew": "יוֹם",
-                  "meaning": "a day of",
+                  "meaning": "day of",
                   "parts": [
                     {
                       "hebrew": "יוֹם",
@@ -306,7 +306,7 @@
                 },
                 {
                   "hebrew": "בְּרוּאִים",
-                  "meaning": "were created",
+                  "meaning": "created",
                   "parts": [
                     {
                       "hebrew": "בְּרוּאִים",
@@ -323,6 +323,7 @@
                 {
                   "hebrew": "וְעוֹמְדִים",
                   "meaning": "and endure",
+                  "literal": "and stand",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -359,7 +360,7 @@
               "words": [
                 {
                   "hebrew": "שְׁמֵי",
-                  "meaning": "the heavens of",
+                  "meaning": "heavens of",
                   "parts": [
                     {
                       "hebrew": "שְׁמֵי",
@@ -433,7 +434,7 @@
               "words": [
                 {
                   "hebrew": "כָּל",
-                  "meaning": "all",
+                  "meaning": "all of",
                   "parts": [
                     {
                       "hebrew": "כָּל",
@@ -448,7 +449,7 @@
                 },
                 {
                   "hebrew": "צְבָא",
-                  "meaning": "the host of",
+                  "meaning": "host of",
                   "parts": [
                     {
                       "hebrew": "צְבָא",
@@ -463,7 +464,7 @@
                 },
                 {
                   "hebrew": "מָרוֹם",
-                  "meaning": "on high",
+                  "meaning": "height",
                   "parts": [
                     {
                       "hebrew": "מָרוֹם",
@@ -525,7 +526,7 @@
               "words": [
                 {
                   "hebrew": "תַּנִּין",
-                  "meaning": "the sea monster",
+                  "meaning": "sea monster",
                   "parts": [
                     {
                       "hebrew": "תַּנִּין",
@@ -558,7 +559,8 @@
                 },
                 {
                   "hebrew": "וְחַיַּת",
-                  "meaning": "and the beasts of",
+                  "meaning": "and beasts of",
+                  "literal": "and beast of",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -647,7 +649,7 @@
                 },
                 {
                   "hebrew": "צוּר",
-                  "meaning": "the Rock of",
+                  "meaning": "Rock of",
                   "parts": [
                     {
                       "hebrew": "צוּר",
@@ -662,7 +664,7 @@
                 },
                 {
                   "hebrew": "עוֹלָמִים",
-                  "meaning": "the worlds, eternity",
+                  "meaning": "worlds, eternity",
                   "parts": [
                     {
                       "hebrew": "עוֹלָמִים",
@@ -718,7 +720,7 @@
                 },
                 {
                   "hebrew": "דִּבֶּר",
-                  "meaning": "spoke",
+                  "meaning": "He spoke",
                   "parts": [
                     {
                       "hebrew": "דִּבֶּר",
@@ -735,7 +737,7 @@
                 },
                 {
                   "hebrew": "לְעַם",
-                  "meaning": "to the people of",
+                  "meaning": "to people of",
                   "parts": [
                     {
                       "hebrew": "לְ־",
@@ -906,7 +908,7 @@
               "words": [
                 {
                   "hebrew": "שַׁבַּת",
-                  "meaning": "the Sabbath of",
+                  "meaning": "Sabbath of",
                   "parts": [
                     {
                       "hebrew": "שַׁבַּת",
@@ -935,7 +937,7 @@
                 },
                 {
                   "hebrew": "יוֹם",
-                  "meaning": "the day of",
+                  "meaning": "day of",
                   "parts": [
                     {
                       "hebrew": "יוֹם",
@@ -1015,7 +1017,7 @@
                 },
                 {
                   "hebrew": "שָׁבַת",
-                  "meaning": "rested",
+                  "meaning": "He rested",
                   "parts": [
                     {
                       "hebrew": "שָׁבַת",
@@ -1046,7 +1048,7 @@
                 },
                 {
                   "hebrew": "מִכָּל",
-                  "meaning": "from all",
+                  "meaning": "from all of",
                   "parts": [
                     {
                       "hebrew": "מִ־",
@@ -1107,7 +1109,7 @@
               "words": [
                 {
                   "hebrew": "בְּמִצְוַת",
-                  "meaning": "by the commandment of",
+                  "meaning": "by commandment of",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -1303,7 +1305,7 @@
               "words": [
                 {
                   "hebrew": "נִשְׁמַת",
-                  "meaning": "the soul of",
+                  "meaning": "soul of",
                   "parts": [
                     {
                       "hebrew": "נִשְׁמַת",
@@ -1319,6 +1321,7 @@
                 {
                   "hebrew": "כָּל",
                   "meaning": "every",
+                  "literal": "all of",
                   "parts": [
                     {
                       "hebrew": "כָּל",
@@ -1511,7 +1514,7 @@
               "words": [
                 {
                   "hebrew": "בְּמִשְׁנֶה",
-                  "meaning": "with a double portion of",
+                  "meaning": "with double portion of",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -1546,7 +1549,7 @@
                 },
                 {
                   "hebrew": "וְקִדּוּשׁ",
-                  "meaning": "and the Kiddush",
+                  "meaning": "and Kiddush",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -1592,7 +1595,7 @@
               "words": [
                 {
                   "hebrew": "בְּרֹב",
-                  "meaning": "with an abundance of",
+                  "meaning": "with abundance of",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -1627,7 +1630,7 @@
                 },
                 {
                   "hebrew": "וְרוּחַ",
-                  "meaning": "and a spirit",
+                  "meaning": "and spirit",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -1672,7 +1675,7 @@
               "words": [
                 {
                   "hebrew": "יִזְכּוּ",
-                  "meaning": "will merit",
+                  "meaning": "they will merit",
                   "parts": [
                     {
                       "hebrew": "יִזְכּוּ",
@@ -1722,8 +1725,7 @@
                 },
                 {
                   "hebrew": "הַמִּתְעַנְּגִים",
-                  "meaning": "those who delight",
-                  "literal": "the ones delighting",
+                  "meaning": "the ones who delight",
                   "parts": [
                     {
                       "hebrew": "הַ־",
@@ -1775,7 +1777,7 @@
               "words": [
                 {
                   "hebrew": "בְּבִיאַת",
-                  "meaning": "with the coming of",
+                  "meaning": "with coming of",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -1795,7 +1797,7 @@
                 },
                 {
                   "hebrew": "גּוֹאֵל",
-                  "meaning": "the Redeemer",
+                  "meaning": "Redeemer",
                   "parts": [
                     {
                       "hebrew": "גּוֹאֵל",
@@ -1811,7 +1813,7 @@
                 },
                 {
                   "hebrew": "לְחַיֵּי",
-                  "meaning": "for the life of",
+                  "meaning": "for life of",
                   "parts": [
                     {
                       "hebrew": "לְ־",
@@ -1850,8 +1852,7 @@
                 },
                 {
                   "hebrew": "הַבָּא",
-                  "meaning": "to come",
-                  "literal": "the coming",
+                  "meaning": "the coming",
                   "parts": [
                     {
                       "hebrew": "הַ־",

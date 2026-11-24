@@ -35,8 +35,7 @@
                 },
                 {
                   "hebrew": "הַגֹּאֵל",
-                  "meaning": "who redeems",
-                  "literal": "the one redeeming",
+                  "meaning": "the one who redeems",
                   "parts": [
                     {
                       "hebrew": "הַ־",
@@ -76,7 +75,7 @@
                 },
                 {
                   "hebrew": "מִכָּל־",
-                  "meaning": "from all",
+                  "meaning": "from all of",
                   "parts": [
                     {
                       "hebrew": "מִ־",
@@ -111,8 +110,8 @@
                 },
                 {
                   "hebrew": "יְבָרֵךְ",
-                  "meaning": "may bless",
-                  "literal": "will bless",
+                  "meaning": "may he bless",
+                  "literal": "he will bless",
                   "parts": [
                     {
                       "hebrew": "יְבָרֵךְ",
@@ -165,8 +164,8 @@
               "words": [
                 {
                   "hebrew": "וְיִקָּרֵא",
-                  "meaning": "and may be called",
-                  "literal": "and will be called",
+                  "meaning": "and may it be called",
+                  "literal": "and it will be called",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -230,7 +229,7 @@
                 },
                 {
                   "hebrew": "וְשֵׁם",
-                  "meaning": "and the name of",
+                  "meaning": "and name of",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -355,7 +354,7 @@
                 },
                 {
                   "hebrew": "בְּקֶרֶב",
-                  "meaning": "in the midst of",
+                  "meaning": "in midst of",
                   "parts": [
                     {
                       "hebrew": "בְּ־",

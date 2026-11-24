@@ -209,6 +209,7 @@
                 {
                   "hebrew": "וַיְהִי",
                   "meaning": "and He has become",
+                  "literal": "and He was",
                   "parts": [
                     {
                       "hebrew": "וַ־",
@@ -249,7 +250,7 @@
                 },
                 {
                   "hebrew": "לִישׁוּעָה",
-                  "meaning": "salvation",
+                  "meaning": "as salvation",
                   "parts": [
                     {
                       "hebrew": "לְ־",
@@ -281,6 +282,7 @@
                 {
                   "hebrew": "וּשְׁאַבְתֶּם",
                   "meaning": "and you shall draw",
+                  "literal": "and you drew",
                   "parts": [
                     {
                       "hebrew": "וּ־",
@@ -336,7 +338,7 @@
                 },
                 {
                   "hebrew": "מִמַּעַיְנֵי",
-                  "meaning": "from the springs of",
+                  "meaning": "from springs of",
                   "parts": [
                     {
                       "hebrew": "מִ־",
@@ -528,7 +530,7 @@
                 },
                 {
                   "hebrew": "צְבָאוֹת",
-                  "meaning": "of Hosts",
+                  "meaning": "Hosts",
                   "parts": [
                     {
                       "hebrew": "צְבָאוֹת",
@@ -567,7 +569,7 @@
               "words": [
                 {
                   "hebrew": "מִשְׂגָּב",
-                  "meaning": "a stronghold",
+                  "meaning": "stronghold",
                   "parts": [
                     {
                       "hebrew": "מִשְׂגָּב",
@@ -600,7 +602,7 @@
                 },
                 {
                   "hebrew": "אֱלֹהֵי",
-                  "meaning": "the God of",
+                  "meaning": "God of",
                   "parts": [
                     {
                       "hebrew": "אֱלֹהֵי",
@@ -666,7 +668,7 @@
                 },
                 {
                   "hebrew": "צְבָאוֹת",
-                  "meaning": "of Hosts",
+                  "meaning": "Hosts",
                   "parts": [
                     {
                       "hebrew": "צְבָאוֹת",
@@ -687,11 +689,11 @@
                 {
                   "hebrew": "אַשְׁרֵי",
                   "meaning": "happy is",
-                  "literal": "the happiness of",
+                  "literal": "happiness of",
                   "parts": [
                     {
                       "hebrew": "אַשְׁרֵי",
-                      "meaning": "the happiness of",
+                      "meaning": "happiness of",
                       "pos": "noun",
                       "gender": "masc",
                       "number": "pl",
@@ -702,7 +704,7 @@
                 },
                 {
                   "hebrew": "אָדָם",
-                  "meaning": "the person",
+                  "meaning": "person",
                   "parts": [
                     {
                       "hebrew": "אָדָם",
@@ -716,7 +718,7 @@
                 },
                 {
                   "hebrew": "בֹּטֵחַ",
-                  "meaning": "who trusts",
+                  "meaning": "trusting",
                   "parts": [
                     {
                       "hebrew": "בֹּטֵחַ",
@@ -844,7 +846,7 @@
                 },
                 {
                   "hebrew": "בְיוֹם",
-                  "meaning": "on the day of",
+                  "meaning": "on day of",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -916,7 +918,7 @@
                 },
                 {
                   "hebrew": "הָיְתָה",
-                  "meaning": "there was",
+                  "meaning": "it was",
                   "parts": [
                     {
                       "hebrew": "הָיְתָה",
@@ -1077,7 +1079,7 @@
               "words": [
                 {
                   "hebrew": "כּוֹס",
-                  "meaning": "the cup of",
+                  "meaning": "cup of",
                   "parts": [
                     {
                       "hebrew": "כּוֹס",
@@ -1129,7 +1131,7 @@
               "words": [
                 {
                   "hebrew": "וּבְשֵׁם",
-                  "meaning": "and in the name of",
+                  "meaning": "and in name of",
                   "parts": [
                     {
                       "hebrew": "וּ־",

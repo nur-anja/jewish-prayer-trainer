@@ -132,8 +132,8 @@
               "words": [
                 {
                   "hebrew": "תִּכּוֹן",
-                  "meaning": "may be established",
-                  "literal": "will be established",
+                  "meaning": "may it be established",
+                  "literal": "it will be established",
                   "parts": [
                     {
                       "hebrew": "תִּכּוֹן",
@@ -150,7 +150,7 @@
                 },
                 {
                   "hebrew": "בֵּית",
-                  "meaning": "the house of",
+                  "meaning": "house of",
                   "parts": [
                     {
                       "hebrew": "בֵּית",
@@ -210,7 +210,7 @@
                 },
                 {
                   "hebrew": "תּוֹדָה",
-                  "meaning": "a thanksgiving offering",
+                  "meaning": "thanksgiving offering",
                   "parts": [
                     {
                       "hebrew": "תּוֹדָה",
@@ -254,7 +254,7 @@
                 {
                   "hebrew": "לְעֵת",
                   "meaning": "when",
-                  "literal": "at the time of",
+                  "literal": "at time of",
                   "parts": [
                     {
                       "hebrew": "לְ־",
@@ -292,7 +292,7 @@
                 },
                 {
                   "hebrew": "מַטְבֵּחַ",
-                  "meaning": "a slaughter",
+                  "meaning": "slaughter",
                   "parts": [
                     {
                       "hebrew": "מַטְבֵּחַ",
@@ -313,8 +313,8 @@
               "words": [
                 {
                   "hebrew": "מִצָּר",
-                  "meaning": "of the foe",
-                  "literal": "from the foe",
+                  "meaning": "of foe",
+                  "literal": "from foe",
                   "parts": [
                     {
                       "hebrew": "מִ־",
@@ -334,8 +334,7 @@
                 },
                 {
                   "hebrew": "הַמְנַבֵּחַ",
-                  "meaning": "barking",
-                  "literal": "the barking",
+                  "meaning": "the barking",
                   "parts": [
                     {
                       "hebrew": "הַ־",
@@ -395,7 +394,7 @@
                 },
                 {
                   "hebrew": "בְּשִׁיר",
-                  "meaning": "with a song of",
+                  "meaning": "with song of",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -436,7 +435,7 @@
               "words": [
                 {
                   "hebrew": "חֲנֻכַּת",
-                  "meaning": "the dedication of",
+                  "meaning": "dedication of",
                   "parts": [
                     {
                       "hebrew": "חֲנֻכַּת",

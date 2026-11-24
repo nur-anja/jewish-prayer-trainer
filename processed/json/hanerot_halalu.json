@@ -379,7 +379,7 @@
                 },
                 {
                   "hebrew": "יְדֵי",
-                  "meaning": "the hands of",
+                  "meaning": "hands of",
                   "parts": [
                     {
                       "hebrew": "יְדֵי",
@@ -417,8 +417,7 @@
                 },
                 {
                   "hebrew": "הַקְּדוֹשִׁים",
-                  "meaning": "holy",
-                  "literal": "the holy",
+                  "meaning": "the holy",
                   "parts": [
                     {
                       "hebrew": "הַ־",
@@ -469,7 +468,7 @@
                 },
                 {
                   "hebrew": "שְׁמוֹנַת",
-                  "meaning": "eight",
+                  "meaning": "eight of",
                   "parts": [
                     {
                       "hebrew": "שְׁמוֹנַת",
@@ -784,8 +783,7 @@
                 },
                 {
                   "hebrew": "לְשִׁמְךָ",
-                  "meaning": "Your Name",
-                  "literal": "to Your Name",
+                  "meaning": "to Your Name",
                   "parts": [
                     {
                       "hebrew": "לְ־",
@@ -813,8 +811,7 @@
                 },
                 {
                   "hebrew": "הַגָּדוֹל",
-                  "meaning": "great",
-                  "literal": "the great",
+                  "meaning": "the great",
                   "parts": [
                     {
                       "hebrew": "הַ־",

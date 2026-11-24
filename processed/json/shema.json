@@ -149,7 +149,7 @@
                 },
                 {
                   "hebrew": "שֵׁם",
-                  "meaning": "the name of",
+                  "meaning": "name of",
                   "parts": [
                     {
                       "hebrew": "שֵׁם",
@@ -164,7 +164,7 @@
                 },
                 {
                   "hebrew": "כְּבוֹד",
-                  "meaning": "the glory of",
+                  "meaning": "glory of",
                   "parts": [
                     {
                       "hebrew": "כְּבוֹד",
@@ -260,6 +260,7 @@
                 {
                   "hebrew": "וְאָהַבְתָּ",
                   "meaning": "and you shall love",
+                  "literal": "and you loved",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -488,6 +489,7 @@
                 {
                   "hebrew": "וְהָיוּ",
                   "meaning": "and they shall be",
+                  "literal": "and they were",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -677,6 +679,7 @@
                 {
                   "hebrew": "וְשִׁנַּנְתָּם",
                   "meaning": "and you shall teach them",
+                  "literal": "and you taught them",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -742,6 +745,7 @@
                 {
                   "hebrew": "וְדִבַּרְתָּ",
                   "meaning": "and you shall speak",
+                  "literal": "and you spoke",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -765,10 +769,11 @@
                 {
                   "hebrew": "בָּם",
                   "meaning": "of them",
+                  "literal": "in them",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
-                      "meaning": "of",
+                      "meaning": "in",
                       "pos": "preposition"
                     },
                     {
@@ -790,10 +795,11 @@
                 {
                   "hebrew": "בְּשִׁבְתְּךָ",
                   "meaning": "when you sit",
+                  "literal": "in your sitting",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
-                      "meaning": "when",
+                      "meaning": "in",
                       "pos": "preposition"
                     },
                     {
@@ -845,6 +851,7 @@
                 {
                   "hebrew": "וּבְלֶכְתְּךָ",
                   "meaning": "and when you walk",
+                  "literal": "and in your walking",
                   "parts": [
                     {
                       "hebrew": "וּ־",
@@ -853,7 +860,7 @@
                     },
                     {
                       "hebrew": "בְ־",
-                      "meaning": "when",
+                      "meaning": "in",
                       "pos": "preposition"
                     },
                     {
@@ -902,6 +909,7 @@
                 {
                   "hebrew": "וּבְשָׁכְבְּךָ",
                   "meaning": "and when you lie down",
+                  "literal": "and in your lying down",
                   "parts": [
                     {
                       "hebrew": "וּ־",
@@ -910,7 +918,7 @@
                     },
                     {
                       "hebrew": "בְ־",
-                      "meaning": "when",
+                      "meaning": "in",
                       "pos": "preposition"
                     },
                     {
@@ -934,6 +942,7 @@
                 {
                   "hebrew": "וּבְקוּמֶךָ",
                   "meaning": "and when you rise up",
+                  "literal": "and in your rising up",
                   "parts": [
                     {
                       "hebrew": "וּ־",
@@ -942,7 +951,7 @@
                     },
                     {
                       "hebrew": "בְ־",
-                      "meaning": "when",
+                      "meaning": "in",
                       "pos": "preposition"
                     },
                     {
@@ -978,6 +987,7 @@
                 {
                   "hebrew": "וּקְשַׁרְתָּם",
                   "meaning": "and you shall bind them",
+                  "literal": "and you bound them",
                   "parts": [
                     {
                       "hebrew": "וּ־",
@@ -1069,6 +1079,7 @@
                 {
                   "hebrew": "וְהָיוּ",
                   "meaning": "and they shall be",
+                  "literal": "and they were",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -1158,6 +1169,7 @@
                 {
                   "hebrew": "וּכְתַבְתָּם",
                   "meaning": "and you shall write them",
+                  "literal": "and you wrote them",
                   "parts": [
                     {
                       "hebrew": "וּ־",
@@ -1201,7 +1213,7 @@
                 {
                   "hebrew": "מְזוּזֹת",
                   "standard": "מְזוּזוֹת",
-                  "meaning": "the doorposts of",
+                  "meaning": "doorposts of",
                   "parts": [
                     {
                       "hebrew": "מְזוּזוֹת",

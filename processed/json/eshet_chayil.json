@@ -15,7 +15,7 @@
               "words": [
                 {
                   "hebrew": "אֵשֶׁת",
-                  "meaning": "a woman of",
+                  "meaning": "woman of",
                   "parts": [
                     {
                       "hebrew": "אֵשֶׁת",
@@ -56,8 +56,8 @@
                 },
                 {
                   "hebrew": "יִמְצָא",
-                  "meaning": "can find",
-                  "literal": "will find",
+                  "meaning": "he can find",
+                  "literal": "he will find",
                   "parts": [
                     {
                       "hebrew": "יִמְצָא",
@@ -101,10 +101,11 @@
                 {
                   "hebrew": "מִפְּנִינִים",
                   "meaning": "beyond pearls",
+                  "literal": "from pearls",
                   "parts": [
                     {
                       "hebrew": "מִ־",
-                      "meaning": "beyond",
+                      "meaning": "from",
                       "pos": "preposition",
                       "assimilated": "nun"
                     },
@@ -155,8 +156,8 @@
               "words": [
                 {
                   "hebrew": "בָּטַח",
-                  "meaning": "trusts",
-                  "literal": "trusted",
+                  "meaning": "he trusts",
+                  "literal": "he trusted",
                   "parts": [
                     {
                       "hebrew": "בָּטַח",
@@ -192,7 +193,7 @@
                 },
                 {
                   "hebrew": "לֵב",
-                  "meaning": "the heart of",
+                  "meaning": "heart of",
                   "parts": [
                     {
                       "hebrew": "לֵב",
@@ -386,7 +387,7 @@
                 },
                 {
                   "hebrew": "יְמֵי",
-                  "meaning": "the days of",
+                  "meaning": "days of",
                   "parts": [
                     {
                       "hebrew": "יְמֵי",
@@ -610,7 +611,7 @@
                 },
                 {
                   "hebrew": "סוֹחֵר",
-                  "meaning": "a merchant",
+                  "meaning": "merchant",
                   "parts": [
                     {
                       "hebrew": "סוֹחֵר",
@@ -834,7 +835,7 @@
                 },
                 {
                   "hebrew": "וְחֹק",
-                  "meaning": "and a portion",
+                  "meaning": "and portion",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -912,7 +913,7 @@
                 },
                 {
                   "hebrew": "שָׂדֶה",
-                  "meaning": "a field",
+                  "meaning": "field",
                   "parts": [
                     {
                       "hebrew": "שָׂדֶה",
@@ -965,7 +966,7 @@
               "words": [
                 {
                   "hebrew": "מִפְּרִי",
-                  "meaning": "from the fruit of",
+                  "meaning": "from fruit of",
                   "parts": [
                     {
                       "hebrew": "מִ־",
@@ -1027,7 +1028,7 @@
                 },
                 {
                   "hebrew": "כָּרֶם",
-                  "meaning": "a vineyard",
+                  "meaning": "vineyard",
                   "parts": [
                     {
                       "hebrew": "כֶּרֶם",
