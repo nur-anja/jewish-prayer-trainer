@@ -8,7 +8,7 @@
       "lines": [
         {
           "hebrew": "בא״י אמ״ה, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל חֲנֻכָּה.",
-          "translation": "B.A.A.E.M.H, who has sanctified us with His commandments and commanded us to light [the] candle of Chanukah.",
+          "translation": "B.A.A.E.M.H, who has sanctified us with His commandments and commanded us to light [the] light of Chanukah.",
           "clauses": [
             {
               "hebrew": "אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו",
@@ -17,11 +17,10 @@
                 {
                   "hebrew": "אֲשֶׁר",
                   "meaning": "who",
-                  "literal": "that",
                   "parts": [
                     {
                       "hebrew": "אֲשֶׁר",
-                      "meaning": "that",
+                      "meaning": "who, that",
                       "pos": "particle"
                     }
                   ]
@@ -83,7 +82,7 @@
             },
             {
               "hebrew": "וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל חֲנֻכָּה",
-              "translation": "and commanded us to light [the] candle of Chanukah",
+              "translation": "and commanded us to light [the] light of Chanukah",
               "words": [
                 {
                   "hebrew": "וְצִוָּנוּ",
@@ -130,11 +129,11 @@
                 },
                 {
                   "hebrew": "נֵר",
-                  "meaning": "candle",
+                  "meaning": "light",
                   "parts": [
                     {
                       "hebrew": "נֵר",
-                      "meaning": "candle",
+                      "meaning": "light, candle",
                       "pos": "noun",
                       "gender": "masc",
                       "number": "sg"
