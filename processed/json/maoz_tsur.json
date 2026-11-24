@@ -19,7 +19,7 @@
                   "parts": [
                     {
                       "hebrew": "מָעוֹז",
-                      "meaning": "stronghold, fortress",
+                      "meaning": "stronghold",
                       "pos": "noun",
                       "gender": "masc",
                       "number": "sg",
@@ -96,7 +96,7 @@
                   "parts": [
                     {
                       "hebrew": "נָאֶה",
-                      "meaning": "fitting, becoming",
+                      "meaning": "fitting",
                       "pos": "adjective",
                       "gender": "masc",
                       "number": "sg"
@@ -211,10 +211,11 @@
                 {
                   "hebrew": "תּוֹדָה",
                   "meaning": "thanksgiving offering",
+                  "literal": "thanks",
                   "parts": [
                     {
                       "hebrew": "תּוֹדָה",
-                      "meaning": "thanks, thanksgiving offering",
+                      "meaning": "thanks",
                       "pos": "noun",
                       "gender": "fem",
                       "number": "sg",
