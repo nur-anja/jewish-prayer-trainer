@@ -1013,11 +1013,12 @@
                 },
                 {
                   "hebrew": "לְאוֹת",
-                  "meaning": "as a sign",
+                  "meaning": "as sign",
+                  "literal": "for sign",
                   "parts": [
                     {
                       "hebrew": "לְ־",
-                      "meaning": "as",
+                      "meaning": "for",
                       "pos": "preposition"
                     },
                     {
@@ -1098,10 +1099,11 @@
                   "hebrew": "לְטֹטָפֹת",
                   "standard": "לְטוֹטָפוֹת",
                   "meaning": "as frontlets (tefillin)",
+                  "literal": "for frontlets",
                   "parts": [
                     {
                       "hebrew": "לְ־",
-                      "meaning": "as",
+                      "meaning": "for",
                       "pos": "preposition"
                     },
                     {

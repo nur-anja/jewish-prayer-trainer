@@ -251,10 +251,11 @@
                 {
                   "hebrew": "לִישׁוּעָה",
                   "meaning": "as salvation",
+                  "literal": "for salvation",
                   "parts": [
                     {
                       "hebrew": "לְ־",
-                      "meaning": "as",
+                      "meaning": "for",
                       "pos": "preposition"
                     },
                     {

@@ -49,3 +49,16 @@ Once the letter patterns are learned, expand the noun patterns (the notes and th
 | Hiriq, dagesh in the middle root letter, ו before the last | Kiddush, learning, telling | written in commit 9b31d02 (section with a Watch out on passive participles), reverted in 57b4567 |
 
 The letters rule is dropped, so they can be added as sections of the nouns note.
+
+### Prepositions with a sense picked by the context
+
+A one-letter preposition has a basic meaning (for the ל prefix: to, for), but the context can give it another English sense. The word's meaning then uses the context sense, and its literal uses the basic one. A grammar note would list the common context senses, so a learner can tell why the English preposition differs:
+
+| Preposition | Context sense | When | Example in the texts |
+|---|---|---|---|
+| ל | as | after the verb "to be" in the sense "to become", or naming what something serves as | Havdala, Shema |
+| ב | when | before an infinitive with a pronoun ending | Shema |
+| ב | of | after the verb "to use" or "to speak" | Shema, Hanerot Halalu |
+| מ | beyond | in a comparison | Eshet Chayil |
+
+To be written when a text needs it; link it from preposition parts whose word has a literal.
