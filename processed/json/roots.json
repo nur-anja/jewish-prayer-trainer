@@ -176,6 +176,19 @@
       }
     ]
   },
+  "ב-ד-ד": {
+    "meaning": "alone, separate",
+    "related": [
+      {
+        "hebrew": "לְבַדּוֹ",
+        "meaning": "He alone"
+      },
+      {
+        "hebrew": "בָּדָד",
+        "meaning": "in solitude"
+      }
+    ]
+  },
   "ב-ו-א": {
     "meaning": "to come",
     "related": [
@@ -335,6 +348,23 @@
       }
     ]
   },
+  "ג-ד-ל": {
+    "meaning": "great, to grow",
+    "related": [
+      {
+        "hebrew": "יִתְגַּדַּל",
+        "meaning": "may it be magnified (Kaddish)"
+      },
+      {
+        "hebrew": "גְּדֻלָּה",
+        "meaning": "greatness"
+      },
+      {
+        "hebrew": "מִגְדָּל",
+        "meaning": "tower"
+      }
+    ]
+  },
   "ג-מ-ל": {
     "meaning": "to render, deal out; to wean",
     "related": [
@@ -388,6 +418,19 @@
       {
         "hebrew": "דְּגַת הַיָּם",
         "meaning": "the fish of the sea"
+      }
+    ]
+  },
+  "ד-י-י": {
+    "meaning": "enough",
+    "related": [
+      {
+        "hebrew": "דַּיֵּנוּ",
+        "meaning": "it would have been enough for us"
+      },
+      {
+        "hebrew": "דַּי",
+        "meaning": "enough"
       }
     ]
   },
@@ -457,6 +500,23 @@
       {
         "hebrew": "הוֹלֵךְ",
         "meaning": "walks, goes"
+      }
+    ]
+  },
+  "ה-ל-ל": {
+    "meaning": "to praise",
+    "related": [
+      {
+        "hebrew": "הַלֵּל",
+        "meaning": "Hallel"
+      },
+      {
+        "hebrew": "הַלְלוּיָהּ",
+        "meaning": "Halleluyah"
+      },
+      {
+        "hebrew": "תְּהִלָּה",
+        "meaning": "praise"
       }
     ]
   },
@@ -900,6 +960,23 @@
       }
     ]
   },
+  "כ-ה-ן": {
+    "meaning": "priest, to serve as priest",
+    "related": [
+      {
+        "hebrew": "כֹּהֵן גָּדוֹל",
+        "meaning": "high priest"
+      },
+      {
+        "hebrew": "בִּרְכַּת כֹּהֲנִים",
+        "meaning": "the Priestly Blessing"
+      },
+      {
+        "hebrew": "כְּהֻנָּה",
+        "meaning": "priesthood"
+      }
+    ]
+  },
   "כ-ו-ן": {
     "meaning": "to establish, prepare; right",
     "related": [
@@ -1193,6 +1270,10 @@
   "נ-ו-ר": {
     "meaning": "light, lamp; fire",
     "related": [
+      {
+        "hebrew": "נֵר שֶׁל חֲנֻכָּה",
+        "meaning": "Chanukah candle"
+      },
       {
         "hebrew": "מְנוֹרָה",
         "meaning": "menorah, lamp"
@@ -1530,6 +1611,23 @@
       }
     ]
   },
+  "פ-ל-א": {
+    "meaning": "wonder, to be wondrous",
+    "related": [
+      {
+        "hebrew": "פֶּלֶא",
+        "meaning": "wonder"
+      },
+      {
+        "hebrew": "מַפְלִיא לַעֲשׂוֹת",
+        "meaning": "Who acts wondrously"
+      },
+      {
+        "hebrew": "נִפְלָא",
+        "meaning": "wonderful"
+      }
+    ]
+  },
   "פ-ל-ל": {
     "meaning": "to pray; to judge",
     "related": [
@@ -1738,6 +1836,23 @@
       }
     ]
   },
+  "ר-א-ה": {
+    "meaning": "to see",
+    "related": [
+      {
+        "hebrew": "רְאֵה",
+        "meaning": "see!"
+      },
+      {
+        "hebrew": "מַרְאֶה",
+        "meaning": "sight, appearance"
+      },
+      {
+        "hebrew": "רוֹאֶה",
+        "meaning": "sees"
+      }
+    ]
+  },
   "ר-ב-ב": {
     "meaning": "many, great",
     "related": [
@@ -1825,6 +1940,23 @@
       {
         "hebrew": "רָצוֹן",
         "meaning": "will, desire"
+      }
+    ]
+  },
+  "ר-ש-ה": {
+    "meaning": "to permit, to authorize",
+    "related": [
+      {
+        "hebrew": "בִּרְשׁוּת",
+        "meaning": "with permission"
+      },
+      {
+        "hebrew": "מֻרְשֶׁה",
+        "meaning": "authorized"
+      },
+      {
+        "hebrew": "הַרְשָׁאָה",
+        "meaning": "authorization"
       }
     ]
   },
@@ -1996,6 +2128,23 @@
       }
     ]
   },
+  "ש-מ-ן": {
+    "meaning": "eight; oil, fat",
+    "related": [
+      {
+        "hebrew": "שֶׁמֶן",
+        "meaning": "oil"
+      },
+      {
+        "hebrew": "שְׁמִינִי עֲצֶרֶת",
+        "meaning": "Shemini Atzeret"
+      },
+      {
+        "hebrew": "שְׁמוֹנֶה עֶשְׂרֵה",
+        "meaning": "the Amidah (Eighteen)"
+      }
+    ]
+  },
   "ש-מ-ע": {
     "meaning": "to hear",
     "related": [
@@ -2023,6 +2172,23 @@
       {
         "hebrew": "וְשָׁמְרוּ",
         "meaning": "and they shall keep"
+      }
+    ]
+  },
+  "ש-מ-ש": {
+    "meaning": "to serve, to use; sun",
+    "related": [
+      {
+        "hebrew": "שַׁמָּשׁ",
+        "meaning": "shamash, the helper candle"
+      },
+      {
+        "hebrew": "שֶׁמֶשׁ",
+        "meaning": "sun"
+      },
+      {
+        "hebrew": "שִׁמּוּשׁ",
+        "meaning": "use"
       }
     ]
   },

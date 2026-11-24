@@ -1,0 +1,966 @@
+{
+  "id": "hanerot_halalu",
+  "title": "Hanerot Halalu",
+  "kind": "prose",
+  "sections": [
+    {
+      "lines": [
+        {
+          "hebrew": "הַנֵּרוֹת הַלָּלוּ אָנוּ מַדְלִיקִין, עַל הַנִּסִּים וְעַל הַנִּפְלָאוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת, שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה, עַל יְדֵי כֹּהֲנֶיךָ הַקְּדוֹשִׁים.",
+          "translation": "These candles we light for the miracles and for the wonders and for the salvations and for the wars that You performed for our fathers in those days at this time, through Your holy priests.",
+          "clauses": [
+            {
+              "hebrew": "הַנֵּרוֹת הַלָּלוּ אָנוּ מַדְלִיקִין",
+              "translation": "These candles we light",
+              "words": [
+                {
+                  "hebrew": "הַנֵּרוֹת",
+                  "meaning": "the candles",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "נֵרוֹת",
+                      "meaning": "candles",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "נ-ו-ר"
+                },
+                {
+                  "hebrew": "הַלָּלוּ",
+                  "meaning": "these",
+                  "parts": [
+                    {
+                      "hebrew": "הַלָּלוּ",
+                      "meaning": "these",
+                      "pos": "pronoun",
+                      "type": "demonstrative",
+                      "gender": "common",
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "אָנוּ",
+                  "meaning": "we",
+                  "parts": [
+                    {
+                      "hebrew": "אָנוּ",
+                      "meaning": "we",
+                      "pos": "pronoun",
+                      "type": "personal",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "מַדְלִיקִין",
+                  "meaning": "light",
+                  "parts": [
+                    {
+                      "hebrew": "מַדְלִיקִין",
+                      "meaning": "lighting",
+                      "pos": "verb",
+                      "binyan": "hifil",
+                      "form": "present",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ד-ל-ק"
+                }
+              ]
+            },
+            {
+              "hebrew": "עַל הַנִּסִּים וְעַל הַנִּפְלָאוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת",
+              "translation": "for the miracles and for the wonders and for the salvations and for the wars",
+              "words": [
+                {
+                  "hebrew": "עַל",
+                  "meaning": "for",
+                  "parts": [
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַנִּסִּים",
+                  "meaning": "the miracles",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "נִסִּים",
+                      "meaning": "miracles",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "נ-ס-ס"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַנִּפְלָאוֹת",
+                  "meaning": "the wonders",
+                  "literal": "the wondrous ones",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "נִפְלָאוֹת",
+                      "meaning": "wondrous",
+                      "pos": "verb",
+                      "binyan": "nifal",
+                      "form": "participle",
+                      "gender": "fem",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "פ-ל-א"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַתְּשׁוּעוֹת",
+                  "meaning": "the salvations",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "תְּשׁוּעוֹת",
+                      "meaning": "salvations",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "pattern": "tav-prefix"
+                    }
+                  ],
+                  "root": "י-ש-ע"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "הַמִּלְחָמוֹת",
+                  "meaning": "the wars",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "מִלְחָמוֹת",
+                      "meaning": "wars",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "pl",
+                      "pattern": "mem-prefix"
+                    }
+                  ],
+                  "root": "ל-ח-ם"
+                }
+              ]
+            },
+            {
+              "hebrew": "שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה",
+              "translation": "that You performed for our fathers in those days at this time",
+              "words": [
+                {
+                  "hebrew": "שֶׁעָשִׂיתָ",
+                  "meaning": "that You performed",
+                  "parts": [
+                    {
+                      "hebrew": "שֶׁ־",
+                      "meaning": "that",
+                      "pos": "particle"
+                    },
+                    {
+                      "hebrew": "עָשִׂיתָ",
+                      "meaning": "You did",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "past",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ע-ש-ה"
+                },
+                {
+                  "hebrew": "לַאֲבוֹתֵינוּ",
+                  "meaning": "for our fathers",
+                  "parts": [
+                    {
+                      "hebrew": "לַ־",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "אֲבוֹת",
+                      "meaning": "fathers of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֵינוּ",
+                      "meaning": "our",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "א-ב-ה"
+                },
+                {
+                  "hebrew": "בַּיָּמִים",
+                  "meaning": "in the days",
+                  "parts": [
+                    {
+                      "hebrew": "בַּ־",
+                      "meaning": "in the",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "יָמִים",
+                      "meaning": "days",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "י-ו-ם"
+                },
+                {
+                  "hebrew": "הָהֵם",
+                  "meaning": "those",
+                  "parts": [
+                    {
+                      "hebrew": "הָ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "הֵם",
+                      "meaning": "they",
+                      "pos": "pronoun",
+                      "type": "personal",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "בַּזְּמַן",
+                  "meaning": "at the time",
+                  "parts": [
+                    {
+                      "hebrew": "בַּ־",
+                      "meaning": "at the",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "זְמַן",
+                      "meaning": "time",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ז-מ-ן"
+                },
+                {
+                  "hebrew": "הַזֶּה",
+                  "meaning": "this",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "זֶה",
+                      "meaning": "this",
+                      "pos": "pronoun",
+                      "type": "demonstrative",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "hebrew": "עַל יְדֵי כֹּהֲנֶיךָ הַקְּדוֹשִׁים",
+              "translation": "through Your holy priests",
+              "words": [
+                {
+                  "hebrew": "עַל",
+                  "meaning": "through",
+                  "literal": "upon",
+                  "parts": [
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "upon",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "יְדֵי",
+                  "meaning": "the hands of",
+                  "parts": [
+                    {
+                      "hebrew": "יְדֵי",
+                      "meaning": "hands of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "dual",
+                      "construct": true
+                    }
+                  ],
+                  "root": "י-ד-י"
+                },
+                {
+                  "hebrew": "כֹּהֲנֶיךָ",
+                  "meaning": "Your priests",
+                  "parts": [
+                    {
+                      "hebrew": "כֹּהֲנֵי",
+                      "meaning": "priests of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיךָ",
+                      "meaning": "Your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "כ-ה-ן"
+                },
+                {
+                  "hebrew": "הַקְּדוֹשִׁים",
+                  "meaning": "holy",
+                  "literal": "the holy",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "קְדוֹשִׁים",
+                      "meaning": "holy",
+                      "pos": "adjective",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ק-ד-ש"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hebrew": "וְכָל שְׁמוֹנַת יְמֵי חֲנֻכָּה הַנֵּרוֹת הַלָּלוּ קֹדֶשׁ הֵם, וְאֵין לָנוּ רְשׁוּת לְהִשְׁתַּמֵּשׁ בָּהֶם, אֶלָּא לִרְאוֹתָם בִּלְבָד, כְּדֵי לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל עַל נִסֶּיךָ וְעַל נִפְלְאוֹתֶיךָ וְעַל יְשׁוּעָתֶךָ.",
+          "translation": "And all eight days of Chanukah these candles are holy, and we have no permission to make use of them, but only to look at them, in order to thank and praise Your great Name for Your miracles and for Your wonders and for Your salvation.",
+          "clauses": [
+            {
+              "hebrew": "וְכָל שְׁמוֹנַת יְמֵי חֲנֻכָּה הַנֵּרוֹת הַלָּלוּ קֹדֶשׁ הֵם",
+              "translation": "And all eight days of Chanukah these candles are holy",
+              "words": [
+                {
+                  "hebrew": "וְכָל",
+                  "meaning": "and all",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "כָּל",
+                      "meaning": "all of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "כ-ל-ל"
+                },
+                {
+                  "hebrew": "שְׁמוֹנַת",
+                  "meaning": "eight",
+                  "parts": [
+                    {
+                      "hebrew": "שְׁמוֹנַת",
+                      "meaning": "eight of",
+                      "pos": "numeral",
+                      "gender": "fem",
+                      "construct": true
+                    }
+                  ],
+                  "root": "ש-מ-ן"
+                },
+                {
+                  "hebrew": "יְמֵי",
+                  "meaning": "days of",
+                  "parts": [
+                    {
+                      "hebrew": "יְמֵי",
+                      "meaning": "days of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    }
+                  ],
+                  "root": "י-ו-ם"
+                },
+                {
+                  "hebrew": "חֲנֻכָּה",
+                  "meaning": "Chanukah",
+                  "literal": "dedication",
+                  "parts": [
+                    {
+                      "hebrew": "חֲנֻכָּה",
+                      "meaning": "dedication",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ח-נ-ך"
+                },
+                {
+                  "hebrew": "הַנֵּרוֹת",
+                  "meaning": "the candles",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "נֵרוֹת",
+                      "meaning": "candles",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "נ-ו-ר"
+                },
+                {
+                  "hebrew": "הַלָּלוּ",
+                  "meaning": "these",
+                  "parts": [
+                    {
+                      "hebrew": "הַלָּלוּ",
+                      "meaning": "these",
+                      "pos": "pronoun",
+                      "type": "demonstrative",
+                      "gender": "common",
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "קֹדֶשׁ",
+                  "meaning": "holy",
+                  "literal": "holiness",
+                  "parts": [
+                    {
+                      "hebrew": "קֹדֶשׁ",
+                      "meaning": "holiness",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ק-ד-ש"
+                },
+                {
+                  "hebrew": "הֵם",
+                  "meaning": "are",
+                  "literal": "they",
+                  "parts": [
+                    {
+                      "hebrew": "הֵם",
+                      "meaning": "they",
+                      "pos": "pronoun",
+                      "type": "personal",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "hebrew": "וְאֵין לָנוּ רְשׁוּת לְהִשְׁתַּמֵּשׁ בָּהֶם",
+              "translation": "and we have no permission to make use of them",
+              "words": [
+                {
+                  "hebrew": "וְאֵין",
+                  "meaning": "and there is no",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "אֵין",
+                      "meaning": "there is no",
+                      "pos": "particle"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "לָנוּ",
+                  "meaning": "to us",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "to",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָנוּ",
+                      "meaning": "us",
+                      "pos": "pronoun-suffix",
+                      "person": 1,
+                      "number": "pl"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "רְשׁוּת",
+                  "meaning": "permission",
+                  "parts": [
+                    {
+                      "hebrew": "רְשׁוּת",
+                      "meaning": "permission",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "pattern": "vav-tav-ending"
+                    }
+                  ],
+                  "root": "ר-ש-ה"
+                },
+                {
+                  "hebrew": "לְהִשְׁתַּמֵּשׁ",
+                  "meaning": "to make use",
+                  "parts": [
+                    {
+                      "hebrew": "לְהִשְׁתַּמֵּשׁ",
+                      "meaning": "to make use",
+                      "pos": "verb",
+                      "binyan": "hitpael",
+                      "form": "infinitive-construct"
+                    }
+                  ],
+                  "root": "ש-מ-ש"
+                },
+                {
+                  "hebrew": "בָּהֶם",
+                  "meaning": "of them",
+                  "literal": "in them",
+                  "parts": [
+                    {
+                      "hebrew": "בְּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "־ָהֶם",
+                      "meaning": "them",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "hebrew": "אֶלָּא לִרְאוֹתָם בִּלְבָד",
+              "translation": "but only to look at them",
+              "words": [
+                {
+                  "hebrew": "אֶלָּא",
+                  "meaning": "but",
+                  "parts": [
+                    {
+                      "hebrew": "אֶלָּא",
+                      "meaning": "but",
+                      "pos": "conjunction"
+                    }
+                  ]
+                },
+                {
+                  "hebrew": "לִרְאוֹתָם",
+                  "meaning": "to look at them",
+                  "literal": "to see them",
+                  "parts": [
+                    {
+                      "hebrew": "לִרְאוֹת",
+                      "meaning": "to see",
+                      "pos": "verb",
+                      "binyan": "paal",
+                      "form": "infinitive-construct"
+                    },
+                    {
+                      "hebrew": "־ָם",
+                      "meaning": "them",
+                      "pos": "pronoun-suffix",
+                      "person": 3,
+                      "gender": "masc",
+                      "number": "pl"
+                    }
+                  ],
+                  "root": "ר-א-ה"
+                },
+                {
+                  "hebrew": "בִּלְבָד",
+                  "meaning": "only",
+                  "literal": "in alone",
+                  "parts": [
+                    {
+                      "hebrew": "בִּ־",
+                      "meaning": "in",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "לְבַד",
+                      "meaning": "alone",
+                      "pos": "adverb"
+                    }
+                  ],
+                  "root": "ב-ד-ד"
+                }
+              ]
+            },
+            {
+              "hebrew": "כְּדֵי לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל",
+              "translation": "in order to thank and praise Your great Name",
+              "words": [
+                {
+                  "hebrew": "כְּדֵי",
+                  "meaning": "in order",
+                  "literal": "as the sufficiency of",
+                  "parts": [
+                    {
+                      "hebrew": "כְּ־",
+                      "meaning": "as",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "דֵּי",
+                      "meaning": "sufficiency of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    }
+                  ],
+                  "root": "ד-י-י"
+                },
+                {
+                  "hebrew": "לְהוֹדוֹת",
+                  "meaning": "to thank",
+                  "parts": [
+                    {
+                      "hebrew": "לְהוֹדוֹת",
+                      "meaning": "to thank",
+                      "pos": "verb",
+                      "binyan": "hifil",
+                      "form": "infinitive-construct"
+                    }
+                  ],
+                  "root": "י-ד-ה"
+                },
+                {
+                  "hebrew": "וּלְהַלֵּל",
+                  "meaning": "and praise",
+                  "literal": "and to praise",
+                  "parts": [
+                    {
+                      "hebrew": "וּ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "לְהַלֵּל",
+                      "meaning": "to praise",
+                      "pos": "verb",
+                      "binyan": "piel",
+                      "form": "infinitive-construct"
+                    }
+                  ],
+                  "root": "ה-ל-ל"
+                },
+                {
+                  "hebrew": "לְשִׁמְךָ",
+                  "meaning": "Your Name",
+                  "literal": "to Your Name",
+                  "parts": [
+                    {
+                      "hebrew": "לְ־",
+                      "meaning": "to",
+                      "pos": "preposition"
+                    },
+                    {
+                      "hebrew": "שֵׁם",
+                      "meaning": "name of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ְךָ",
+                      "meaning": "Your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ש-מ-ה"
+                },
+                {
+                  "hebrew": "הַגָּדוֹל",
+                  "meaning": "great",
+                  "literal": "the great",
+                  "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
+                      "hebrew": "גָּדוֹל",
+                      "meaning": "great",
+                      "pos": "adjective",
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "ג-ד-ל"
+                }
+              ]
+            },
+            {
+              "hebrew": "עַל נִסֶּיךָ וְעַל נִפְלְאוֹתֶיךָ וְעַל יְשׁוּעָתֶךָ",
+              "translation": "for Your miracles and for Your wonders and for Your salvation",
+              "words": [
+                {
+                  "hebrew": "עַל",
+                  "meaning": "for",
+                  "parts": [
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "נִסֶּיךָ",
+                  "meaning": "Your miracles",
+                  "parts": [
+                    {
+                      "hebrew": "נִסֵּי",
+                      "meaning": "miracles of",
+                      "pos": "noun",
+                      "gender": "masc",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיךָ",
+                      "meaning": "Your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "נ-ס-ס"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "נִפְלְאוֹתֶיךָ",
+                  "meaning": "Your wonders",
+                  "literal": "Your wondrous ones",
+                  "parts": [
+                    {
+                      "hebrew": "נִפְלְאוֹת",
+                      "meaning": "wondrous ones of",
+                      "pos": "verb",
+                      "binyan": "nifal",
+                      "form": "participle",
+                      "gender": "fem",
+                      "number": "pl",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶיךָ",
+                      "meaning": "Your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "פ-ל-א"
+                },
+                {
+                  "hebrew": "וְעַל",
+                  "meaning": "and for",
+                  "parts": [
+                    {
+                      "hebrew": "וְ־",
+                      "meaning": "and",
+                      "pos": "conjunction"
+                    },
+                    {
+                      "hebrew": "עַל",
+                      "meaning": "for",
+                      "pos": "preposition"
+                    }
+                  ],
+                  "root": "ע-ל-ה"
+                },
+                {
+                  "hebrew": "יְשׁוּעָתֶךָ",
+                  "meaning": "Your salvation",
+                  "parts": [
+                    {
+                      "hebrew": "יְשׁוּעַת",
+                      "meaning": "salvation of",
+                      "pos": "noun",
+                      "gender": "fem",
+                      "number": "sg",
+                      "construct": true
+                    },
+                    {
+                      "hebrew": "־ֶךָ",
+                      "meaning": "Your",
+                      "pos": "pronoun-suffix",
+                      "person": 2,
+                      "gender": "masc",
+                      "number": "sg"
+                    }
+                  ],
+                  "root": "י-ש-ע"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
