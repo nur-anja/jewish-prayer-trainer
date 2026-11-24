@@ -732,10 +732,11 @@
                 {
                   "hebrew": "בְּעוֹד",
                   "meaning": "while still",
+                  "literal": "in still",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
-                      "meaning": "while",
+                      "meaning": "in",
                       "pos": "preposition"
                     },
                     {

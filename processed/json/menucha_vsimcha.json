@@ -275,10 +275,11 @@
                 {
                   "hebrew": "לְשִׁשָּׁה",
                   "meaning": "in six",
+                  "literal": "to six",
                   "parts": [
                     {
                       "hebrew": "לְ־",
-                      "meaning": "in",
+                      "meaning": "to",
                       "pos": "preposition"
                     },
                     {
