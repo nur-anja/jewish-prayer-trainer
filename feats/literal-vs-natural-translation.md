@@ -122,3 +122,45 @@ Some parts have two meanings in their meaning field. A part's meaning is meant t
 ### Open decision
 
 Whether a part's meaning is always one sense, and whether the field should say so.
+
+---
+
+## Planned: he and she instead of it
+
+Status: decided, not applied yet. The texts still use "it".
+
+### Decision
+
+A Hebrew pronoun or verb ending is masculine or feminine even when it refers to a thing. The word's meaning and literal translate it as "he" or "she" (him, her, his), by its Hebrew gender, not as "it". This follows the meaning rule: the Hebrew word dictates the English words, and "it" is English grammar for things.
+
+### Words that would change
+
+Verb subjects:
+
+| Text | Hebrew | Meaning now | Literal now | Gender |
+|---|---|---|---|---|
+| Hamalach Hagoel | וְיִקָּרֵא | and may it be called | and it will be called | masc |
+| Havdala | הָיְתָה | it was | | fem (its part says only "was") |
+| Havdala | תִּהְיֶה | may it be | it will be | fem |
+| Maoz Tsur | תִּכּוֹן | may it be established | it will be established | fem (its part already says "she") |
+
+Pronoun endings:
+
+| Text | Hebrew | Meaning now | Gender |
+|---|---|---|---|
+| Eshet Chayil | וַתִּקָּחֵהוּ | and she acquires it | masc |
+| Menucha V'simcha | שׁוֹמְרָיו | those who keep it | masc |
+| Menucha V'simcha | וְזוֹכְרָיו | and those who remember it | masc |
+| Menucha V'simcha | לְקַדְּשׁוֹ | to sanctify it | masc |
+| Menucha V'simcha | מִבּוֹאוֹ | from its coming | masc |
+| Menucha V'simcha | צֵאתוֹ | its departure | masc |
+| Menucha V'simcha | בוֹ | on it | masc |
+| Menucha V'simcha | בָּהּ | in it | fem |
+
+The parts' meanings change the same way.
+
+### Open before applying
+
+- Whether the rule covers pronoun endings as well as verb subjects.
+- Where to word it in the schema (the word's meaning, the part's meaning, or both).
+- Line and clause translations keep "it", since they read as English sentences.
