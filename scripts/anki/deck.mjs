@@ -16,6 +16,9 @@
 // after a וְ־ prefix. The Grammar field holds the links to the notes for the word as a whole, e.g. This and
 // that for הָהֵם (see grammar-notes.mjs).
 //
+// The Meaning field adds "(passive)" after the meaning of a word with a passive participle part: the
+// participle has no tense, so its English past participle ("created") would read as an active past tense.
+//
 // Tags: the text id, "section::<title>" when the section has a title, and "pos::<part of speech>" for
 // every part of a word.
 //
@@ -36,6 +39,12 @@ const tag = (s) => s.replace(/\s+/g, "_");
 const glosses = (items) => items.map((i) => `<div>${gloss(i)}</div>`).join("");
 
 const noteLinks = (notes) => notes.map((n) => ` <a class="grammar" href="${escape(n.url)}">${escape(n.title)}</a>`).join("");
+
+// The word's meaning as the Meaning field shows it, "(passive)" added for a tenseless passive form.
+function meaningField(word) {
+  if (!word.parts.some((p) => p.form === "passive-participle")) return meaningText(word);
+  return meaningText({ ...word, meaning: `${word.meaning} (passive)` });
+}
 
 // One line per part: its gloss, then links to the grammar notes that explain its form (grammar-notes.mjs).
 const partLines = (parts) =>
@@ -91,7 +100,7 @@ export function buildDeck(text, roots, file) {
             fields: [
               escape(word.hebrew),
               word.standard ? escape(word.standard) : "",
-              escape(meaningText(word)),
+              escape(meaningField(word)),
               noteLinks(wordGrammarNotes(word)).trim(),
               partLines(word.parts),
               root ? escape(word.root) : "",
