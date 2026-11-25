@@ -116,7 +116,7 @@
           "minLength": 1
         },
         "literal": {
-          "description": "The literal meaning, given only where the context picks a different sense for the word or one of its parts. After a vav consecutive, the literal meaning is in the tense the vav gives the verb, not the tense of its written form. A future verb that expresses a wish has its meaning with \"may\" and its literal in the future tense. Left out for a pronoun with the article, meaning this, that, these or those: its grammar note explains how it is built.",
+          "description": "The literal meaning, given only where the context picks a sense for the word that its parts' meanings don't list. After a vav consecutive, the literal meaning is in the tense the vav gives the verb, not the tense of its written form. A future verb that expresses a wish has its meaning with \"may\" and its literal in the future tense. Left out for a pronoun with the article, meaning this, that, these or those: its grammar note explains how it is built.",
           "type": "string",
           "minLength": 1
         },
@@ -144,7 +144,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. The article is always \"the\". A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ. A preposition has one of its dictionary senses; where the context gives it a sense outside them, the part has its basic sense and the word has a literal.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. A base word other than a preposition may give two senses, separated by a comma, where one English word doesn't cover the Hebrew word's meaning, its basic sense first; prefixes and suffixes give one. Each sense follows the part's grammatical form. The article is always \"the\". A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ. A preposition has one of its dictionary senses; where the context gives it a sense outside them, the part has its basic sense and the word has a literal.",
           "type": "string",
           "minLength": 1
         },

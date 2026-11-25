@@ -88,40 +88,36 @@ Done: `word.meaning` now says the word is "translated word for word: the context
 
 ---
 
-## Parked: parts with two meanings
+## Parts with two meanings
 
-Status: parked. A first pass was made and reverted (commit 02c5e16 reverts 952022e).
+Status: decided and applied. An earlier pass that gave every part a single meaning was reverted (commit 02c5e16 reverts 952022e).
 
 ### Question
 
-Some parts have two meanings in their meaning field. A part's meaning is meant to be literal, and the word's literal now covers a sense the context picks. Should every part have a single meaning?
+Some parts have two meanings in their meaning field. A part's meaning is meant to be literal, and the word's literal covers a sense the context picks. Should every part have a single meaning?
 
-### Parts with two meanings
+### Decision
 
-| Text | Hebrew | Part meaning | Word meaning |
-|---|---|---|---|
-| Chanukah Candles, Menucha V'simcha | אֲשֶׁר | who, that | who |
-| Chanukah Candles | נֵר | light, candle | light |
-| Eshet Chayil | שָׁלָל | gain, spoil | and gain |
-| Eshet Chayil | טֶרֶף | food, prey | food |
-| Maoz Tsur | מָעוֹז | stronghold, fortress | stronghold |
-| Maoz Tsur | נָאֶה | fitting, becoming | fitting |
-| Maoz Tsur | תּוֹדָה | thanks, thanksgiving offering | thanksgiving offering |
-| Menucha V'simcha | עוֹמְדִים | stand, endure | and endure (literal: and stand) |
-| Menucha V'simcha | אֶרֶץ | earth, land | earth |
-| Menucha V'simcha | צְבָא | host, army of | host of |
-| Menucha V'simcha | קִדּוּשׁ | Kiddush, sanctification | and Kiddush |
-| Menucha V'simcha | רַב | much, great | to much |
+A base word may give two senses where one English word doesn't cover the Hebrew word's meaning, even when the senses are near-synonyms: the Hebrew word doesn't map one to one onto English, and the pair gives the learner a fuller grasp of it. The part shows the word's range; the word's meaning shows the sense this context picks. The basic sense comes first, and each sense follows the part's grammatical form. Prefixes, suffixes and prepositions keep one meaning.
 
-### The reverted pass
+The word's literal is given only where the context picks a sense its parts' meanings don't list, so a sense among them needs no literal.
 
-- Two synonyms: the part kept the first one, and the word didn't change (stronghold, fitting, earth, host of, much, stand).
-- A basic sense and a context sense: the part kept the basic sense, and the word got it as its literal (that, spoil, prey, thanks, sanctification).
-- The word for candle became "candle" in its part, its meaning and the clause and line translations.
+Both rules are in `part.meaning` and `word.literal` in `data/schema/text.schema.json`.
 
-### Open decision
-
-Whether a part's meaning is always one sense, and whether the field should say so.
+| Text | Hebrew | Part meaning before | Part meaning now | Word meaning |
+|---|---|---|---|---|
+| Chanukah Candles, Menucha V'simcha | אֲשֶׁר | who, that | who, that | who |
+| Chanukah Candles | נֵר | light, candle | candle, light | light |
+| Eshet Chayil | שָׁלָל | gain, spoil | spoil, gain | and gain |
+| Eshet Chayil | טֶרֶף | food, prey | prey, food | food |
+| Maoz Tsur | מָעוֹז | stronghold, fortress | stronghold, fortress | stronghold |
+| Maoz Tsur | נָאֶה | fitting, becoming | fitting, becoming | fitting |
+| Maoz Tsur | תּוֹדָה | thanks, thanksgiving offering | thanks, thanksgiving offering | thanksgiving offering |
+| Menucha V'simcha | עוֹמְדִים | stand, endure | stand, endure | and endure (its literal, and stand, is dropped) |
+| Menucha V'simcha | אֶרֶץ | earth, land | earth, land | earth |
+| Menucha V'simcha | צְבָא | host, army of | host of, army of | host of |
+| Menucha V'simcha | קִדּוּשׁ | Kiddush, sanctification | sanctification, Kiddush | and Kiddush |
+| Menucha V'simcha | רַב | much, great | much, great | to much |
 
 ---
 

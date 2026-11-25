@@ -246,7 +246,7 @@
                     },
                     {
                       "hebrew": "שָׁלָל",
-                      "meaning": "gain, spoil",
+                      "meaning": "spoil, gain",
                       "pos": "noun",
                       "gender": "masc",
                       "number": "sg"
@@ -798,7 +798,7 @@
                   "parts": [
                     {
                       "hebrew": "טֶרֶף",
-                      "meaning": "food, prey",
+                      "meaning": "prey, food",
                       "pos": "noun",
                       "gender": "masc",
                       "number": "sg"

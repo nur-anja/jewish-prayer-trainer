@@ -324,7 +324,6 @@
                 {
                   "hebrew": "וְעוֹמְדִים",
                   "meaning": "and endure",
-                  "literal": "and stand",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -454,7 +453,7 @@
                   "parts": [
                     {
                       "hebrew": "צְבָא",
-                      "meaning": "host, army of",
+                      "meaning": "host of, army of",
                       "pos": "noun",
                       "gender": "masc",
                       "number": "sg",
@@ -1560,7 +1559,7 @@
                     },
                     {
                       "hebrew": "קִדּוּשׁ",
-                      "meaning": "Kiddush, sanctification",
+                      "meaning": "sanctification, Kiddush",
                       "pos": "noun",
                       "gender": "masc",
                       "number": "sg"
