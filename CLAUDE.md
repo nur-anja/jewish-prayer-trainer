@@ -14,6 +14,7 @@
 
 - Make the clean change to the Anki note types, PDFs and scripts (add, rename or reorder fields and templates as the change needs) instead of working around them to keep existing Anki notes compatible.
 - When a change needs "Merge note types" on the next Anki import, say so in the reply.
+- Rebuild the outputs only when finishing the work: before committing to main or before opening a pull request. While iterating, change only the JSON, schemas and scripts.
 
 ## Memories
 
