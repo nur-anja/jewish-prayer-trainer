@@ -37,6 +37,11 @@
                   "meaning": "these",
                   "parts": [
                     {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
+                    {
                       "hebrew": "הַלָּלוּ",
                       "meaning": "these",
                       "pos": "pronoun",
@@ -545,6 +550,11 @@
                   "hebrew": "הַלָּלוּ",
                   "meaning": "these",
                   "parts": [
+                    {
+                      "hebrew": "הַ־",
+                      "meaning": "the",
+                      "pos": "article"
+                    },
                     {
                       "hebrew": "הַלָּלוּ",
                       "meaning": "these",

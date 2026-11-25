@@ -25,6 +25,17 @@ Hebrew has its own words for "this" and "these". For "that" and "those" it uses 
 
 On its own, the word after "the" means "he", "she" or "they"; with "the" in front, it always means "that" or "those". The vowel under "the" changes with the next letter, but the letter stays the same (see [prefix letters](prefix-letters.md)).
 
+## Pronouns only with "the"
+
+A few words for "this" and "these" start with "the", but the rest is not a word on its own:
+
+| Example | Translation |
+|---|---|
+| <b style="color:red">הַ</b>לָּלוּ | these (lit. the these) |
+| <b style="color:red">הַ</b>לָּזֶה | this (lit. the this) |
+
+These words belong to a family of their own, rare in the Bible and common in the Mishnah. The breakdowns list "the" and then the whole word as its parts, since the rest is never met outside this family.
+
 ## After the noun
 
 A word for "this" or "that" comes after its noun, like an adjective, and takes "the" when the noun has it:

@@ -22,6 +22,7 @@
 // A word gets a link when its meaning comes from its parts together, not from one of them:
 //
 //   article followed by a pronoun (this, that, these, those)  This and that
+//   article followed by the whole word, as a pronoun          This and that, Pronouns only with "the"
 //
 // Nothing else links. Anchors follow GitHub's heading ids, so renaming a heading in grammar/ means updating
 // it here.
@@ -49,6 +50,7 @@ const NOTES = {
   "tav-prefix": ["nouns.md#ת-prefix", "Nouns built from roots"],
   "vav-tav-ending": ["nouns.md#ות-ending-for-abstract-nouns", "Nouns built from roots"],
   demonstrative: ["demonstratives.md", "This and that"],
+  onlyWithThe: ["demonstratives.md#pronouns-only-with-the", "This and that"],
 };
 
 const link = (k, what) => {
@@ -92,7 +94,9 @@ export function wordGrammarNotes(word) {
   const keys = [];
   const parts = word.parts;
   for (let i = 1; i < parts.length; i++) {
-    if (parts[i - 1].pos === "article" && parts[i].pos === "pronoun") keys.push("demonstrative");
+    if (parts[i - 1].pos === "article" && parts[i].pos === "pronoun") {
+      keys.push(parts[i].hebrew === word.hebrew ? "onlyWithThe" : "demonstrative");
+    }
   }
   return keys.map((k) => link(k, word.hebrew));
 }

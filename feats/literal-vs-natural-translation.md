@@ -167,22 +167,22 @@ The parts' meanings change the same way.
 
 ---
 
-## Parked: words whose parts aren't words on their own
+## Words whose parts aren't words on their own
 
-Status: parked. Nothing decided.
+Status: decided and applied.
 
 ### Question
 
-Some words are built from a prefix and a piece that never stands alone as a word. Should such a word be one part, or split into the prefix and the piece? The schema has no rule for this; Hanerot Halalu keeps the word below as one part.
+Some words are built from a prefix and a piece that never stands alone as a word. Should such a word be one part, or split into the prefix and the piece?
 
-| Text | Hebrew | Parts today | Meaning |
-|---|---|---|---|
-| Hanerot Halalu | הַלָּלוּ | one part, a demonstrative pronoun | these |
+### Decision
 
-### Proposed rule
+Split off the prefixes and suffixes as usual. A base word that isn't a word on its own, even once the changes caused by its prefixes and suffixes are undone, is replaced by the whole word. The prefix the learner meets elsewhere is still split off, the whole word keeps its grammar (a demonstrative, common plural), and no part is a piece met nowhere else. Bound forms worth learning, such as pronoun endings and the construct forms they attach to, are still split off, since their base words are words on their own.
 
-> A word whose parts don't stand on their own as words is one part.
+The rule is in the `parts` description in `data/schema/text.schema.json`. The note [This and that](../grammar/demonstratives.md#pronouns-only-with-the) explains the case, and Anki cards link to it from a word whose article is followed by the whole word. The breakdown report lists the words whose base word was replaced.
 
-### Risk
+| Text | Hebrew | Parts before | Parts now | Meaning |
+|---|---|---|---|---|
+| Hanerot Halalu | הַלָּלוּ | one part, a demonstrative pronoun | the article, then the whole word as a demonstrative | these |
 
-It could misfire on words whose pieces are bound forms that are still useful to learn, such as pronoun endings and the construct forms they attach to. It needs a test that tells those apart before it's adopted.
+The article is the same one the other demonstratives take after a noun with "the", and Rendsburg, "Ancient Hebrew Morphology", 3.2 and note 5, describes the whole family (the forms meaning "that one" and their plural) as starting with it. He gives no origin for the rest of the word.
