@@ -1,0 +1,19 @@
+feats/literal-vs-natural-translation.md
+  s_ec76059fc17f24::t_35b4a3824b3f98 185-209
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "760c4a58d42031bbc9c27a992abb16880b304a5b",
+  "prompts": {},
+  "sessions": {
+    "s_ec76059fc17f24": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ffb28494-0c28-4444-8262-5bdeabdd5b2c",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
