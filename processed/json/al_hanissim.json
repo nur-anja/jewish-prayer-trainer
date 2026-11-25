@@ -10,8 +10,8 @@
           "translation": "For the miracles, and for the redemption, and for the mighty deeds, and for the salvations, and for the wars, that You performed for our fathers in those days, at this time.",
           "clauses": [
             {
-              "hebrew": "עַל הַנִּסִּים, וְעַל הַפֻּרְקָן, וְעַל הַגְּבוּרוֹת, וְעַל הַתְּשׁוּעוֹת, וְעַל הַמִּלְחָמוֹת",
-              "translation": "For the miracles, and for the redemption, and for the mighty deeds, and for the salvations, and for the wars",
+              "hebrew": "עַל הַנִּסִּים, וְעַל הַפֻּרְקָן, וְעַל הַגְּבוּרוֹת",
+              "translation": "For the miracles, and for the redemption, and for the mighty deeds",
               "words": [
                 {
                   "hebrew": "עַל",
@@ -115,7 +115,13 @@
                     }
                   ],
                   "root": "ג-ב-ר"
-                },
+                }
+              ]
+            },
+            {
+              "hebrew": "וְעַל הַתְּשׁוּעוֹת, וְעַל הַמִּלְחָמוֹת",
+              "translation": "and for the salvations, and for the wars",
+              "words": [
                 {
                   "hebrew": "וְעַל",
                   "meaning": "and for",
