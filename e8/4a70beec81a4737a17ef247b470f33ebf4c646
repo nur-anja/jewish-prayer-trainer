@@ -1,0 +1,27 @@
+data/schema/text.schema.json
+  s_c0cc86db115a90::t_45d37bf14d714d 119,147
+feats/literal-vs-natural-translation.md
+  s_c0cc86db115a90::t_4306a4beaf578b 91,93,97,99,101,103,105-120
+processed/json/eshet_chayil.json
+  s_c0cc86db115a90::t_45d37bf14d714d 249,801
+processed/json/chanukah_candles.json
+  s_c0cc86db115a90::t_45d37bf14d714d 136
+processed/json/menucha_vsimcha.json
+  s_c0cc86db115a90::t_45d37bf14d714d 456,1562
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e84a70beec81a4737a17ef247b470f33ebf4c646",
+  "prompts": {},
+  "sessions": {
+    "s_c0cc86db115a90": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cedc7f86-f1c3-4603-8e8d-1663f8381b6f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
