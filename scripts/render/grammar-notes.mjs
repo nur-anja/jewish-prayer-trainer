@@ -18,6 +18,7 @@
 //   part with an assimilated lamed                 Letter assimilation, The root לקח
 //   verb, past / future                            Past tense / Future tense
 //   verb, present / participle / passive participle  Participle
+//   verb, infinitive construct                     Infinitive
 //
 // A word gets a link when its meaning comes from its parts together, not from one of them:
 //
@@ -43,6 +44,7 @@ const NOTES = {
   flipToFuture: ["flipping-vav.md#on-a-past-form", "Flipping vav"],
   flipToPast: ["flipping-vav.md#on-a-future-form", "Flipping vav"],
   participle: ["participle.md", "Participle"],
+  infinitive: ["infinitive.md", "Infinitive"],
   nunFrom: ["assimilation.md#מ-for-from", "Letter assimilation"],
   nunRoot: ["assimilation.md#roots-starting-with-נ", "Letter assimilation"],
   lamed: ["assimilation.md#the-root-לקח", "Letter assimilation"],
@@ -58,7 +60,7 @@ const link = (k, what) => {
   return { url: encodeURI(BASE + NOTES[k][0]), title: NOTES[k][1] };
 };
 
-const VERB_FORMS = { past: "past", future: "future", present: "participle", participle: "participle", "passive-participle": "participle" };
+const VERB_FORMS = { past: "past", future: "future", present: "participle", participle: "participle", "passive-participle": "participle", "infinitive-construct": "infinitive" };
 
 // The notes for parts[i], as [{ url, title }]; empty when no note applies.
 export function grammarNotes(parts, i) {

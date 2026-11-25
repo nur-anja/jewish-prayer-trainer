@@ -14,6 +14,7 @@ How these notes are written: [conventions](conventions.md).
 - [Future tense](future-tense.md)
 - [Past tense](past-tense.md)
 - [Participle (present tense)](participle.md)
+- [Infinitive](infinitive.md)
 - [Flipping vav](flipping-vav.md)
 - [Nouns built from roots](nouns.md)
 - [This and that](demonstratives.md)
