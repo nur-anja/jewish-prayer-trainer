@@ -1,0 +1,37 @@
+grammar/demonstratives.md
+  s_0a1e9fc8b4b5ef::t_eadb2b5989eac4 28
+  s_0a1e9fc8b4b5ef::t_c8be07751fc0c2 37
+  s_0a1e9fc8b4b5ef::t_8608857b8d5443 32-35
+  s_0a1e9fc8b4b5ef::t_fa0a7f660cfebc 29-31,36,38
+processed/json/hanerot_halalu.json
+  s_0a1e9fc8b4b5ef::t_ef9001e045c194 40-42,554-556
+  s_0a1e9fc8b4b5ef::t_c8be07751fc0c2 43,557
+  s_0a1e9fc8b4b5ef::t_0a449b1082bb27 39,553
+scripts/render/grammar-notes.mjs
+  s_0a1e9fc8b4b5ef::t_eadb2b5989eac4 53
+  s_0a1e9fc8b4b5ef::t_c8be07751fc0c2 25,97-99
+feats/literal-vs-natural-translation.md
+  s_0a1e9fc8b4b5ef::t_1fd3e759b1e14f 180,182,186
+  s_0a1e9fc8b4b5ef::t_3f4ca733e924e8 170,172,176,178,184-185,188
+data/schema/text.schema.json
+  s_0a1e9fc8b4b5ef::t_c8be07751fc0c2 124
+.claude/skills/breakdown/SKILL.md
+  s_0a1e9fc8b4b5ef::t_c8be07751fc0c2 28
+  s_0a1e9fc8b4b5ef::t_5f243cfeef16b7 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "fd6844f845ee44b6d462bbf9b1fe62363f38560d",
+  "prompts": {},
+  "sessions": {
+    "s_0a1e9fc8b4b5ef": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bd1532c4-b7d8-42a6-99ed-14ed12f6bb0a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "nur-anja <205066028+nur-anja@users.noreply.github.com>"
+    }
+  }
+}
