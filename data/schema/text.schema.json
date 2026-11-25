@@ -144,7 +144,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. The article is always \"the\", also where the word's meaning is a relative clause (\"who…\"). A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ. A preposition has one of its dictionary senses; where the context gives it a sense outside them, the part has its basic sense and the word has a literal.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. The article is always \"the\". A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ. A preposition has one of its dictionary senses; where the context gives it a sense outside them, the part has its basic sense and the word has a literal.",
           "type": "string",
           "minLength": 1
         },
