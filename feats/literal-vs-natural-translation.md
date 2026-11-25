@@ -182,3 +182,28 @@ The rule is in the `parts` description in `data/schema/text.schema.json`. The no
 | Hanerot Halalu | הַלָּלוּ | one part, a demonstrative pronoun | the article, then the whole word as a demonstrative | these |
 
 The article is the same one the other demonstratives take after a noun with "the", and Rendsburg, "Ancient Hebrew Morphology", 3.2 and note 5, describes the whole family (the forms meaning "that one" and their plural) as starting with it. He gives no origin for the rest of the word.
+
+---
+
+## Passive participles without "is" or "are"
+
+Status: decided; matches what the texts already do.
+
+### Question
+
+A passive participle has no tense. Should its meaning add "is" or "are" so that it reads as present tense, instead of the bare English participle, which looks like an active past tense?
+
+### Decision
+
+The word's meaning is the bare English participle. It doesn't add "is" or "are". The clause translation chooses the tense, and on Anki cards the Meaning field adds "(passive)" so the bare participle isn't read as an active past tense (see [anki-deck.md](anki-deck.md)).
+
+Why not "is" or "are":
+
+- **The participle describes a state, not an action.** Whether "is ___" reads as a state depends on the English verb. "Is blessed" does, because English uses "blessed" as an adjective. "Are created" doesn't: English reads it as an action happening now or regularly, while the Hebrew means the things exist as created things, closer to "were created" or "have been created".
+- **The "is" isn't in the word.** Hebrew leaves out the present tense of "to be", so it belongs to the sentence, not the participle. Its person and number come from the subject ("is", "are", "you are"). Adding it to the word's meaning breaks the meaning rule, which adds no English word to fit the sentence.
+- **Many passive participles aren't the main verb.** A participle that describes a noun or is used as a noun would be wrong with "is" in front of it ("the blessed name", "the chosen one").
+
+| Text | Hebrew | Meaning | With "is" or "are" | Clause translation |
+|---|---|---|---|---|
+| Shema | בָּרוּךְ | blessed | is blessed (fits) | Blessed is the name of His glorious kingdom forever and ever. |
+| Menucha V'simcha | בְּרוּאִים | created | are created (misleading) | That in six [days] all were created and endure |
