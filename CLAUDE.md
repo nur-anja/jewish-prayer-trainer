@@ -4,6 +4,7 @@
 
 - Don't write bullet lists or sentences that mix Hebrew and English: right-to-left Hebrew inside left-to-right text gets reordered, and words and punctuation display scrambled.
 - Put each Hebrew word or phrase in its own table cell, with no English in that cell, and the English explanation in other columns.
+- Never start a paragraph with a Hebrew word: the whole paragraph then aligns right.
 
 ## External sources
 
