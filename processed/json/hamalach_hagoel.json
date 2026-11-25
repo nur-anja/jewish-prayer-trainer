@@ -6,12 +6,12 @@
     {
       "lines": [
         {
-          "hebrew": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים, וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק, וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָרֶץ׃",
+          "hebrew": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע, יְבָרֵךְ אֶת־הַנְּעָרִים, וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק, וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָרֶץ׃",
           "translation": "May the angel who redeems me from all evil bless the lads, and may my name be called upon them, and the name of my fathers Abraham and Isaac, and may they multiply abundantly in the midst of the land.",
           "clauses": [
             {
-              "hebrew": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים",
-              "translation": "May the angel who redeems me from all evil bless the lads",
+              "hebrew": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע",
+              "translation": "May the angel who redeems me from all evil",
               "words": [
                 {
                   "hebrew": "הַמַּלְאָךְ",
@@ -107,7 +107,13 @@
                     }
                   ],
                   "root": "ר-ע-ע"
-                },
+                }
+              ]
+            },
+            {
+              "hebrew": "יְבָרֵךְ אֶת־הַנְּעָרִים",
+              "translation": "bless the lads",
+              "words": [
                 {
                   "hebrew": "יְבָרֵךְ",
                   "meaning": "may he bless",

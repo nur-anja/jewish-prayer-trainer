@@ -43,42 +43,37 @@ Pesukim that splitting at the main pause would break:
 
 ---
 
-## Parked: when a clause is long
+## Decided: when a clause is long
 
-Status: parked. Nothing decided; Hanerot Halalu keeps its split.
+Status: decided. The rule is in the clause description of data/schema/text.schema.json.
 
-### Question
+### Rule
 
-The schema splits a long clause at its main pause, as the cantillation divides it, but doesn't say what "long" is, or where the main pause is in a text without cantillation. Hanerot Halalu has an 11-word stretch with no comma, split before its last phrase:
+> A clause with more than 7 entries in its words is split at its main pauses into clauses of at most 7 words, cutting at the biggest pause first. In a pasuk, the main pause is where the cantillation divides it. Elsewhere, it is the biggest grammatical break: between the sentence and a phrase placed before or after it, or before a relative clause. A list joined by ו is split between two of its items, so that the two parts' word counts are as close as possible, the first part being the longer one on a tie.
 
-| Clause | Hebrew |
-|---|---|
-| 4 | כְּדֵי לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל |
-| 5 | עַל נִסֶּיךָ וְעַל נִפְלְאוֹתֶיךָ וְעַל יְשׁוּעָתֶךָ |
+It replaces "a long clause is split at its main pause, as the cantillation divides it, and a list of short parallel parts joined by ו stays together", which didn't say what "long" is or where the main pause is without cantillation.
 
-### Clause lengths in the texts (at the time of parking)
+### Why this wording
 
-| Words | Clauses |
-|---|---|
-| 2–6 | 91 |
-| 7–8 | 5 |
-| 10 | 1, a list joined by ו (Al Hanissim) |
+- 7 words: of 97 clauses, all but 6 had 2–7 words.
+- Lists are capped too: a list of 8 or more words is as hard to hold as any other long clause.
+- Biggest pause first, rather than "chunks of at most 7 words at the main pauses": with several pauses, the shorter wording doesn't say which pauses to cut at or how many chunks to make. Cutting at the biggest pause first, and only while a part is over 7 words, settles both, and no clause spans a bigger break than the one it was cut at.
+- Without cantillation, the biggest grammatical break: a text that isn't a pasuk has no cantillation, and its long clauses break before a relative clause or between the sentence and a phrase placed before it, not always before the last phrase.
 
-### Proposed wording
+### Clauses re-split
 
-> A clause of more than N words is split at its main pause, unless it is a list joined by ו. In a pasuk, the main pause is where the cantillation divides it; elsewhere, it is before the last phrase attached to the clause's verb or, without a verb, to what it says about its subject.
-
-### What each cutoff would split
-
-| Cutoff | Text | Clause | Likely split |
+| Text | Line | Clauses now | Hebrew |
 |---|---|---|---|
-| More than 8 | none | | |
-| More than 7 | Hamalach Hagoel | הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים | before יְבָרֵךְ |
-| More than 7 | Hanerot Halalu | וְכָל שְׁמוֹנַת יְמֵי חֲנֻכָּה הַנֵּרוֹת הַלָּלוּ קֹדֶשׁ הֵם | before הַנֵּרוֹת |
-| 7 and up | Hamalach Hagoel | וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק | before וְשֵׁם |
-| 7 and up | Chanukah Candles | שֶׁעָשָׂה נִסִּים לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה | before בַּיָּמִים |
+| Hamalach Hagoel | 1 | 1 | הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע |
+| Hamalach Hagoel | 1 | 2 | יְבָרֵךְ אֶת־הַנְּעָרִים |
+| Hanerot Halalu | 1 | 2 | עַל הַנִּסִּים וְעַל הַנִּפְלָאוֹת |
+| Hanerot Halalu | 1 | 3 | וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת |
+| Hanerot Halalu | 2 | 1 | וְכָל שְׁמוֹנַת יְמֵי חֲנֻכָּה |
+| Hanerot Halalu | 2 | 2 | הַנֵּרוֹת הַלָּלוּ קֹדֶשׁ הֵם |
+| Al Hanissim | 1 | 1 | עַל הַנִּסִּים, וְעַל הַפֻּרְקָן, וְעַל הַגְּבוּרוֹת |
+| Al Hanissim | 1 | 2 | וְעַל הַתְּשׁוּעוֹת, וְעַל הַמִּלְחָמוֹת |
 
-Hamalach Hagoel is a pasuk: check its cantillation before splitting it. Re-splitting a line renumbers its clauses; see "If an option is chosen" above for what that does to the Anki notes.
+Hamalach Hagoel is split at the revia on מִכָּל־רָע, the main division of the verse's first part before the segol on הַנְּעָרִים; its line got a comma there, as the line rule asks for a verse of the Tanakh.
 
 ### Related call, kept as is
 

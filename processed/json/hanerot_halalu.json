@@ -79,8 +79,8 @@
               ]
             },
             {
-              "hebrew": "עַל הַנִּסִּים וְעַל הַנִּפְלָאוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת",
-              "translation": "for the miracles and for the wonders and for the salvations and for the wars",
+              "hebrew": "עַל הַנִּסִּים וְעַל הַנִּפְלָאוֹת",
+              "translation": "for the miracles and for the wonders",
               "words": [
                 {
                   "hebrew": "עַל",
@@ -151,7 +151,13 @@
                     }
                   ],
                   "root": "פ-ל-א"
-                },
+                }
+              ]
+            },
+            {
+              "hebrew": "וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת",
+              "translation": "and for the salvations and for the wars",
+              "words": [
                 {
                   "hebrew": "וְעַל",
                   "meaning": "and for",
@@ -443,8 +449,8 @@
           "translation": "And all eight days of Chanukah these candles are holy, and we have no permission to make use of them, but only to look at them, in order to thank and praise Your great Name for Your miracles and for Your wonders and for Your salvation.",
           "clauses": [
             {
-              "hebrew": "וְכָל שְׁמוֹנַת יְמֵי חֲנֻכָּה הַנֵּרוֹת הַלָּלוּ קֹדֶשׁ הֵם",
-              "translation": "And all eight days of Chanukah these candles are holy",
+              "hebrew": "וְכָל שְׁמוֹנַת יְמֵי חֲנֻכָּה",
+              "translation": "And all eight days of Chanukah",
               "words": [
                 {
                   "hebrew": "וְכָל",
@@ -509,7 +515,13 @@
                     }
                   ],
                   "root": "ח-נ-ך"
-                },
+                }
+              ]
+            },
+            {
+              "hebrew": "הַנֵּרוֹת הַלָּלוּ קֹדֶשׁ הֵם",
+              "translation": "these candles are holy",
+              "words": [
                 {
                   "hebrew": "הַנֵּרוֹת",
                   "meaning": "the candles",
