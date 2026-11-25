@@ -111,7 +111,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "Meaning of the word in this context, translated word for word: the context picks the sense, but no English word is added or dropped to fit the sentence.",
+          "description": "Meaning of the word in this context, translated word for word: the context picks the sense, but no English word is added or dropped to fit the sentence. A pronoun with the article, meaning this, that, these or those, is translated without \"the\". The divine name is translated \"the LORD\".",
           "type": "string",
           "minLength": 1
         },
@@ -144,7 +144,7 @@
           "minLength": 1
         },
         "meaning": {
-          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. The article is always \"the\", also where the word's meaning is a relative clause (\"who…\"). A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ.",
+          "description": "The literal meaning, following the part's grammatical form, even where the word's meaning diverges from it. The article is always \"the\", also where the word's meaning is a relative clause (\"who…\"). A part in construct ends in \"of\": יוֹם (day of), מַלְכוּת (kingdom of) in מַלְכוּתוֹ. A preposition has one of its dictionary senses; where the context gives it a sense outside them, the part has its basic sense and the word has a literal.",
           "type": "string",
           "minLength": 1
         },
@@ -173,7 +173,7 @@
           "enum": ["paal", "nifal", "piel", "pual", "hifil", "hofal", "hitpael"]
         },
         "form": {
-          "description": "After a vav that flips the tense (vav consecutive), the verb part keeps its written form, past or future. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created).",
+          "description": "After a vav that flips the tense (vav consecutive), the verb part keeps its written form, past or future. Present and participle are the same Hebrew form (beinoni); choose by how the word functions. present: the verb of its clause, e.g. מְעִידִים (they testify). participle: works as a noun or adjective (takes the article הַ, is in construct, describes a noun, or means \"one who…\"), e.g. גּוֹאֵל (redeemer), מִתְעַנְּגִים in הַמִּתְעַנְּגִים (who delight). passive-participle: every passive form (the קָטוּל pattern, Pu'al/Hof'al מְ־/מֻ־ forms) whatever its function, e.g. בְּרוּאִים (created). In the word's meaning, a participle used as a noun is translated as an English noun or as \"the one who…\" (plural \"those who…\"); a participle describing a noun is translated as an English adjective or with \"-ing\".",
           "enum": [
             "past",
             "future",

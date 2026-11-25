@@ -164,3 +164,25 @@ The parts' meanings change the same way.
 - Whether the rule covers pronoun endings as well as verb subjects.
 - Where to word it in the schema (the word's meaning, the part's meaning, or both).
 - Line and clause translations keep "it", since they read as English sentences.
+
+---
+
+## Parked: words whose parts aren't words on their own
+
+Status: parked. Nothing decided.
+
+### Question
+
+Some words are built from a prefix and a piece that never stands alone as a word. Should such a word be one part, or split into the prefix and the piece? The schema has no rule for this; Hanerot Halalu keeps the word below as one part.
+
+| Text | Hebrew | Parts today | Meaning |
+|---|---|---|---|
+| Hanerot Halalu | הַלָּלוּ | one part, a demonstrative pronoun | these |
+
+### Proposed rule
+
+> A word whose parts don't stand on their own as words is one part.
+
+### Risk
+
+It could misfire on words whose pieces are bound forms that are still useful to learn, such as pronoun endings and the construct forms they attach to. It needs a test that tells those apart before it's adopted.
