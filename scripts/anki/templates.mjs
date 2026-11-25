@@ -1,6 +1,7 @@
 // The Anki note types: their fields, card templates and styling. Used by deck.mjs.
 //
-//   Word   Recognize   front: the word, its standard spelling (if any), its clause below it with the word in bold
+//   Word   Recognize   (turned off for now, see RECOGNIZE_WORDS)
+//                      front: the word, its standard spelling (if any), its clause below it with the word in bold
 //                      back:  meaning, grammar links for the whole word, the clause's translation, one "**part** - meaning (label) → grammar note
 //                             link(s)" per part, root and root meaning, related root words
 //          Produce     front: the meaning, the clause with the word blanked out
@@ -83,23 +84,29 @@ const STANDARD = `{{#Standard}}\n<div dir="rtl" class="he standard">{{Standard}}
 
 const SOURCE = `<div dir="ltr" class="source">{{Text}}</div>`;
 
+// The Recognize card of words (Hebrew to English) is turned off for now: set this to true to add it back to
+// the Word note type. Turning it off or on changes the note type's templates, so the next import needs
+// "Merge note types".
+const RECOGNIZE_WORDS = false;
+
+const WORD_RECOGNIZE = {
+  name: "Recognize",
+  front: `<div dir="rtl" class="he big">{{Hebrew}}</div>${STANDARD}\n<div dir="rtl" class="he context">{{Clause}}</div>\n${SOURCE}`,
+  back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${GRAMMAR}${DETAILS}`,
+};
+
+const WORD_PRODUCE = {
+  name: "Produce",
+  front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Clause}}</div>\n${SOURCE}`,
+  back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>${STANDARD}${GRAMMAR}
+<div dir="rtl" class="he context">{{Clause}}</div>${DETAILS}`,
+};
+
 export const WORD = {
   id: 1761955200001,
   name: "Prayer Trainer: Word",
   fields: ["Hebrew", "Standard", "Meaning", "Grammar", "Parts", "Root", "RootMeaning", "Related", "Clause", "ClauseTranslation", "Text"],
-  templates: [
-    {
-      name: "Recognize",
-      front: `<div dir="rtl" class="he big">{{Hebrew}}</div>${STANDARD}\n<div dir="rtl" class="he context">{{Clause}}</div>\n${SOURCE}`,
-      back: `{{FrontSide}}\n<hr id="answer">\n<div dir="ltr" class="meaning">{{Meaning}}</div>${GRAMMAR}${DETAILS}`,
-    },
-    {
-      name: "Produce",
-      front: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<div dir="rtl" class="he context blank">{{Clause}}</div>\n${SOURCE}`,
-      back: `<div dir="ltr" class="meaning">{{Meaning}}</div>\n<hr id="answer">\n<div dir="rtl" class="he big">{{Hebrew}}</div>${STANDARD}${GRAMMAR}
-<div dir="rtl" class="he context">{{Clause}}</div>${DETAILS}`,
-    },
-  ],
+  templates: RECOGNIZE_WORDS ? [WORD_RECOGNIZE, WORD_PRODUCE] : [WORD_PRODUCE],
   css: CSS,
 };
 
