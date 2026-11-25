@@ -49,7 +49,7 @@ Status: decided. The rule is in the clause description of data/schema/text.schem
 
 ### Rule
 
-> A clause with more than 7 entries in its words is split at its main pauses into clauses of at most 7 words, cutting at the biggest pause first. In a pasuk, the pauses and their order are the cantillation's. Elsewhere, a pause is a cut between two parts of the clause, never inside one. A cut between a phrase the sentence reads whole without and the rest of the clause comes first; a cut between the subject, the verb and the verb's object (including a phrase the verb needs), only when no such cut is left. A cut that leaves a part of one word is used only when no other cut is left. A list joined by ו is cut between two of its items. Of cuts of the same kind, the biggest is the one that leaves the two parts' word counts closest, the first part being the longer one on a tie.
+> A clause of more than 7 words is cut into clauses of at most 7 words, biggest cut first. In a pasuk, the cuts and their order are the cantillation's. Elsewhere, a clause is cut only between its sentence parts: its subject; its verb or, without a verb, what it says about its subject; the verb's object, including a phrase the verb needs; each phrase the sentence reads whole without; and each item of a list joined by ו. Cuts are ranked by these tests, each deciding only where the earlier ones tie: first, a cut that leaves no one-word part; then, a cut that sets off a phrase the sentence reads whole without; then, the cut that leaves the two parts' word counts closest, the first part being the longer one on a tie.
 
 It replaces "a long clause is split at its main pause, as the cantillation divides it, and a list of short parallel parts joined by ו stays together", which didn't say what "long" is or where the main pause is without cantillation.
 
@@ -57,11 +57,13 @@ It replaces "a long clause is split at its main pause, as the cantillation divid
 
 - 7 words: of 97 clauses, all but 6 had 2–7 words.
 - Lists are capped too: a list of 8 or more words is as hard to hold as any other long clause.
-- Biggest pause first, rather than "chunks of at most 7 words at the main pauses": with several pauses, the shorter wording doesn't say which pauses to cut at or how many chunks to make. Cutting at the biggest pause first, and only while a part is over 7 words, settles both, and no clause spans a bigger break than the one it was cut at.
+- Biggest cut first, rather than "chunks of at most 7 words at the main pauses": with several possible cuts, the shorter wording doesn't say which to make or how many chunks to end up with. Cutting at the biggest cut first, and only while a part is over 7 words, settles both, and no clause spans a bigger break than the one it was cut at.
 - Without cantillation, phrases first, then subject, verb and object: a text that isn't a pasuk has no cantillation. A phrase the sentence reads whole without (when, where, how, why, through whom) comes off most cleanly, leaving a sentence that still reads whole; cutting between subject, verb and object breaks the sentence itself, so it is left for when no phrase is left to cut off. Rules built around one sentence part, such as a long subject, were set aside: extra words can attach to any part.
 - A phrase the verb needs, such as an object taken through a preposition, counts as the verb's object, not as a phrase to cut off: cutting it off breaks the sentence as badly as a cut between subject and verb.
 - One-word parts last: cutting off a one-word phrase first would leave a one-word clause where a cut between subject, verb and object could give two balanced parts.
 - Balance among cuts of the same kind, as for list items: it keeps the parts readable and is a test that can't be misread.
+- Sentence parts include what a sentence without a verb says about its subject, as the clause definition does, and the items of a list, so one ranking covers every clause.
+- One term, "cut", and the three tests in one ranked list: earlier wordings mixed "pause" and "cut" and spread the tests over sentences worded differently.
 - A relative clause isn't named, because it is already a clause of its own: it has its own verb, and the schema already splits a clause around a relative clause inside it. An article with a participle, though translated as a relative clause, is part of the noun it describes.
 
 ### Clauses re-split

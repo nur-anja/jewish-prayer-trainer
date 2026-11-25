@@ -25,4 +25,6 @@ Finally, list the words whose root you left out, as a table with the columns Wor
 
 Then list the words that got a literal meaning, as a table with the columns Word, Meaning and Literal.
 
+Then list the cuts the clause rule made in clauses of more than 7 words, one row per cut, as a table with the columns Line, Before the cut, After the cut and Deciding rule. Line names the text's section and line. Before the cut and After the cut hold only the Hebrew of the two parts the cut made. Deciding rule says whether the cantillation decided the cut or, elsewhere, which of the clause rule's ranking tests was the first to leave a single cut.
+
 Then list the decisions where you chose between answers that all fit the schemas and this skill. A decision belongs on the list only if a different answer would also have matched every rule. Before listing one, look for a rule that decides it, even if the rule is stated in general terms and doesn't name the case. If you find one, leave the decision out. A convention copied from an existing text in `processed/json/`, including its breakdown of the same word or phrase, belongs on the list only if the rules allowed another answer. Leave out matters of grammar or translation. Also list anything you did that contradicts a rule. For each item, say what you did and where, and whether it should become a rule.
