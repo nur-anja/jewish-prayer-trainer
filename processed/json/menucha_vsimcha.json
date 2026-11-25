@@ -166,6 +166,7 @@
                 {
                   "hebrew": "שׁוֹמְרָיו",
                   "meaning": "those who keep it",
+                  "literal": "those who keep him",
                   "parts": [
                     {
                       "hebrew": "שׁוֹמְרֵי",
@@ -179,7 +180,7 @@
                     },
                     {
                       "hebrew": "־ָיו",
-                      "meaning": "it",
+                      "meaning": "him",
                       "pos": "pronoun-suffix",
                       "gender": "masc",
                       "number": "sg",
@@ -191,6 +192,7 @@
                 {
                   "hebrew": "וְזוֹכְרָיו",
                   "meaning": "and those who remember it",
+                  "literal": "and those who remember him",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -209,7 +211,7 @@
                     },
                     {
                       "hebrew": "־ָיו",
-                      "meaning": "it",
+                      "meaning": "him",
                       "pos": "pronoun-suffix",
                       "gender": "masc",
                       "number": "sg",
@@ -809,6 +811,7 @@
                 {
                   "hebrew": "לְקַדְּשׁוֹ",
                   "meaning": "to sanctify it",
+                  "literal": "to sanctify him",
                   "parts": [
                     {
                       "hebrew": "לְקַדֵּשׁ",
@@ -819,7 +822,7 @@
                     },
                     {
                       "hebrew": "־וֹ",
-                      "meaning": "it",
+                      "meaning": "him",
                       "pos": "pronoun-suffix",
                       "gender": "masc",
                       "number": "sg",
@@ -831,6 +834,7 @@
                 {
                   "hebrew": "מִבּוֹאוֹ",
                   "meaning": "from its coming",
+                  "literal": "from his coming",
                   "parts": [
                     {
                       "hebrew": "מִ־",
@@ -847,7 +851,7 @@
                     },
                     {
                       "hebrew": "־וֹ",
-                      "meaning": "its",
+                      "meaning": "his",
                       "pos": "pronoun-suffix",
                       "gender": "masc",
                       "number": "sg",
@@ -876,6 +880,7 @@
                 {
                   "hebrew": "צֵאתוֹ",
                   "meaning": "its departure",
+                  "literal": "his departure",
                   "parts": [
                     {
                       "hebrew": "צֵאת",
@@ -886,7 +891,7 @@
                     },
                     {
                       "hebrew": "־וֹ",
-                      "meaning": "its",
+                      "meaning": "his",
                       "pos": "pronoun-suffix",
                       "gender": "masc",
                       "number": "sg",
@@ -1000,6 +1005,7 @@
                 {
                   "hebrew": "בוֹ",
                   "meaning": "on it",
+                  "literal": "on him",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -1008,7 +1014,7 @@
                     },
                     {
                       "hebrew": "־וֹ",
-                      "meaning": "it",
+                      "meaning": "him",
                       "pos": "pronoun-suffix",
                       "gender": "masc",
                       "number": "sg",
@@ -1748,6 +1754,7 @@
                 {
                   "hebrew": "בָּהּ",
                   "meaning": "in it",
+                  "literal": "in her",
                   "parts": [
                     {
                       "hebrew": "בְּ־",
@@ -1756,7 +1763,7 @@
                     },
                     {
                       "hebrew": "־ָהּ",
-                      "meaning": "it",
+                      "meaning": "her",
                       "pos": "pronoun-suffix",
                       "gender": "fem",
                       "number": "sg",

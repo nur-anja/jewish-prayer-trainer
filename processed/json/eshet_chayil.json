@@ -929,7 +929,7 @@
                 {
                   "hebrew": "וַתִּקָּחֵהוּ",
                   "meaning": "and she acquires it",
-                  "literal": "and she acquired it",
+                  "literal": "and she acquired him",
                   "parts": [
                     {
                       "hebrew": "וַ־",
@@ -950,7 +950,7 @@
                     },
                     {
                       "hebrew": "־ֵהוּ",
-                      "meaning": "it",
+                      "meaning": "him",
                       "pos": "pronoun-suffix",
                       "person": 3,
                       "gender": "masc",

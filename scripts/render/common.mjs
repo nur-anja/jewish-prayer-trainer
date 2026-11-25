@@ -25,7 +25,7 @@ const CHROME = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Conte
 //   noun        (noun, gender number [construct])                  (noun, fem. sg. construct)
 //   adjective   (adjective, gender number [construct])             (adjective, fem. sg.)
 //   pronoun,    (gender number), only when the English meaning hides what Hebrew marks:
-//   pronoun-      you/your, it/its, they/them/their, and the demonstratives this/that/those.
+//   pronoun-      you/your, it/its (deprecated), they/them/their, and the demonstratives this/that/those.
 //   suffix        Never for I/me/we/us, he/him/his, she/her or "these" (see LABELED_PRONOUNS).
 //   conjunction (vav consecutive) for a vav that flips the tense, no label otherwise
 //   all others  no label: prepositions, articles, particles, adverbs, numerals, names.
@@ -54,6 +54,8 @@ const NUMBERS = { sg: "sg.", pl: "pl.", dual: "dual" };
 // English pronouns whose gender and number the reader can't tell from the English alone.
 const LABELED_PRONOUNS = new Set([
   "you", "your", "yours", "yourself", "yourselves",
+  // Deprecated: parts translate a masculine or feminine pronoun as he or she, never "it", so these
+  // no longer match. Kept in case parts go back to "it".
   "it", "its", "itself",
   "they", "them", "their", "theirs", "themselves",
   "this", "that", "those",

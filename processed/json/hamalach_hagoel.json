@@ -171,7 +171,7 @@
                 {
                   "hebrew": "וְיִקָּרֵא",
                   "meaning": "and may it be called",
-                  "literal": "and it will be called",
+                  "literal": "and he will be called",
                   "parts": [
                     {
                       "hebrew": "וְ־",
@@ -180,7 +180,7 @@
                     },
                     {
                       "hebrew": "יִקָּרֵא",
-                      "meaning": "it will be called",
+                      "meaning": "he will be called",
                       "pos": "verb",
                       "binyan": "nifal",
                       "form": "future",

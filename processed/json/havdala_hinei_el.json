@@ -919,10 +919,11 @@
                 {
                   "hebrew": "הָיְתָה",
                   "meaning": "it was",
+                  "literal": "she was",
                   "parts": [
                     {
                       "hebrew": "הָיְתָה",
-                      "meaning": "was",
+                      "meaning": "she was",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "past",
@@ -1032,11 +1033,11 @@
                 {
                   "hebrew": "תִּהְיֶה",
                   "meaning": "may it be",
-                  "literal": "it will be",
+                  "literal": "she will be",
                   "parts": [
                     {
                       "hebrew": "תִּהְיֶה",
-                      "meaning": "it will be",
+                      "meaning": "she will be",
                       "pos": "verb",
                       "binyan": "paal",
                       "form": "future",
