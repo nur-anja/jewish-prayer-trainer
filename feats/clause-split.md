@@ -49,7 +49,7 @@ Status: decided. The rule is in the clause description of data/schema/text.schem
 
 ### Rule
 
-> A clause with more than 7 entries in its words is split at its main pauses into clauses of at most 7 words, cutting at the biggest pause first. In a pasuk, the main pause is where the cantillation divides it. Elsewhere, it is the biggest grammatical break: between the sentence and a phrase placed before or after it. A list joined by ו is split between two of its items, so that the two parts' word counts are as close as possible, the first part being the longer one on a tie.
+> A clause with more than 7 entries in its words is split at its main pauses into clauses of at most 7 words, cutting at the biggest pause first. In a pasuk, the pauses and their order are the cantillation's. Elsewhere, a pause is a cut between two parts of the clause, never inside one. A cut between a phrase attached to the verb or to the whole sentence and the rest of the clause comes first; a cut between the subject, the verb and the verb's object, only when no such cut is left. A list joined by ו is cut between two of its items. Of cuts of the same kind, the biggest is the one that leaves the two parts' word counts closest, the first part being the longer one on a tie.
 
 It replaces "a long clause is split at its main pause, as the cantillation divides it, and a list of short parallel parts joined by ו stays together", which didn't say what "long" is or where the main pause is without cantillation.
 
@@ -58,7 +58,9 @@ It replaces "a long clause is split at its main pause, as the cantillation divid
 - 7 words: of 97 clauses, all but 6 had 2–7 words.
 - Lists are capped too: a list of 8 or more words is as hard to hold as any other long clause.
 - Biggest pause first, rather than "chunks of at most 7 words at the main pauses": with several pauses, the shorter wording doesn't say which pauses to cut at or how many chunks to make. Cutting at the biggest pause first, and only while a part is over 7 words, settles both, and no clause spans a bigger break than the one it was cut at.
-- Without cantillation, between the sentence and a phrase placed before or after it: a text that isn't a pasuk has no cantillation, and a long clause there doesn't always break before its last phrase. A relative clause isn't named, because it is already a clause of its own: it has its own verb, and the schema already splits a clause around a relative clause inside it.
+- Without cantillation, phrases first, then subject, verb and object: a text that isn't a pasuk has no cantillation. A phrase attached to the verb or to the whole sentence (when, where, how, why, through whom) comes off most cleanly, leaving a sentence that still reads whole; cutting between subject, verb and object breaks the sentence itself, so it is left for when no phrase is left to cut off. Rules built around one sentence part, such as a long subject, were set aside: extra words can attach to any part.
+- Balance among cuts of the same kind, as for list items: it keeps the parts readable and is a test that can't be misread.
+- A relative clause isn't named, because it is already a clause of its own: it has its own verb, and the schema already splits a clause around a relative clause inside it. An article with a participle, though translated as a relative clause, is part of the noun it describes.
 
 ### Clauses re-split
 
